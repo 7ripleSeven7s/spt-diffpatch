@@ -14,39 +14,45 @@
     <header></header>
 
     <!-- Content Section -->
-
     <div class="content-wrapper">
       <div class="content">
-        <div class="grid-wrapper">
-          <div class="grid-table">
-            <table class="json grid-text">
+        <!-- Side Bar Section -->
+        <div class="content-sidebar">
+          <!-- TODO: Sidebar buttons -->
+        </div>
+        <div class="content-main">
+          <div class="grid-table-primary">
+            <table class="grid-json">
               <!-- Table Headers -->
-              <thead class="grid-text header">
+              <thead class="grid-json-header">
                 <tr>
                   <th>Header A</th>
                   <th>Header B</th>
                 </tr>
               </thead>
               <!-- Table Body -->
-              <tbody class="grid-text body">
+              <tbody class="grid-json-body">
                 <!-- 
                   Body cell definition:
-                   (o) Object_name +/-
+                  +------------------------------------------+
+                  | - (x) <red>property_name</red> {14}/[14]/''  |
+                  +
                 
                 -->
-                <tr class="grid-text row">
-                  <td class="grid-text col">row1,col1</td>
-                  <td class="grid-text col">row1,col2</td>
+                <tr class="grid-json-row">
+                  <td class="grid-json-col">row1,col1</td>
+                  <td class="grid-json-col">row1,col2</td>
                 </tr>
-                <tr class="grid-text row">
-                  <td class="grid-text col">row2,col1</td>
-                  <td class="grid-text col">row2,col2</td>
+                <tr class="grid-json-row">
+                  <td class="grid-json-col">row2,col1</td>
+                  <td class="grid-json-col">row2,col2</td>
                 </tr>
               </tbody>
               <!-- Table Footer -->
               <tfoot></tfoot>
             </table>
           </div>
+          <div class="grid-table-secondary"></div>
         </div>
       </div>
     </div>

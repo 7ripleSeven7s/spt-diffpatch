@@ -1,1 +1,126 @@
+:root {
+  /* Font settings */
+  --ff-sans: 'Poppins', sans-serif;
+
+  /* ------------- */
+  --fw-light: 200;
+  --fw-normal: 400;
+  --fw-bold: 600;
+
+  /* --------------- */
+  --fs-300: 0.825rem;
+  --fs-400: 0.9375rem;
+  --fs-500: 1rem;
+  --fs-600: 1.375rem;
+  --fs-900: 2.25rem;
+
+  /* Primary Colors */
+  --clr-blue: hsl(212, 86%, 64%);
+  --clr-cyan: hsl(180, 62%, 55%);
+  --clr-orange: hsl(34, 97%, 64%);
+  --clr-red: hsl(0, 78%, 62%);
+  --clr-dark-600: hsl(222 23% 14%);
+
+  /* Secondary Colors */
+  --clr-neutral-300: hsl(229, 6%, 66%);
+  --clr-grey-md: hsl(223, 15%, 36%);
+  --clr-sec-400: hsl(217 19% 35%);
+  --clr-sec-500: hsl(219 29% 14%);
+  --clr-neutral-900: hsl(234, 12%, 34%);
+
+  --clr-bg-1: hsl(0, 0%, 87%);
+
+  /* Border & Shadow colors */
+  --clr-shdw-400: #4d5469;
+  --clr-shdw-500: rgb(78 82 102 / 0.25);
+
+  /* Media sizes */
+  --maxw-mobile: 375px;
+  --maxw-desktop: 1440px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--fs-400);
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-normal);
+
+  line-height: 1.5;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  place-content: center;
+
+  background-color: var(--clr-bg-1);
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+header {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: var(--clr-neutral-900);
+}
+
+.wrapper {
+  margin-inline: auto;
+}
+
+.attribution {
+  font-size: var(--fs-300);
+}
+
+@media (min-width: 350px) {
+  /* Mobile Screen */
+  body {
+    max-width: var(--maxw-mobile);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 800px) {
+  /* Desktop Screen: Medium */
+  body {
+    max-width: var(--maxw-desktop);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 

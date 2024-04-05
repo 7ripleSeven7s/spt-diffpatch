@@ -3,7 +3,6 @@
 /* import fs from "node:fs"; */
 import { argv } from "node:process";
 
-
 //const originFile = '/data/bot_presets.json';
 //const patchFile = '/target/db/bot_presets2.json';
 const outFile = "/out/";
@@ -33,6 +32,10 @@ console.log(Object.keys(p));
 console.log(Object.keys(o));
 const keys = Object.keys(p);
 
+let nums = [1,2,3];
+console.log(nums);
+
+
 // Compare JSON files
 
 for (let val of p) {
@@ -54,7 +57,7 @@ function importJSON(src) {
     // NOTE: fs.readFileSync() auto closes its file handle.
     const data = JSON.parse(fs.readFileSync(src, "utf8"));
     return data;
-  } catch (err) { 
+  } catch (err) {
     console.error("Error:", err);
     process.exit(1);
   }
@@ -94,10 +97,7 @@ function areObjectsEqual(firstObject, secondObject) {
         return false;
       }
       // Check if the type of the properties is object.
-      if (
-        typeof firstObject[key] === "object" &&
-        typeof secondObject[key] === "object"
-      ) {
+      if (typeof firstObject[key] === "object" && typeof secondObject[key] === "object") {
         if (!areObjectsEqual(firstObject[key], secondObject[key])) {
           return false;
         }
@@ -112,18 +112,14 @@ function areObjectsEqual(firstObject, secondObject) {
 }
 
 function isSameObj(obj1, obj2) {
-
   if (obj1 === obj2) {
-
     return true;
   }
   return false;
 }
 
 function isSameProperty(val1, val2) {
-
-  if (val1 === val2)  {
-
+  if (val1 === val2) {
     return true;
   }
   return false;

@@ -1,14 +1,15 @@
-'use strict';
-import { Buffer } from 'node:buffer';
+"use strict";
+
+import { Buffer } from "node:buffer";
 
 const obj1 = {
-  name: 'John',
+  name: "John",
   age: 23,
-  degree: 'CS',
+  degree: "CS",
 };
-const obj2 = { age: 23, degree: 'CS' };
-const obj3 = { name: 'Max', age: 23, degree: 'CS' };
-const obj4 = { name: 'John', age: 23, degree: 'CS' };
+const obj2 = { age: 23, degree: "CS" };
+const obj3 = { name: "Max", age: 23, degree: "CS" };
+const obj4 = { name: "John", age: 23, degree: "CS" };
 
 console.table({
   obj1,
@@ -34,7 +35,7 @@ for (const [k, v] in objects) {
 }
 
 if (obj2.age !== undefined) {
-  console.log(obj2.name, ' has age of: ' + obj2.age);
+  console.log(obj2.name, " has age of: " + obj2.age);
 }
 
 /*  'abcdefghijklmnopqrstuvwxyz'

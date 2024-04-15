@@ -109,6 +109,8 @@ function compareJSON(origin, target) {
 function updateJSON(target, source) {
   for (const key in source) {
     if (typeof source[key] === "object" && source[key] !== null) {
+      console.log(source[key]);
+      
       if (!target[key]) {
         target[key] = {};
       }

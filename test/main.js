@@ -41,7 +41,11 @@ if (!compareObjects(o, n)) {
   }
 }
 
-
+// Output data changes
+/**
+ * @param {string} src - Path to source file
+ * @return {string} 
+ */
 function importJSON(src) {
   try {
     // NOTE: fs.readFileSync() auto closes its file handle.
@@ -52,24 +56,34 @@ function importJSON(src) {
     process.exit(1);
   }
 }
-
-function writeJSON(data, destination) {
-  try {
-    //fs.writeFileSync(tgt, JSON.stringify(data2, null, 2));
-    fs.writeFileSync(destination, JSON.stringify(data));
-  } catch (error) {}
+/**
+ * @param { string | object } data - A valid JSON string.
+ * @param { string } tgt - Path to target output file
+ * @returns { number } exit condition
+ */
+function writeJSON(data, tgt) {
+  if (typeof data === "object") {
+    // TODO: Test File Location | Access permissions
+    fs.writeFileSync(tgt, JSON.stringify(data));
+  }
 }
 
-// Function to recursively update object properties
-function updateObject(target, source) {
-  for (const key in source) {
-    if (typeof source[key] === "object" && source[key] !== null) {
+/** 
+ * Function to recursively update object properties
+ * @param {string} tgt - Target Path
+ * @param {object} src - Source Path
+ * 
+ * @return { number } - # of keys checked. Fail state if negative number
+ */
+function updateKeys(target, src) {
+  for (const key in src) {
+    if (typeof src[key] === "object" && src[key] !== null) {
       if (!target[key]) {
         target[key] = {};
       }
-      updateObject(target[key], source[key]);
+      updateKeys(target[key], src[key]);
     } else {
-      target[key] = source[key];
+      target[key] = src[key];
     }
   }
 }

@@ -2,6 +2,7 @@
   "name": "spt-diffpatch",
   "description": "A utility for patching configuration files for SPT-AKI releases >= 3.8.0",
   "version": "0.0.1",
+  "type": "module",
   "devDependencies": {
     "@types/node": "^20.12.4"
   },

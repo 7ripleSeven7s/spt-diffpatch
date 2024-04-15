@@ -14,6 +14,7 @@ const obj4 = { name: "John", age: 27, degree: "IT" };
 if (obj3.age !== undefined) {
   console.log(obj3.name, " has age of: " + obj3.age);
 }
+prompt("hello");
 
 console.table({
   obj1,
@@ -23,22 +24,33 @@ console.table({
 });
 
 const objects = [obj1, obj2, obj3, obj4];
+let objCustom = {a:"hi",b:123};
+/* ***  for..in  ***/
 
-/* ***  for..in  ***
+const student = {
+  name: "John",
+  age: 21,
+  degree: "CS",
+};
 
- for (const left in right)
-  Left -> index
-  Right -> Array/Iterable
-  Accessor -> right[left] = ...
+// Clone object using for..in loop
+const student2 = {};
+for (const key in student) {
+  student2[key] = student[key];
+  console.log(
+    `${key}: ${student[key]}, ${student2[key]}, ===:${
+      student[key] === student2[key]
+    }, Object.is():${Object.is(student, student2)}`
+  );
+}
 
- */
-
-/* for (const index in objects) {
-  console.log("arrayItem", index, "= ", objects[index]);
-} */
-
-const arrayClone = [...objects];
-console.log(arrayClone);
+const student3 = [...student];
+console.log(
+  `object destructuring: '===':${student === student3}, 'Object.is():${Object.is(
+    student,
+    student3
+  )}'`
+);
 /* 
   [
     { name: "John", age: 21, degree: "CS" },
@@ -65,22 +77,4 @@ const products = [
   { title: "Apple", isFruit: true, id: 3 },
 ];
 
-export default function ShoppingList() {
-  const listItems = products.map((product) => (
-    <li
-      key={product.id}
-      style={{
-        color: product.isFruit ? "magenta" : "darkgreen",
-      }}>
-      {product.title}
-    </li>
-  ));
-
-  return <ul>{listItems}</ul>;
-}
-
 const items = [{}, {}, [1, 2, 3]];
-
-{
-  items.map((itm) => <Component key={itm.id} />);
-}

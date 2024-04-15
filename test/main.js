@@ -3,54 +3,44 @@
 /* import fs from "node:fs"; */
 import { argv } from "node:process";
 
+// *****  TESTING FILE CONSTANTS  *****
 //const originFile = '/data/bot_presets.json';
-//const patchFile = '/target/db/bot_presets2.json';
-const outFile = "/out/";
+//const newVersion = '/target/db/bot_presets2.json';
 
-// READ COMMAND LINE ARGUMENTS
-// Usage: node app.js sourceFile.json targetFile.json
-const [, , originFile, patchFile] = argv;
-
-if (!originFile || !patchFile || originFile === patchFile) {
-  console.error("Usage: node app.js originFile.json patchFile.json");
+// Usage: node main.js sourceFile.json targetFile.json
+const [, , originFile, newVersion] = argv;
+if (!originFile || !newVersion) {
+  console.error("Usage: node main.js originFile.json newVersion.json") 
   process.exit(1);
 }
-console.log("Command Line Args:");
-console.log(originFile);
-console.log(patchFile);
+
+// console.log("Command Line Args:");
+// console.log(originFile);
+// console.log(newVersion);
 
 // Import JSON from files
 const o = importJSON(originFile);
-const p = importJSON(patchFile);
+const n = importJSON(newVersion);
 
-//console.log(patchData);
-
-//const testObj = {...patchData};
-//Object.assign(testObj, patchData);
-//const blah = { hello: "goodbye" };
-console.log(Object.keys(p));
-console.log(Object.keys(o));
-const keys = Object.keys(p);
-
-let nums = [1,2,3];
-console.log(nums);
-
+// TESTING check file contents
+//console.log(Object.keys(n));
+//console.log(Object.keys(o));
 
 // Compare JSON files
+if (!compareObjects(o, n)) {
+  // Objects are not equal, build patch delta
+  // TODO:  BUILD DELTA
 
-for (let val of p) {
-  if (o.hasOwnProperty(val)) {
-    console.log("o hasOwnProperty, ", val);
+  try {
+    updateObject(o,delta);
+    const path = originFile;
+    writeJSON(o, path);
+  } catch(err) {
+    console.log(err.message());
+    process.exit(1);
   }
 }
 
-for (const key in object) {
-  if (Object.hasOwnProperty.call(object, key)) {
-    const element = object[key];
-  }
-}
-
-// Output data changes
 
 function importJSON(src) {
   try {
@@ -84,24 +74,44 @@ function updateObject(target, source) {
   }
 }
 
-function areObjectsEqual(firstObject, secondObject) {
+/**
+ * 
+ * @param {object} obj - scrutinized object
+ * @param {object} tgt - Target object which is compared against
+ */
+function keyCount(obj, tgt) {
+
+}
+
+/** 
+ * @param {object} obj - The object to scrutinize
+ * @param {object} tgt - The target object to compare against
+ * 
+ * @return {number} - Returns number of keys mismatched. 0 means objs are equal.
+*/
+function compareObjects(obj, tgt) {
+  let failCount = 0;
+  const passFail = false;
+
   // Check if the objects have the same number of properties
-  if (Object.keys(firstObject).length !== Object.keys(secondObject).length) {
-    return false;
-  }
+  //if (Object.keys(obj).length !== Object.keys(tgt).length) {
+  //  return false;
+  //}
 
   // Check if the properties and values of the objects are equal
-  for (let key in firstObject) {
-    if (firstObject.hasOwnProperty(key)) {
-      if (!secondObject.hasOwnProperty(key)) {
+  for (let key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      if (!tgt.hasOwnProperty(key)) {
         return false;
       }
       // Check if the type of the properties is object.
-      if (typeof firstObject[key] === "object" && typeof secondObject[key] === "object") {
-        if (!areObjectsEqual(firstObject[key], secondObject[key])) {
+      if (typeof firstObjec
+        /** 
+         * @param {object} */t[key] === "object" && typeof tgt[key] === "object") {
+        if (!compareObjects(obj[key], tgt[key])) {
           return false;
         }
-      } else if (firstObject[key] !== secondObject[key]) {
+      } else if (obj[key] !== tgt[key]) {
         console.log("true");
         return false;
       }
@@ -111,19 +121,7 @@ function areObjectsEqual(firstObject, secondObject) {
   return true;
 }
 
-function isSameObj(obj1, obj2) {
-  if (obj1 === obj2) {
-    return true;
-  }
-  return false;
-}
 
-function isSameProperty(val1, val2) {
-  if (val1 === val2) {
-    return true;
-  }
-  return false;
-}
 /* 
 const obj1 = {
   bot_presets: [
@@ -192,7 +190,7 @@ const obj2 = {
 
     patch   -   apply a diff file to an original
 
-      patch [options] [originalFile [patchFile]]
+      patch [options] [originalFile [newVersion]]
         
       patch -p123 <patchfile
 

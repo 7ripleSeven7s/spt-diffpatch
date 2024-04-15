@@ -84,7 +84,8 @@ function keyCount(obj, tgt) {
 }
 
 /** 
- * @param {object} obj - The object to scrutinize
+ * Recursive comparison of object properties from obj, compared to tgt
+ * @param {Object.prototype} obj - The object to scrutinize
  * @param {object} tgt - The target object to compare against
  * 
  * @return {number} - Returns number of keys mismatched. 0 means objs are equal.
@@ -97,7 +98,7 @@ function compareObjects(obj, tgt) {
   //if (Object.keys(obj).length !== Object.keys(tgt).length) {
   //  return false;
   //}
-
+  
   // Check if the properties and values of the objects are equal
   for (let key in obj) {
     if (obj.hasOwnProperty(key)) {
@@ -105,20 +106,18 @@ function compareObjects(obj, tgt) {
         return false;
       }
       // Check if the type of the properties is object.
-      if (typeof firstObjec
-        /** 
-         * @param {object} */t[key] === "object" && typeof tgt[key] === "object") {
-        if (!compareObjects(obj[key], tgt[key])) {
+      if (typeof firstObject[key] === "object" && typeof tgt[key] === "object") {
+        if (!compareObjects(obj[key], tgt[key]) === 0) {
           return false;
         }
       } else if (obj[key] !== tgt[key]) {
         console.log("true");
-        return false;
+        failCount++;
       }
     }
   }
 
-  return true;
+  return failCount;
 }
 
 

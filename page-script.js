@@ -57,13 +57,14 @@ HTMLElement.register("x-comment", Comment);
 
 //<script>
 document.body.model = Model.get({
-  'items':[
-    {'name': 'Africa',
-      'children': [
-        {'name':'Egypt' },
-        {'name':'Kenya', 'children':[{'name':'Nairobi'},{'name':'Mombasa'}] }
-      ]
-    }
-  ]
+  "items": [
+    {
+      "name": "Africa",
+      "children": [
+        { "name": "Egypt" },
+        { "name": "Kenya", "children": [{ "name": "Nairobi" }, { "name": "Mombasa" }] },
+      ],
+    },
+  ],
 });
 //</script>

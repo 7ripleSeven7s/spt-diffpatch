@@ -19,17 +19,20 @@
 </script>
 
 <template iterate="items" id="t">
-  <li>{{name}}
-    <ul><template ref="t" iterate="children"></template></ul>
+  <li>
+    {{name}}
+    <ul>
+      <template ref="t" iterate="children"></template>
+    </ul>
   </li>
 </template>
 
 <!-- MD Views Design Goals -->
-<ul>
+<!-- <ul>
   <li>Unify templating and data binding</li>
   <li>"Stable DOM", Updates minimal view changes</li>
   <li>Coherent updates</li>
   <li>Declarative with imperative API</li>
   <li>Pluggable, Persistence is easy to implement</li>
   <li>Hi-perf</li>
-</ul>
+</ul> -->

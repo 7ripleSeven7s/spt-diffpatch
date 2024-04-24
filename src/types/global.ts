@@ -1,0 +1,3 @@
+type globals = {
+  "BotWeaponScatterings": object;
+}

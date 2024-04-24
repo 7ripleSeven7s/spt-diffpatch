@@ -24,15 +24,19 @@ function fetchJson(resource) {
         // <td><img src='${item.icon}'></td>
         out += `
       <tr>
-        <td>${}</td>
-        <td>${key.value3}</td>
-        <td>${key.value4}</td>
-        <td>${item.value5}</td>
-        <td>${item.value6}</td>
+        <td>${prop}</td>
+        <td>${obj[prop]}</td>
       </tr>`;
       }
     })
     return out;
+}
+
+// parse object?
+function buildMarkup(str) {
+  let mkup = "";
+
+  return mkup;
 }
 
 function fetchJsonArray(resource) {

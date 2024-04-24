@@ -4,7 +4,7 @@ const tarkovChangesAPI = {
 
 /**
  * @param {string} resource - A string representing a network resource
- * 
+ *
  * @return returns an object with unknown properties.
  */
 function fetchJson(resource) {
@@ -28,8 +28,8 @@ function fetchJson(resource) {
         <td>${obj[prop]}</td>
       </tr>`;
       }
-    })
-    return out;
+    });
+  return out;
 }
 
 // parse object?
@@ -40,27 +40,26 @@ function buildMarkup(str) {
 }
 
 function fetchJsonArray(resource) {
-  fetch(resource) 
-    .then(function(response) {
+  fetch(resource)
+    .then(function (response) {
       if (!response.ok) {
         throw new Error(`HTTP fetchJsonArray error, status = ${response.status}`);
       }
     })
-    .then(function(obj) {
+    .then(function (obj) {
       let out = "";
       for (let prop in obj) {
         // <td><img src='${item.icon}'></td>
         out += `
       <tr>
-        <td>${}</td>
         <td>${key.value3}</td>
         <td>${key.value4}</td>
         <td>${item.value5}</td>
         <td>${item.value6}</td>
       </tr>`;
       }
-    })
+    });
   return out;
 }
 
-export default {fetchJson, fetchJsonArray, tarkovChangesAPI};
+export default { fetchJson, fetchJsonArray, tarkovChangesAPI };

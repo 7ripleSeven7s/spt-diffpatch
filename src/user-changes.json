@@ -1,0 +1,12 @@
+{
+  "filename": "user-changes.json",
+  "schema": "14.0.1.28476",
+  "patch-source": "d:/TarkovSP/testing/14.0.1.28476/configs/bot.json",
+  "patch-target": "d:/TarkovSP/testing/14.0.1.28476/configs/bot.json",
+  "operations": {
+    "add": {},
+    "update": {},
+    "delete": {},
+    "move": {}
+  }
+}

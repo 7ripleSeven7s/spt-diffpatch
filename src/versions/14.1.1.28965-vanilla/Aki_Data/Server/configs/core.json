@@ -1,0 +1,26 @@
+{
+    "akiVersion": "3.8.0",
+    "projectName": "SPT-AKI",
+    "compatibleTarkovVersion": "0.14.1.28965",
+    "serverName": "SPT Server",
+    "profileSaveIntervalSeconds": 15,
+    "sptFriendNickname": "SPT",
+    "fixes": {
+        "fixShotgunDispersion": true,
+        "removeModItemsFromProfile": false,
+        "fixProfileBreakingInventoryItemIssues": false
+    },
+    "features": {
+        "autoInstallModDependencies": false,
+        "compressProfile": false,
+        "chatbotFeatures": {
+            "sptFriendEnabled": true,
+            "commandoEnabled": true,
+            "commandoFeatures": {
+                "giveCommandEnabled": false
+            }
+        }
+    },
+    "commit": "c64e5f72399e1d2cf8e30be00c95b3a737db6070",
+    "buildTime": 1709204124550
+}

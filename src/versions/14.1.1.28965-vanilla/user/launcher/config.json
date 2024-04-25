@@ -1,0 +1,16 @@
+{
+  "FirstRun": false,
+  "DefaultLocale": "English",
+  "LauncherStartGameAction": 0,
+  "UseAutoLogin": true,
+  "GamePath": "D:\\TarkovSP\\14.1.1.28965",
+  "ExcludeFromCleanup": [],
+  "Server": {
+    "AutoLoginCreds": {
+      "Username": "-Waverly-",
+      "Password": ""
+    },
+    "Name": "SPT-AKI",
+    "Url": "http://127.0.0.1:6969"
+  }
+}

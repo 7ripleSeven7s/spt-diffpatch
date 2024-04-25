@@ -1,4 +1,4 @@
-import { IQuestConditionTypes, IQuestRewards } from "./IQuest";
+import { IQuestConditionTypes, IQuestRewards } from "";
 
 export interface IAchievement
 {

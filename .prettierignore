@@ -1,2 +1,5 @@
 "/test/*.js"
+"tmp/*.js"
+"tmp/*.ts"
+"bin/*"
 ".gitignore"

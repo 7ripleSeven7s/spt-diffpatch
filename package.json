@@ -9,10 +9,14 @@
   },
   "main": "src/app.js",
   "directories": {
-    "test": "test",
-    "data": "data"
+    "tests": "tests/",
+    "data": "data/",
+    "dist": "dist/",
+    "images": "images/",
+    "style": "style/"
   },
   "scripts": {
+    "clean": "rm -rf dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "npx tsc"
   },

@@ -16,13 +16,14 @@
         "src/*"
       ],
       "@tests/*": [
-        "tests/*"],
-      "@tmp/*": [
-        "tmp/*"
+        "tests/*"
       ],
       "@dist/*": [
         "dist/*"
       ],
+      "@data/*": [
+        "data/*"
+      ]
     },
     "rootDirs": [
       ".",

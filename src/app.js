@@ -1,4 +1,6 @@
-import express from 'express';
+import express from 'node:express';
+import * as fs from 'node:fs';
+
 import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
 
@@ -6,10 +8,28 @@ import cookieParser from 'cookie-parser';
 const app = express();
 const port = 3000;
 
+/*
+  app.get('/', (req, res) => {});
+  app.post('/', (req, res) => {});
+  app.put('/', (req, res) => {});
+  app.delete('/', (req, res) => {});
+*/
+
+
+// Local paths
+const base = "./";
+const srcDir = "src/";
+const configDir = "config/";
+const dataDir = "data/";
+const tmpDir = "tmp/";
+
+
 // Define your routes here
 // Respond with "Hello World!" on the homepage:
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.sendFile('index.html', { 
+    root: path.join(__dirname, '../public')
+  });
 });
 
 // Respond to a POST request on the root route ('/'), the application’s home page:
@@ -29,7 +49,9 @@ app.delete('/user', (req, res) => {
 
 // Respond to a GET request to the /user/:id route:
 app.get('/users/:userId', (req, res) => {
-  res.send(`User ID is: ${req.params.userId}`);
+  if (fs.existsSync('path/to/file')) {
+    res.send(`User ID is: ${req.params.userId}`);
+  }
 });
 
 

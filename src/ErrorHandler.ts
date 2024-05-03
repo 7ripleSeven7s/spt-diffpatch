@@ -1,8 +1,8 @@
 import readline from "node:readline";
 
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { AsyncQueue } from "@spt-aki/utils/AsyncQueue";
-import { WinstonMainLogger } from "@spt-aki/utils/logging/WinstonMainLogger";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { AsyncQueue } from "@spt-diffpatch/utils/AsyncQueue";
+import { WinstonMainLogger } from "@spt-diffpatch/utils/logging/WinstonMainLogger";
 
 export class ErrorHandler
 {

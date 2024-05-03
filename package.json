@@ -38,5 +38,8 @@
   "bugs": {
     "url": "https://github.com/7ripleSeven7s/spt-jdiff/issues"
   },
-  "homepage": "https://github.com/7ripleSeven7s/spt-jdiff#readme"
+  "homepage": "https://github.com/7ripleSeven7s/spt-jdiff#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }

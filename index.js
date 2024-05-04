@@ -2,8 +2,6 @@ import express from 'express';
 import fs from 'node:fs';
 
 
-console.log(five);
-
 const app = express();
 const port = 3000;
 
@@ -25,15 +23,13 @@ const userHome = process.env.HOME;
 
 // Define your routes here
 app.get('/', (req, res) => {
-  console.log(res);
   res.setHeader('Foo', 'bar');
   res.appendHeader('Set-Cookie', ['foo=bar', 'bar=baz']);
-
   const headers = res.getHeaders();
-  console.log(headers);
-  
+  const typeHeader = req.get('content-type');
+  res.type('text/plain')
+  res.status(200);
   res.send('Hello World!');
-  console.log(res);
   //res.type('application/json');
 });
 

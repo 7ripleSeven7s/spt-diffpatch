@@ -1,67 +1,90 @@
-import express from 'express';
-import fs from 'node:fs';
-
-
+const express = require('express');
 const app = express();
-const port = 3000;
+const path = require('path');
+const cors = require('cors');
+const { logger } = require('./middleware/logEvents');
+const errorHandler = require('./middleware/errorHandler');
+const PORT = process.env.PORT || 3500;
 
-/*
-  app.get('/', (req, res) => {});
-  app.post('/', (req, res) => {});
-  app.put('/', (req, res) => {});
-  app.delete('/', (req, res) => {});
-*/
+// custom middleware logger
+app.use(logger);
 
+// Cross Origin Resource Sharing
+const whitelist = ['https://www.yoursite.com', 'http://127.0.0.1:5500', 'http://localhost:3500'];
+const corsOptions = {
+    origin: (origin, callback) => {
+        if (whitelist.indexOf(origin) !== -1 || !origin) {
+            callback(null, true)
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
+    optionsSuccessStatus: 200
+}
+app.use(cors(corsOptions));
 
-// resource paths
-const appPath = "/c/Users/Oliver/Dev/src/web/spt-diffpatch";
-const appName = "spt-diffpatch";
-const appDir = "src/";
+// built-in middleware to handle urlencoded data
+// in other words, form data:  
+// ‘content-type: application/x-www-form-urlencoded’
+app.use(express.urlencoded({ extended: false }));
 
-const userHome = process.env.HOME;
+// built-in middleware for json 
+app.use(express.json());
 
+//serve static files
+app.use(express.static(path.join(__dirname, '/public')));
 
-// Define your routes here
-app.get('/', (req, res) => {
-  res.setHeader('Foo', 'bar');
-  res.appendHeader('Set-Cookie', ['foo=bar', 'bar=baz']);
-  const headers = res.getHeaders();
-  const typeHeader = req.get('content-type');
-  res.type('text/plain')
-  res.status(200);
-  res.send('Hello World!');
-  //res.type('application/json');
+app.get('^/$|/index(.html)?', (req, res) => {
+    //res.sendFile('./views/index.html', { root: __dirname });
+    res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
-// Respond to a POST request on the root route ('/'), the application’s home page:
-app.post('/', (req, res) => {
-  res.send('Got a POST request');
+app.get('/new-page(.html)?', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', 'new-page.html'));
 });
 
-// Respond to a PUT request to the '/user' route:
-app.put('/user', (req, res) => {
-  res.send('Got a PUT request at /user');
+app.get('/old-page(.html)?', (req, res) => {
+    res.redirect(301, '/new-page.html'); //302 by default
 });
 
-// Respond to a DELETE request to the '/user' route:
-app.delete('/user', (req, res) => {
-  res.send('Got a DELETE request at /user');
-});
-
-// Respond to a GET request to the /user/:id route:
-app.get('/users/:userId', (req, res) => {
-  if (fs.existsSync('path/to/file')) {
-    res.send(`User ID is: ${req.params.userId}`);
-  }
+// Route handlers
+app.get('/hello(.html)?', (req, res, next) => {
+    console.log('attempted to load hello.html');
+    next()
+}, (req, res) => {
+    res.send('Hello World!');
 });
 
 
+// chaining route handlers
+const one = (req, res, next) => {
+    console.log('one');
+    next();
+}
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+const two = (req, res, next) => {
+    console.log('two');
+    next();
+}
+
+const three = (req, res) => {
+    console.log('three');
+    res.send('Finished!');
+}
+
+app.get('/chain(.html)?', [one, two, three]);
+
+app.all('*', (req, res) => {
+    res.status(404);
+    if (req.accepts('html')) {
+        res.sendFile(path.join(__dirname, 'views', '404.html'));
+    } else if (req.accepts('json')) {
+        res.json({ "error": "404 Not Found" });
+    } else {
+        res.type('txt').send("404 Not Found");
+    }
 });
 
-/* app.use(function(err, req, res, next) {
-  console.error(err.stack);
-  res.status(500).send('Something broke!');
-}); */
+app.use(errorHandler);
+
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

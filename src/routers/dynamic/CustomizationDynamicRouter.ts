@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { CustomizationCallbacks } from "@spt-aki/callbacks/CustomizationCallbacks";
-import { DynamicRouter, RouteAction } from "@spt-aki/di/Router";
+import { CustomizationCallbacks } from "@spt-diffpatch/callbacks/CustomizationCallbacks";
+import { DynamicRouter, RouteAction } from "@spt-diffpatch/di/Router";
 
 @injectable()
 export class CustomizationDynamicRouter extends DynamicRouter

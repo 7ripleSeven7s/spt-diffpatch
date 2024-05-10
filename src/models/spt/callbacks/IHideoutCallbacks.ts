@@ -1,14 +1,14 @@
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IHideoutContinuousProductionStartRequestData } from "@spt-aki/models/eft/hideout/IHideoutContinuousProductionStartRequestData";
-import { IHideoutPutItemInRequestData } from "@spt-aki/models/eft/hideout/IHideoutPutItemInRequestData";
-import { IHideoutScavCaseStartRequestData } from "@spt-aki/models/eft/hideout/IHideoutScavCaseStartRequestData";
-import { IHideoutSingleProductionStartRequestData } from "@spt-aki/models/eft/hideout/IHideoutSingleProductionStartRequestData";
-import { IHideoutTakeItemOutRequestData } from "@spt-aki/models/eft/hideout/IHideoutTakeItemOutRequestData";
-import { IHideoutTakeProductionRequestData } from "@spt-aki/models/eft/hideout/IHideoutTakeProductionRequestData";
-import { IHideoutToggleAreaRequestData } from "@spt-aki/models/eft/hideout/IHideoutToggleAreaRequestData";
-import { IHideoutUpgradeCompleteRequestData } from "@spt-aki/models/eft/hideout/IHideoutUpgradeCompleteRequestData";
-import { IHideoutUpgradeRequestData } from "@spt-aki/models/eft/hideout/IHideoutUpgradeRequestData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IHideoutContinuousProductionStartRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutContinuousProductionStartRequestData";
+import { IHideoutPutItemInRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutPutItemInRequestData";
+import { IHideoutScavCaseStartRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutScavCaseStartRequestData";
+import { IHideoutSingleProductionStartRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutSingleProductionStartRequestData";
+import { IHideoutTakeItemOutRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutTakeItemOutRequestData";
+import { IHideoutTakeProductionRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutTakeProductionRequestData";
+import { IHideoutToggleAreaRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutToggleAreaRequestData";
+import { IHideoutUpgradeCompleteRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutUpgradeCompleteRequestData";
+import { IHideoutUpgradeRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutUpgradeRequestData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
 
 export interface IHideoutCallbacks
 {

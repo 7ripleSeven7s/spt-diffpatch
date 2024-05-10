@@ -1,20 +1,20 @@
 import { inject, injectable } from "tsyringe";
 
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { ITemplateItem, Props } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { ITemplateItem, Props } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
 import {
     CreateItemResult,
     LocaleDetails,
     NewItemDetails,
     NewItemFromCloneDetails,
-} from "@spt-aki/models/spt/mod/NewItemDetails";
-import { IDatabaseTables } from "@spt-aki/models/spt/server/IDatabaseTables";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { ItemBaseClassService } from "@spt-aki/services/ItemBaseClassService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+} from "@spt-diffpatch/models/spt/mod/NewItemDetails";
+import { IDatabaseTables } from "@spt-diffpatch/models/spt/server/IDatabaseTables";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { ItemBaseClassService } from "@spt-diffpatch/services/ItemBaseClassService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
 
 @injectable()
 export class CustomItemService

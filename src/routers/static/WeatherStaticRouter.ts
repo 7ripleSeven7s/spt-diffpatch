@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { WeatherCallbacks } from "@spt-aki/callbacks/WeatherCallbacks";
-import { RouteAction, StaticRouter } from "@spt-aki/di/Router";
+import { WeatherCallbacks } from "@spt-diffpatch/callbacks/WeatherCallbacks";
+import { RouteAction, StaticRouter } from "@spt-diffpatch/di/Router";
 
 @injectable()
 export class WeatherStaticRouter extends StaticRouter

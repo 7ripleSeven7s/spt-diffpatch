@@ -1,23 +1,23 @@
 import { inject, injectable } from "tsyringe";
 
-import { HealthHelper } from "@spt-aki/helpers/HealthHelper";
-import { InventoryHelper } from "@spt-aki/helpers/InventoryHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { BodyPart, IHealthTreatmentRequestData } from "@spt-aki/models/eft/health/IHealthTreatmentRequestData";
-import { IOffraidEatRequestData } from "@spt-aki/models/eft/health/IOffraidEatRequestData";
-import { IOffraidHealRequestData } from "@spt-aki/models/eft/health/IOffraidHealRequestData";
-import { ISyncHealthRequestData } from "@spt-aki/models/eft/health/ISyncHealthRequestData";
-import { IWorkoutData } from "@spt-aki/models/eft/health/IWorkoutData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { IProcessBuyTradeRequestData } from "@spt-aki/models/eft/trade/IProcessBuyTradeRequestData";
-import { Traders } from "@spt-aki/models/enums/Traders";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { EventOutputHolder } from "@spt-aki/routers/EventOutputHolder";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { PaymentService } from "@spt-aki/services/PaymentService";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { HealthHelper } from "@spt-diffpatch/helpers/HealthHelper";
+import { InventoryHelper } from "@spt-diffpatch/helpers/InventoryHelper";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { BodyPart, IHealthTreatmentRequestData } from "@spt-diffpatch/models/eft/health/IHealthTreatmentRequestData";
+import { IOffraidEatRequestData } from "@spt-diffpatch/models/eft/health/IOffraidEatRequestData";
+import { IOffraidHealRequestData } from "@spt-diffpatch/models/eft/health/IOffraidHealRequestData";
+import { ISyncHealthRequestData } from "@spt-diffpatch/models/eft/health/ISyncHealthRequestData";
+import { IWorkoutData } from "@spt-diffpatch/models/eft/health/IWorkoutData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { IProcessBuyTradeRequestData } from "@spt-diffpatch/models/eft/trade/IProcessBuyTradeRequestData";
+import { Traders } from "@spt-diffpatch/models/enums/Traders";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { EventOutputHolder } from "@spt-diffpatch/routers/EventOutputHolder";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { PaymentService } from "@spt-diffpatch/services/PaymentService";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
 
 @injectable()
 export class HealthController

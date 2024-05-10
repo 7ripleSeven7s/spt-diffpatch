@@ -1,10 +1,10 @@
 import { inject, injectable } from "tsyringe";
 
-import { ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
+import { ITemplateItem } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
 
 /**
  * Cache the baseids for each item in the tiems db inside a dictionary

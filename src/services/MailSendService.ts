@@ -1,22 +1,22 @@
 import { inject, injectable } from "tsyringe";
 
-import { DialogueHelper } from "@spt-aki/helpers/DialogueHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { NotificationSendHelper } from "@spt-aki/helpers/NotificationSendHelper";
-import { NotifierHelper } from "@spt-aki/helpers/NotifierHelper";
-import { TraderHelper } from "@spt-aki/helpers/TraderHelper";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { Dialogue, IUserDialogInfo, Message, MessageItems } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { MessageType } from "@spt-aki/models/enums/MessageType";
-import { Traders } from "@spt-aki/models/enums/Traders";
-import { ISendMessageDetails } from "@spt-aki/models/spt/dialog/ISendMessageDetails";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { DialogueHelper } from "@spt-diffpatch/helpers/DialogueHelper";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { NotificationSendHelper } from "@spt-diffpatch/helpers/NotificationSendHelper";
+import { NotifierHelper } from "@spt-diffpatch/helpers/NotifierHelper";
+import { TraderHelper } from "@spt-diffpatch/helpers/TraderHelper";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { Dialogue, IUserDialogInfo, Message, MessageItems } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
+import { MessageType } from "@spt-diffpatch/models/enums/MessageType";
+import { Traders } from "@spt-diffpatch/models/enums/Traders";
+import { ISendMessageDetails } from "@spt-diffpatch/models/spt/dialog/ISendMessageDetails";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class MailSendService

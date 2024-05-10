@@ -1,29 +1,29 @@
 import { inject, injectable } from "tsyringe";
 
-import { DialogueHelper } from "@spt-aki/helpers/DialogueHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { TraderHelper } from "@spt-aki/helpers/TraderHelper";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { MemberCategory } from "@spt-aki/models/enums/MemberCategory";
-import { MessageType } from "@spt-aki/models/enums/MessageType";
-import { Traders } from "@spt-aki/models/enums/Traders";
-import { IQuestConfig } from "@spt-aki/models/spt/config/IQuestConfig";
-import { IRagfairConfig } from "@spt-aki/models/spt/config/IRagfairConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { ItemFilterService } from "@spt-aki/services/ItemFilterService";
-import { LocaleService } from "@spt-aki/services/LocaleService";
-import { MailSendService } from "@spt-aki/services/MailSendService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { DialogueHelper } from "@spt-diffpatch/helpers/DialogueHelper";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { TraderHelper } from "@spt-diffpatch/helpers/TraderHelper";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { ITemplateItem } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { MemberCategory } from "@spt-diffpatch/models/enums/MemberCategory";
+import { MessageType } from "@spt-diffpatch/models/enums/MessageType";
+import { Traders } from "@spt-diffpatch/models/enums/Traders";
+import { IQuestConfig } from "@spt-diffpatch/models/spt/config/IQuestConfig";
+import { IRagfairConfig } from "@spt-diffpatch/models/spt/config/IRagfairConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { ItemFilterService } from "@spt-diffpatch/services/ItemFilterService";
+import { LocaleService } from "@spt-diffpatch/services/LocaleService";
+import { MailSendService } from "@spt-diffpatch/services/MailSendService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 /**
  * Helper class for common ragfair server actions

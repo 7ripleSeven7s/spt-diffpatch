@@ -1,14 +1,14 @@
 import { inject, injectable } from "tsyringe";
 
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { IStorePlayerOfferTaxAmountRequestData } from "@spt-aki/models/eft/ragfair/IStorePlayerOfferTaxAmountRequestData";
-import { BonusType } from "@spt-aki/models/enums/BonusType";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { RagfairPriceService } from "@spt-aki/services/RagfairPriceService";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { ITemplateItem } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
+import { IStorePlayerOfferTaxAmountRequestData } from "@spt-diffpatch/models/eft/ragfair/IStorePlayerOfferTaxAmountRequestData";
+import { BonusType } from "@spt-diffpatch/models/enums/BonusType";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { RagfairPriceService } from "@spt-diffpatch/services/RagfairPriceService";
 
 @injectable()
 export class RagfairTaxService

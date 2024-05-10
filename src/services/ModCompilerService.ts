@@ -4,9 +4,9 @@ import path from "node:path";
 import { inject, injectable } from "tsyringe";
 import ts from "typescript";
 
-import type { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ModHashCacheService } from "@spt-aki/services/cache/ModHashCacheService";
-import { VFS } from "@spt-aki/utils/VFS";
+import type { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ModHashCacheService } from "@spt-diffpatch/services/cache/ModHashCacheService";
+import { VFS } from "@spt-diffpatch/utils/VFS";
 
 @injectable()
 export class ModCompilerService
@@ -98,7 +98,7 @@ export class ModCompilerService
 
             if (globalThis.G_RELEASE_CONFIGURATION)
             {
-                replacedText = text.replace(/(@spt-aki)/g, `${baseDir}/obj`);
+                replacedText = text.replace(/(@spt-diffpatch)/g, `${baseDir}/obj`);
                 for (const dependency of this.serverDependencies)
                 {
                     replacedText = replacedText.replace(`"${dependency}"`, `"${baseDir}/node_modules/${dependency}"`);
@@ -106,7 +106,7 @@ export class ModCompilerService
             }
             else
             {
-                replacedText = text.replace(/(@spt-aki)/g, path.join(__dirname, "..").replace(/\\/g, "/"));
+                replacedText = text.replace(/(@spt-diffpatch)/g, path.join(__dirname, "..").replace(/\\/g, "/"));
             }
 
             const output = ts.transpileModule(replacedText, { compilerOptions: options });

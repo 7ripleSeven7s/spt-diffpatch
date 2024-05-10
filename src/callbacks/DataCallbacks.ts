@@ -1,21 +1,21 @@
 import { inject, injectable } from "tsyringe";
 
-import { HideoutController } from "@spt-aki/controllers/HideoutController";
-import { RagfairController } from "@spt-aki/controllers/RagfairController";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { IGlobals } from "@spt-aki/models/eft/common/IGlobals";
-import { ICustomizationItem } from "@spt-aki/models/eft/common/tables/ICustomizationItem";
-import { IHandbookBase } from "@spt-aki/models/eft/common/tables/IHandbookBase";
-import { IGetItemPricesResponse } from "@spt-aki/models/eft/game/IGetItemPricesResponse";
-import { IHideoutArea } from "@spt-aki/models/eft/hideout/IHideoutArea";
-import { IHideoutProduction } from "@spt-aki/models/eft/hideout/IHideoutProduction";
-import { IHideoutScavCase } from "@spt-aki/models/eft/hideout/IHideoutScavCase";
-import { IHideoutSettingsBase } from "@spt-aki/models/eft/hideout/IHideoutSettingsBase";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { Money } from "@spt-aki/models/enums/Money";
-import { ISettingsBase } from "@spt-aki/models/spt/server/ISettingsBase";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
+import { HideoutController } from "@spt-diffpatch/controllers/HideoutController";
+import { RagfairController } from "@spt-diffpatch/controllers/RagfairController";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { IGlobals } from "@spt-diffpatch/models/eft/common/IGlobals";
+import { ICustomizationItem } from "@spt-diffpatch/models/eft/common/tables/ICustomizationItem";
+import { IHandbookBase } from "@spt-diffpatch/models/eft/common/tables/IHandbookBase";
+import { IGetItemPricesResponse } from "@spt-diffpatch/models/eft/game/IGetItemPricesResponse";
+import { IHideoutArea } from "@spt-diffpatch/models/eft/hideout/IHideoutArea";
+import { IHideoutProduction } from "@spt-diffpatch/models/eft/hideout/IHideoutProduction";
+import { IHideoutScavCase } from "@spt-diffpatch/models/eft/hideout/IHideoutScavCase";
+import { IHideoutSettingsBase } from "@spt-diffpatch/models/eft/hideout/IHideoutSettingsBase";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { Money } from "@spt-diffpatch/models/enums/Money";
+import { ISettingsBase } from "@spt-diffpatch/models/spt/server/ISettingsBase";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
 
 /**
  * Handle client requests

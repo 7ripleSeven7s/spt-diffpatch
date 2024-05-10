@@ -1,37 +1,37 @@
 import { inject, injectable } from "tsyringe";
 
-import { RagfairAssortGenerator } from "@spt-aki/generators/RagfairAssortGenerator";
-import { HandbookHelper } from "@spt-aki/helpers/HandbookHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { PaymentHelper } from "@spt-aki/helpers/PaymentHelper";
-import { PresetHelper } from "@spt-aki/helpers/PresetHelper";
-import { RagfairServerHelper } from "@spt-aki/helpers/RagfairServerHelper";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { IBarterScheme } from "@spt-aki/models/eft/common/tables/ITrader";
-import { IRagfairOffer, OfferRequirement } from "@spt-aki/models/eft/ragfair/IRagfairOffer";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { MemberCategory } from "@spt-aki/models/enums/MemberCategory";
-import { Money } from "@spt-aki/models/enums/Money";
+import { RagfairAssortGenerator } from "@spt-diffpatch/generators/RagfairAssortGenerator";
+import { HandbookHelper } from "@spt-diffpatch/helpers/HandbookHelper";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { PaymentHelper } from "@spt-diffpatch/helpers/PaymentHelper";
+import { PresetHelper } from "@spt-diffpatch/helpers/PresetHelper";
+import { RagfairServerHelper } from "@spt-diffpatch/helpers/RagfairServerHelper";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { ITemplateItem } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
+import { IBarterScheme } from "@spt-diffpatch/models/eft/common/tables/ITrader";
+import { IRagfairOffer, OfferRequirement } from "@spt-diffpatch/models/eft/ragfair/IRagfairOffer";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { MemberCategory } from "@spt-diffpatch/models/enums/MemberCategory";
+import { Money } from "@spt-diffpatch/models/enums/Money";
 import {
     Condition,
     Dynamic,
     IArmorPlateBlacklistSettings,
     IRagfairConfig,
-} from "@spt-aki/models/spt/config/IRagfairConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { FenceService } from "@spt-aki/services/FenceService";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { RagfairOfferService } from "@spt-aki/services/RagfairOfferService";
-import { RagfairPriceService } from "@spt-aki/services/RagfairPriceService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+} from "@spt-diffpatch/models/spt/config/IRagfairConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { FenceService } from "@spt-diffpatch/services/FenceService";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { RagfairOfferService } from "@spt-diffpatch/services/RagfairOfferService";
+import { RagfairPriceService } from "@spt-diffpatch/services/RagfairPriceService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class RagfairOfferGenerator

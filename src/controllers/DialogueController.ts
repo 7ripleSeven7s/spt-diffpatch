@@ -1,21 +1,21 @@
 import { inject, injectAll, injectable } from "tsyringe";
 
-import { IDialogueChatBot } from "@spt-aki/helpers/Dialogue/IDialogueChatBot";
-import { DialogueHelper } from "@spt-aki/helpers/DialogueHelper";
-import { IGetAllAttachmentsResponse } from "@spt-aki/models/eft/dialog/IGetAllAttachmentsResponse";
-import { IGetFriendListDataResponse } from "@spt-aki/models/eft/dialog/IGetFriendListDataResponse";
-import { IGetMailDialogViewRequestData } from "@spt-aki/models/eft/dialog/IGetMailDialogViewRequestData";
-import { IGetMailDialogViewResponseData } from "@spt-aki/models/eft/dialog/IGetMailDialogViewResponseData";
-import { ISendMessageRequest } from "@spt-aki/models/eft/dialog/ISendMessageRequest";
-import { Dialogue, DialogueInfo, IAkiProfile, IUserDialogInfo, Message } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { MessageType } from "@spt-aki/models/enums/MessageType";
-import { ICoreConfig } from "@spt-aki/models/spt/config/ICoreConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { MailSendService } from "@spt-aki/services/MailSendService";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { IDialogueChatBot } from "@spt-diffpatch/helpers/Dialogue/IDialogueChatBot";
+import { DialogueHelper } from "@spt-diffpatch/helpers/DialogueHelper";
+import { IGetAllAttachmentsResponse } from "@spt-diffpatch/models/eft/dialog/IGetAllAttachmentsResponse";
+import { IGetFriendListDataResponse } from "@spt-diffpatch/models/eft/dialog/IGetFriendListDataResponse";
+import { IGetMailDialogViewRequestData } from "@spt-diffpatch/models/eft/dialog/IGetMailDialogViewRequestData";
+import { IGetMailDialogViewResponseData } from "@spt-diffpatch/models/eft/dialog/IGetMailDialogViewResponseData";
+import { ISendMessageRequest } from "@spt-diffpatch/models/eft/dialog/ISendMessageRequest";
+import { Dialogue, DialogueInfo, IAkiProfile, IUserDialogInfo, Message } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { MessageType } from "@spt-diffpatch/models/enums/MessageType";
+import { ICoreConfig } from "@spt-diffpatch/models/spt/config/ICoreConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { MailSendService } from "@spt-diffpatch/services/MailSendService";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class DialogueController

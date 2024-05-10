@@ -1,9 +1,9 @@
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { EquipmentBuildType } from "@spt-aki/models/enums/EquipmentBuildType";
-import { MemberCategory } from "@spt-aki/models/enums/MemberCategory";
-import { MessageType } from "@spt-aki/models/enums/MessageType";
-import { IProfileChangeEvent } from "@spt-aki/models/spt/dialog/ISendMessageDetails";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { EquipmentBuildType } from "@spt-diffpatch/models/enums/EquipmentBuildType";
+import { MemberCategory } from "@spt-diffpatch/models/enums/MemberCategory";
+import { MessageType } from "@spt-diffpatch/models/enums/MessageType";
+import { IProfileChangeEvent } from "@spt-diffpatch/models/spt/dialog/ISendMessageDetails";
 
 export interface IAkiProfile
 {

@@ -1,20 +1,20 @@
 import { inject, injectable } from "tsyringe";
 
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { QuestHelper } from "@spt-aki/helpers/QuestHelper";
-import { RepairHelper } from "@spt-aki/helpers/RepairHelper";
-import { TraderHelper } from "@spt-aki/helpers/TraderHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { IRepairActionDataRequest } from "@spt-aki/models/eft/repair/IRepairActionDataRequest";
-import { ITraderRepairActionDataRequest } from "@spt-aki/models/eft/repair/ITraderRepairActionDataRequest";
-import { SkillTypes } from "@spt-aki/models/enums/SkillTypes";
-import { IRepairConfig } from "@spt-aki/models/spt/config/IRepairConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { EventOutputHolder } from "@spt-aki/routers/EventOutputHolder";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { PaymentService } from "@spt-aki/services/PaymentService";
-import { RepairService } from "@spt-aki/services/RepairService";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { QuestHelper } from "@spt-diffpatch/helpers/QuestHelper";
+import { RepairHelper } from "@spt-diffpatch/helpers/RepairHelper";
+import { TraderHelper } from "@spt-diffpatch/helpers/TraderHelper";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { IRepairActionDataRequest } from "@spt-diffpatch/models/eft/repair/IRepairActionDataRequest";
+import { ITraderRepairActionDataRequest } from "@spt-diffpatch/models/eft/repair/ITraderRepairActionDataRequest";
+import { SkillTypes } from "@spt-diffpatch/models/enums/SkillTypes";
+import { IRepairConfig } from "@spt-diffpatch/models/spt/config/IRepairConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { EventOutputHolder } from "@spt-diffpatch/routers/EventOutputHolder";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { PaymentService } from "@spt-diffpatch/services/PaymentService";
+import { RepairService } from "@spt-diffpatch/services/RepairService";
 
 @injectable()
 export class RepairController

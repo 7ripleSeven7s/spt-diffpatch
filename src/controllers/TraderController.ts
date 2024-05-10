@@ -1,21 +1,21 @@
 import { inject, injectable } from "tsyringe";
 
-import { FenceBaseAssortGenerator } from "@spt-aki/generators/FenceBaseAssortGenerator";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { TraderAssortHelper } from "@spt-aki/helpers/TraderAssortHelper";
-import { TraderHelper } from "@spt-aki/helpers/TraderHelper";
-import { ITraderAssort, ITraderBase } from "@spt-aki/models/eft/common/tables/ITrader";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { Traders } from "@spt-aki/models/enums/Traders";
-import { ITraderConfig } from "@spt-aki/models/spt/config/ITraderConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { FenceService } from "@spt-aki/services/FenceService";
-import { TraderAssortService } from "@spt-aki/services/TraderAssortService";
-import { TraderPurchasePersisterService } from "@spt-aki/services/TraderPurchasePersisterService";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { FenceBaseAssortGenerator } from "@spt-diffpatch/generators/FenceBaseAssortGenerator";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { TraderAssortHelper } from "@spt-diffpatch/helpers/TraderAssortHelper";
+import { TraderHelper } from "@spt-diffpatch/helpers/TraderHelper";
+import { ITraderAssort, ITraderBase } from "@spt-diffpatch/models/eft/common/tables/ITrader";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { Traders } from "@spt-diffpatch/models/enums/Traders";
+import { ITraderConfig } from "@spt-diffpatch/models/spt/config/ITraderConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { FenceService } from "@spt-diffpatch/services/FenceService";
+import { TraderAssortService } from "@spt-diffpatch/services/TraderAssortService";
+import { TraderPurchasePersisterService } from "@spt-diffpatch/services/TraderPurchasePersisterService";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class TraderController

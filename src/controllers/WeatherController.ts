@@ -1,11 +1,11 @@
 import { inject, injectable } from "tsyringe";
 
-import { WeatherGenerator } from "@spt-aki/generators/WeatherGenerator";
-import { IWeatherData } from "@spt-aki/models/eft/weather/IWeatherData";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IWeatherConfig } from "@spt-aki/models/spt/config/IWeatherConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
+import { WeatherGenerator } from "@spt-diffpatch/generators/WeatherGenerator";
+import { IWeatherData } from "@spt-diffpatch/models/eft/weather/IWeatherData";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IWeatherConfig } from "@spt-diffpatch/models/spt/config/IWeatherConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
 
 @injectable()
 export class WeatherController

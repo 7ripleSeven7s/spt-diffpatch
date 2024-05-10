@@ -1,9 +1,9 @@
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { IUserDialogInfo } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { GiftSenderType } from "@spt-aki/models/enums/GiftSenderType";
-import { SeasonalEventType } from "@spt-aki/models/enums/SeasonalEventType";
-import { Traders } from "@spt-aki/models/enums/Traders";
-import { IBaseConfig } from "@spt-aki/models/spt/config/IBaseConfig";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { IUserDialogInfo } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { GiftSenderType } from "@spt-diffpatch/models/enums/GiftSenderType";
+import { SeasonalEventType } from "@spt-diffpatch/models/enums/SeasonalEventType";
+import { Traders } from "@spt-diffpatch/models/enums/Traders";
+import { IBaseConfig } from "@spt-diffpatch/models/spt/config/IBaseConfig";
 import { IProfileChangeEvent } from "../dialog/ISendMessageDetails";
 
 export interface IGiftsConfig extends IBaseConfig

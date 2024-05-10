@@ -1,16 +1,16 @@
 import { inject, injectable } from "tsyringe";
 
-import { HealthController } from "@spt-aki/controllers/HealthController";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IHealthTreatmentRequestData } from "@spt-aki/models/eft/health/IHealthTreatmentRequestData";
-import { IOffraidEatRequestData } from "@spt-aki/models/eft/health/IOffraidEatRequestData";
-import { IOffraidHealRequestData } from "@spt-aki/models/eft/health/IOffraidHealRequestData";
-import { ISyncHealthRequestData } from "@spt-aki/models/eft/health/ISyncHealthRequestData";
-import { IWorkoutData } from "@spt-aki/models/eft/health/IWorkoutData";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
+import { HealthController } from "@spt-diffpatch/controllers/HealthController";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IHealthTreatmentRequestData } from "@spt-diffpatch/models/eft/health/IHealthTreatmentRequestData";
+import { IOffraidEatRequestData } from "@spt-diffpatch/models/eft/health/IOffraidEatRequestData";
+import { IOffraidHealRequestData } from "@spt-diffpatch/models/eft/health/IOffraidHealRequestData";
+import { ISyncHealthRequestData } from "@spt-diffpatch/models/eft/health/ISyncHealthRequestData";
+import { IWorkoutData } from "@spt-diffpatch/models/eft/health/IWorkoutData";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
 
 @injectable()
 export class HealthCallbacks

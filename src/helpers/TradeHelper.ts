@@ -1,30 +1,30 @@
 import { inject, injectable } from "tsyringe";
 
-import { InventoryHelper } from "@spt-aki/helpers/InventoryHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { TraderAssortHelper } from "@spt-aki/helpers/TraderAssortHelper";
-import { TraderHelper } from "@spt-aki/helpers/TraderHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { IAddItemsDirectRequest } from "@spt-aki/models/eft/inventory/IAddItemsDirectRequest";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { IProcessBuyTradeRequestData } from "@spt-aki/models/eft/trade/IProcessBuyTradeRequestData";
-import { IProcessSellTradeRequestData } from "@spt-aki/models/eft/trade/IProcessSellTradeRequestData";
-import { BackendErrorCodes } from "@spt-aki/models/enums/BackendErrorCodes";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { Traders } from "@spt-aki/models/enums/Traders";
-import { IInventoryConfig } from "@spt-aki/models/spt/config/IInventoryConfig";
-import { ITraderConfig } from "@spt-aki/models/spt/config/ITraderConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { EventOutputHolder } from "@spt-aki/routers/EventOutputHolder";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { RagfairServer } from "@spt-aki/servers/RagfairServer";
-import { FenceService } from "@spt-aki/services/FenceService";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { PaymentService } from "@spt-aki/services/PaymentService";
-import { TraderPurchasePersisterService } from "@spt-aki/services/TraderPurchasePersisterService";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { InventoryHelper } from "@spt-diffpatch/helpers/InventoryHelper";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { TraderAssortHelper } from "@spt-diffpatch/helpers/TraderAssortHelper";
+import { TraderHelper } from "@spt-diffpatch/helpers/TraderHelper";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { IAddItemsDirectRequest } from "@spt-diffpatch/models/eft/inventory/IAddItemsDirectRequest";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { IProcessBuyTradeRequestData } from "@spt-diffpatch/models/eft/trade/IProcessBuyTradeRequestData";
+import { IProcessSellTradeRequestData } from "@spt-diffpatch/models/eft/trade/IProcessSellTradeRequestData";
+import { BackendErrorCodes } from "@spt-diffpatch/models/enums/BackendErrorCodes";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { Traders } from "@spt-diffpatch/models/enums/Traders";
+import { IInventoryConfig } from "@spt-diffpatch/models/spt/config/IInventoryConfig";
+import { ITraderConfig } from "@spt-diffpatch/models/spt/config/ITraderConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { EventOutputHolder } from "@spt-diffpatch/routers/EventOutputHolder";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { RagfairServer } from "@spt-diffpatch/servers/RagfairServer";
+import { FenceService } from "@spt-diffpatch/services/FenceService";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { PaymentService } from "@spt-diffpatch/services/PaymentService";
+import { TraderPurchasePersisterService } from "@spt-diffpatch/services/TraderPurchasePersisterService";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
 
 @injectable()
 export class TradeHelper

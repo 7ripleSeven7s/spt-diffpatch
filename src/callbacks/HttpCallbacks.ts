@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { OnLoad } from "@spt-aki/di/OnLoad";
-import { HttpServer } from "@spt-aki/servers/HttpServer";
+import { OnLoad } from "@spt-diffpatch/di/OnLoad";
+import { HttpServer } from "@spt-diffpatch/servers/HttpServer";
 
 @injectable()
 export class HttpCallbacks implements OnLoad

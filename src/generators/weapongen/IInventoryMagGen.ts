@@ -1,4 +1,4 @@
-import { InventoryMagGen } from "@spt-aki/generators/weapongen/InventoryMagGen";
+import { InventoryMagGen } from "@spt-diffpatch/generators/weapongen/InventoryMagGen";
 
 export interface IInventoryMagGen
 {

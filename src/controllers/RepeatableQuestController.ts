@@ -1,37 +1,37 @@
 import { inject, injectable } from "tsyringe";
 
-import { RepeatableQuestGenerator } from "@spt-aki/generators/RepeatableQuestGenerator";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { QuestHelper } from "@spt-aki/helpers/QuestHelper";
-import { RepeatableQuestHelper } from "@spt-aki/helpers/RepeatableQuestHelper";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { ILocationBase } from "@spt-aki/models/eft/common/ILocationBase";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
+import { RepeatableQuestGenerator } from "@spt-diffpatch/generators/RepeatableQuestGenerator";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { QuestHelper } from "@spt-diffpatch/helpers/QuestHelper";
+import { RepeatableQuestHelper } from "@spt-diffpatch/helpers/RepeatableQuestHelper";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { ILocationBase } from "@spt-diffpatch/models/eft/common/ILocationBase";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
 import {
     IChangeRequirement,
     IPmcDataRepeatableQuest,
     IRepeatableQuest,
-} from "@spt-aki/models/eft/common/tables/IRepeatableQuests";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { IRepeatableQuestChangeRequest } from "@spt-aki/models/eft/quests/IRepeatableQuestChangeRequest";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { ELocationName } from "@spt-aki/models/enums/ELocationName";
-import { HideoutAreas } from "@spt-aki/models/enums/HideoutAreas";
-import { QuestStatus } from "@spt-aki/models/enums/QuestStatus";
-import { SkillTypes } from "@spt-aki/models/enums/SkillTypes";
-import { IQuestConfig, IRepeatableQuestConfig } from "@spt-aki/models/spt/config/IQuestConfig";
-import { IQuestTypePool } from "@spt-aki/models/spt/repeatable/IQuestTypePool";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { EventOutputHolder } from "@spt-aki/routers/EventOutputHolder";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { PaymentService } from "@spt-aki/services/PaymentService";
-import { ProfileFixerService } from "@spt-aki/services/ProfileFixerService";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { ObjectId } from "@spt-aki/utils/ObjectId";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+} from "@spt-diffpatch/models/eft/common/tables/IRepeatableQuests";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { IRepeatableQuestChangeRequest } from "@spt-diffpatch/models/eft/quests/IRepeatableQuestChangeRequest";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { ELocationName } from "@spt-diffpatch/models/enums/ELocationName";
+import { HideoutAreas } from "@spt-diffpatch/models/enums/HideoutAreas";
+import { QuestStatus } from "@spt-diffpatch/models/enums/QuestStatus";
+import { SkillTypes } from "@spt-diffpatch/models/enums/SkillTypes";
+import { IQuestConfig, IRepeatableQuestConfig } from "@spt-diffpatch/models/spt/config/IQuestConfig";
+import { IQuestTypePool } from "@spt-diffpatch/models/spt/repeatable/IQuestTypePool";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { EventOutputHolder } from "@spt-diffpatch/routers/EventOutputHolder";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { PaymentService } from "@spt-diffpatch/services/PaymentService";
+import { ProfileFixerService } from "@spt-diffpatch/services/ProfileFixerService";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { ObjectId } from "@spt-diffpatch/utils/ObjectId";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class RepeatableQuestController

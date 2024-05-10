@@ -1,7 +1,7 @@
 import { IncomingMessage } from "node:http";
 import { injectAll, injectable } from "tsyringe";
 
-import { DynamicRouter, Router, StaticRouter } from "@spt-aki/di/Router";
+import { DynamicRouter, Router, StaticRouter } from "@spt-diffpatch/di/Router";
 
 @injectable()
 export class HttpRouter

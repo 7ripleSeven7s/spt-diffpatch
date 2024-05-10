@@ -1,9 +1,9 @@
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { ISuit } from "@spt-aki/models/eft/common/tables/ITrader";
-import { IBuyClothingRequestData } from "@spt-aki/models/eft/customization/IBuyClothingRequestData";
-import { IWearClothingRequestData } from "@spt-aki/models/eft/customization/IWearClothingRequestData";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { ISuit } from "@spt-diffpatch/models/eft/common/tables/ITrader";
+import { IBuyClothingRequestData } from "@spt-diffpatch/models/eft/customization/IBuyClothingRequestData";
+import { IWearClothingRequestData } from "@spt-diffpatch/models/eft/customization/IWearClothingRequestData";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
 
 export interface ICustomizationCallbacks
 {

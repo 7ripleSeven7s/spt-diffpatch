@@ -1,13 +1,13 @@
 import { inject, injectAll, injectable } from "tsyringe";
 
-import { ItemEventRouterDefinition } from "@spt-aki/di/Router";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { IItemEventRouterRequest } from "@spt-aki/models/eft/itemEvent/IItemEventRouterRequest";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { EventOutputHolder } from "@spt-aki/routers/EventOutputHolder";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { ItemEventRouterDefinition } from "@spt-diffpatch/di/Router";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { IItemEventRouterRequest } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterRequest";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { EventOutputHolder } from "@spt-diffpatch/routers/EventOutputHolder";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
 
 @injectable()
 export class ItemEventRouter

@@ -1,22 +1,22 @@
 import { inject, injectable } from "tsyringe";
 
-import { HandbookHelper } from "@spt-aki/helpers/HandbookHelper";
-import { InventoryHelper } from "@spt-aki/helpers/InventoryHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { PaymentHelper } from "@spt-aki/helpers/PaymentHelper";
-import { TraderHelper } from "@spt-aki/helpers/TraderHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { IAddItemsDirectRequest } from "@spt-aki/models/eft/inventory/IAddItemsDirectRequest";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { IProcessBuyTradeRequestData } from "@spt-aki/models/eft/trade/IProcessBuyTradeRequestData";
-import { IProcessSellTradeRequestData } from "@spt-aki/models/eft/trade/IProcessSellTradeRequestData";
-import { BackendErrorCodes } from "@spt-aki/models/enums/BackendErrorCodes";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
+import { HandbookHelper } from "@spt-diffpatch/helpers/HandbookHelper";
+import { InventoryHelper } from "@spt-diffpatch/helpers/InventoryHelper";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { PaymentHelper } from "@spt-diffpatch/helpers/PaymentHelper";
+import { TraderHelper } from "@spt-diffpatch/helpers/TraderHelper";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { IAddItemsDirectRequest } from "@spt-diffpatch/models/eft/inventory/IAddItemsDirectRequest";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { IProcessBuyTradeRequestData } from "@spt-diffpatch/models/eft/trade/IProcessBuyTradeRequestData";
+import { IProcessSellTradeRequestData } from "@spt-diffpatch/models/eft/trade/IProcessSellTradeRequestData";
+import { BackendErrorCodes } from "@spt-diffpatch/models/enums/BackendErrorCodes";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
 
 @injectable()
 export class PaymentService

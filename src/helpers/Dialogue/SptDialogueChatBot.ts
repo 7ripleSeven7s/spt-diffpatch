@@ -1,18 +1,18 @@
 import { inject, injectable } from "tsyringe";
 
-import { IDialogueChatBot } from "@spt-aki/helpers/Dialogue/IDialogueChatBot";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { ISendMessageRequest } from "@spt-aki/models/eft/dialog/ISendMessageRequest";
-import { IUserDialogInfo } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { GiftSentResult } from "@spt-aki/models/enums/GiftSentResult";
-import { MemberCategory } from "@spt-aki/models/enums/MemberCategory";
-import { ICoreConfig } from "@spt-aki/models/spt/config/ICoreConfig";
-import { IWeatherConfig } from "@spt-aki/models/spt/config/IWeatherConfig";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { GiftService } from "@spt-aki/services/GiftService";
-import { MailSendService } from "@spt-aki/services/MailSendService";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { IDialogueChatBot } from "@spt-diffpatch/helpers/Dialogue/IDialogueChatBot";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { ISendMessageRequest } from "@spt-diffpatch/models/eft/dialog/ISendMessageRequest";
+import { IUserDialogInfo } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { GiftSentResult } from "@spt-diffpatch/models/enums/GiftSentResult";
+import { MemberCategory } from "@spt-diffpatch/models/enums/MemberCategory";
+import { ICoreConfig } from "@spt-diffpatch/models/spt/config/ICoreConfig";
+import { IWeatherConfig } from "@spt-diffpatch/models/spt/config/IWeatherConfig";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { GiftService } from "@spt-diffpatch/services/GiftService";
+import { MailSendService } from "@spt-diffpatch/services/MailSendService";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 @injectable()
 export class SptDialogueChatBot implements IDialogueChatBot

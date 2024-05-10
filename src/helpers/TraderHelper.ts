@@ -1,25 +1,25 @@
 import { inject, injectable } from "tsyringe";
 
-import { HandbookHelper } from "@spt-aki/helpers/HandbookHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { ProfileTraderTemplate } from "@spt-aki/models/eft/common/tables/IProfileTemplate";
-import { ITraderAssort, ITraderBase, LoyaltyLevel } from "@spt-aki/models/eft/common/tables/ITrader";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { Money } from "@spt-aki/models/enums/Money";
-import { Traders } from "@spt-aki/models/enums/Traders";
-import { ITraderConfig } from "@spt-aki/models/spt/config/ITraderConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { FenceService } from "@spt-aki/services/FenceService";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { PlayerService } from "@spt-aki/services/PlayerService";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { HandbookHelper } from "@spt-diffpatch/helpers/HandbookHelper";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { ProfileTraderTemplate } from "@spt-diffpatch/models/eft/common/tables/IProfileTemplate";
+import { ITraderAssort, ITraderBase, LoyaltyLevel } from "@spt-diffpatch/models/eft/common/tables/ITrader";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { Money } from "@spt-diffpatch/models/enums/Money";
+import { Traders } from "@spt-diffpatch/models/enums/Traders";
+import { ITraderConfig } from "@spt-diffpatch/models/spt/config/ITraderConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { FenceService } from "@spt-diffpatch/services/FenceService";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { PlayerService } from "@spt-diffpatch/services/PlayerService";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class TraderHelper

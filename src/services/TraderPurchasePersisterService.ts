@@ -1,14 +1,14 @@
 import { inject, injectable } from "tsyringe";
 
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { TraderPurchaseData } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { ITraderConfig } from "@spt-aki/models/spt/config/ITraderConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { TraderPurchaseData } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { ITraderConfig } from "@spt-diffpatch/models/spt/config/ITraderConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 /**
  * Help with storing limited item purchases from traders in profile to persist them over server restarts

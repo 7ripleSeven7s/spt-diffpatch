@@ -1,36 +1,36 @@
 import { inject, injectable } from "tsyringe";
 
-import { DialogueController } from "@spt-aki/controllers/DialogueController";
-import { OnUpdate } from "@spt-aki/di/OnUpdate";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
+import { DialogueController } from "@spt-diffpatch/controllers/DialogueController";
+import { OnUpdate } from "@spt-diffpatch/di/OnUpdate";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
 import {
     IAcceptFriendRequestData,
     ICancelFriendRequestData,
-} from "@spt-aki/models/eft/dialog/IAcceptFriendRequestData";
-import { IChatServer } from "@spt-aki/models/eft/dialog/IChatServer";
-import { IClearMailMessageRequest } from "@spt-aki/models/eft/dialog/IClearMailMessageRequest";
-import { IDeleteFriendRequest } from "@spt-aki/models/eft/dialog/IDeleteFriendRequest";
-import { IFriendRequestData } from "@spt-aki/models/eft/dialog/IFriendRequestData";
-import { IFriendRequestSendResponse } from "@spt-aki/models/eft/dialog/IFriendRequestSendResponse";
-import { IGetAllAttachmentsRequestData } from "@spt-aki/models/eft/dialog/IGetAllAttachmentsRequestData";
-import { IGetAllAttachmentsResponse } from "@spt-aki/models/eft/dialog/IGetAllAttachmentsResponse";
-import { IGetChatServerListRequestData } from "@spt-aki/models/eft/dialog/IGetChatServerListRequestData";
-import { IGetFriendListDataResponse } from "@spt-aki/models/eft/dialog/IGetFriendListDataResponse";
-import { IGetMailDialogInfoRequestData } from "@spt-aki/models/eft/dialog/IGetMailDialogInfoRequestData";
-import { IGetMailDialogListRequestData } from "@spt-aki/models/eft/dialog/IGetMailDialogListRequestData";
-import { IGetMailDialogViewRequestData } from "@spt-aki/models/eft/dialog/IGetMailDialogViewRequestData";
-import { IGetMailDialogViewResponseData } from "@spt-aki/models/eft/dialog/IGetMailDialogViewResponseData";
-import { IPinDialogRequestData } from "@spt-aki/models/eft/dialog/IPinDialogRequestData";
-import { IRemoveDialogRequestData } from "@spt-aki/models/eft/dialog/IRemoveDialogRequestData";
-import { IRemoveMailMessageRequest } from "@spt-aki/models/eft/dialog/IRemoveMailMessageRequest";
-import { ISendMessageRequest } from "@spt-aki/models/eft/dialog/ISendMessageRequest";
-import { ISetDialogReadRequestData } from "@spt-aki/models/eft/dialog/ISetDialogReadRequestData";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { INullResponseData } from "@spt-aki/models/eft/httpResponse/INullResponseData";
-import { DialogueInfo } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+} from "@spt-diffpatch/models/eft/dialog/IAcceptFriendRequestData";
+import { IChatServer } from "@spt-diffpatch/models/eft/dialog/IChatServer";
+import { IClearMailMessageRequest } from "@spt-diffpatch/models/eft/dialog/IClearMailMessageRequest";
+import { IDeleteFriendRequest } from "@spt-diffpatch/models/eft/dialog/IDeleteFriendRequest";
+import { IFriendRequestData } from "@spt-diffpatch/models/eft/dialog/IFriendRequestData";
+import { IFriendRequestSendResponse } from "@spt-diffpatch/models/eft/dialog/IFriendRequestSendResponse";
+import { IGetAllAttachmentsRequestData } from "@spt-diffpatch/models/eft/dialog/IGetAllAttachmentsRequestData";
+import { IGetAllAttachmentsResponse } from "@spt-diffpatch/models/eft/dialog/IGetAllAttachmentsResponse";
+import { IGetChatServerListRequestData } from "@spt-diffpatch/models/eft/dialog/IGetChatServerListRequestData";
+import { IGetFriendListDataResponse } from "@spt-diffpatch/models/eft/dialog/IGetFriendListDataResponse";
+import { IGetMailDialogInfoRequestData } from "@spt-diffpatch/models/eft/dialog/IGetMailDialogInfoRequestData";
+import { IGetMailDialogListRequestData } from "@spt-diffpatch/models/eft/dialog/IGetMailDialogListRequestData";
+import { IGetMailDialogViewRequestData } from "@spt-diffpatch/models/eft/dialog/IGetMailDialogViewRequestData";
+import { IGetMailDialogViewResponseData } from "@spt-diffpatch/models/eft/dialog/IGetMailDialogViewResponseData";
+import { IPinDialogRequestData } from "@spt-diffpatch/models/eft/dialog/IPinDialogRequestData";
+import { IRemoveDialogRequestData } from "@spt-diffpatch/models/eft/dialog/IRemoveDialogRequestData";
+import { IRemoveMailMessageRequest } from "@spt-diffpatch/models/eft/dialog/IRemoveMailMessageRequest";
+import { ISendMessageRequest } from "@spt-diffpatch/models/eft/dialog/ISendMessageRequest";
+import { ISetDialogReadRequestData } from "@spt-diffpatch/models/eft/dialog/ISetDialogReadRequestData";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { INullResponseData } from "@spt-diffpatch/models/eft/httpResponse/INullResponseData";
+import { DialogueInfo } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class DialogueCallbacks implements OnUpdate

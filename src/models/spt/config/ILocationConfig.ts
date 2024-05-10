@@ -1,6 +1,6 @@
-import { MinMax } from "@spt-aki/models/common/MinMax";
-import { BossLocationSpawn, Wave } from "@spt-aki/models/eft/common/ILocationBase";
-import { IBaseConfig } from "@spt-aki/models/spt/config/IBaseConfig";
+import { MinMax } from "@spt-diffpatch/models/common/MinMax";
+import { BossLocationSpawn, Wave } from "@spt-diffpatch/models/eft/common/ILocationBase";
+import { IBaseConfig } from "@spt-diffpatch/models/spt/config/IBaseConfig";
 
 export interface ILocationConfig extends IBaseConfig
 {

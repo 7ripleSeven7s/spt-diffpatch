@@ -1,10 +1,10 @@
 import { inject, injectable } from "tsyringe";
 
-import { NoteCallbacks } from "@spt-aki/callbacks/NoteCallbacks";
-import { HandledRoute, ItemEventRouterDefinition } from "@spt-aki/di/Router";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { INoteActionData } from "@spt-aki/models/eft/notes/INoteActionData";
+import { NoteCallbacks } from "@spt-diffpatch/callbacks/NoteCallbacks";
+import { HandledRoute, ItemEventRouterDefinition } from "@spt-diffpatch/di/Router";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { INoteActionData } from "@spt-diffpatch/models/eft/notes/INoteActionData";
 
 @injectable()
 export class NoteItemEventRouter extends ItemEventRouterDefinition

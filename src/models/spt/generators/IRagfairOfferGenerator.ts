@@ -1,6 +1,6 @@
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { IBarterScheme } from "@spt-aki/models/eft/common/tables/ITrader";
-import { IRagfairOffer } from "@spt-aki/models/eft/ragfair/IRagfairOffer";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { IBarterScheme } from "@spt-diffpatch/models/eft/common/tables/ITrader";
+import { IRagfairOffer } from "@spt-diffpatch/models/eft/ragfair/IRagfairOffer";
 
 export interface IRagfairOfferGenerator
 {

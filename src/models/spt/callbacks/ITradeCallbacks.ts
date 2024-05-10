@@ -1,7 +1,7 @@
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { IProcessBaseTradeRequestData } from "@spt-aki/models/eft/trade/IProcessBaseTradeRequestData";
-import { IProcessRagfairTradeRequestData } from "@spt-aki/models/eft/trade/IProcessRagfairTradeRequestData";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { IProcessBaseTradeRequestData } from "@spt-diffpatch/models/eft/trade/IProcessBaseTradeRequestData";
+import { IProcessRagfairTradeRequestData } from "@spt-diffpatch/models/eft/trade/IProcessRagfairTradeRequestData";
 
 export interface ITradeCallbacks
 {

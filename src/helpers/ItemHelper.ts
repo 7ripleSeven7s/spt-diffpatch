@@ -1,24 +1,24 @@
 import { inject, injectable } from "tsyringe";
 
-import { HandbookHelper } from "@spt-aki/helpers/HandbookHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { InsuredItem } from "@spt-aki/models/eft/common/tables/IBotBase";
-import { Item, Location, Repairable } from "@spt-aki/models/eft/common/tables/IItem";
-import { IStaticAmmoDetails } from "@spt-aki/models/eft/common/tables/ILootBase";
-import { ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { EquipmentSlots } from "@spt-aki/models/enums/EquipmentSlots";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { ItemBaseClassService } from "@spt-aki/services/ItemBaseClassService";
-import { ItemFilterService } from "@spt-aki/services/ItemFilterService";
-import { LocaleService } from "@spt-aki/services/LocaleService";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { MathUtil } from "@spt-aki/utils/MathUtil";
-import { ObjectId } from "@spt-aki/utils/ObjectId";
-import { ProbabilityObject, ProbabilityObjectArray, RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { HandbookHelper } from "@spt-diffpatch/helpers/HandbookHelper";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { InsuredItem } from "@spt-diffpatch/models/eft/common/tables/IBotBase";
+import { Item, Location, Repairable } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { IStaticAmmoDetails } from "@spt-diffpatch/models/eft/common/tables/ILootBase";
+import { ITemplateItem } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
+import { EquipmentSlots } from "@spt-diffpatch/models/enums/EquipmentSlots";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { ItemBaseClassService } from "@spt-diffpatch/services/ItemBaseClassService";
+import { ItemFilterService } from "@spt-diffpatch/services/ItemFilterService";
+import { LocaleService } from "@spt-diffpatch/services/LocaleService";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { MathUtil } from "@spt-diffpatch/utils/MathUtil";
+import { ObjectId } from "@spt-diffpatch/utils/ObjectId";
+import { ProbabilityObject, ProbabilityObjectArray, RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 @injectable()
 export class ItemHelper

@@ -1,20 +1,20 @@
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { IFriendRequestData } from "@spt-aki/models/eft/dialog/IFriendRequestData";
-import { IGetAllAttachmentsRequestData } from "@spt-aki/models/eft/dialog/IGetAllAttachmentsRequestData";
-import { IGetAllAttachmentsResponse } from "@spt-aki/models/eft/dialog/IGetAllAttachmentsResponse";
-import { IGetChatServerListRequestData } from "@spt-aki/models/eft/dialog/IGetChatServerListRequestData";
-import { IGetFriendListDataResponse } from "@spt-aki/models/eft/dialog/IGetFriendListDataResponse";
-import { IGetMailDialogInfoRequestData } from "@spt-aki/models/eft/dialog/IGetMailDialogInfoRequestData";
-import { IGetMailDialogListRequestData } from "@spt-aki/models/eft/dialog/IGetMailDialogListRequestData";
-import { IGetMailDialogViewRequestData } from "@spt-aki/models/eft/dialog/IGetMailDialogViewRequestData";
-import { IGetMailDialogViewResponseData } from "@spt-aki/models/eft/dialog/IGetMailDialogViewResponseData";
-import { IPinDialogRequestData } from "@spt-aki/models/eft/dialog/IPinDialogRequestData";
-import { IRemoveDialogRequestData } from "@spt-aki/models/eft/dialog/IRemoveDialogRequestData";
-import { ISendMessageRequest } from "@spt-aki/models/eft/dialog/ISendMessageRequest";
-import { ISetDialogReadRequestData } from "@spt-aki/models/eft/dialog/ISetDialogReadRequestData";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { INullResponseData } from "@spt-aki/models/eft/httpResponse/INullResponseData";
-import { DialogueInfo } from "@spt-aki/models/eft/profile/IAkiProfile";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { IFriendRequestData } from "@spt-diffpatch/models/eft/dialog/IFriendRequestData";
+import { IGetAllAttachmentsRequestData } from "@spt-diffpatch/models/eft/dialog/IGetAllAttachmentsRequestData";
+import { IGetAllAttachmentsResponse } from "@spt-diffpatch/models/eft/dialog/IGetAllAttachmentsResponse";
+import { IGetChatServerListRequestData } from "@spt-diffpatch/models/eft/dialog/IGetChatServerListRequestData";
+import { IGetFriendListDataResponse } from "@spt-diffpatch/models/eft/dialog/IGetFriendListDataResponse";
+import { IGetMailDialogInfoRequestData } from "@spt-diffpatch/models/eft/dialog/IGetMailDialogInfoRequestData";
+import { IGetMailDialogListRequestData } from "@spt-diffpatch/models/eft/dialog/IGetMailDialogListRequestData";
+import { IGetMailDialogViewRequestData } from "@spt-diffpatch/models/eft/dialog/IGetMailDialogViewRequestData";
+import { IGetMailDialogViewResponseData } from "@spt-diffpatch/models/eft/dialog/IGetMailDialogViewResponseData";
+import { IPinDialogRequestData } from "@spt-diffpatch/models/eft/dialog/IPinDialogRequestData";
+import { IRemoveDialogRequestData } from "@spt-diffpatch/models/eft/dialog/IRemoveDialogRequestData";
+import { ISendMessageRequest } from "@spt-diffpatch/models/eft/dialog/ISendMessageRequest";
+import { ISetDialogReadRequestData } from "@spt-diffpatch/models/eft/dialog/ISetDialogReadRequestData";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { INullResponseData } from "@spt-diffpatch/models/eft/httpResponse/INullResponseData";
+import { DialogueInfo } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
 
 export interface IDialogueCallbacks
 {

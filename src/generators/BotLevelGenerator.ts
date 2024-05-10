@@ -1,13 +1,13 @@
 import { inject, injectable } from "tsyringe";
 
-import { MinMax } from "@spt-aki/models/common/MinMax";
-import { IRandomisedBotLevelResult } from "@spt-aki/models/eft/bot/IRandomisedBotLevelResult";
-import { IExpTable } from "@spt-aki/models/eft/common/IGlobals";
-import { IBotBase } from "@spt-aki/models/eft/common/tables/IBotBase";
-import { BotGenerationDetails } from "@spt-aki/models/spt/bots/BotGenerationDetails";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { MinMax } from "@spt-diffpatch/models/common/MinMax";
+import { IRandomisedBotLevelResult } from "@spt-diffpatch/models/eft/bot/IRandomisedBotLevelResult";
+import { IExpTable } from "@spt-diffpatch/models/eft/common/IGlobals";
+import { IBotBase } from "@spt-diffpatch/models/eft/common/tables/IBotBase";
+import { BotGenerationDetails } from "@spt-diffpatch/models/spt/bots/BotGenerationDetails";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 @injectable()
 export class BotLevelGenerator

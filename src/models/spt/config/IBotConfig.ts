@@ -1,7 +1,7 @@
-import { MinMax } from "@spt-aki/models/common/MinMax";
-import { GenerationData } from "@spt-aki/models/eft/common/tables/IBotType";
-import { IBaseConfig } from "@spt-aki/models/spt/config/IBaseConfig";
-import { IBotDurability } from "@spt-aki/models/spt/config/IBotDurability";
+import { MinMax } from "@spt-diffpatch/models/common/MinMax";
+import { GenerationData } from "@spt-diffpatch/models/eft/common/tables/IBotType";
+import { IBaseConfig } from "@spt-diffpatch/models/spt/config/IBaseConfig";
+import { IBotDurability } from "@spt-diffpatch/models/spt/config/IBotDurability";
 
 export interface IBotConfig extends IBaseConfig
 {

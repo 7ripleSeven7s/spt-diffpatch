@@ -1,15 +1,15 @@
 import { inject, injectable } from "tsyringe";
 
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { ITemplateItem, Props } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IRepairConfig } from "@spt-aki/models/spt/config/IRepairConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { ITemplateItem, Props } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IRepairConfig } from "@spt-diffpatch/models/spt/config/IRepairConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 @injectable()
 export class RepairHelper

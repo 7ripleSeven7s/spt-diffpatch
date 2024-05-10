@@ -2,7 +2,7 @@
 import { IncomingMessage, ServerResponse } from "node:http";
 import { injectable } from "tsyringe";
 
-import { HttpMethods } from "@spt-aki/servers/http/HttpMethods";
+import { HttpMethods } from "@spt-diffpatch/servers/http/HttpMethods";
 
 export type HandleFn = (_: string, req: IncomingMessage, resp: ServerResponse) => void;
 

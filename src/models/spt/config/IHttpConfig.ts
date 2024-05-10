@@ -1,4 +1,4 @@
-import { IBaseConfig } from "@spt-aki/models/spt/config/IBaseConfig";
+import { IBaseConfig } from "@spt-diffpatch/models/spt/config/IBaseConfig";
 
 export interface IHttpConfig extends IBaseConfig
 {

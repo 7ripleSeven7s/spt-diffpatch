@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { BotCallbacks } from "@spt-aki/callbacks/BotCallbacks";
-import { RouteAction, StaticRouter } from "@spt-aki/di/Router";
+import { BotCallbacks } from "@spt-diffpatch/callbacks/BotCallbacks";
+import { RouteAction, StaticRouter } from "@spt-diffpatch/di/Router";
 
 @injectable()
 export class BotStaticRouter extends StaticRouter

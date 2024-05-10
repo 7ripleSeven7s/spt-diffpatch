@@ -1,9 +1,9 @@
-import { IChatCommand, ICommandoCommand } from "@spt-aki/helpers/Dialogue/Commando/IChatCommand";
-import { IDialogueChatBot } from "@spt-aki/helpers/Dialogue/IDialogueChatBot";
-import { ISendMessageRequest } from "@spt-aki/models/eft/dialog/ISendMessageRequest";
-import { IUserDialogInfo } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { MailSendService } from "@spt-aki/services/MailSendService";
+import { IChatCommand, ICommandoCommand } from "@spt-diffpatch/helpers/Dialogue/Commando/IChatCommand";
+import { IDialogueChatBot } from "@spt-diffpatch/helpers/Dialogue/IDialogueChatBot";
+import { ISendMessageRequest } from "@spt-diffpatch/models/eft/dialog/ISendMessageRequest";
+import { IUserDialogInfo } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { MailSendService } from "@spt-diffpatch/services/MailSendService";
 
 export abstract class AbstractDialogueChatBot implements IDialogueChatBot
 {

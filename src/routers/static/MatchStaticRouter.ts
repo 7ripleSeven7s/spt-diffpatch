@@ -1,8 +1,8 @@
 import { inject, injectable } from "tsyringe";
 
-import { MatchCallbacks } from "@spt-aki/callbacks/MatchCallbacks";
-import { RouteAction, StaticRouter } from "@spt-aki/di/Router";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
+import { MatchCallbacks } from "@spt-diffpatch/callbacks/MatchCallbacks";
+import { RouteAction, StaticRouter } from "@spt-diffpatch/di/Router";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
 
 @injectable()
 export class MatchStaticRouter extends StaticRouter

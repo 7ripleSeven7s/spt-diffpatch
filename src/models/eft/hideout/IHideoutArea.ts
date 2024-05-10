@@ -1,5 +1,5 @@
-import { BonusSkillType } from "@spt-aki/models/enums/BonusSkillType";
-import { BonusType } from "@spt-aki/models/enums/BonusType";
+import { BonusSkillType } from "@spt-diffpatch/models/enums/BonusSkillType";
+import { BonusType } from "@spt-diffpatch/models/enums/BonusType";
 
 export interface IHideoutArea
 {

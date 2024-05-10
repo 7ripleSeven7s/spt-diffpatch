@@ -1,11 +1,11 @@
 import { inject, injectable } from "tsyringe";
 
-import { TradeController } from "@spt-aki/controllers/TradeController";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { IProcessBaseTradeRequestData } from "@spt-aki/models/eft/trade/IProcessBaseTradeRequestData";
-import { IProcessRagfairTradeRequestData } from "@spt-aki/models/eft/trade/IProcessRagfairTradeRequestData";
-import { ISellScavItemsToFenceRequestData } from "@spt-aki/models/eft/trade/ISellScavItemsToFenceRequestData";
+import { TradeController } from "@spt-diffpatch/controllers/TradeController";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { IProcessBaseTradeRequestData } from "@spt-diffpatch/models/eft/trade/IProcessBaseTradeRequestData";
+import { IProcessRagfairTradeRequestData } from "@spt-diffpatch/models/eft/trade/IProcessRagfairTradeRequestData";
+import { ISellScavItemsToFenceRequestData } from "@spt-diffpatch/models/eft/trade/ISellScavItemsToFenceRequestData";
 
 @injectable()
 export class TradeCallbacks

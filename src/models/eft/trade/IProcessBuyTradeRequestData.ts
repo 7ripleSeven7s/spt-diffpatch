@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import { IProcessBaseTradeRequestData } from "@spt-aki/models/eft/trade/IProcessBaseTradeRequestData";
+import { IProcessBaseTradeRequestData } from "@spt-diffpatch/models/eft/trade/IProcessBaseTradeRequestData";
 
 export interface IProcessBuyTradeRequestData extends IProcessBaseTradeRequestData
 {

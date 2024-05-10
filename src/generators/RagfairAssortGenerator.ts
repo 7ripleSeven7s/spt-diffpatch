@@ -1,17 +1,17 @@
 import { inject, injectable } from "tsyringe";
 
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { PresetHelper } from "@spt-aki/helpers/PresetHelper";
-import { IPreset } from "@spt-aki/models/eft/common/IGlobals";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IRagfairConfig } from "@spt-aki/models/spt/config/IRagfairConfig";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { SeasonalEventService } from "@spt-aki/services/SeasonalEventService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { PresetHelper } from "@spt-diffpatch/helpers/PresetHelper";
+import { IPreset } from "@spt-diffpatch/models/eft/common/IGlobals";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IRagfairConfig } from "@spt-diffpatch/models/spt/config/IRagfairConfig";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { SeasonalEventService } from "@spt-diffpatch/services/SeasonalEventService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
 
 @injectable()
 export class RagfairAssortGenerator

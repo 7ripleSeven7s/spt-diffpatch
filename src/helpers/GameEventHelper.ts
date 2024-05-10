@@ -1,9 +1,9 @@
 import { inject, injectable } from "tsyringe";
 
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { ISeasonalEventConfig } from "@spt-aki/models/spt/config/ISeasonalEventConfig";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { ISeasonalEventConfig } from "@spt-diffpatch/models/spt/config/ISeasonalEventConfig";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
 
 @injectable()
 export class GameEventHelper

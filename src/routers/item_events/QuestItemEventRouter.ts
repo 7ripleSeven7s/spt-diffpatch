@@ -1,10 +1,10 @@
 import { inject, injectable } from "tsyringe";
 
-import { QuestCallbacks } from "@spt-aki/callbacks/QuestCallbacks";
-import { HandledRoute, ItemEventRouterDefinition } from "@spt-aki/di/Router";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
+import { QuestCallbacks } from "@spt-diffpatch/callbacks/QuestCallbacks";
+import { HandledRoute, ItemEventRouterDefinition } from "@spt-diffpatch/di/Router";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
 
 @injectable()
 export class QuestItemEventRouter extends ItemEventRouterDefinition

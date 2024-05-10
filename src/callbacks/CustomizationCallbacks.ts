@@ -1,16 +1,16 @@
 import { inject, injectable } from "tsyringe";
 
-import { CustomizationController } from "@spt-aki/controllers/CustomizationController";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { ISuit } from "@spt-aki/models/eft/common/tables/ITrader";
-import { IBuyClothingRequestData } from "@spt-aki/models/eft/customization/IBuyClothingRequestData";
-import { IGetSuitsResponse } from "@spt-aki/models/eft/customization/IGetSuitsResponse";
-import { IWearClothingRequestData } from "@spt-aki/models/eft/customization/IWearClothingRequestData";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
+import { CustomizationController } from "@spt-diffpatch/controllers/CustomizationController";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { ISuit } from "@spt-diffpatch/models/eft/common/tables/ITrader";
+import { IBuyClothingRequestData } from "@spt-diffpatch/models/eft/customization/IBuyClothingRequestData";
+import { IGetSuitsResponse } from "@spt-diffpatch/models/eft/customization/IGetSuitsResponse";
+import { IWearClothingRequestData } from "@spt-diffpatch/models/eft/customization/IWearClothingRequestData";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
 
 @injectable()
 export class CustomizationCallbacks

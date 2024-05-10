@@ -1,4 +1,4 @@
-import { IBaseConfig, IRunIntervalValues } from "@spt-aki/models/spt/config/IBaseConfig";
+import { IBaseConfig, IRunIntervalValues } from "@spt-diffpatch/models/spt/config/IBaseConfig";
 
 export interface IHideoutConfig extends IBaseConfig
 {

@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { HealthCallbacks } from "@spt-aki/callbacks/HealthCallbacks";
-import { RouteAction, StaticRouter } from "@spt-aki/di/Router";
+import { HealthCallbacks } from "@spt-diffpatch/callbacks/HealthCallbacks";
+import { RouteAction, StaticRouter } from "@spt-diffpatch/di/Router";
 
 @injectable()
 export class HealthStaticRouter extends StaticRouter

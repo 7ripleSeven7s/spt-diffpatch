@@ -1,16 +1,16 @@
 import { inject, injectable } from "tsyringe";
 
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { Mods } from "@spt-aki/models/eft/common/tables/IBotType";
-import { ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IBotConfig } from "@spt-aki/models/spt/config/IBotConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { VFS } from "@spt-aki/utils/VFS";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { Mods } from "@spt-diffpatch/models/eft/common/tables/IBotType";
+import { ITemplateItem } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IBotConfig } from "@spt-diffpatch/models/spt/config/IBotConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { VFS } from "@spt-diffpatch/utils/VFS";
 
 /** Store a mapping between weapons, their slots and the items that fit those slots */
 @injectable()

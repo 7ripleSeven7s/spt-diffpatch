@@ -1,10 +1,10 @@
 import path from "node:path";
 import { inject, injectable } from "tsyringe";
 
-import { HttpServerHelper } from "@spt-aki/helpers/HttpServerHelper";
-import { BundleHashCacheService } from "@spt-aki/services/cache/BundleHashCacheService";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { VFS } from "@spt-aki/utils/VFS";
+import { HttpServerHelper } from "@spt-diffpatch/helpers/HttpServerHelper";
+import { BundleHashCacheService } from "@spt-diffpatch/services/cache/BundleHashCacheService";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { VFS } from "@spt-diffpatch/utils/VFS";
 
 export class BundleInfo
 {

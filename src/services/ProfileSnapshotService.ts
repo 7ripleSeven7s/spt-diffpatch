@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { IAkiProfile } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { IAkiProfile } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
 
 @injectable()
 export class ProfileSnapshotService

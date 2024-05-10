@@ -1,10 +1,10 @@
-import { ILooseLoot, SpawnpointTemplate } from "@spt-aki/models/eft/common/ILooseLoot";
+import { ILooseLoot, SpawnpointTemplate } from "@spt-diffpatch/models/eft/common/ILooseLoot";
 import {
     IStaticAmmoDetails,
     IStaticContainerProps,
     IStaticForcedProps,
     IStaticLootDetails,
-} from "@spt-aki/models/eft/common/tables/ILootBase";
+} from "@spt-diffpatch/models/eft/common/tables/ILootBase";
 
 export interface ILocationGenerator
 {

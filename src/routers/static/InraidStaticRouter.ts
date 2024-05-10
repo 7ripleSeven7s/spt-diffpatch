@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { InraidCallbacks } from "@spt-aki/callbacks/InraidCallbacks";
-import { RouteAction, StaticRouter } from "@spt-aki/di/Router";
+import { InraidCallbacks } from "@spt-diffpatch/callbacks/InraidCallbacks";
+import { RouteAction, StaticRouter } from "@spt-diffpatch/di/Router";
 
 @injectable()
 export class InraidStaticRouter extends StaticRouter

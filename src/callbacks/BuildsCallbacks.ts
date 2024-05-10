@@ -1,12 +1,12 @@
-import { BuildController } from "@spt-aki/controllers/BuildController";
-import { ISetMagazineRequest } from "@spt-aki/models/eft/builds/ISetMagazineRequest";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { INullResponseData } from "@spt-aki/models/eft/httpResponse/INullResponseData";
-import { IPresetBuildActionRequestData } from "@spt-aki/models/eft/presetBuild/IPresetBuildActionRequestData";
-import { IRemoveBuildRequestData } from "@spt-aki/models/eft/presetBuild/IRemoveBuildRequestData";
-import { IUserBuilds } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
+import { BuildController } from "@spt-diffpatch/controllers/BuildController";
+import { ISetMagazineRequest } from "@spt-diffpatch/models/eft/builds/ISetMagazineRequest";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { INullResponseData } from "@spt-diffpatch/models/eft/httpResponse/INullResponseData";
+import { IPresetBuildActionRequestData } from "@spt-diffpatch/models/eft/presetBuild/IPresetBuildActionRequestData";
+import { IRemoveBuildRequestData } from "@spt-diffpatch/models/eft/presetBuild/IRemoveBuildRequestData";
+import { IUserBuilds } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
 import { inject, injectable } from "tsyringe";
 
 @injectable()

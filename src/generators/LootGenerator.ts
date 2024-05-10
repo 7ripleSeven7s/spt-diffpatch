@@ -1,25 +1,25 @@
 import { inject, injectable } from "tsyringe";
 
-import { InventoryHelper } from "@spt-aki/helpers/InventoryHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { PresetHelper } from "@spt-aki/helpers/PresetHelper";
-import { WeightedRandomHelper } from "@spt-aki/helpers/WeightedRandomHelper";
-import { IPreset } from "@spt-aki/models/eft/common/IGlobals";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { AddItem } from "@spt-aki/models/eft/inventory/IAddItemRequestData";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { ISealedAirdropContainerSettings, RewardDetails } from "@spt-aki/models/spt/config/IInventoryConfig";
-import { LootItem } from "@spt-aki/models/spt/services/LootItem";
-import { LootRequest } from "@spt-aki/models/spt/services/LootRequest";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { ItemFilterService } from "@spt-aki/services/ItemFilterService";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { RagfairLinkedItemService } from "@spt-aki/services/RagfairLinkedItemService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { InventoryHelper } from "@spt-diffpatch/helpers/InventoryHelper";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { PresetHelper } from "@spt-diffpatch/helpers/PresetHelper";
+import { WeightedRandomHelper } from "@spt-diffpatch/helpers/WeightedRandomHelper";
+import { IPreset } from "@spt-diffpatch/models/eft/common/IGlobals";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { ITemplateItem } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
+import { AddItem } from "@spt-diffpatch/models/eft/inventory/IAddItemRequestData";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
+import { ISealedAirdropContainerSettings, RewardDetails } from "@spt-diffpatch/models/spt/config/IInventoryConfig";
+import { LootItem } from "@spt-diffpatch/models/spt/services/LootItem";
+import { LootRequest } from "@spt-diffpatch/models/spt/services/LootRequest";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { ItemFilterService } from "@spt-diffpatch/services/ItemFilterService";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { RagfairLinkedItemService } from "@spt-diffpatch/services/RagfairLinkedItemService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 type ItemLimit = { current: number; max: number; };
 

@@ -1,13 +1,13 @@
 import { inject, injectable } from "tsyringe";
 
-import { INotification, NotificationType } from "@spt-aki/models/eft/notifier/INotifier";
-import { Dialogue, IUserDialogInfo, Message } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { MemberCategory } from "@spt-aki/models/enums/MemberCategory";
-import { MessageType } from "@spt-aki/models/enums/MessageType";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { WebSocketServer } from "@spt-aki/servers/WebSocketServer";
-import { NotificationService } from "@spt-aki/services/NotificationService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
+import { INotification, NotificationType } from "@spt-diffpatch/models/eft/notifier/INotifier";
+import { Dialogue, IUserDialogInfo, Message } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { MemberCategory } from "@spt-diffpatch/models/enums/MemberCategory";
+import { MessageType } from "@spt-diffpatch/models/enums/MessageType";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { WebSocketServer } from "@spt-diffpatch/servers/WebSocketServer";
+import { NotificationService } from "@spt-diffpatch/services/NotificationService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
 
 @injectable()
 export class NotificationSendHelper

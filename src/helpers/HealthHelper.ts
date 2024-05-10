@@ -1,15 +1,15 @@
 import { inject, injectable } from "tsyringe";
 
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { ISyncHealthRequestData } from "@spt-aki/models/eft/health/ISyncHealthRequestData";
-import { Effects, IAkiProfile } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IHealthConfig } from "@spt-aki/models/spt/config/IHealthConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { ISyncHealthRequestData } from "@spt-diffpatch/models/eft/health/ISyncHealthRequestData";
+import { Effects, IAkiProfile } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IHealthConfig } from "@spt-diffpatch/models/spt/config/IHealthConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class HealthHelper

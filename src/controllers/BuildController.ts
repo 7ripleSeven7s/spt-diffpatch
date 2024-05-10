@@ -1,18 +1,18 @@
 import { inject, injectable } from "tsyringe";
 
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { ISetMagazineRequest } from "@spt-aki/models/eft/builds/ISetMagazineRequest";
-import { IPresetBuildActionRequestData } from "@spt-aki/models/eft/presetBuild/IPresetBuildActionRequestData";
-import { IRemoveBuildRequestData } from "@spt-aki/models/eft/presetBuild/IRemoveBuildRequestData";
-import { IEquipmentBuild, IMagazineBuild, IUserBuilds, IWeaponBuild } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { EquipmentBuildType } from "@spt-aki/models/enums/EquipmentBuildType";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { EventOutputHolder } from "@spt-aki/routers/EventOutputHolder";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { ISetMagazineRequest } from "@spt-diffpatch/models/eft/builds/ISetMagazineRequest";
+import { IPresetBuildActionRequestData } from "@spt-diffpatch/models/eft/presetBuild/IPresetBuildActionRequestData";
+import { IRemoveBuildRequestData } from "@spt-diffpatch/models/eft/presetBuild/IRemoveBuildRequestData";
+import { IEquipmentBuild, IMagazineBuild, IUserBuilds, IWeaponBuild } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { EquipmentBuildType } from "@spt-diffpatch/models/enums/EquipmentBuildType";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { EventOutputHolder } from "@spt-diffpatch/routers/EventOutputHolder";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
 
 @injectable()
 export class BuildController

@@ -1,8 +1,8 @@
-import { IChangeRequestData } from "@spt-aki/models/eft/launcher/IChangeRequestData";
-import { IGetMiniProfileRequestData } from "@spt-aki/models/eft/launcher/IGetMiniProfileRequestData";
-import { ILoginRequestData } from "@spt-aki/models/eft/launcher/ILoginRequestData";
-import { IRegisterData } from "@spt-aki/models/eft/launcher/IRegisterData";
-import { IRemoveProfileData } from "@spt-aki/models/eft/launcher/IRemoveProfileData";
+import { IChangeRequestData } from "@spt-diffpatch/models/eft/launcher/IChangeRequestData";
+import { IGetMiniProfileRequestData } from "@spt-diffpatch/models/eft/launcher/IGetMiniProfileRequestData";
+import { ILoginRequestData } from "@spt-diffpatch/models/eft/launcher/ILoginRequestData";
+import { IRegisterData } from "@spt-diffpatch/models/eft/launcher/IRegisterData";
+import { IRemoveProfileData } from "@spt-diffpatch/models/eft/launcher/IRemoveProfileData";
 
 export interface ILauncherCallbacks
 {

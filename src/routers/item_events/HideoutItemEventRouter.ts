@@ -1,10 +1,10 @@
 import { inject, injectable } from "tsyringe";
 
-import { HideoutCallbacks } from "@spt-aki/callbacks/HideoutCallbacks";
-import { HandledRoute, ItemEventRouterDefinition } from "@spt-aki/di/Router";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { HideoutEventActions } from "@spt-aki/models/enums/HideoutEventActions";
+import { HideoutCallbacks } from "@spt-diffpatch/callbacks/HideoutCallbacks";
+import { HandledRoute, ItemEventRouterDefinition } from "@spt-diffpatch/di/Router";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { HideoutEventActions } from "@spt-diffpatch/models/enums/HideoutEventActions";
 
 @injectable()
 export class HideoutItemEventRouter extends ItemEventRouterDefinition

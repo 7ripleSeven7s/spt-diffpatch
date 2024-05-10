@@ -1,5 +1,5 @@
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { Dialogue, IUserBuilds } from "@spt-aki/models/eft/profile/IAkiProfile";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { Dialogue, IUserBuilds } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
 
 export interface IProfileTemplates
 {

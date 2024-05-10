@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { LocationCallbacks } from "@spt-aki/callbacks/LocationCallbacks";
-import { RouteAction, StaticRouter } from "@spt-aki/di/Router";
+import { LocationCallbacks } from "@spt-diffpatch/callbacks/LocationCallbacks";
+import { RouteAction, StaticRouter } from "@spt-diffpatch/di/Router";
 
 @injectable()
 export class LocationStaticRouter extends StaticRouter

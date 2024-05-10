@@ -1,31 +1,31 @@
 import { inject, injectable } from "tsyringe";
 
-import { RagfairController } from "@spt-aki/controllers/RagfairController";
-import { OnLoad } from "@spt-aki/di/OnLoad";
-import { OnUpdate } from "@spt-aki/di/OnUpdate";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { INullResponseData } from "@spt-aki/models/eft/httpResponse/INullResponseData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { IAddOfferRequestData } from "@spt-aki/models/eft/ragfair/IAddOfferRequestData";
-import { IExtendOfferRequestData } from "@spt-aki/models/eft/ragfair/IExtendOfferRequestData";
-import { IGetItemPriceResult } from "@spt-aki/models/eft/ragfair/IGetItemPriceResult";
-import { IGetMarketPriceRequestData } from "@spt-aki/models/eft/ragfair/IGetMarketPriceRequestData";
-import { IGetOffersResult } from "@spt-aki/models/eft/ragfair/IGetOffersResult";
-import { IGetRagfairOfferByIdRequest } from "@spt-aki/models/eft/ragfair/IGetRagfairOfferByIdRequest";
-import { IRagfairOffer } from "@spt-aki/models/eft/ragfair/IRagfairOffer";
-import { IRemoveOfferRequestData } from "@spt-aki/models/eft/ragfair/IRemoveOfferRequestData";
-import { ISearchRequestData } from "@spt-aki/models/eft/ragfair/ISearchRequestData";
-import { ISendRagfairReportRequestData } from "@spt-aki/models/eft/ragfair/ISendRagfairReportRequestData";
-import { IStorePlayerOfferTaxAmountRequestData } from "@spt-aki/models/eft/ragfair/IStorePlayerOfferTaxAmountRequestData";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IRagfairConfig } from "@spt-aki/models/spt/config/IRagfairConfig";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { RagfairServer } from "@spt-aki/servers/RagfairServer";
-import { RagfairTaxService } from "@spt-aki/services/RagfairTaxService";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { RagfairController } from "@spt-diffpatch/controllers/RagfairController";
+import { OnLoad } from "@spt-diffpatch/di/OnLoad";
+import { OnUpdate } from "@spt-diffpatch/di/OnUpdate";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { INullResponseData } from "@spt-diffpatch/models/eft/httpResponse/INullResponseData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { IAddOfferRequestData } from "@spt-diffpatch/models/eft/ragfair/IAddOfferRequestData";
+import { IExtendOfferRequestData } from "@spt-diffpatch/models/eft/ragfair/IExtendOfferRequestData";
+import { IGetItemPriceResult } from "@spt-diffpatch/models/eft/ragfair/IGetItemPriceResult";
+import { IGetMarketPriceRequestData } from "@spt-diffpatch/models/eft/ragfair/IGetMarketPriceRequestData";
+import { IGetOffersResult } from "@spt-diffpatch/models/eft/ragfair/IGetOffersResult";
+import { IGetRagfairOfferByIdRequest } from "@spt-diffpatch/models/eft/ragfair/IGetRagfairOfferByIdRequest";
+import { IRagfairOffer } from "@spt-diffpatch/models/eft/ragfair/IRagfairOffer";
+import { IRemoveOfferRequestData } from "@spt-diffpatch/models/eft/ragfair/IRemoveOfferRequestData";
+import { ISearchRequestData } from "@spt-diffpatch/models/eft/ragfair/ISearchRequestData";
+import { ISendRagfairReportRequestData } from "@spt-diffpatch/models/eft/ragfair/ISendRagfairReportRequestData";
+import { IStorePlayerOfferTaxAmountRequestData } from "@spt-diffpatch/models/eft/ragfair/IStorePlayerOfferTaxAmountRequestData";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IRagfairConfig } from "@spt-diffpatch/models/spt/config/IRagfairConfig";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { RagfairServer } from "@spt-diffpatch/servers/RagfairServer";
+import { RagfairTaxService } from "@spt-diffpatch/services/RagfairTaxService";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
 
 /**
  * Handle ragfair related callback events

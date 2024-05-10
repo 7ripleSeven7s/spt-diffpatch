@@ -1,12 +1,12 @@
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { INullResponseData } from "@spt-aki/models/eft/httpResponse/INullResponseData";
-import { IProfileChangeNicknameRequestData } from "@spt-aki/models/eft/profile/IProfileChangeNicknameRequestData";
-import { IProfileChangeVoiceRequestData } from "@spt-aki/models/eft/profile/IProfileChangeVoiceRequestData";
-import { IProfileCreateRequestData } from "@spt-aki/models/eft/profile/IProfileCreateRequestData";
-import { ISearchFriendRequestData } from "@spt-aki/models/eft/profile/ISearchFriendRequestData";
-import { ISearchFriendResponse } from "@spt-aki/models/eft/profile/ISearchFriendResponse";
-import { IValidateNicknameRequestData } from "@spt-aki/models/eft/profile/IValidateNicknameRequestData";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { INullResponseData } from "@spt-diffpatch/models/eft/httpResponse/INullResponseData";
+import { IProfileChangeNicknameRequestData } from "@spt-diffpatch/models/eft/profile/IProfileChangeNicknameRequestData";
+import { IProfileChangeVoiceRequestData } from "@spt-diffpatch/models/eft/profile/IProfileChangeVoiceRequestData";
+import { IProfileCreateRequestData } from "@spt-diffpatch/models/eft/profile/IProfileCreateRequestData";
+import { ISearchFriendRequestData } from "@spt-diffpatch/models/eft/profile/ISearchFriendRequestData";
+import { ISearchFriendResponse } from "@spt-diffpatch/models/eft/profile/ISearchFriendResponse";
+import { IValidateNicknameRequestData } from "@spt-diffpatch/models/eft/profile/IValidateNicknameRequestData";
 
 export interface IProfileCallbacks
 {

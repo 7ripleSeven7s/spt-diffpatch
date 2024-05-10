@@ -1,5 +1,5 @@
-import { MinMax } from "@spt-aki/models/common/MinMax";
-import { IBaseConfig, IRunIntervalValues } from "@spt-aki/models/spt/config/IBaseConfig";
+import { MinMax } from "@spt-diffpatch/models/common/MinMax";
+import { IBaseConfig, IRunIntervalValues } from "@spt-diffpatch/models/spt/config/IBaseConfig";
 
 export interface IRagfairConfig extends IBaseConfig
 {

@@ -1,25 +1,25 @@
 import { inject, injectable } from "tsyringe";
 
-import { OnLoad } from "@spt-aki/di/OnLoad";
-import { HandbookHelper } from "@spt-aki/helpers/HandbookHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { PresetHelper } from "@spt-aki/helpers/PresetHelper";
-import { TraderHelper } from "@spt-aki/helpers/TraderHelper";
-import { MinMax } from "@spt-aki/models/common/MinMax";
-import { IPreset } from "@spt-aki/models/eft/common/IGlobals";
-import { HandbookItem } from "@spt-aki/models/eft/common/tables/IHandbookBase";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { IBarterScheme } from "@spt-aki/models/eft/common/tables/ITrader";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { Money } from "@spt-aki/models/enums/Money";
-import { IRagfairConfig, IUnreasonableModPrices } from "@spt-aki/models/spt/config/IRagfairConfig";
-import { IRagfairServerPrices } from "@spt-aki/models/spt/ragfair/IRagfairServerPrices";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { OnLoad } from "@spt-diffpatch/di/OnLoad";
+import { HandbookHelper } from "@spt-diffpatch/helpers/HandbookHelper";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { PresetHelper } from "@spt-diffpatch/helpers/PresetHelper";
+import { TraderHelper } from "@spt-diffpatch/helpers/TraderHelper";
+import { MinMax } from "@spt-diffpatch/models/common/MinMax";
+import { IPreset } from "@spt-diffpatch/models/eft/common/IGlobals";
+import { HandbookItem } from "@spt-diffpatch/models/eft/common/tables/IHandbookBase";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { IBarterScheme } from "@spt-diffpatch/models/eft/common/tables/ITrader";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { Money } from "@spt-diffpatch/models/enums/Money";
+import { IRagfairConfig, IUnreasonableModPrices } from "@spt-diffpatch/models/spt/config/IRagfairConfig";
+import { IRagfairServerPrices } from "@spt-diffpatch/models/spt/ragfair/IRagfairServerPrices";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 /**
  * Stores flea prices for items as well as methods to interact with them

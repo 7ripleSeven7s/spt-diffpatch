@@ -1,8 +1,8 @@
 import { inject, injectable } from "tsyringe";
 
-import { IPackageJsonData } from "@spt-aki/models/spt/mod/IPackageJsonData";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
+import { IPackageJsonData } from "@spt-diffpatch/models/spt/mod/IPackageJsonData";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
 
 @injectable()
 export class ModLoadOrder

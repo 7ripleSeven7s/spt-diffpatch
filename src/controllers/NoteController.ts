@@ -1,10 +1,10 @@
 import { inject, injectable } from "tsyringe";
 
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { Note } from "@spt-aki/models/eft/common/tables/IBotBase";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { INoteActionData } from "@spt-aki/models/eft/notes/INoteActionData";
-import { EventOutputHolder } from "@spt-aki/routers/EventOutputHolder";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { Note } from "@spt-diffpatch/models/eft/common/tables/IBotBase";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { INoteActionData } from "@spt-diffpatch/models/eft/notes/INoteActionData";
+import { EventOutputHolder } from "@spt-diffpatch/routers/EventOutputHolder";
 
 @injectable()
 export class NoteController

@@ -1,7 +1,7 @@
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IGetInsuranceCostRequestData } from "@spt-aki/models/eft/insurance/IGetInsuranceCostRequestData";
-import { IInsureRequestData } from "@spt-aki/models/eft/insurance/IInsureRequestData";
-import { IAkiProfile } from "@spt-aki/models/eft/profile/IAkiProfile";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IGetInsuranceCostRequestData } from "@spt-diffpatch/models/eft/insurance/IGetInsuranceCostRequestData";
+import { IInsureRequestData } from "@spt-diffpatch/models/eft/insurance/IInsureRequestData";
+import { IAkiProfile } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
 
 export interface IInsuranceCallbacks
 {

@@ -1,19 +1,19 @@
 import { inject, injectable } from "tsyringe";
 
-import { RagfairOfferGenerator } from "@spt-aki/generators/RagfairOfferGenerator";
-import { TraderAssortHelper } from "@spt-aki/helpers/TraderAssortHelper";
-import { TraderHelper } from "@spt-aki/helpers/TraderHelper";
-import { IRagfairOffer } from "@spt-aki/models/eft/ragfair/IRagfairOffer";
-import { ISearchRequestData } from "@spt-aki/models/eft/ragfair/ISearchRequestData";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { Traders } from "@spt-aki/models/enums/Traders";
-import { IRagfairConfig } from "@spt-aki/models/spt/config/IRagfairConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { RagfairCategoriesService } from "@spt-aki/services/RagfairCategoriesService";
-import { RagfairOfferService } from "@spt-aki/services/RagfairOfferService";
-import { RagfairRequiredItemsService } from "@spt-aki/services/RagfairRequiredItemsService";
+import { RagfairOfferGenerator } from "@spt-diffpatch/generators/RagfairOfferGenerator";
+import { TraderAssortHelper } from "@spt-diffpatch/helpers/TraderAssortHelper";
+import { TraderHelper } from "@spt-diffpatch/helpers/TraderHelper";
+import { IRagfairOffer } from "@spt-diffpatch/models/eft/ragfair/IRagfairOffer";
+import { ISearchRequestData } from "@spt-diffpatch/models/eft/ragfair/ISearchRequestData";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { Traders } from "@spt-diffpatch/models/enums/Traders";
+import { IRagfairConfig } from "@spt-diffpatch/models/spt/config/IRagfairConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { RagfairCategoriesService } from "@spt-diffpatch/services/RagfairCategoriesService";
+import { RagfairOfferService } from "@spt-diffpatch/services/RagfairOfferService";
+import { RagfairRequiredItemsService } from "@spt-diffpatch/services/RagfairRequiredItemsService";
 
 @injectable()
 export class RagfairServer

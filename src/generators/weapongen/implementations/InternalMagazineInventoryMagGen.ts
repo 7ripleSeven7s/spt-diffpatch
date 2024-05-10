@@ -1,8 +1,8 @@
 import { inject, injectable } from "tsyringe";
 
-import { IInventoryMagGen } from "@spt-aki/generators/weapongen/IInventoryMagGen";
-import { InventoryMagGen } from "@spt-aki/generators/weapongen/InventoryMagGen";
-import { BotWeaponGeneratorHelper } from "@spt-aki/helpers/BotWeaponGeneratorHelper";
+import { IInventoryMagGen } from "@spt-diffpatch/generators/weapongen/IInventoryMagGen";
+import { InventoryMagGen } from "@spt-diffpatch/generators/weapongen/InventoryMagGen";
+import { BotWeaponGeneratorHelper } from "@spt-diffpatch/helpers/BotWeaponGeneratorHelper";
 
 @injectable()
 export class InternalMagazineInventoryMagGen implements IInventoryMagGen

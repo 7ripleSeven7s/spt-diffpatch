@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { HandbookController } from "@spt-aki/controllers/HandbookController";
-import { OnLoad } from "@spt-aki/di/OnLoad";
+import { HandbookController } from "@spt-diffpatch/controllers/HandbookController";
+import { OnLoad } from "@spt-diffpatch/di/OnLoad";
 
 @injectable()
 export class HandbookCallbacks implements OnLoad

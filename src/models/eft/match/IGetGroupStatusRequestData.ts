@@ -1,4 +1,4 @@
-import { RaidMode } from "@spt-aki/models/enums/RaidMode";
+import { RaidMode } from "@spt-diffpatch/models/enums/RaidMode";
 
 export interface IGetGroupStatusRequestData
 {

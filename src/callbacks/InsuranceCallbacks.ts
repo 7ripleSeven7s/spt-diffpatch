@@ -1,18 +1,18 @@
 import { inject, injectable } from "tsyringe";
 
-import { InsuranceController } from "@spt-aki/controllers/InsuranceController";
-import { OnUpdate } from "@spt-aki/di/OnUpdate";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { IGetInsuranceCostRequestData } from "@spt-aki/models/eft/insurance/IGetInsuranceCostRequestData";
-import { IGetInsuranceCostResponseData } from "@spt-aki/models/eft/insurance/IGetInsuranceCostResponseData";
-import { IInsureRequestData } from "@spt-aki/models/eft/insurance/IInsureRequestData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IInsuranceConfig } from "@spt-aki/models/spt/config/IInsuranceConfig";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { InsuranceService } from "@spt-aki/services/InsuranceService";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
+import { InsuranceController } from "@spt-diffpatch/controllers/InsuranceController";
+import { OnUpdate } from "@spt-diffpatch/di/OnUpdate";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { IGetInsuranceCostRequestData } from "@spt-diffpatch/models/eft/insurance/IGetInsuranceCostRequestData";
+import { IGetInsuranceCostResponseData } from "@spt-diffpatch/models/eft/insurance/IGetInsuranceCostResponseData";
+import { IInsureRequestData } from "@spt-diffpatch/models/eft/insurance/IInsureRequestData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IInsuranceConfig } from "@spt-diffpatch/models/spt/config/IInsuranceConfig";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { InsuranceService } from "@spt-diffpatch/services/InsuranceService";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
 
 @injectable()
 export class InsuranceCallbacks implements OnUpdate

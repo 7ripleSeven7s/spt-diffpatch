@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { AchievementCallbacks } from "@spt-aki/callbacks/AchievementCallbacks";
-import { RouteAction, StaticRouter } from "@spt-aki/di/Router";
+import { AchievementCallbacks } from "@spt-diffpatch/callbacks/AchievementCallbacks";
+import { RouteAction, StaticRouter } from "@spt-diffpatch/di/Router";
 
 @injectable()
 export class AchievementStaticRouter extends StaticRouter

@@ -1,14 +1,14 @@
 import { inject, injectable } from "tsyringe";
 
-import { ILocationBase } from "@spt-aki/models/eft/common/ILocationBase";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { ILocationConfig } from "@spt-aki/models/spt/config/ILocationConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { ILocationBase } from "@spt-diffpatch/models/eft/common/ILocationBase";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { ILocationConfig } from "@spt-diffpatch/models/spt/config/ILocationConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 /** Service for adding new zones to a maps OpenZones property */
 @injectable()

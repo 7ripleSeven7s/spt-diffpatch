@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { InsuranceCallbacks } from "@spt-aki/callbacks/InsuranceCallbacks";
-import { RouteAction, StaticRouter } from "@spt-aki/di/Router";
+import { InsuranceCallbacks } from "@spt-diffpatch/callbacks/InsuranceCallbacks";
+import { RouteAction, StaticRouter } from "@spt-diffpatch/di/Router";
 
 @injectable()
 export class InsuranceStaticRouter extends StaticRouter

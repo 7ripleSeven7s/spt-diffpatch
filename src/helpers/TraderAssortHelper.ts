@@ -1,26 +1,26 @@
 import { inject, injectable } from "tsyringe";
 
-import { RagfairAssortGenerator } from "@spt-aki/generators/RagfairAssortGenerator";
-import { RagfairOfferGenerator } from "@spt-aki/generators/RagfairOfferGenerator";
-import { AssortHelper } from "@spt-aki/helpers/AssortHelper";
-import { PaymentHelper } from "@spt-aki/helpers/PaymentHelper";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { TraderHelper } from "@spt-aki/helpers/TraderHelper";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { ITrader, ITraderAssort } from "@spt-aki/models/eft/common/tables/ITrader";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { Traders } from "@spt-aki/models/enums/Traders";
-import { ITraderConfig } from "@spt-aki/models/spt/config/ITraderConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { FenceService } from "@spt-aki/services/FenceService";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { TraderAssortService } from "@spt-aki/services/TraderAssortService";
-import { TraderPurchasePersisterService } from "@spt-aki/services/TraderPurchasePersisterService";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { MathUtil } from "@spt-aki/utils/MathUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { RagfairAssortGenerator } from "@spt-diffpatch/generators/RagfairAssortGenerator";
+import { RagfairOfferGenerator } from "@spt-diffpatch/generators/RagfairOfferGenerator";
+import { AssortHelper } from "@spt-diffpatch/helpers/AssortHelper";
+import { PaymentHelper } from "@spt-diffpatch/helpers/PaymentHelper";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { TraderHelper } from "@spt-diffpatch/helpers/TraderHelper";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { ITrader, ITraderAssort } from "@spt-diffpatch/models/eft/common/tables/ITrader";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { Traders } from "@spt-diffpatch/models/enums/Traders";
+import { ITraderConfig } from "@spt-diffpatch/models/spt/config/ITraderConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { FenceService } from "@spt-diffpatch/services/FenceService";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { TraderAssortService } from "@spt-diffpatch/services/TraderAssortService";
+import { TraderPurchasePersisterService } from "@spt-diffpatch/services/TraderPurchasePersisterService";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { MathUtil } from "@spt-diffpatch/utils/MathUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class TraderAssortHelper

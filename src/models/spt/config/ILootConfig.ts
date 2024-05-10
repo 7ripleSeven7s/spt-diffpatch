@@ -1,5 +1,5 @@
-import { Spawnpoint } from "@spt-aki/models/eft/common/ILooseLoot";
-import { IBaseConfig } from "@spt-aki/models/spt/config/IBaseConfig";
+import { Spawnpoint } from "@spt-diffpatch/models/eft/common/ILooseLoot";
+import { IBaseConfig } from "@spt-diffpatch/models/spt/config/IBaseConfig";
 
 export interface ILootConfig extends IBaseConfig
 {

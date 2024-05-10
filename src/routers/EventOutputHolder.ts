@@ -1,12 +1,12 @@
 import { inject, injectable } from "tsyringe";
 
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IHideoutImprovement, Productive, TraderInfo } from "@spt-aki/models/eft/common/tables/IBotBase";
-import { ProfileChange, TraderData } from "@spt-aki/models/eft/itemEvent/IItemEventRouterBase";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IHideoutImprovement, Productive, TraderInfo } from "@spt-diffpatch/models/eft/common/tables/IBotBase";
+import { ProfileChange, TraderData } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterBase";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class EventOutputHolder

@@ -1,4 +1,4 @@
-import { ELocationName } from "@spt-aki/models/enums/ELocationName";
+import { ELocationName } from "@spt-diffpatch/models/enums/ELocationName";
 
 export interface IQuestTypePool
 {

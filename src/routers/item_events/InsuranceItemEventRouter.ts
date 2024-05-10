@@ -1,9 +1,9 @@
 import { inject, injectable } from "tsyringe";
 
-import { InsuranceCallbacks } from "@spt-aki/callbacks/InsuranceCallbacks";
-import { HandledRoute, ItemEventRouterDefinition } from "@spt-aki/di/Router";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
+import { InsuranceCallbacks } from "@spt-diffpatch/callbacks/InsuranceCallbacks";
+import { HandledRoute, ItemEventRouterDefinition } from "@spt-diffpatch/di/Router";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
 
 @injectable()
 export class InsuranceItemEventRouter extends ItemEventRouterDefinition

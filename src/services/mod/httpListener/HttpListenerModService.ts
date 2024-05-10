@@ -1,8 +1,8 @@
 import { IncomingMessage, ServerResponse } from "node:http";
 import { DependencyContainer, injectable } from "tsyringe";
 
-import { IHttpListener } from "@spt-aki/servers/http/IHttpListener";
-import { HttpListenerMod } from "@spt-aki/services/mod/httpListener/HttpListenerMod";
+import { IHttpListener } from "@spt-diffpatch/servers/http/IHttpListener";
+import { HttpListenerMod } from "@spt-diffpatch/services/mod/httpListener/HttpListenerMod";
 
 @injectable()
 export class HttpListenerModService

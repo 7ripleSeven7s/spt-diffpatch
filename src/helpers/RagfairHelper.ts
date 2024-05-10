@@ -1,20 +1,20 @@
 import { inject, injectable } from "tsyringe";
 
-import { HandbookHelper } from "@spt-aki/helpers/HandbookHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { TraderAssortHelper } from "@spt-aki/helpers/TraderAssortHelper";
-import { UtilityHelper } from "@spt-aki/helpers/UtilityHelper";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { ITraderAssort } from "@spt-aki/models/eft/common/tables/ITrader";
-import { ISearchRequestData } from "@spt-aki/models/eft/ragfair/ISearchRequestData";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { Money } from "@spt-aki/models/enums/Money";
-import { IRagfairConfig } from "@spt-aki/models/spt/config/IRagfairConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { RagfairLinkedItemService } from "@spt-aki/services/RagfairLinkedItemService";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { HandbookHelper } from "@spt-diffpatch/helpers/HandbookHelper";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { TraderAssortHelper } from "@spt-diffpatch/helpers/TraderAssortHelper";
+import { UtilityHelper } from "@spt-diffpatch/helpers/UtilityHelper";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { ITraderAssort } from "@spt-diffpatch/models/eft/common/tables/ITrader";
+import { ISearchRequestData } from "@spt-diffpatch/models/eft/ragfair/ISearchRequestData";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { Money } from "@spt-diffpatch/models/enums/Money";
+import { IRagfairConfig } from "@spt-diffpatch/models/spt/config/IRagfairConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { RagfairLinkedItemService } from "@spt-diffpatch/services/RagfairLinkedItemService";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
 
 @injectable()
 export class RagfairHelper

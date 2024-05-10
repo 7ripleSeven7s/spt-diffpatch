@@ -1,8 +1,8 @@
 import { inject, injectable } from "tsyringe";
 
-import { ICreateGroupRequestData } from "@spt-aki/models/eft/match/ICreateGroupRequestData";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { ICreateGroupRequestData } from "@spt-diffpatch/models/eft/match/ICreateGroupRequestData";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class MatchLocationService

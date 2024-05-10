@@ -1,10 +1,10 @@
 import { inject, injectable } from "tsyringe";
 
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { ILocaleConfig } from "@spt-aki/models/spt/config/ILocaleConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { ILocaleConfig } from "@spt-diffpatch/models/spt/config/ILocaleConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
 
 /**
  * Handles getting locales from config or users machine

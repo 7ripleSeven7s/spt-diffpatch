@@ -1,9 +1,9 @@
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { IGameConfigResponse } from "@spt-aki/models/eft/game/IGameConfigResponse";
-import { IGameEmptyCrcRequestData } from "@spt-aki/models/eft/game/IGameEmptyCrcRequestData";
-import { IVersionValidateRequestData } from "@spt-aki/models/eft/game/IVersionValidateRequestData";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { INullResponseData } from "@spt-aki/models/eft/httpResponse/INullResponseData";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { IGameConfigResponse } from "@spt-diffpatch/models/eft/game/IGameConfigResponse";
+import { IGameEmptyCrcRequestData } from "@spt-diffpatch/models/eft/game/IGameEmptyCrcRequestData";
+import { IVersionValidateRequestData } from "@spt-diffpatch/models/eft/game/IVersionValidateRequestData";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { INullResponseData } from "@spt-diffpatch/models/eft/httpResponse/INullResponseData";
 
 export interface IGameCallbacks
 {

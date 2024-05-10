@@ -1,31 +1,31 @@
 import { inject, injectable } from "tsyringe";
 
-import { ApplicationContext } from "@spt-aki/context/ApplicationContext";
-import { ContextVariableType } from "@spt-aki/context/ContextVariableType";
-import { BotGenerator } from "@spt-aki/generators/BotGenerator";
-import { BotDifficultyHelper } from "@spt-aki/helpers/BotDifficultyHelper";
-import { BotHelper } from "@spt-aki/helpers/BotHelper";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { IGenerateBotsRequestData } from "@spt-aki/models/eft/bot/IGenerateBotsRequestData";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IBotBase } from "@spt-aki/models/eft/common/tables/IBotBase";
-import { IBotCore } from "@spt-aki/models/eft/common/tables/IBotCore";
-import { Difficulty } from "@spt-aki/models/eft/common/tables/IBotType";
-import { IGetRaidConfigurationRequestData } from "@spt-aki/models/eft/match/IGetRaidConfigurationRequestData";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { WildSpawnTypeNumber } from "@spt-aki/models/enums/WildSpawnTypeNumber";
-import { BotGenerationDetails } from "@spt-aki/models/spt/bots/BotGenerationDetails";
-import { IBotConfig } from "@spt-aki/models/spt/config/IBotConfig";
-import { IPmcConfig } from "@spt-aki/models/spt/config/IPmcConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { BotGenerationCacheService } from "@spt-aki/services/BotGenerationCacheService";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { MatchBotDetailsCacheService } from "@spt-aki/services/MatchBotDetailsCacheService";
-import { SeasonalEventService } from "@spt-aki/services/SeasonalEventService";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { ApplicationContext } from "@spt-diffpatch/context/ApplicationContext";
+import { ContextVariableType } from "@spt-diffpatch/context/ContextVariableType";
+import { BotGenerator } from "@spt-diffpatch/generators/BotGenerator";
+import { BotDifficultyHelper } from "@spt-diffpatch/helpers/BotDifficultyHelper";
+import { BotHelper } from "@spt-diffpatch/helpers/BotHelper";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { IGenerateBotsRequestData } from "@spt-diffpatch/models/eft/bot/IGenerateBotsRequestData";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IBotBase } from "@spt-diffpatch/models/eft/common/tables/IBotBase";
+import { IBotCore } from "@spt-diffpatch/models/eft/common/tables/IBotCore";
+import { Difficulty } from "@spt-diffpatch/models/eft/common/tables/IBotType";
+import { IGetRaidConfigurationRequestData } from "@spt-diffpatch/models/eft/match/IGetRaidConfigurationRequestData";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { WildSpawnTypeNumber } from "@spt-diffpatch/models/enums/WildSpawnTypeNumber";
+import { BotGenerationDetails } from "@spt-diffpatch/models/spt/bots/BotGenerationDetails";
+import { IBotConfig } from "@spt-diffpatch/models/spt/config/IBotConfig";
+import { IPmcConfig } from "@spt-diffpatch/models/spt/config/IPmcConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { BotGenerationCacheService } from "@spt-diffpatch/services/BotGenerationCacheService";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { MatchBotDetailsCacheService } from "@spt-diffpatch/services/MatchBotDetailsCacheService";
+import { SeasonalEventService } from "@spt-diffpatch/services/SeasonalEventService";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 @injectable()
 export class BotController

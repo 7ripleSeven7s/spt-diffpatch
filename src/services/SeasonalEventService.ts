@@ -1,23 +1,23 @@
 import { inject, injectable } from "tsyringe";
 
-import { BotHelper } from "@spt-aki/helpers/BotHelper";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { IConfig } from "@spt-aki/models/eft/common/IGlobals";
-import { ILocation } from "@spt-aki/models/eft/common/ILocation";
-import { BossLocationSpawn } from "@spt-aki/models/eft/common/ILocationBase";
-import { Inventory } from "@spt-aki/models/eft/common/tables/IBotType";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { SeasonalEventType } from "@spt-aki/models/enums/SeasonalEventType";
-import { IHttpConfig } from "@spt-aki/models/spt/config/IHttpConfig";
-import { IQuestConfig } from "@spt-aki/models/spt/config/IQuestConfig";
-import { ISeasonalEvent, ISeasonalEventConfig } from "@spt-aki/models/spt/config/ISeasonalEventConfig";
-import { IWeatherConfig } from "@spt-aki/models/spt/config/IWeatherConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { GiftService } from "@spt-aki/services/GiftService";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { DatabaseImporter } from "@spt-aki/utils/DatabaseImporter";
+import { BotHelper } from "@spt-diffpatch/helpers/BotHelper";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { IConfig } from "@spt-diffpatch/models/eft/common/IGlobals";
+import { ILocation } from "@spt-diffpatch/models/eft/common/ILocation";
+import { BossLocationSpawn } from "@spt-diffpatch/models/eft/common/ILocationBase";
+import { Inventory } from "@spt-diffpatch/models/eft/common/tables/IBotType";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { SeasonalEventType } from "@spt-diffpatch/models/enums/SeasonalEventType";
+import { IHttpConfig } from "@spt-diffpatch/models/spt/config/IHttpConfig";
+import { IQuestConfig } from "@spt-diffpatch/models/spt/config/IQuestConfig";
+import { ISeasonalEvent, ISeasonalEventConfig } from "@spt-diffpatch/models/spt/config/ISeasonalEventConfig";
+import { IWeatherConfig } from "@spt-diffpatch/models/spt/config/IWeatherConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { GiftService } from "@spt-diffpatch/services/GiftService";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { DatabaseImporter } from "@spt-diffpatch/utils/DatabaseImporter";
 
 @injectable()
 export class SeasonalEventService

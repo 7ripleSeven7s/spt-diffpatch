@@ -1,29 +1,29 @@
 import { inject, injectable } from "tsyringe";
 
-import { HandbookHelper } from "@spt-aki/helpers/HandbookHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { PresetHelper } from "@spt-aki/helpers/PresetHelper";
-import { IPreset } from "@spt-aki/models/eft/common/IGlobals";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { IQuestReward, IQuestRewards } from "@spt-aki/models/eft/common/tables/IQuest";
-import { ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { Money } from "@spt-aki/models/enums/Money";
-import { QuestRewardType } from "@spt-aki/models/enums/QuestRewardType";
-import { Traders } from "@spt-aki/models/enums/Traders";
-import { IBaseQuestConfig, IQuestConfig, IRepeatableQuestConfig } from "@spt-aki/models/spt/config/IQuestConfig";
-import { ExhaustableArray } from "@spt-aki/models/spt/server/ExhaustableArray";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { ItemFilterService } from "@spt-aki/services/ItemFilterService";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { SeasonalEventService } from "@spt-aki/services/SeasonalEventService";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { MathUtil } from "@spt-aki/utils/MathUtil";
-import { ObjectId } from "@spt-aki/utils/ObjectId";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { HandbookHelper } from "@spt-diffpatch/helpers/HandbookHelper";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { PresetHelper } from "@spt-diffpatch/helpers/PresetHelper";
+import { IPreset } from "@spt-diffpatch/models/eft/common/IGlobals";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { IQuestReward, IQuestRewards } from "@spt-diffpatch/models/eft/common/tables/IQuest";
+import { ITemplateItem } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { Money } from "@spt-diffpatch/models/enums/Money";
+import { QuestRewardType } from "@spt-diffpatch/models/enums/QuestRewardType";
+import { Traders } from "@spt-diffpatch/models/enums/Traders";
+import { IBaseQuestConfig, IQuestConfig, IRepeatableQuestConfig } from "@spt-diffpatch/models/spt/config/IQuestConfig";
+import { ExhaustableArray } from "@spt-diffpatch/models/spt/server/ExhaustableArray";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { ItemFilterService } from "@spt-diffpatch/services/ItemFilterService";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { SeasonalEventService } from "@spt-diffpatch/services/SeasonalEventService";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { MathUtil } from "@spt-diffpatch/utils/MathUtil";
+import { ObjectId } from "@spt-diffpatch/utils/ObjectId";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 @injectable()
 export class RepeatableQuestRewardGenerator

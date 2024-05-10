@@ -1,7 +1,7 @@
-import { IGenerateBotsRequestData } from "@spt-aki/models/eft/bot/IGenerateBotsRequestData";
-import { IBotBase } from "@spt-aki/models/eft/common/tables/IBotBase";
-import { IBotCore } from "@spt-aki/models/eft/common/tables/IBotCore";
-import { Difficulty } from "@spt-aki/models/eft/common/tables/IBotType";
+import { IGenerateBotsRequestData } from "@spt-diffpatch/models/eft/bot/IGenerateBotsRequestData";
+import { IBotBase } from "@spt-diffpatch/models/eft/common/tables/IBotBase";
+import { IBotCore } from "@spt-diffpatch/models/eft/common/tables/IBotCore";
+import { Difficulty } from "@spt-diffpatch/models/eft/common/tables/IBotType";
 
 export interface IBotController
 {

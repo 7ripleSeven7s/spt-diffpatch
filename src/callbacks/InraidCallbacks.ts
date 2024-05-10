@@ -1,12 +1,12 @@
 import { inject, injectable } from "tsyringe";
 
-import { InraidController } from "@spt-aki/controllers/InraidController";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { INullResponseData } from "@spt-aki/models/eft/httpResponse/INullResponseData";
-import { IItemDeliveryRequestData } from "@spt-aki/models/eft/inRaid/IItemDeliveryRequestData";
-import { IRegisterPlayerRequestData } from "@spt-aki/models/eft/inRaid/IRegisterPlayerRequestData";
-import { ISaveProgressRequestData } from "@spt-aki/models/eft/inRaid/ISaveProgressRequestData";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
+import { InraidController } from "@spt-diffpatch/controllers/InraidController";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { INullResponseData } from "@spt-diffpatch/models/eft/httpResponse/INullResponseData";
+import { IItemDeliveryRequestData } from "@spt-diffpatch/models/eft/inRaid/IItemDeliveryRequestData";
+import { IRegisterPlayerRequestData } from "@spt-diffpatch/models/eft/inRaid/IRegisterPlayerRequestData";
+import { ISaveProgressRequestData } from "@spt-diffpatch/models/eft/inRaid/ISaveProgressRequestData";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
 
 /**
  * Handle client requests

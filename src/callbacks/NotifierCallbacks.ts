@@ -1,14 +1,14 @@
 import { inject, injectable } from "tsyringe";
 
-import { NotifierController } from "@spt-aki/controllers/NotifierController";
-import { HttpServerHelper } from "@spt-aki/helpers/HttpServerHelper";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { INotifierChannel } from "@spt-aki/models/eft/notifier/INotifier";
-import { ISelectProfileRequestData } from "@spt-aki/models/eft/notifier/ISelectProfileRequestData";
-import { ISelectProfileResponse } from "@spt-aki/models/eft/notifier/ISelectProfileResponse";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { NotifierController } from "@spt-diffpatch/controllers/NotifierController";
+import { HttpServerHelper } from "@spt-diffpatch/helpers/HttpServerHelper";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { INotifierChannel } from "@spt-diffpatch/models/eft/notifier/INotifier";
+import { ISelectProfileRequestData } from "@spt-diffpatch/models/eft/notifier/ISelectProfileRequestData";
+import { ISelectProfileResponse } from "@spt-diffpatch/models/eft/notifier/ISelectProfileResponse";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
 
 @injectable()
 export class NotifierCallbacks

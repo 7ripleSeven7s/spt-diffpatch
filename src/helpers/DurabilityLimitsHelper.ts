@@ -1,11 +1,11 @@
 import { inject, injectable } from "tsyringe";
 
-import { BotHelper } from "@spt-aki/helpers/BotHelper";
-import { ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IBotConfig } from "@spt-aki/models/spt/config/IBotConfig";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { BotHelper } from "@spt-diffpatch/helpers/BotHelper";
+import { ITemplateItem } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IBotConfig } from "@spt-diffpatch/models/spt/config/IBotConfig";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 @injectable()
 export class DurabilityLimitsHelper

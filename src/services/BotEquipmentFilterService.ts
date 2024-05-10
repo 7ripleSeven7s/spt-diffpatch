@@ -1,25 +1,25 @@
 import { inject, injectable } from "tsyringe";
 
-import { BotHelper } from "@spt-aki/helpers/BotHelper";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
+import { BotHelper } from "@spt-diffpatch/helpers/BotHelper";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
 import {
     EquipmentChances,
     Generation,
     GenerationData,
     IBotType,
     ModsChances,
-} from "@spt-aki/models/eft/common/tables/IBotType";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { BotGenerationDetails } from "@spt-aki/models/spt/bots/BotGenerationDetails";
+} from "@spt-diffpatch/models/eft/common/tables/IBotType";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { BotGenerationDetails } from "@spt-diffpatch/models/spt/bots/BotGenerationDetails";
 import {
     EquipmentFilterDetails,
     EquipmentFilters,
     IAdjustmentDetails,
     IBotConfig,
     WeightingAdjustmentDetails,
-} from "@spt-aki/models/spt/config/IBotConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
+} from "@spt-diffpatch/models/spt/config/IBotConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
 
 @injectable()
 export class BotEquipmentFilterService

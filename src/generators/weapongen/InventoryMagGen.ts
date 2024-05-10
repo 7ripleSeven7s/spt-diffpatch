@@ -1,6 +1,6 @@
-import { Inventory } from "@spt-aki/models/eft/common/tables/IBotBase";
-import { GenerationData } from "@spt-aki/models/eft/common/tables/IBotType";
-import { ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
+import { Inventory } from "@spt-diffpatch/models/eft/common/tables/IBotBase";
+import { GenerationData } from "@spt-diffpatch/models/eft/common/tables/IBotType";
+import { ITemplateItem } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
 
 export class InventoryMagGen
 {

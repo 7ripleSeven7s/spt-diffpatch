@@ -1,9 +1,9 @@
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IHealthTreatmentRequestData } from "@spt-aki/models/eft/health/IHealthTreatmentRequestData";
-import { IOffraidEatRequestData } from "@spt-aki/models/eft/health/IOffraidEatRequestData";
-import { IOffraidHealRequestData } from "@spt-aki/models/eft/health/IOffraidHealRequestData";
-import { ISyncHealthRequestData } from "@spt-aki/models/eft/health/ISyncHealthRequestData";
-import { IAkiProfile } from "@spt-aki/models/eft/profile/IAkiProfile";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IHealthTreatmentRequestData } from "@spt-diffpatch/models/eft/health/IHealthTreatmentRequestData";
+import { IOffraidEatRequestData } from "@spt-diffpatch/models/eft/health/IOffraidEatRequestData";
+import { IOffraidHealRequestData } from "@spt-diffpatch/models/eft/health/IOffraidHealRequestData";
+import { ISyncHealthRequestData } from "@spt-diffpatch/models/eft/health/ISyncHealthRequestData";
+import { IAkiProfile } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
 
 export interface IHealthCallbacks
 {

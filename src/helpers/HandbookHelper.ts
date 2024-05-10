@@ -1,13 +1,13 @@
 import { inject, injectable } from "tsyringe";
 
-import { Category } from "@spt-aki/models/eft/common/tables/IHandbookBase";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { Money } from "@spt-aki/models/enums/Money";
-import { IItemConfig } from "@spt-aki/models/spt/config/IItemConfig";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { Category } from "@spt-diffpatch/models/eft/common/tables/IHandbookBase";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { Money } from "@spt-diffpatch/models/enums/Money";
+import { IItemConfig } from "@spt-diffpatch/models/spt/config/IItemConfig";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
 
 class LookupItem<T, I>
 {

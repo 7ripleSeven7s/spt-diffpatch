@@ -1,12 +1,12 @@
 import { inject, injectable } from "tsyringe";
 
-import { LocationController } from "@spt-aki/controllers/LocationController";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { ILocationBase } from "@spt-aki/models/eft/common/ILocationBase";
-import { ILocationsGenerateAllResponse } from "@spt-aki/models/eft/common/ILocationsSourceDestinationBase";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { IGetLocationRequestData } from "@spt-aki/models/eft/location/IGetLocationRequestData";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
+import { LocationController } from "@spt-diffpatch/controllers/LocationController";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { ILocationBase } from "@spt-diffpatch/models/eft/common/ILocationBase";
+import { ILocationsGenerateAllResponse } from "@spt-diffpatch/models/eft/common/ILocationsSourceDestinationBase";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { IGetLocationRequestData } from "@spt-diffpatch/models/eft/location/IGetLocationRequestData";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
 
 @injectable()
 export class LocationCallbacks

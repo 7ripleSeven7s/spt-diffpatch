@@ -1,22 +1,22 @@
 import { inject, injectable } from "tsyringe";
 
-import { ApplicationContext } from "@spt-aki/context/ApplicationContext";
-import { ContextVariableType } from "@spt-aki/context/ContextVariableType";
-import { WeightedRandomHelper } from "@spt-aki/helpers/WeightedRandomHelper";
-import { ILocationBase } from "@spt-aki/models/eft/common/ILocationBase";
-import { IGetRaidTimeRequest } from "@spt-aki/models/eft/game/IGetRaidTimeRequest";
-import { ExtractChange, IGetRaidTimeResponse } from "@spt-aki/models/eft/game/IGetRaidTimeResponse";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
+import { ApplicationContext } from "@spt-diffpatch/context/ApplicationContext";
+import { ContextVariableType } from "@spt-diffpatch/context/ContextVariableType";
+import { WeightedRandomHelper } from "@spt-diffpatch/helpers/WeightedRandomHelper";
+import { ILocationBase } from "@spt-diffpatch/models/eft/common/ILocationBase";
+import { IGetRaidTimeRequest } from "@spt-diffpatch/models/eft/game/IGetRaidTimeRequest";
+import { ExtractChange, IGetRaidTimeResponse } from "@spt-diffpatch/models/eft/game/IGetRaidTimeResponse";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
 import {
     ILocationConfig,
     IScavRaidTimeLocationSettings,
     LootMultiplier,
-} from "@spt-aki/models/spt/config/ILocationConfig";
-import { IRaidChanges } from "@spt-aki/models/spt/location/IRaidChanges";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+} from "@spt-diffpatch/models/spt/config/ILocationConfig";
+import { IRaidChanges } from "@spt-diffpatch/models/spt/location/IRaidChanges";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 @injectable()
 export class RaidTimeAdjustmentService

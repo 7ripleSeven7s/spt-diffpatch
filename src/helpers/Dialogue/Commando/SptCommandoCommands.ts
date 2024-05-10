@@ -1,10 +1,10 @@
-import { IChatCommand } from "@spt-aki/helpers/Dialogue/Commando/IChatCommand";
-import { ISptCommand } from "@spt-aki/helpers/Dialogue/Commando/SptCommands/ISptCommand";
-import { ISendMessageRequest } from "@spt-aki/models/eft/dialog/ISendMessageRequest";
-import { IUserDialogInfo } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { ICoreConfig } from "@spt-aki/models/spt/config/ICoreConfig";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
+import { IChatCommand } from "@spt-diffpatch/helpers/Dialogue/Commando/IChatCommand";
+import { ISptCommand } from "@spt-diffpatch/helpers/Dialogue/Commando/SptCommands/ISptCommand";
+import { ISendMessageRequest } from "@spt-diffpatch/models/eft/dialog/ISendMessageRequest";
+import { IUserDialogInfo } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { ICoreConfig } from "@spt-diffpatch/models/spt/config/ICoreConfig";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
 import { inject, injectAll, injectable } from "tsyringe";
 
 @injectable()

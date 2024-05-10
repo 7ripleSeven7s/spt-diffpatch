@@ -1,25 +1,25 @@
 import { inject, injectable } from "tsyringe";
 
-import { GameController } from "@spt-aki/controllers/GameController";
-import { OnLoad } from "@spt-aki/di/OnLoad";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { ICheckVersionResponse } from "@spt-aki/models/eft/game/ICheckVersionResponse";
-import { ICurrentGroupResponse } from "@spt-aki/models/eft/game/ICurrentGroupResponse";
-import { IGameConfigResponse } from "@spt-aki/models/eft/game/IGameConfigResponse";
-import { IGameEmptyCrcRequestData } from "@spt-aki/models/eft/game/IGameEmptyCrcRequestData";
-import { IGameKeepAliveResponse } from "@spt-aki/models/eft/game/IGameKeepAliveResponse";
-import { IGameLogoutResponseData } from "@spt-aki/models/eft/game/IGameLogoutResponseData";
-import { IGameStartResponse } from "@spt-aki/models/eft/game/IGameStartResponse";
-import { IGetRaidTimeRequest } from "@spt-aki/models/eft/game/IGetRaidTimeRequest";
-import { IGetRaidTimeResponse } from "@spt-aki/models/eft/game/IGetRaidTimeResponse";
-import { IReportNicknameRequestData } from "@spt-aki/models/eft/game/IReportNicknameRequestData";
-import { IServerDetails } from "@spt-aki/models/eft/game/IServerDetails";
-import { IVersionValidateRequestData } from "@spt-aki/models/eft/game/IVersionValidateRequestData";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { INullResponseData } from "@spt-aki/models/eft/httpResponse/INullResponseData";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
-import { Watermark } from "@spt-aki/utils/Watermark";
+import { GameController } from "@spt-diffpatch/controllers/GameController";
+import { OnLoad } from "@spt-diffpatch/di/OnLoad";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { ICheckVersionResponse } from "@spt-diffpatch/models/eft/game/ICheckVersionResponse";
+import { ICurrentGroupResponse } from "@spt-diffpatch/models/eft/game/ICurrentGroupResponse";
+import { IGameConfigResponse } from "@spt-diffpatch/models/eft/game/IGameConfigResponse";
+import { IGameEmptyCrcRequestData } from "@spt-diffpatch/models/eft/game/IGameEmptyCrcRequestData";
+import { IGameKeepAliveResponse } from "@spt-diffpatch/models/eft/game/IGameKeepAliveResponse";
+import { IGameLogoutResponseData } from "@spt-diffpatch/models/eft/game/IGameLogoutResponseData";
+import { IGameStartResponse } from "@spt-diffpatch/models/eft/game/IGameStartResponse";
+import { IGetRaidTimeRequest } from "@spt-diffpatch/models/eft/game/IGetRaidTimeRequest";
+import { IGetRaidTimeResponse } from "@spt-diffpatch/models/eft/game/IGetRaidTimeResponse";
+import { IReportNicknameRequestData } from "@spt-diffpatch/models/eft/game/IReportNicknameRequestData";
+import { IServerDetails } from "@spt-diffpatch/models/eft/game/IServerDetails";
+import { IVersionValidateRequestData } from "@spt-diffpatch/models/eft/game/IVersionValidateRequestData";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { INullResponseData } from "@spt-diffpatch/models/eft/httpResponse/INullResponseData";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
+import { Watermark } from "@spt-diffpatch/utils/Watermark";
 
 @injectable()
 export class GameCallbacks implements OnLoad

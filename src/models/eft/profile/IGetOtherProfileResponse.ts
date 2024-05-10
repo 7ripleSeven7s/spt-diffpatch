@@ -1,4 +1,4 @@
-import { OverallCounters, Skills } from "@spt-aki/models/eft/common/tables/IBotBase";
+import { OverallCounters, Skills } from "@spt-diffpatch/models/eft/common/tables/IBotBase";
 import { Item } from "../common/tables/IItem";
 
 export interface IGetOtherProfileResponse

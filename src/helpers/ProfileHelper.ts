@@ -1,25 +1,25 @@
 import { inject, injectable } from "tsyringe";
 
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { Common, CounterKeyValue, Stats } from "@spt-aki/models/eft/common/tables/IBotBase";
-import { IAkiProfile } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { IValidateNicknameRequestData } from "@spt-aki/models/eft/profile/IValidateNicknameRequestData";
-import { AccountTypes } from "@spt-aki/models/enums/AccountTypes";
-import { BonusType } from "@spt-aki/models/enums/BonusType";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { SkillTypes } from "@spt-aki/models/enums/SkillTypes";
-import { IInventoryConfig } from "@spt-aki/models/spt/config/IInventoryConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { ProfileSnapshotService } from "@spt-aki/services/ProfileSnapshotService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
-import { Watermark } from "@spt-aki/utils/Watermark";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { Common, CounterKeyValue, Stats } from "@spt-diffpatch/models/eft/common/tables/IBotBase";
+import { IAkiProfile } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { IValidateNicknameRequestData } from "@spt-diffpatch/models/eft/profile/IValidateNicknameRequestData";
+import { AccountTypes } from "@spt-diffpatch/models/enums/AccountTypes";
+import { BonusType } from "@spt-diffpatch/models/enums/BonusType";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { SkillTypes } from "@spt-diffpatch/models/enums/SkillTypes";
+import { IInventoryConfig } from "@spt-diffpatch/models/spt/config/IInventoryConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { ProfileSnapshotService } from "@spt-diffpatch/services/ProfileSnapshotService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
+import { Watermark } from "@spt-diffpatch/utils/Watermark";
 
 @injectable()
 export class ProfileHelper

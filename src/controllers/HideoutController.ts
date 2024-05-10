@@ -1,59 +1,59 @@
 import { inject, injectable } from "tsyringe";
 
-import { ScavCaseRewardGenerator } from "@spt-aki/generators/ScavCaseRewardGenerator";
-import { HideoutHelper } from "@spt-aki/helpers/HideoutHelper";
-import { InventoryHelper } from "@spt-aki/helpers/InventoryHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { PaymentHelper } from "@spt-aki/helpers/PaymentHelper";
-import { PresetHelper } from "@spt-aki/helpers/PresetHelper";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
+import { ScavCaseRewardGenerator } from "@spt-diffpatch/generators/ScavCaseRewardGenerator";
+import { HideoutHelper } from "@spt-diffpatch/helpers/HideoutHelper";
+import { InventoryHelper } from "@spt-diffpatch/helpers/InventoryHelper";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { PaymentHelper } from "@spt-diffpatch/helpers/PaymentHelper";
+import { PresetHelper } from "@spt-diffpatch/helpers/PresetHelper";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
 import {
     HideoutArea,
     ITaskConditionCounter,
     Product,
     Production,
     ScavCase,
-} from "@spt-aki/models/eft/common/tables/IBotBase";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { HideoutUpgradeCompleteRequestData } from "@spt-aki/models/eft/hideout/HideoutUpgradeCompleteRequestData";
-import { IHandleQTEEventRequestData } from "@spt-aki/models/eft/hideout/IHandleQTEEventRequestData";
-import { IHideoutArea, Stage } from "@spt-aki/models/eft/hideout/IHideoutArea";
-import { IHideoutCancelProductionRequestData } from "@spt-aki/models/eft/hideout/IHideoutCancelProductionRequestData";
-import { IHideoutContinuousProductionStartRequestData } from "@spt-aki/models/eft/hideout/IHideoutContinuousProductionStartRequestData";
-import { IHideoutImproveAreaRequestData } from "@spt-aki/models/eft/hideout/IHideoutImproveAreaRequestData";
-import { IHideoutProduction } from "@spt-aki/models/eft/hideout/IHideoutProduction";
-import { IHideoutPutItemInRequestData } from "@spt-aki/models/eft/hideout/IHideoutPutItemInRequestData";
-import { IHideoutScavCaseStartRequestData } from "@spt-aki/models/eft/hideout/IHideoutScavCaseStartRequestData";
-import { IHideoutSingleProductionStartRequestData } from "@spt-aki/models/eft/hideout/IHideoutSingleProductionStartRequestData";
-import { IHideoutTakeItemOutRequestData } from "@spt-aki/models/eft/hideout/IHideoutTakeItemOutRequestData";
-import { IHideoutTakeProductionRequestData } from "@spt-aki/models/eft/hideout/IHideoutTakeProductionRequestData";
-import { IHideoutToggleAreaRequestData } from "@spt-aki/models/eft/hideout/IHideoutToggleAreaRequestData";
-import { IHideoutUpgradeRequestData } from "@spt-aki/models/eft/hideout/IHideoutUpgradeRequestData";
-import { IQteData } from "@spt-aki/models/eft/hideout/IQteData";
-import { IRecordShootingRangePoints } from "@spt-aki/models/eft/hideout/IRecordShootingRangePoints";
-import { IAddItemDirectRequest } from "@spt-aki/models/eft/inventory/IAddItemDirectRequest";
-import { IAddItemsDirectRequest } from "@spt-aki/models/eft/inventory/IAddItemsDirectRequest";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { BackendErrorCodes } from "@spt-aki/models/enums/BackendErrorCodes";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { HideoutAreas } from "@spt-aki/models/enums/HideoutAreas";
-import { SkillTypes } from "@spt-aki/models/enums/SkillTypes";
-import { IHideoutConfig } from "@spt-aki/models/spt/config/IHideoutConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { EventOutputHolder } from "@spt-aki/routers/EventOutputHolder";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { FenceService } from "@spt-aki/services/FenceService";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { PlayerService } from "@spt-aki/services/PlayerService";
-import { ProfileActivityService } from "@spt-aki/services/ProfileActivityService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+} from "@spt-diffpatch/models/eft/common/tables/IBotBase";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { HideoutUpgradeCompleteRequestData } from "@spt-diffpatch/models/eft/hideout/HideoutUpgradeCompleteRequestData";
+import { IHandleQTEEventRequestData } from "@spt-diffpatch/models/eft/hideout/IHandleQTEEventRequestData";
+import { IHideoutArea, Stage } from "@spt-diffpatch/models/eft/hideout/IHideoutArea";
+import { IHideoutCancelProductionRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutCancelProductionRequestData";
+import { IHideoutContinuousProductionStartRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutContinuousProductionStartRequestData";
+import { IHideoutImproveAreaRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutImproveAreaRequestData";
+import { IHideoutProduction } from "@spt-diffpatch/models/eft/hideout/IHideoutProduction";
+import { IHideoutPutItemInRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutPutItemInRequestData";
+import { IHideoutScavCaseStartRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutScavCaseStartRequestData";
+import { IHideoutSingleProductionStartRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutSingleProductionStartRequestData";
+import { IHideoutTakeItemOutRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutTakeItemOutRequestData";
+import { IHideoutTakeProductionRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutTakeProductionRequestData";
+import { IHideoutToggleAreaRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutToggleAreaRequestData";
+import { IHideoutUpgradeRequestData } from "@spt-diffpatch/models/eft/hideout/IHideoutUpgradeRequestData";
+import { IQteData } from "@spt-diffpatch/models/eft/hideout/IQteData";
+import { IRecordShootingRangePoints } from "@spt-diffpatch/models/eft/hideout/IRecordShootingRangePoints";
+import { IAddItemDirectRequest } from "@spt-diffpatch/models/eft/inventory/IAddItemDirectRequest";
+import { IAddItemsDirectRequest } from "@spt-diffpatch/models/eft/inventory/IAddItemsDirectRequest";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { BackendErrorCodes } from "@spt-diffpatch/models/enums/BackendErrorCodes";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { HideoutAreas } from "@spt-diffpatch/models/enums/HideoutAreas";
+import { SkillTypes } from "@spt-diffpatch/models/enums/SkillTypes";
+import { IHideoutConfig } from "@spt-diffpatch/models/spt/config/IHideoutConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { EventOutputHolder } from "@spt-diffpatch/routers/EventOutputHolder";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { FenceService } from "@spt-diffpatch/services/FenceService";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { PlayerService } from "@spt-diffpatch/services/PlayerService";
+import { ProfileActivityService } from "@spt-diffpatch/services/ProfileActivityService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class HideoutController

@@ -1,24 +1,24 @@
 import { inject, injectable } from "tsyringe";
 
-import { HttpServerHelper } from "@spt-aki/helpers/HttpServerHelper";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { PreAkiModLoader } from "@spt-aki/loaders/PreAkiModLoader";
-import { IChangeRequestData } from "@spt-aki/models/eft/launcher/IChangeRequestData";
-import { ILoginRequestData } from "@spt-aki/models/eft/launcher/ILoginRequestData";
-import { IRegisterData } from "@spt-aki/models/eft/launcher/IRegisterData";
-import { Info, ModDetails } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { IConnectResponse } from "@spt-aki/models/eft/profile/IConnectResponse";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { ICoreConfig } from "@spt-aki/models/spt/config/ICoreConfig";
-import { IPackageJsonData } from "@spt-aki/models/spt/mod/IPackageJsonData";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { HttpServerHelper } from "@spt-diffpatch/helpers/HttpServerHelper";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { PreAkiModLoader } from "@spt-diffpatch/loaders/PreAkiModLoader";
+import { IChangeRequestData } from "@spt-diffpatch/models/eft/launcher/IChangeRequestData";
+import { ILoginRequestData } from "@spt-diffpatch/models/eft/launcher/ILoginRequestData";
+import { IRegisterData } from "@spt-diffpatch/models/eft/launcher/IRegisterData";
+import { Info, ModDetails } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { IConnectResponse } from "@spt-diffpatch/models/eft/profile/IConnectResponse";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { ICoreConfig } from "@spt-diffpatch/models/spt/config/ICoreConfig";
+import { IPackageJsonData } from "@spt-diffpatch/models/spt/mod/IPackageJsonData";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class LauncherController

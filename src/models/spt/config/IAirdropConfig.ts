@@ -1,6 +1,6 @@
-import { MinMax } from "@spt-aki/models/common/MinMax";
-import { AirdropTypeEnum } from "@spt-aki/models/enums/AirdropType";
-import { IBaseConfig } from "@spt-aki/models/spt/config/IBaseConfig";
+import { MinMax } from "@spt-diffpatch/models/common/MinMax";
+import { AirdropTypeEnum } from "@spt-diffpatch/models/enums/AirdropType";
+import { IBaseConfig } from "@spt-diffpatch/models/spt/config/IBaseConfig";
 
 export interface IAirdropConfig extends IBaseConfig
 {

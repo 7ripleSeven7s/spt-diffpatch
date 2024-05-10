@@ -1,19 +1,19 @@
 import { inject, injectable } from "tsyringe";
 
-import { QuestController } from "@spt-aki/controllers/QuestController";
-import { RepeatableQuestController } from "@spt-aki/controllers/RepeatableQuestController";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IQuest } from "@spt-aki/models/eft/common/tables/IQuest";
-import { IPmcDataRepeatableQuest } from "@spt-aki/models/eft/common/tables/IRepeatableQuests";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { IAcceptQuestRequestData } from "@spt-aki/models/eft/quests/IAcceptQuestRequestData";
-import { ICompleteQuestRequestData } from "@spt-aki/models/eft/quests/ICompleteQuestRequestData";
-import { IHandoverQuestRequestData } from "@spt-aki/models/eft/quests/IHandoverQuestRequestData";
-import { IListQuestsRequestData } from "@spt-aki/models/eft/quests/IListQuestsRequestData";
-import { IRepeatableQuestChangeRequest } from "@spt-aki/models/eft/quests/IRepeatableQuestChangeRequest";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
+import { QuestController } from "@spt-diffpatch/controllers/QuestController";
+import { RepeatableQuestController } from "@spt-diffpatch/controllers/RepeatableQuestController";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IQuest } from "@spt-diffpatch/models/eft/common/tables/IQuest";
+import { IPmcDataRepeatableQuest } from "@spt-diffpatch/models/eft/common/tables/IRepeatableQuests";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { IAcceptQuestRequestData } from "@spt-diffpatch/models/eft/quests/IAcceptQuestRequestData";
+import { ICompleteQuestRequestData } from "@spt-diffpatch/models/eft/quests/ICompleteQuestRequestData";
+import { IHandoverQuestRequestData } from "@spt-diffpatch/models/eft/quests/IHandoverQuestRequestData";
+import { IListQuestsRequestData } from "@spt-diffpatch/models/eft/quests/IListQuestsRequestData";
+import { IRepeatableQuestChangeRequest } from "@spt-diffpatch/models/eft/quests/IRepeatableQuestChangeRequest";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
 
 @injectable()
 export class QuestCallbacks

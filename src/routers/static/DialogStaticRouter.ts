@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { DialogueCallbacks } from "@spt-aki/callbacks/DialogueCallbacks";
-import { RouteAction, StaticRouter } from "@spt-aki/di/Router";
+import { DialogueCallbacks } from "@spt-diffpatch/callbacks/DialogueCallbacks";
+import { RouteAction, StaticRouter } from "@spt-diffpatch/di/Router";
 
 @injectable()
 export class DialogStaticRouter extends StaticRouter

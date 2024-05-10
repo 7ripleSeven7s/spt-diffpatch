@@ -1,4 +1,4 @@
-import { OwnerInfo } from "@spt-aki/models/eft/common/request/IBaseInteractionRequestData";
+import { OwnerInfo } from "@spt-diffpatch/models/eft/common/request/IBaseInteractionRequestData";
 
 export interface ISellScavItemsToFenceRequestData
 {

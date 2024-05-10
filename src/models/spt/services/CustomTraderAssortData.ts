@@ -1,5 +1,5 @@
-import { ITraderAssort } from "@spt-aki/models/eft/common/tables/ITrader";
-import { Traders } from "@spt-aki/models/enums/Traders";
+import { ITraderAssort } from "@spt-diffpatch/models/eft/common/tables/ITrader";
+import { Traders } from "@spt-diffpatch/models/enums/Traders";
 
 export interface CustomTraderAssortData
 {

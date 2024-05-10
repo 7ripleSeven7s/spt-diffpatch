@@ -1,13 +1,13 @@
 import { DependencyContainer, inject, injectable } from "tsyringe";
 
-import { OnLoad } from "@spt-aki/di/OnLoad";
-import { BundleLoader } from "@spt-aki/loaders/BundleLoader";
-import { ModTypeCheck } from "@spt-aki/loaders/ModTypeCheck";
-import { PreAkiModLoader } from "@spt-aki/loaders/PreAkiModLoader";
-import { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
-import { IPostDBLoadModAsync } from "@spt-aki/models/external/IPostDBLoadModAsync";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
+import { OnLoad } from "@spt-diffpatch/di/OnLoad";
+import { BundleLoader } from "@spt-diffpatch/loaders/BundleLoader";
+import { ModTypeCheck } from "@spt-diffpatch/loaders/ModTypeCheck";
+import { PreAkiModLoader } from "@spt-diffpatch/loaders/PreAkiModLoader";
+import { IPostDBLoadMod } from "@spt-diffpatch/models/external/IPostDBLoadMod";
+import { IPostDBLoadModAsync } from "@spt-diffpatch/models/external/IPostDBLoadModAsync";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
 
 @injectable()
 export class PostDBModLoader implements OnLoad

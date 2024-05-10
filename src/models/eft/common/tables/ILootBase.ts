@@ -1,5 +1,5 @@
-import { Ixyz } from "@spt-aki/models/eft/common/Ixyz";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
+import { Ixyz } from "@spt-diffpatch/models/eft/common/Ixyz";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
 
 export interface ILootBase
 {

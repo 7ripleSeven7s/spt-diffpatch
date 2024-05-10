@@ -1,6 +1,6 @@
 import { IncomingMessage, ServerResponse } from "node:http";
 
-import { IHttpListener } from "@spt-aki/servers/http/IHttpListener";
+import { IHttpListener } from "@spt-diffpatch/servers/http/IHttpListener";
 
 export class HttpListenerMod implements IHttpListener
 {

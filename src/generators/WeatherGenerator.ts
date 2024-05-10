@@ -1,16 +1,16 @@
 import { inject, injectable } from "tsyringe";
 
-import { ApplicationContext } from "@spt-aki/context/ApplicationContext";
-import { ContextVariableType } from "@spt-aki/context/ContextVariableType";
-import { WeightedRandomHelper } from "@spt-aki/helpers/WeightedRandomHelper";
-import { IWeather, IWeatherData } from "@spt-aki/models/eft/weather/IWeatherData";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { WindDirection } from "@spt-aki/models/enums/WindDirection";
-import { IWeatherConfig } from "@spt-aki/models/spt/config/IWeatherConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { ApplicationContext } from "@spt-diffpatch/context/ApplicationContext";
+import { ContextVariableType } from "@spt-diffpatch/context/ContextVariableType";
+import { WeightedRandomHelper } from "@spt-diffpatch/helpers/WeightedRandomHelper";
+import { IWeather, IWeatherData } from "@spt-diffpatch/models/eft/weather/IWeatherData";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { WindDirection } from "@spt-diffpatch/models/enums/WindDirection";
+import { IWeatherConfig } from "@spt-diffpatch/models/spt/config/IWeatherConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class WeatherGenerator

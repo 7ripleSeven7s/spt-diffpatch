@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { LocationCallbacks } from "@spt-aki/callbacks/LocationCallbacks";
-import { DynamicRouter, RouteAction } from "@spt-aki/di/Router";
+import { LocationCallbacks } from "@spt-diffpatch/callbacks/LocationCallbacks";
+import { DynamicRouter, RouteAction } from "@spt-diffpatch/di/Router";
 
 @injectable()
 export class LocationDynamicRouter extends DynamicRouter

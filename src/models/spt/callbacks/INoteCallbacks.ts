@@ -1,6 +1,6 @@
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { INoteActionData } from "@spt-aki/models/eft/notes/INoteActionData";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { INoteActionData } from "@spt-diffpatch/models/eft/notes/INoteActionData";
 
 export interface INoteCallbacks
 {

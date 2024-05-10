@@ -1,5 +1,5 @@
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { MemberCategory } from "@spt-aki/models/enums/MemberCategory";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { MemberCategory } from "@spt-diffpatch/models/enums/MemberCategory";
 
 export interface IRagfairOffer
 {

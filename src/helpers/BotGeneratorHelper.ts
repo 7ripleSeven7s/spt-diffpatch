@@ -1,26 +1,26 @@
 import { inject, injectable } from "tsyringe";
 
-import { ApplicationContext } from "@spt-aki/context/ApplicationContext";
-import { ContextVariableType } from "@spt-aki/context/ContextVariableType";
-import { ContainerHelper } from "@spt-aki/helpers/ContainerHelper";
-import { DurabilityLimitsHelper } from "@spt-aki/helpers/DurabilityLimitsHelper";
-import { InventoryHelper } from "@spt-aki/helpers/InventoryHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { Inventory } from "@spt-aki/models/eft/common/tables/IBotBase";
-import { Item, Repairable, Upd } from "@spt-aki/models/eft/common/tables/IItem";
-import { Grid, ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { IGetRaidConfigurationRequestData } from "@spt-aki/models/eft/match/IGetRaidConfigurationRequestData";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { ItemAddedResult } from "@spt-aki/models/enums/ItemAddedResult";
-import { IChooseRandomCompatibleModResult } from "@spt-aki/models/spt/bots/IChooseRandomCompatibleModResult";
-import { EquipmentFilters, IBotConfig, IRandomisedResourceValues } from "@spt-aki/models/spt/config/IBotConfig";
-import { IPmcConfig } from "@spt-aki/models/spt/config/IPmcConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { ApplicationContext } from "@spt-diffpatch/context/ApplicationContext";
+import { ContextVariableType } from "@spt-diffpatch/context/ContextVariableType";
+import { ContainerHelper } from "@spt-diffpatch/helpers/ContainerHelper";
+import { DurabilityLimitsHelper } from "@spt-diffpatch/helpers/DurabilityLimitsHelper";
+import { InventoryHelper } from "@spt-diffpatch/helpers/InventoryHelper";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { Inventory } from "@spt-diffpatch/models/eft/common/tables/IBotBase";
+import { Item, Repairable, Upd } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { Grid, ITemplateItem } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
+import { IGetRaidConfigurationRequestData } from "@spt-diffpatch/models/eft/match/IGetRaidConfigurationRequestData";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { ItemAddedResult } from "@spt-diffpatch/models/enums/ItemAddedResult";
+import { IChooseRandomCompatibleModResult } from "@spt-diffpatch/models/spt/bots/IChooseRandomCompatibleModResult";
+import { EquipmentFilters, IBotConfig, IRandomisedResourceValues } from "@spt-diffpatch/models/spt/config/IBotConfig";
+import { IPmcConfig } from "@spt-diffpatch/models/spt/config/IPmcConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 @injectable()
 export class BotGeneratorHelper

@@ -1,17 +1,17 @@
 import http, { IncomingMessage, ServerResponse, Server } from "node:http";
 import { inject, injectAll, injectable } from "tsyringe";
 
-import { ApplicationContext } from "@spt-aki/context/ApplicationContext";
-import { ContextVariableType } from "@spt-aki/context/ContextVariableType";
-import { HttpServerHelper } from "@spt-aki/helpers/HttpServerHelper";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IHttpConfig } from "@spt-aki/models/spt/config/IHttpConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { WebSocketServer } from "@spt-aki/servers/WebSocketServer";
-import { IHttpListener } from "@spt-aki/servers/http/IHttpListener";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
+import { ApplicationContext } from "@spt-diffpatch/context/ApplicationContext";
+import { ContextVariableType } from "@spt-diffpatch/context/ContextVariableType";
+import { HttpServerHelper } from "@spt-diffpatch/helpers/HttpServerHelper";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IHttpConfig } from "@spt-diffpatch/models/spt/config/IHttpConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { WebSocketServer } from "@spt-diffpatch/servers/WebSocketServer";
+import { IHttpListener } from "@spt-diffpatch/servers/http/IHttpListener";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
 
 @injectable()
 export class HttpServer

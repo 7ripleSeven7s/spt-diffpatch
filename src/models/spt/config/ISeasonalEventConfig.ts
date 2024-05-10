@@ -1,6 +1,6 @@
-import { BossLocationSpawn } from "@spt-aki/models/eft/common/ILocationBase";
-import { SeasonalEventType } from "@spt-aki/models/enums/SeasonalEventType";
-import { IBaseConfig } from "@spt-aki/models/spt/config/IBaseConfig";
+import { BossLocationSpawn } from "@spt-diffpatch/models/eft/common/ILocationBase";
+import { SeasonalEventType } from "@spt-diffpatch/models/enums/SeasonalEventType";
+import { IBaseConfig } from "@spt-diffpatch/models/spt/config/IBaseConfig";
 
 export interface ISeasonalEventConfig extends IBaseConfig
 {

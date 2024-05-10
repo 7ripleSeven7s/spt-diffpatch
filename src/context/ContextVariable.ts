@@ -1,4 +1,4 @@
-import { ContextVariableType } from "@spt-aki/context/ContextVariableType";
+import { ContextVariableType } from "@spt-diffpatch/context/ContextVariableType";
 
 export class ContextVariable
 {

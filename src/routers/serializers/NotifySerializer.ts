@@ -1,10 +1,10 @@
 import { IncomingMessage, ServerResponse } from "node:http";
 import { inject, injectable } from "tsyringe";
 
-import { NotifierController } from "@spt-aki/controllers/NotifierController";
-import { Serializer } from "@spt-aki/di/Serializer";
-import { HttpServerHelper } from "@spt-aki/helpers/HttpServerHelper";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { NotifierController } from "@spt-diffpatch/controllers/NotifierController";
+import { Serializer } from "@spt-diffpatch/di/Serializer";
+import { HttpServerHelper } from "@spt-diffpatch/helpers/HttpServerHelper";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
 
 @injectable()
 export class NotifySerializer extends Serializer

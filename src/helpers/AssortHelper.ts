@@ -1,13 +1,13 @@
 import { inject, injectable } from "tsyringe";
 
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { QuestHelper } from "@spt-aki/helpers/QuestHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { ITraderAssort } from "@spt-aki/models/eft/common/tables/ITrader";
-import { QuestStatus } from "@spt-aki/models/enums/QuestStatus";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { QuestHelper } from "@spt-diffpatch/helpers/QuestHelper";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { ITraderAssort } from "@spt-diffpatch/models/eft/common/tables/ITrader";
+import { QuestStatus } from "@spt-diffpatch/models/enums/QuestStatus";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
 
 @injectable()
 export class AssortHelper

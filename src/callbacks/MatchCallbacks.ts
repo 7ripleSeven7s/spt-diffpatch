@@ -1,30 +1,30 @@
 import { inject, injectable } from "tsyringe";
 
-import { MatchController } from "@spt-aki/controllers/MatchController";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { INullResponseData } from "@spt-aki/models/eft/httpResponse/INullResponseData";
-import { IAcceptGroupInviteRequest } from "@spt-aki/models/eft/match/IAcceptGroupInviteRequest";
-import { IAcceptGroupInviteResponse } from "@spt-aki/models/eft/match/IAcceptGroupInviteResponse";
-import { ICancelGroupInviteRequest } from "@spt-aki/models/eft/match/ICancelGroupInviteRequest";
-import { ICreateGroupRequestData } from "@spt-aki/models/eft/match/ICreateGroupRequestData";
-import { IDeclineGroupInviteRequest } from "@spt-aki/models/eft/match/IDeclineGroupInviteRequest";
-import { IEndOfflineRaidRequestData } from "@spt-aki/models/eft/match/IEndOfflineRaidRequestData";
-import { IGetGroupStatusRequestData } from "@spt-aki/models/eft/match/IGetGroupStatusRequestData";
-import { IGetGroupStatusResponse } from "@spt-aki/models/eft/match/IGetGroupStatusResponse";
-import { IGetProfileRequestData } from "@spt-aki/models/eft/match/IGetProfileRequestData";
-import { IGetRaidConfigurationRequestData } from "@spt-aki/models/eft/match/IGetRaidConfigurationRequestData";
-import { IJoinMatchRequestData } from "@spt-aki/models/eft/match/IJoinMatchRequestData";
-import { IJoinMatchResult } from "@spt-aki/models/eft/match/IJoinMatchResult";
-import { IPutMetricsRequestData } from "@spt-aki/models/eft/match/IPutMetricsRequestData";
-import { IRemovePlayerFromGroupRequest } from "@spt-aki/models/eft/match/IRemovePlayerFromGroupRequest";
-import { ISendGroupInviteRequest } from "@spt-aki/models/eft/match/ISendGroupInviteRequest";
-import { ITransferGroupRequest } from "@spt-aki/models/eft/match/ITransferGroupRequest";
-import { IUpdatePingRequestData } from "@spt-aki/models/eft/match/IUpdatePingRequestData";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { MatchController } from "@spt-diffpatch/controllers/MatchController";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { INullResponseData } from "@spt-diffpatch/models/eft/httpResponse/INullResponseData";
+import { IAcceptGroupInviteRequest } from "@spt-diffpatch/models/eft/match/IAcceptGroupInviteRequest";
+import { IAcceptGroupInviteResponse } from "@spt-diffpatch/models/eft/match/IAcceptGroupInviteResponse";
+import { ICancelGroupInviteRequest } from "@spt-diffpatch/models/eft/match/ICancelGroupInviteRequest";
+import { ICreateGroupRequestData } from "@spt-diffpatch/models/eft/match/ICreateGroupRequestData";
+import { IDeclineGroupInviteRequest } from "@spt-diffpatch/models/eft/match/IDeclineGroupInviteRequest";
+import { IEndOfflineRaidRequestData } from "@spt-diffpatch/models/eft/match/IEndOfflineRaidRequestData";
+import { IGetGroupStatusRequestData } from "@spt-diffpatch/models/eft/match/IGetGroupStatusRequestData";
+import { IGetGroupStatusResponse } from "@spt-diffpatch/models/eft/match/IGetGroupStatusResponse";
+import { IGetProfileRequestData } from "@spt-diffpatch/models/eft/match/IGetProfileRequestData";
+import { IGetRaidConfigurationRequestData } from "@spt-diffpatch/models/eft/match/IGetRaidConfigurationRequestData";
+import { IJoinMatchRequestData } from "@spt-diffpatch/models/eft/match/IJoinMatchRequestData";
+import { IJoinMatchResult } from "@spt-diffpatch/models/eft/match/IJoinMatchResult";
+import { IPutMetricsRequestData } from "@spt-diffpatch/models/eft/match/IPutMetricsRequestData";
+import { IRemovePlayerFromGroupRequest } from "@spt-diffpatch/models/eft/match/IRemovePlayerFromGroupRequest";
+import { ISendGroupInviteRequest } from "@spt-diffpatch/models/eft/match/ISendGroupInviteRequest";
+import { ITransferGroupRequest } from "@spt-diffpatch/models/eft/match/ITransferGroupRequest";
+import { IUpdatePingRequestData } from "@spt-diffpatch/models/eft/match/IUpdatePingRequestData";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
 
 @injectable()
 export class MatchCallbacks

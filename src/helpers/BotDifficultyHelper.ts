@@ -1,15 +1,15 @@
 import { inject, injectable } from "tsyringe";
 
-import { BotHelper } from "@spt-aki/helpers/BotHelper";
-import { Difficulty } from "@spt-aki/models/eft/common/tables/IBotType";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IPmcConfig } from "@spt-aki/models/spt/config/IPmcConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { BotHelper } from "@spt-diffpatch/helpers/BotHelper";
+import { Difficulty } from "@spt-diffpatch/models/eft/common/tables/IBotType";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IPmcConfig } from "@spt-diffpatch/models/spt/config/IPmcConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 @injectable()
 export class BotDifficultyHelper

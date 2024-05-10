@@ -1,21 +1,21 @@
 import { inject, injectable } from "tsyringe";
 
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { RagfairServerHelper } from "@spt-aki/helpers/RagfairServerHelper";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { IRagfairOffer } from "@spt-aki/models/eft/ragfair/IRagfairOffer";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IRagfairConfig } from "@spt-aki/models/spt/config/IRagfairConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { EventOutputHolder } from "@spt-aki/routers/EventOutputHolder";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
-import { RagfairOfferHolder } from "@spt-aki/utils/RagfairOfferHolder";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { RagfairServerHelper } from "@spt-diffpatch/helpers/RagfairServerHelper";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { IRagfairOffer } from "@spt-diffpatch/models/eft/ragfair/IRagfairOffer";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IRagfairConfig } from "@spt-diffpatch/models/spt/config/IRagfairConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { EventOutputHolder } from "@spt-diffpatch/routers/EventOutputHolder";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
+import { RagfairOfferHolder } from "@spt-diffpatch/utils/RagfairOfferHolder";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class RagfairOfferService

@@ -1,7 +1,7 @@
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { ISystemData, IUserDialogInfo, MessageContentRagfair } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { MessageType } from "@spt-aki/models/enums/MessageType";
-import { Traders } from "@spt-aki/models/enums/Traders";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { ISystemData, IUserDialogInfo, MessageContentRagfair } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { MessageType } from "@spt-diffpatch/models/enums/MessageType";
+import { Traders } from "@spt-diffpatch/models/enums/Traders";
 
 export interface ISendMessageDetails
 {

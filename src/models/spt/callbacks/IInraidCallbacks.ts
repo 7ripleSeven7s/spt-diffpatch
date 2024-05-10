@@ -1,8 +1,8 @@
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { INullResponseData } from "@spt-aki/models/eft/httpResponse/INullResponseData";
-import { IRegisterPlayerRequestData } from "@spt-aki/models/eft/inRaid/IRegisterPlayerRequestData";
-import { ISaveProgressRequestData } from "@spt-aki/models/eft/inRaid/ISaveProgressRequestData";
-import { IAkiProfile } from "@spt-aki/models/eft/profile/IAkiProfile";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { INullResponseData } from "@spt-diffpatch/models/eft/httpResponse/INullResponseData";
+import { IRegisterPlayerRequestData } from "@spt-diffpatch/models/eft/inRaid/IRegisterPlayerRequestData";
+import { ISaveProgressRequestData } from "@spt-diffpatch/models/eft/inRaid/ISaveProgressRequestData";
+import { IAkiProfile } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
 
 export interface IInraidCallbacks
 {

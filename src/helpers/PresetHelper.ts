@@ -1,9 +1,9 @@
 import { inject, injectable } from "tsyringe";
 
-import { IPreset } from "@spt-aki/models/eft/common/IGlobals";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
+import { IPreset } from "@spt-diffpatch/models/eft/common/IGlobals";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
 import { ItemHelper } from "./ItemHelper";
 
 @injectable()

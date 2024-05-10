@@ -1,4 +1,4 @@
-import { MinMax } from "@spt-aki/models/common/MinMax";
+import { MinMax } from "@spt-diffpatch/models/common/MinMax";
 import { IBaseConfig } from "./IBaseConfig";
 
 export interface IBTRConfig extends IBaseConfig

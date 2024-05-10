@@ -44,13 +44,13 @@ export class DatabaseServer
       protected pmcConfig: IPmcConfig;
 
       constructor(
-        // bunch of injects from @spt-aki
+        // bunch of injects from @spt-diffpatch
           ProfileHelper
           ConfigServer
           ApplicationContext
           BotHelper
           BotGenerator
-          DatabaseServer  from @spt-aki/servers/DatabaseServer
+          DatabaseServer  from @spt-diffpatch/servers/DatabaseServer
       )
     }
     {
@@ -74,8 +74,8 @@ export class DatabaseServer
             <IGetRaidConfigurationRequestData>();
 
       // References
-        @spt-aki/context/ApplicationContext
-        @spt-aki/helpers/BotDifficultyHelper
+        @spt-diffpatch/context/ApplicationContext
+        @spt-diffpatch/helpers/BotDifficultyHelper
 
     }
 

@@ -1,9 +1,9 @@
-import { Health, IQuestStatus, Productive, Skills } from "@spt-aki/models/eft/common/tables/IBotBase";
-import { Item, Upd } from "@spt-aki/models/eft/common/tables/IItem";
-import { IQuest } from "@spt-aki/models/eft/common/tables/IQuest";
-import { IPmcDataRepeatableQuest } from "@spt-aki/models/eft/common/tables/IRepeatableQuests";
-import { IRagfairOffer } from "@spt-aki/models/eft/ragfair/IRagfairOffer";
-import { EquipmentBuildType } from "@spt-aki/models/enums/EquipmentBuildType";
+import { Health, IQuestStatus, Productive, Skills } from "@spt-diffpatch/models/eft/common/tables/IBotBase";
+import { Item, Upd } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { IQuest } from "@spt-diffpatch/models/eft/common/tables/IQuest";
+import { IPmcDataRepeatableQuest } from "@spt-diffpatch/models/eft/common/tables/IRepeatableQuests";
+import { IRagfairOffer } from "@spt-diffpatch/models/eft/ragfair/IRagfairOffer";
+import { EquipmentBuildType } from "@spt-diffpatch/models/enums/EquipmentBuildType";
 
 export interface IItemEventRouterBase
 {

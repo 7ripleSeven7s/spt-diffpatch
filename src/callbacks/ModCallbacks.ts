@@ -1,14 +1,14 @@
 import { inject, injectable } from "tsyringe";
 
-import { OnLoad } from "@spt-aki/di/OnLoad";
-import { PostAkiModLoader } from "@spt-aki/loaders/PostAkiModLoader";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IHttpConfig } from "@spt-aki/models/spt/config/IHttpConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { HttpFileUtil } from "@spt-aki/utils/HttpFileUtil";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
+import { OnLoad } from "@spt-diffpatch/di/OnLoad";
+import { PostAkiModLoader } from "@spt-diffpatch/loaders/PostAkiModLoader";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IHttpConfig } from "@spt-diffpatch/models/spt/config/IHttpConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { HttpFileUtil } from "@spt-diffpatch/utils/HttpFileUtil";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
 
 @injectable()
 export class ModCallbacks implements OnLoad

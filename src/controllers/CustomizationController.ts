@@ -1,16 +1,16 @@
 import { inject, injectable } from "tsyringe";
 
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { ISuit } from "@spt-aki/models/eft/common/tables/ITrader";
-import { ClothingItem, IBuyClothingRequestData } from "@spt-aki/models/eft/customization/IBuyClothingRequestData";
-import { IWearClothingRequestData } from "@spt-aki/models/eft/customization/IWearClothingRequestData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { EventOutputHolder } from "@spt-aki/routers/EventOutputHolder";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { ISuit } from "@spt-diffpatch/models/eft/common/tables/ITrader";
+import { ClothingItem, IBuyClothingRequestData } from "@spt-diffpatch/models/eft/customization/IBuyClothingRequestData";
+import { IWearClothingRequestData } from "@spt-diffpatch/models/eft/customization/IWearClothingRequestData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { EventOutputHolder } from "@spt-diffpatch/routers/EventOutputHolder";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
 
 @injectable()
 export class CustomizationController

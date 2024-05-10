@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { ItemEventCallbacks } from "@spt-aki/callbacks/ItemEventCallbacks";
-import { RouteAction, StaticRouter } from "@spt-aki/di/Router";
+import { ItemEventCallbacks } from "@spt-diffpatch/callbacks/ItemEventCallbacks";
+import { RouteAction, StaticRouter } from "@spt-diffpatch/di/Router";
 
 @injectable()
 export class ItemEventStaticRouter extends StaticRouter

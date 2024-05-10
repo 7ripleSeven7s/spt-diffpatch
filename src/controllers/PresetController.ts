@@ -1,9 +1,9 @@
 import { inject, injectable } from "tsyringe";
 
-import { PresetHelper } from "@spt-aki/helpers/PresetHelper";
-import { IPreset } from "@spt-aki/models/eft/common/IGlobals";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
+import { PresetHelper } from "@spt-diffpatch/helpers/PresetHelper";
+import { IPreset } from "@spt-diffpatch/models/eft/common/IGlobals";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
 
 @injectable()
 export class PresetController

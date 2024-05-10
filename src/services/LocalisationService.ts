@@ -2,11 +2,11 @@ import path from "node:path";
 import { I18n } from "i18n";
 import { inject, injectable } from "tsyringe";
 
-import { ILocaleConfig } from "@spt-aki/models/spt/config/ILocaleConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { LocaleService } from "@spt-aki/services/LocaleService";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { ILocaleConfig } from "@spt-diffpatch/models/spt/config/ILocaleConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { LocaleService } from "@spt-diffpatch/services/LocaleService";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 /**
  * Handles translating server text into different langauges

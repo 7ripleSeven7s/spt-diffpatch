@@ -1,9 +1,9 @@
 import { inject, injectable } from "tsyringe";
 
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { VFS } from "@spt-aki/utils/VFS";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { VFS } from "@spt-diffpatch/utils/VFS";
 
 @injectable()
 export class ModHashCacheService

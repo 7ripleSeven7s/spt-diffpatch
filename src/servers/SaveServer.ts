@@ -1,14 +1,14 @@
 import { inject, injectAll, injectable } from "tsyringe";
 
-import { SaveLoadRouter } from "@spt-aki/di/Router";
-import { IAkiProfile, Info } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { ICoreConfig } from "@spt-aki/models/spt/config/ICoreConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { VFS } from "@spt-aki/utils/VFS";
+import { SaveLoadRouter } from "@spt-diffpatch/di/Router";
+import { IAkiProfile, Info } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { ICoreConfig } from "@spt-diffpatch/models/spt/config/ICoreConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { VFS } from "@spt-diffpatch/utils/VFS";
 import { ConfigServer } from "./ConfigServer";
 
 @injectable()

@@ -1,11 +1,11 @@
 import { inject, injectable } from "tsyringe";
 
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IEliminationConfig, IQuestConfig, IRepeatableQuestConfig } from "@spt-aki/models/spt/config/IQuestConfig";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { MathUtil } from "@spt-aki/utils/MathUtil";
-import { ProbabilityObject, ProbabilityObjectArray } from "@spt-aki/utils/RandomUtil";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IEliminationConfig, IQuestConfig, IRepeatableQuestConfig } from "@spt-diffpatch/models/spt/config/IQuestConfig";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { MathUtil } from "@spt-diffpatch/utils/MathUtil";
+import { ProbabilityObject, ProbabilityObjectArray } from "@spt-diffpatch/utils/RandomUtil";
 
 @injectable()
 export class RepeatableQuestHelper

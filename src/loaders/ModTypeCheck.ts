@@ -1,11 +1,11 @@
 import { injectable } from "tsyringe";
 
-import { IPostAkiLoadMod } from "@spt-aki/models/external/IPostAkiLoadMod";
-import { IPostAkiLoadModAsync } from "@spt-aki/models/external/IPostAkiLoadModAsync";
-import { IPostDBLoadMod } from "@spt-aki/models/external/IPostDBLoadMod";
-import { IPostDBLoadModAsync } from "@spt-aki/models/external/IPostDBLoadModAsync";
-import { IPreAkiLoadMod } from "@spt-aki/models/external/IPreAkiLoadMod";
-import { IPreAkiLoadModAsync } from "@spt-aki/models/external/IPreAkiLoadModAsync";
+import { IPostAkiLoadMod } from "@spt-diffpatch/models/external/IPostAkiLoadMod";
+import { IPostAkiLoadModAsync } from "@spt-diffpatch/models/external/IPostAkiLoadModAsync";
+import { IPostDBLoadMod } from "@spt-diffpatch/models/external/IPostDBLoadMod";
+import { IPostDBLoadModAsync } from "@spt-diffpatch/models/external/IPostDBLoadModAsync";
+import { IPreAkiLoadMod } from "@spt-diffpatch/models/external/IPreAkiLoadMod";
+import { IPreAkiLoadModAsync } from "@spt-diffpatch/models/external/IPreAkiLoadModAsync";
 
 @injectable()
 export class ModTypeCheck

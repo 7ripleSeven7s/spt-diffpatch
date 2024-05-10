@@ -1,20 +1,20 @@
 import { inject, injectable } from "tsyringe";
 
-import { NotificationSendHelper } from "@spt-aki/helpers/NotificationSendHelper";
-import { WeightedRandomHelper } from "@spt-aki/helpers/WeightedRandomHelper";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { Aggressor, Victim } from "@spt-aki/models/eft/common/tables/IBotBase";
-import { IUserDialogInfo } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { MemberCategory } from "@spt-aki/models/enums/MemberCategory";
-import { MessageType } from "@spt-aki/models/enums/MessageType";
-import { IPmcChatResponse } from "@spt-aki/models/spt/config/IPmChatResponse";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { MatchBotDetailsCacheService } from "@spt-aki/services/MatchBotDetailsCacheService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { NotificationSendHelper } from "@spt-diffpatch/helpers/NotificationSendHelper";
+import { WeightedRandomHelper } from "@spt-diffpatch/helpers/WeightedRandomHelper";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { Aggressor, Victim } from "@spt-diffpatch/models/eft/common/tables/IBotBase";
+import { IUserDialogInfo } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { MemberCategory } from "@spt-diffpatch/models/enums/MemberCategory";
+import { MessageType } from "@spt-diffpatch/models/enums/MessageType";
+import { IPmcChatResponse } from "@spt-diffpatch/models/spt/config/IPmChatResponse";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { MatchBotDetailsCacheService } from "@spt-diffpatch/services/MatchBotDetailsCacheService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 @injectable()
 export class PmcChatResponseService

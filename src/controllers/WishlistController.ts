@@ -1,9 +1,9 @@
 import { inject, injectable } from "tsyringe";
 
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
-import { IWishlistActionData } from "@spt-aki/models/eft/wishlist/IWishlistActionData";
-import { EventOutputHolder } from "@spt-aki/routers/EventOutputHolder";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
+import { IWishlistActionData } from "@spt-diffpatch/models/eft/wishlist/IWishlistActionData";
+import { EventOutputHolder } from "@spt-diffpatch/routers/EventOutputHolder";
 
 @injectable()
 export class WishlistController

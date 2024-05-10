@@ -1,4 +1,4 @@
-import { MessageType } from "@spt-aki/models/enums/MessageType";
+import { MessageType } from "@spt-diffpatch/models/enums/MessageType";
 
 export interface ISendMessageRequest
 {

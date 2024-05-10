@@ -1,4 +1,4 @@
-import { IUserDialogInfo } from "@spt-aki/models/eft/profile/IAkiProfile";
+import { IUserDialogInfo } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
 
 export interface IGetFriendListDataResponse
 {

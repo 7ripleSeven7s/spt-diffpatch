@@ -1,4 +1,4 @@
-import { Message } from "@spt-aki/models/eft/profile/IAkiProfile";
+import { Message } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
 
 export interface IGetAllAttachmentsResponse
 {

@@ -1,10 +1,10 @@
 import { inject, injectable } from "tsyringe";
 
-import { BundleLoader } from "@spt-aki/loaders/BundleLoader";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IHttpConfig } from "@spt-aki/models/spt/config/IHttpConfig";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
+import { BundleLoader } from "@spt-diffpatch/loaders/BundleLoader";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IHttpConfig } from "@spt-diffpatch/models/spt/config/IHttpConfig";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
 
 @injectable()
 export class BundleCallbacks

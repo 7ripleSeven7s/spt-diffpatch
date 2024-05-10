@@ -1,4 +1,4 @@
-import { Item, Location } from "@spt-aki/models/eft/common/tables/IItem";
+import { Item, Location } from "@spt-diffpatch/models/eft/common/tables/IItem";
 
 export interface IAddItemTempObject
 {

@@ -1,9 +1,9 @@
 import { inject, injectable } from "tsyringe";
 
-import { IRagfairOffer } from "@spt-aki/models/eft/ragfair/IRagfairOffer";
-import { RagfairSort } from "@spt-aki/models/enums/RagfairSort";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { LocaleService } from "@spt-aki/services/LocaleService";
+import { IRagfairOffer } from "@spt-diffpatch/models/eft/ragfair/IRagfairOffer";
+import { RagfairSort } from "@spt-diffpatch/models/enums/RagfairSort";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { LocaleService } from "@spt-diffpatch/services/LocaleService";
 
 @injectable()
 export class RagfairSortHelper

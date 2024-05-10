@@ -1,9 +1,9 @@
 import { inject, injectable } from "tsyringe";
 
-import { WishlistCallbacks } from "@spt-aki/callbacks/WishlistCallbacks";
-import { HandledRoute, ItemEventRouterDefinition } from "@spt-aki/di/Router";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
+import { WishlistCallbacks } from "@spt-diffpatch/callbacks/WishlistCallbacks";
+import { HandledRoute, ItemEventRouterDefinition } from "@spt-diffpatch/di/Router";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
 
 @injectable()
 export class WishlistItemEventRouter extends ItemEventRouterDefinition

@@ -1,8 +1,8 @@
 import { injectable } from "tsyringe";
 
-import { HandledRoute, SaveLoadRouter } from "@spt-aki/di/Router";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IAkiProfile } from "@spt-aki/models/eft/profile/IAkiProfile";
+import { HandledRoute, SaveLoadRouter } from "@spt-diffpatch/di/Router";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IAkiProfile } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
 
 @injectable()
 export class ProfileSaveLoadRouter extends SaveLoadRouter

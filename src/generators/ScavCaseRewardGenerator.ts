@@ -1,28 +1,28 @@
 import { inject, injectable } from "tsyringe";
 
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { PresetHelper } from "@spt-aki/helpers/PresetHelper";
-import { Product } from "@spt-aki/models/eft/common/tables/IBotBase";
-import { Item, Upd } from "@spt-aki/models/eft/common/tables/IItem";
-import { ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { IHideoutScavCase } from "@spt-aki/models/eft/hideout/IHideoutScavCase";
-import { BaseClasses } from "@spt-aki/models/enums/BaseClasses";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { Money } from "@spt-aki/models/enums/Money";
-import { IScavCaseConfig } from "@spt-aki/models/spt/config/IScavCaseConfig";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { PresetHelper } from "@spt-diffpatch/helpers/PresetHelper";
+import { Product } from "@spt-diffpatch/models/eft/common/tables/IBotBase";
+import { Item, Upd } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { ITemplateItem } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
+import { IHideoutScavCase } from "@spt-diffpatch/models/eft/hideout/IHideoutScavCase";
+import { BaseClasses } from "@spt-diffpatch/models/enums/BaseClasses";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { Money } from "@spt-diffpatch/models/enums/Money";
+import { IScavCaseConfig } from "@spt-diffpatch/models/spt/config/IScavCaseConfig";
 import {
     RewardCountAndPriceDetails,
     ScavCaseRewardCountsAndPrices,
-} from "@spt-aki/models/spt/hideout/ScavCaseRewardCountsAndPrices";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { ItemFilterService } from "@spt-aki/services/ItemFilterService";
-import { RagfairPriceService } from "@spt-aki/services/RagfairPriceService";
-import { SeasonalEventService } from "@spt-aki/services/SeasonalEventService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+} from "@spt-diffpatch/models/spt/hideout/ScavCaseRewardCountsAndPrices";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { ItemFilterService } from "@spt-diffpatch/services/ItemFilterService";
+import { RagfairPriceService } from "@spt-diffpatch/services/RagfairPriceService";
+import { SeasonalEventService } from "@spt-diffpatch/services/SeasonalEventService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 /**
  * Handle the creation of randomised scav case rewards

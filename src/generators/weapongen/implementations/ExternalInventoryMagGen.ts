@@ -1,16 +1,16 @@
 import { inject, injectable } from "tsyringe";
 
-import { IInventoryMagGen } from "@spt-aki/generators/weapongen/IInventoryMagGen";
-import { InventoryMagGen } from "@spt-aki/generators/weapongen/InventoryMagGen";
-import { BotGeneratorHelper } from "@spt-aki/helpers/BotGeneratorHelper";
-import { BotWeaponGeneratorHelper } from "@spt-aki/helpers/BotWeaponGeneratorHelper";
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { ITemplateItem } from "@spt-aki/models/eft/common/tables/ITemplateItem";
-import { EquipmentSlots } from "@spt-aki/models/enums/EquipmentSlots";
-import { ItemAddedResult } from "@spt-aki/models/enums/ItemAddedResult";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { IInventoryMagGen } from "@spt-diffpatch/generators/weapongen/IInventoryMagGen";
+import { InventoryMagGen } from "@spt-diffpatch/generators/weapongen/InventoryMagGen";
+import { BotGeneratorHelper } from "@spt-diffpatch/helpers/BotGeneratorHelper";
+import { BotWeaponGeneratorHelper } from "@spt-diffpatch/helpers/BotWeaponGeneratorHelper";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { ITemplateItem } from "@spt-diffpatch/models/eft/common/tables/ITemplateItem";
+import { EquipmentSlots } from "@spt-diffpatch/models/enums/EquipmentSlots";
+import { ItemAddedResult } from "@spt-diffpatch/models/enums/ItemAddedResult";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 @injectable()
 export class ExternalInventoryMagGen implements IInventoryMagGen

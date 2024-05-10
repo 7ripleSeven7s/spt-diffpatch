@@ -1,10 +1,10 @@
 import { inject, injectable } from "tsyringe";
 
-import { PaymentHelper } from "@spt-aki/helpers/PaymentHelper";
-import { IRagfairOffer } from "@spt-aki/models/eft/ragfair/IRagfairOffer";
-import { ISearchRequestData, OfferOwnerType } from "@spt-aki/models/eft/ragfair/ISearchRequestData";
-import { MemberCategory } from "@spt-aki/models/enums/MemberCategory";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
+import { PaymentHelper } from "@spt-diffpatch/helpers/PaymentHelper";
+import { IRagfairOffer } from "@spt-diffpatch/models/eft/ragfair/IRagfairOffer";
+import { ISearchRequestData, OfferOwnerType } from "@spt-diffpatch/models/eft/ragfair/ISearchRequestData";
+import { MemberCategory } from "@spt-diffpatch/models/enums/MemberCategory";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
 
 @injectable()
 export class RagfairCategoriesService

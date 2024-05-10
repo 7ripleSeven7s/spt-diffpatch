@@ -1,4 +1,4 @@
-import { IInventoryBaseActionRequestData } from "@spt-aki/models/eft/inventory/IInventoryBaseActionRequestData";
+import { IInventoryBaseActionRequestData } from "@spt-diffpatch/models/eft/inventory/IInventoryBaseActionRequestData";
 
 export interface IInventoryReadEncyclopediaRequestData extends IInventoryBaseActionRequestData
 {

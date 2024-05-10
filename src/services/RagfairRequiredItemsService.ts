@@ -1,9 +1,9 @@
 import { inject, injectable } from "tsyringe";
 
-import { PaymentHelper } from "@spt-aki/helpers/PaymentHelper";
-import { IRagfairOffer } from "@spt-aki/models/eft/ragfair/IRagfairOffer";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { RagfairOfferService } from "@spt-aki/services/RagfairOfferService";
+import { PaymentHelper } from "@spt-diffpatch/helpers/PaymentHelper";
+import { IRagfairOffer } from "@spt-diffpatch/models/eft/ragfair/IRagfairOffer";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { RagfairOfferService } from "@spt-diffpatch/services/RagfairOfferService";
 
 @injectable()
 export class RagfairRequiredItemsService

@@ -1,14 +1,14 @@
 import { inject, injectable } from "tsyringe";
 
-import { LauncherController } from "@spt-aki/controllers/LauncherController";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { IChangeRequestData } from "@spt-aki/models/eft/launcher/IChangeRequestData";
-import { ILoginRequestData } from "@spt-aki/models/eft/launcher/ILoginRequestData";
-import { IRegisterData } from "@spt-aki/models/eft/launcher/IRegisterData";
-import { IRemoveProfileData } from "@spt-aki/models/eft/launcher/IRemoveProfileData";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
-import { Watermark } from "@spt-aki/utils/Watermark";
+import { LauncherController } from "@spt-diffpatch/controllers/LauncherController";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { IChangeRequestData } from "@spt-diffpatch/models/eft/launcher/IChangeRequestData";
+import { ILoginRequestData } from "@spt-diffpatch/models/eft/launcher/ILoginRequestData";
+import { IRegisterData } from "@spt-diffpatch/models/eft/launcher/IRegisterData";
+import { IRemoveProfileData } from "@spt-diffpatch/models/eft/launcher/IRemoveProfileData";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
+import { Watermark } from "@spt-diffpatch/utils/Watermark";
 
 @injectable()
 export class LauncherCallbacks

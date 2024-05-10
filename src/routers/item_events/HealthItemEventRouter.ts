@@ -1,9 +1,9 @@
 import { inject, injectable } from "tsyringe";
 
-import { HealthCallbacks } from "@spt-aki/callbacks/HealthCallbacks";
-import { HandledRoute, ItemEventRouterDefinition } from "@spt-aki/di/Router";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IItemEventRouterResponse } from "@spt-aki/models/eft/itemEvent/IItemEventRouterResponse";
+import { HealthCallbacks } from "@spt-diffpatch/callbacks/HealthCallbacks";
+import { HandledRoute, ItemEventRouterDefinition } from "@spt-diffpatch/di/Router";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IItemEventRouterResponse } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterResponse";
 
 @injectable()
 export class HealthItemEventRouter extends ItemEventRouterDefinition

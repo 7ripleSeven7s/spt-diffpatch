@@ -1,25 +1,25 @@
 import { inject, injectable } from "tsyringe";
 
-import { ProfileController } from "@spt-aki/controllers/ProfileController";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { IEmptyRequestData } from "@spt-aki/models/eft/common/IEmptyRequestData";
-import { IPmcData } from "@spt-aki/models/eft/common/IPmcData";
-import { IGetBodyResponseData } from "@spt-aki/models/eft/httpResponse/IGetBodyResponseData";
-import { INullResponseData } from "@spt-aki/models/eft/httpResponse/INullResponseData";
-import { IGetMiniProfileRequestData } from "@spt-aki/models/eft/launcher/IGetMiniProfileRequestData";
-import { GetProfileStatusResponseData } from "@spt-aki/models/eft/profile/GetProfileStatusResponseData";
-import { ICreateProfileResponse } from "@spt-aki/models/eft/profile/ICreateProfileResponse";
-import { IGetOtherProfileRequest } from "@spt-aki/models/eft/profile/IGetOtherProfileRequest";
-import { IGetOtherProfileResponse } from "@spt-aki/models/eft/profile/IGetOtherProfileResponse";
-import { IGetProfileSettingsRequest } from "@spt-aki/models/eft/profile/IGetProfileSettingsRequest";
-import { IProfileChangeNicknameRequestData } from "@spt-aki/models/eft/profile/IProfileChangeNicknameRequestData";
-import { IProfileChangeVoiceRequestData } from "@spt-aki/models/eft/profile/IProfileChangeVoiceRequestData";
-import { IProfileCreateRequestData } from "@spt-aki/models/eft/profile/IProfileCreateRequestData";
-import { ISearchFriendRequestData } from "@spt-aki/models/eft/profile/ISearchFriendRequestData";
-import { ISearchFriendResponse } from "@spt-aki/models/eft/profile/ISearchFriendResponse";
-import { IValidateNicknameRequestData } from "@spt-aki/models/eft/profile/IValidateNicknameRequestData";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { ProfileController } from "@spt-diffpatch/controllers/ProfileController";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { IEmptyRequestData } from "@spt-diffpatch/models/eft/common/IEmptyRequestData";
+import { IPmcData } from "@spt-diffpatch/models/eft/common/IPmcData";
+import { IGetBodyResponseData } from "@spt-diffpatch/models/eft/httpResponse/IGetBodyResponseData";
+import { INullResponseData } from "@spt-diffpatch/models/eft/httpResponse/INullResponseData";
+import { IGetMiniProfileRequestData } from "@spt-diffpatch/models/eft/launcher/IGetMiniProfileRequestData";
+import { GetProfileStatusResponseData } from "@spt-diffpatch/models/eft/profile/GetProfileStatusResponseData";
+import { ICreateProfileResponse } from "@spt-diffpatch/models/eft/profile/ICreateProfileResponse";
+import { IGetOtherProfileRequest } from "@spt-diffpatch/models/eft/profile/IGetOtherProfileRequest";
+import { IGetOtherProfileResponse } from "@spt-diffpatch/models/eft/profile/IGetOtherProfileResponse";
+import { IGetProfileSettingsRequest } from "@spt-diffpatch/models/eft/profile/IGetProfileSettingsRequest";
+import { IProfileChangeNicknameRequestData } from "@spt-diffpatch/models/eft/profile/IProfileChangeNicknameRequestData";
+import { IProfileChangeVoiceRequestData } from "@spt-diffpatch/models/eft/profile/IProfileChangeVoiceRequestData";
+import { IProfileCreateRequestData } from "@spt-diffpatch/models/eft/profile/IProfileCreateRequestData";
+import { ISearchFriendRequestData } from "@spt-diffpatch/models/eft/profile/ISearchFriendRequestData";
+import { ISearchFriendResponse } from "@spt-diffpatch/models/eft/profile/ISearchFriendResponse";
+import { IValidateNicknameRequestData } from "@spt-diffpatch/models/eft/profile/IValidateNicknameRequestData";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 /** Handle profile related client events */
 @injectable()

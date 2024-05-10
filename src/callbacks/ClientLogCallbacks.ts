@@ -1,12 +1,12 @@
-import { ClientLogController } from "@spt-aki/controllers/ClientLogController";
-import { ModLoadOrder } from "@spt-aki/loaders/ModLoadOrder";
-import { INullResponseData } from "@spt-aki/models/eft/httpResponse/INullResponseData";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IBsgLogging, ICoreConfig, IRelease } from "@spt-aki/models/spt/config/ICoreConfig";
-import { IClientLogRequest } from "@spt-aki/models/spt/logging/IClientLogRequest";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { HttpResponseUtil } from "@spt-aki/utils/HttpResponseUtil";
+import { ClientLogController } from "@spt-diffpatch/controllers/ClientLogController";
+import { ModLoadOrder } from "@spt-diffpatch/loaders/ModLoadOrder";
+import { INullResponseData } from "@spt-diffpatch/models/eft/httpResponse/INullResponseData";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IBsgLogging, ICoreConfig, IRelease } from "@spt-diffpatch/models/spt/config/ICoreConfig";
+import { IClientLogRequest } from "@spt-diffpatch/models/spt/logging/IClientLogRequest";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { HttpResponseUtil } from "@spt-diffpatch/utils/HttpResponseUtil";
 import { inject, injectable } from "tsyringe";
 
 /** Handle client logging related events */

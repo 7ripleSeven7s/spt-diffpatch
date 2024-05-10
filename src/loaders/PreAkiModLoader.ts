@@ -4,21 +4,21 @@ import path from "node:path";
 import semver from "semver";
 import { DependencyContainer, inject, injectable } from "tsyringe";
 
-import { ModLoadOrder } from "@spt-aki/loaders/ModLoadOrder";
-import { ModTypeCheck } from "@spt-aki/loaders/ModTypeCheck";
-import { ModDetails } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IPreAkiLoadMod } from "@spt-aki/models/external/IPreAkiLoadMod";
-import { IPreAkiLoadModAsync } from "@spt-aki/models/external/IPreAkiLoadModAsync";
-import { ICoreConfig } from "@spt-aki/models/spt/config/ICoreConfig";
-import { IModLoader } from "@spt-aki/models/spt/mod/IModLoader";
-import { IPackageJsonData } from "@spt-aki/models/spt/mod/IPackageJsonData";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { ModCompilerService } from "@spt-aki/services/ModCompilerService";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { VFS } from "@spt-aki/utils/VFS";
+import { ModLoadOrder } from "@spt-diffpatch/loaders/ModLoadOrder";
+import { ModTypeCheck } from "@spt-diffpatch/loaders/ModTypeCheck";
+import { ModDetails } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IPreAkiLoadMod } from "@spt-diffpatch/models/external/IPreAkiLoadMod";
+import { IPreAkiLoadModAsync } from "@spt-diffpatch/models/external/IPreAkiLoadModAsync";
+import { ICoreConfig } from "@spt-diffpatch/models/spt/config/ICoreConfig";
+import { IModLoader } from "@spt-diffpatch/models/spt/mod/IModLoader";
+import { IPackageJsonData } from "@spt-diffpatch/models/spt/mod/IPackageJsonData";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { ModCompilerService } from "@spt-diffpatch/services/ModCompilerService";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { VFS } from "@spt-diffpatch/utils/VFS";
 
 @injectable()
 export class PreAkiModLoader implements IModLoader

@@ -1,15 +1,15 @@
 import { inject, injectable } from "tsyringe";
 
-import { ItemHelper } from "@spt-aki/helpers/ItemHelper";
-import { NotificationSendHelper } from "@spt-aki/helpers/NotificationSendHelper";
-import { NotifierHelper } from "@spt-aki/helpers/NotifierHelper";
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { Dialogue, MessagePreview } from "@spt-aki/models/eft/profile/IAkiProfile";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
-import { SaveServer } from "@spt-aki/servers/SaveServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { HashUtil } from "@spt-aki/utils/HashUtil";
+import { ItemHelper } from "@spt-diffpatch/helpers/ItemHelper";
+import { NotificationSendHelper } from "@spt-diffpatch/helpers/NotificationSendHelper";
+import { NotifierHelper } from "@spt-diffpatch/helpers/NotifierHelper";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { Dialogue, MessagePreview } from "@spt-diffpatch/models/eft/profile/IAkiProfile";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
+import { SaveServer } from "@spt-diffpatch/servers/SaveServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { HashUtil } from "@spt-diffpatch/utils/HashUtil";
 
 @injectable()
 export class DialogueHelper

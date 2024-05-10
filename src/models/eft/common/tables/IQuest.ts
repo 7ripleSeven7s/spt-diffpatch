@@ -1,7 +1,7 @@
-import { Item } from "@spt-aki/models/eft/common/tables/IItem";
-import { QuestRewardType } from "@spt-aki/models/enums/QuestRewardType";
-import { QuestStatus } from "@spt-aki/models/enums/QuestStatus";
-import { QuestTypeEnum } from "@spt-aki/models/enums/QuestTypeEnum";
+import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
+import { QuestRewardType } from "@spt-diffpatch/models/enums/QuestRewardType";
+import { QuestStatus } from "@spt-diffpatch/models/enums/QuestStatus";
+import { QuestTypeEnum } from "@spt-diffpatch/models/enums/QuestTypeEnum";
 
 export interface IQuest
 {

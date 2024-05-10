@@ -2,16 +2,16 @@ import http, { IncomingMessage } from "node:http";
 import { inject, injectable } from "tsyringe";
 import WebSocket from "ws";
 
-import { HttpServerHelper } from "@spt-aki/helpers/HttpServerHelper";
-import { ProfileHelper } from "@spt-aki/helpers/ProfileHelper";
-import { INotification, NotificationType } from "@spt-aki/models/eft/notifier/INotifier";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { IHttpConfig } from "@spt-aki/models/spt/config/IHttpConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { JsonUtil } from "@spt-aki/utils/JsonUtil";
-import { RandomUtil } from "@spt-aki/utils/RandomUtil";
+import { HttpServerHelper } from "@spt-diffpatch/helpers/HttpServerHelper";
+import { ProfileHelper } from "@spt-diffpatch/helpers/ProfileHelper";
+import { INotification, NotificationType } from "@spt-diffpatch/models/eft/notifier/INotifier";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { IHttpConfig } from "@spt-diffpatch/models/spt/config/IHttpConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { JsonUtil } from "@spt-diffpatch/utils/JsonUtil";
+import { RandomUtil } from "@spt-diffpatch/utils/RandomUtil";
 
 @injectable()
 export class WebSocketServer

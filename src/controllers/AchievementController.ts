@@ -1,9 +1,9 @@
 import { inject, injectable } from "tsyringe";
 
-import { ICompletedAchievementsResponse } from "@spt-aki/models/eft/profile/ICompletedAchievementsResponse";
-import { IGetAchievementsResponse } from "@spt-aki/models/eft/profile/IGetAchievementsResponse";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { DatabaseServer } from "@spt-aki/servers/DatabaseServer";
+import { ICompletedAchievementsResponse } from "@spt-diffpatch/models/eft/profile/ICompletedAchievementsResponse";
+import { IGetAchievementsResponse } from "@spt-diffpatch/models/eft/profile/IGetAchievementsResponse";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { DatabaseServer } from "@spt-diffpatch/servers/DatabaseServer";
 
 /**
  * Logic for handling In Raid callbacks

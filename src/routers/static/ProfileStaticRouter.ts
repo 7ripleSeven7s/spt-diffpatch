@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { ProfileCallbacks } from "@spt-aki/callbacks/ProfileCallbacks";
-import { RouteAction, StaticRouter } from "@spt-aki/di/Router";
+import { ProfileCallbacks } from "@spt-diffpatch/callbacks/ProfileCallbacks";
+import { RouteAction, StaticRouter } from "@spt-diffpatch/di/Router";
 
 @injectable()
 export class ProfileStaticRouter extends StaticRouter

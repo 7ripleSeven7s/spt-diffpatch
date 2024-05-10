@@ -1,9 +1,6 @@
 import express from 'express';
 import fs from 'node:fs';
 
-
-console.log(five);
-
 const app = express();
 const port = 3000;
 

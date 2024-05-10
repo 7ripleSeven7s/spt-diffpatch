@@ -1,5 +1,5 @@
-import { Exit, ILocationBase } from "@spt-aki/models/eft/common/ILocationBase";
-import { ILooseLoot } from "@spt-aki/models/eft/common/ILooseLoot";
+import { Exit, ILocationBase } from "@spt-diffpatch/models/eft/common/ILocationBase";
+import { ILooseLoot } from "@spt-diffpatch/models/eft/common/ILooseLoot";
 
 export interface ILocation
 {

@@ -1,10 +1,10 @@
 /* import { container } from "tsyringe"; */
 
 import { ErrorHandler } from "./ErrorHandler";
-import { Container } from "@spt-aki/di/Container";
-import type { PreAkiModLoader } from "@spt-aki/loaders/PreAkiModLoader";
-import { App } from "@spt-aki/utils/App"; 
-/* import { Watermark } from "@spt-aki/utils/Watermark"; */
+import { Container } from "@spt-diffpatch/di/Container";
+//import type { PreAkiModLoader } from "@spt-diffpatch/loaders/PreAkiModLoader";
+import { App } from "@spt-diffpatch/utils/App"; 
+/* import { Watermark } from "@spt-diffpatch/utils/Watermark"; */
 
 export class Program
 {

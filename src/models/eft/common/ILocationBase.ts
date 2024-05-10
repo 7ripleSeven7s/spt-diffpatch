@@ -1,5 +1,5 @@
-import { MinMax } from "@spt-aki/models/common/MinMax";
-import { Ixyz } from "@spt-aki/models/eft/common/Ixyz";
+import { MinMax } from "@spt-diffpatch/models/common/MinMax";
+import { Ixyz } from "@spt-diffpatch/models/eft/common/Ixyz";
 
 /* eslint-disable @typescript-eslint/naming-convention */
 export interface ILocationBase

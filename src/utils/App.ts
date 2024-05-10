@@ -1,16 +1,16 @@
 import os from "node:os";
 //import { inject, injectAll, injectable } from "tsyringe";
 
-import { OnLoad } from "@spt-aki/di/OnLoad";
-import { OnUpdate } from "@spt-aki/di/OnUpdate";
-import { ConfigTypes } from "@spt-aki/models/enums/ConfigTypes";
-import { ICoreConfig } from "@spt-aki/models/spt/config/ICoreConfig";
-import { ILogger } from "@spt-aki/models/spt/utils/ILogger";
-import { ConfigServer } from "@spt-aki/servers/ConfigServer";
-import { HttpServer } from "@spt-aki/servers/HttpServer";
-import { LocalisationService } from "@spt-aki/services/LocalisationService";
-import { EncodingUtil } from "@spt-aki/utils/EncodingUtil";
-import { TimeUtil } from "@spt-aki/utils/TimeUtil";
+import { OnLoad } from "@spt-diffpatch/di/OnLoad";
+import { OnUpdate } from "@spt-diffpatch/di/OnUpdate";
+import { ConfigTypes } from "@spt-diffpatch/models/enums/ConfigTypes";
+import { ICoreConfig } from "@spt-diffpatch/models/spt/config/ICoreConfig";
+import { ILogger } from "@spt-diffpatch/models/spt/utils/ILogger";
+import { ConfigServer } from "@spt-diffpatch/servers/ConfigServer";
+import { HttpServer } from "@spt-diffpatch/servers/HttpServer";
+import { LocalisationService } from "@spt-diffpatch/services/LocalisationService";
+import { EncodingUtil } from "@spt-diffpatch/utils/EncodingUtil";
+import { TimeUtil } from "@spt-diffpatch/utils/TimeUtil";
 
 @injectable()
 export class App

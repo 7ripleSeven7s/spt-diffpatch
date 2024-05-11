@@ -3,7 +3,7 @@ import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
 import { EquipmentBuildType } from "@spt-diffpatch/models/enums/EquipmentBuildType";
 import { MemberCategory } from "@spt-diffpatch/models/enums/MemberCategory";
 import { MessageType } from "@spt-diffpatch/models/enums/MessageType";
-import { IProfileChangeEvent } from "@spt-diffpatch/models/spt/dialog/ISendMessageDetails";
+//import { IProfileChangeEvent } from "@spt-diffpatch/models/spt/dialog/ISendMessageDetails";
 
 export interface IAkiProfile
 {
@@ -23,7 +23,7 @@ export interface IAkiProfile
     achievements: Record<string, number>;
 }
 
-export class TraderPurchaseData
+export interface TraderPurchaseData
 {
     count: number;
     purchaseTimestamp: number;
@@ -150,7 +150,7 @@ export interface Message
     items?: MessageItems;
     maxStorageTime?: number;
     systemData?: ISystemData;
-    profileChangeEvents?: IProfileChangeEvent[];
+    //profileChangeEvents?: IProfileChangeEvent[];
 }
 
 export interface MessagePreview

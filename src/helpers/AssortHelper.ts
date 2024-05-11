@@ -20,6 +20,7 @@ export class AssortHelper
         @inject("QuestHelper") protected questHelper: QuestHelper,
     )
     {}
+    
 
     /**
      * Remove assorts from a trader that have not been unlocked yet (via player completing corresponding quest)

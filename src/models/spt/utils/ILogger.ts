@@ -1,10 +1,10 @@
-import { Daum } from "@spt-diffpatch/models/eft/itemEvent/IItemEventRouterRequest";
+
 import { LogBackgroundColor } from "@spt-diffpatch/models/spt/logging/LogBackgroundColor";
 import { LogTextColor } from "@spt-diffpatch/models/spt/logging/LogTextColor";
 
 export interface ILogger
 {
-    writeToLogFile(data: string | Daum): void;
+    writeToLogFile(data: string ): void;
     log(data: string | Record<string, unknown> | Error, color: string, backgroundColor?: string): void;
     logWithColor(
         data: string | Record<string, unknown>,

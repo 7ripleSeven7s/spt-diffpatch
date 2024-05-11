@@ -1,8 +1,6 @@
-import { injectable } from "tsyringe";
 
 import { IDatabaseTables } from "@spt-diffpatch/models/spt/server/IDatabaseTables";
 
-@injectable()
 export class DatabaseServer
 {
     protected tableData: IDatabaseTables = {

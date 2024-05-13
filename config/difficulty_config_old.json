@@ -1,0 +1,230 @@
+{
+  "pmc": {
+    "bear": {
+      "easy": "/presets/pmc-ai/bear_normal.json",
+      "normal": "/presets/pmc-ai/bear_normal.json",
+      "hard": "/presets/pmc-ai/bear_normal.json",
+      "insane": "/presets/pmc-ai/bear_normal.json"
+    },
+    "usec": {
+      "easy": "/presets/pmc-ai/usec_normal.json",
+      "normal": "/presets/pmc-ai/usec_normal.json",
+      "hard": "/presets/pmc-ai/usec_normal.json",
+      "insane": "/presets/pmc-ai/usec_normal.json"
+    },
+    "exusec": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    }
+  },
+  "scav": {
+    "scav": {
+      "easy": "/presets/scav/scav_normal.json",
+      "normal": "/presets/scav/scav_normal.json",
+      "hard": "/presets/scav/scav_normal.json",
+      "insane": "/presets/scav/scav_normal.json"
+    },
+    "marksman": {
+      "easy": "/presets/scav/marksman_normal.json",
+      "normal": "/presets/scav/marksman_normal.json",
+      "hard": "/presets/scav/marksman_normal.json",
+      "insane": "/presets/scav/marksman_normal.json"
+    },
+    "gifter": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "cursedscav": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "sectantpriest": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "sectantwarrior": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "pmcbot": {
+      "easy": "/presets/scav/raider_normal.json",
+      "normal": "/presets/scav/raider_normal.json",
+      "hard": "/presets/scav/raider_normal.json",
+      "insane": "/presets/scav/raider_normal.json"
+    }
+  },
+  "boss": {
+    "bossboar": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "bossboarsniper": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "bossbully": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "bossgluhar": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "bosskilla": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "bossknight": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "bosskojaniy": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "bosskolontay": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "bosssanitar": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "bosstagilla": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "bosszryachiy": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followerbigpipe": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followerbirdeye": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followerboar": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followerboarclose1": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followerboarclose2": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followerbully": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followergluharscav": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followergluharscout": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followergluharsecurity": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followergluharsnipe": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followerkojaniy": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followerkolontayscav": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followerkolontaysecurity": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followersanitar": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followertagilla": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    },
+    "followerzryachiy": {
+      "easy": "",
+      "normal": "",
+      "hard": "",
+      "insane": ""
+    }
+  }
+}

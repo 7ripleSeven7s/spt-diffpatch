@@ -1,0 +1,6668 @@
+{
+  "BotWeaponScatterings": [
+    {
+      "Name": "AssaultCarbine",
+      "PriorityScatter100meter": 0.03,
+      "PriorityScatter10meter": 0.1,
+      "PriorityScatter1meter": 0.2
+    },
+    {
+      "Name": "AssaultRifle",
+      "PriorityScatter100meter": 0.03,
+      "PriorityScatter10meter": 0.1,
+      "PriorityScatter1meter": 0.2
+    },
+    {
+      "Name": "GrenadeLauncher ",
+      "PriorityScatter100meter": 0.03,
+      "PriorityScatter10meter": 0.1,
+      "PriorityScatter1meter": 0.2
+    }
+  ],
+  "ItemPresets": {
+    "5841474424597759ba49be91": {
+      "_changeWeaponName": false,
+      "_encyclopedia": "5644bd2b4bdc2d3b4c8b4572",
+      "_id": "5841474424597759ba49be91",
+      "_items": [
+        {
+          "_id": "61a9f8f132a4743c3453d2c6",
+          "_tpl": "5644bd2b4bdc2d3b4c8b4572",
+          "upd": {
+            "FireMode": {
+              "FireMode": "single"
+            }
+          }
+        },
+        {
+          "_id": "61a9f8f132a4743c3453d2c7",
+          "_tpl": "59c6633186f7740cf0493bb9",
+          "parentId": "61a9f8f132a4743c3453d2c6",
+          "slotId": "mod_gas_block"
+        },
+        {
+          "_id": "61a9f8f132a4743c3453d2c8",
+          "_tpl": "5648b0744bdc2d363b8b4578",
+          "parentId": "61a9f8f132a4743c3453d2c7",
+          "slotId": "mod_handguard"
+        },
+        {
+          "_id": "61a9f8f132a4743c3453d2c9",
+          "_tpl": "5649aa744bdc2ded0b8b457e",
+          "parentId": "61a9f8f132a4743c3453d2c6",
+          "slotId": "mod_muzzle"
+        },
+        {
+          "_id": "61a9f8f132a4743c3453d2ca",
+          "_tpl": "5649ad3f4bdc2df8348b4585",
+          "parentId": "61a9f8f132a4743c3453d2c6",
+          "slotId": "mod_pistol_grip"
+        },
+        {
+          "_id": "61a9f8f132a4743c3453d2cb",
+          "_tpl": "5649af094bdc2df8348b4586",
+          "parentId": "61a9f8f132a4743c3453d2c6",
+          "slotId": "mod_reciever"
+        },
+        {
+          "_id": "61a9f8f132a4743c3453d2cc",
+          "_tpl": "5649b0544bdc2d1b2b8b458a",
+          "parentId": "61a9f8f132a4743c3453d2c6",
+          "slotId": "mod_sight_rear"
+        },
+        {
+          "_id": "61a9f8f132a4743c3453d2cd",
+          "_tpl": "5649b1c04bdc2d16268b457c",
+          "parentId": "61a9f8f132a4743c3453d2c6",
+          "slotId": "mod_stock"
+        },
+        {
+          "_id": "61a9f8f132a4743c3453d2ce",
+          "_tpl": "564ca99c4bdc2d16268b4589",
+          "parentId": "61a9f8f132a4743c3453d2c6",
+          "slotId": "mod_magazine"
+        }
+      ],
+      "_name": "AK-74N",
+      "_parent": "61a9f8f132a4743c3453d2c6",
+      "_type": "Preset"
+    },
+    "584147732459775a2b6d9f12": {
+      "_changeWeaponName": false,
+      "_encyclopedia": "57dc2fa62459775949412633",
+      "_id": "584147732459775a2b6d9f12",
+      "_items": [
+        {
+          "_id": "61a9f9234e42d705e3133837",
+          "_tpl": "57dc2fa62459775949412633",
+          "upd": {
+            "FireMode": {
+              "FireMode": "single"
+            },
+            "Foldable": {
+              "Folded": false
+            }
+          }
+        },
+        {
+          "_id": "61a9f9234e42d705e3133838",
+          "_tpl": "57e3dba62459770f0c32322b",
+          "parentId": "61a9f9234e42d705e3133837",
+          "slotId": "mod_pistol_grip"
+        },
+        {
+          "_id": "61a9f9234e42d705e3133839",
+          "_tpl": "57dc347d245977596754e7a1",
+          "parentId": "61a9f9234e42d705e3133837",
+          "slotId": "mod_stock"
+        },
+        {
+          "_id": "61a9f9234e42d705e313383a",
+          "_tpl": "564ca99c4bdc2d16268b4589",
+          "parentId": "61a9f9234e42d705e3133837",
+          "slotId": "mod_magazine"
+        },
+        {
+          "_id": "61a9f9234e42d705e313383b",
+          "_tpl": "57dc324a24597759501edc20",
+          "parentId": "61a9f9234e42d705e3133837",
+          "slotId": "mod_muzzle"
+        },
+        {
+          "_id": "61a9f9234e42d705e313383c",
+          "_tpl": "57dc334d245977597164366f",
+          "parentId": "61a9f9234e42d705e3133837",
+          "slotId": "mod_reciever"
+        },
+        {
+          "_id": "61a9f9234e42d705e313383d",
+          "_tpl": "59d36a0086f7747e673f3946",
+          "parentId": "61a9f9234e42d705e3133837",
+          "slotId": "mod_gas_block"
+        },
+        {
+          "_id": "61a9f9234e42d705e313383e",
+          "_tpl": "57dc32dc245977596d4ef3d3",
+          "parentId": "61a9f9234e42d705e313383d",
+          "slotId": "mod_handguard"
+        }
+      ],
+      "_name": "AKS-74U Default",
+      "_parent": "61a9f9234e42d705e3133837",
+      "_type": "Preset"
+    }
+  },
+  "bot_presets": [
+    {
+      "BotDifficulty": "easy",
+      "COEF_IF_MOVE": 1.3,
+      "FIRST_CONTACT_ADD_SEC": 0.35,
+      "HearingSense": 0.75,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.85,
+      "Role": "assault",
+      "SCATTERING_DIST_MODIF": 0.8,
+      "ScatteringPerMeter": 0.095,
+      "UseThis": true,
+      "VisibleAngle": 140,
+      "VisibleDistance": 125
+    },
+    {
+      "BotDifficulty": "normal",
+      "COEF_IF_MOVE": 1.3,
+      "FIRST_CONTACT_ADD_SEC": 0.3,
+      "HearingSense": 0.8,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.85,
+      "Role": "assault",
+      "SCATTERING_DIST_MODIF": 0.8,
+      "ScatteringPerMeter": 0.085,
+      "UseThis": true,
+      "VisibleAngle": 145,
+      "VisibleDistance": 129
+    },
+    {
+      "BotDifficulty": "hard",
+      "COEF_IF_MOVE": 1.3,
+      "FIRST_CONTACT_ADD_SEC": 0.25,
+      "HearingSense": 0.85,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.85,
+      "Role": "assault",
+      "SCATTERING_DIST_MODIF": 0.8,
+      "ScatteringPerMeter": 0.085,
+      "UseThis": true,
+      "VisibleAngle": 145,
+      "VisibleDistance": 137
+    },
+    {
+      "BotDifficulty": "impossible",
+      "COEF_IF_MOVE": 1.3,
+      "FIRST_CONTACT_ADD_SEC": 0.2,
+      "HearingSense": 0.85,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.85,
+      "Role": "assault",
+      "SCATTERING_DIST_MODIF": 0.8,
+      "ScatteringPerMeter": 0.063,
+      "UseThis": true,
+      "VisibleAngle": 150,
+      "VisibleDistance": 140
+    },
+    {
+      "BotDifficulty": "easy",
+      "COEF_IF_MOVE": 1,
+      "FIRST_CONTACT_ADD_SEC": 0.1,
+      "HearingSense": 0.7,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.85,
+      "Role": "marksman",
+      "SCATTERING_DIST_MODIF": 0.7,
+      "ScatteringPerMeter": 0.08,
+      "UseThis": true,
+      "VisibleAngle": 160,
+      "VisibleDistance": 200
+    },
+    {
+      "BotDifficulty": "normal",
+      "COEF_IF_MOVE": 1,
+      "FIRST_CONTACT_ADD_SEC": 0.1,
+      "HearingSense": 0.7,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.85,
+      "Role": "marksman",
+      "SCATTERING_DIST_MODIF": 0.7,
+      "ScatteringPerMeter": 0.08,
+      "UseThis": true,
+      "VisibleAngle": 165,
+      "VisibleDistance": 220
+    },
+    {
+      "BotDifficulty": "hard",
+      "COEF_IF_MOVE": 1,
+      "FIRST_CONTACT_ADD_SEC": 0.1,
+      "HearingSense": 0.9,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.85,
+      "Role": "marksman",
+      "SCATTERING_DIST_MODIF": 0.7,
+      "ScatteringPerMeter": 0.08,
+      "UseThis": true,
+      "VisibleAngle": 180,
+      "VisibleDistance": 240
+    },
+    {
+      "BotDifficulty": "impossible",
+      "COEF_IF_MOVE": 1,
+      "FIRST_CONTACT_ADD_SEC": 0.1,
+      "HearingSense": 0.9,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.85,
+      "Role": "marksman",
+      "SCATTERING_DIST_MODIF": 0.7,
+      "ScatteringPerMeter": 0.08,
+      "UseThis": true,
+      "VisibleAngle": 160,
+      "VisibleDistance": 250
+    },
+    {
+      "BotDifficulty": "normal",
+      "COEF_IF_MOVE": 1,
+      "FIRST_CONTACT_ADD_SEC": 0.13,
+      "HearingSense": 4.8,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.15,
+      "Role": "bossKilla",
+      "SCATTERING_DIST_MODIF": 0.45,
+      "ScatteringPerMeter": 0.09,
+      "UseThis": true,
+      "VisibleAngle": 180,
+      "VisibleDistance": 140
+    },
+    {
+      "BotDifficulty": "normal",
+      "COEF_IF_MOVE": 1,
+      "FIRST_CONTACT_ADD_SEC": 0.13,
+      "HearingSense": 4.8,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.15,
+      "Role": "bossTagilla",
+      "SCATTERING_DIST_MODIF": 0.45,
+      "ScatteringPerMeter": 0.09,
+      "UseThis": true,
+      "VisibleAngle": 180,
+      "VisibleDistance": 140
+    },
+    {
+      "BotDifficulty": "normal",
+      "COEF_IF_MOVE": 1,
+      "FIRST_CONTACT_ADD_SEC": 0.13,
+      "HearingSense": 4.8,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.15,
+      "Role": "bossBully",
+      "SCATTERING_DIST_MODIF": 0.8,
+      "ScatteringPerMeter": 0.02,
+      "UseThis": true,
+      "VisibleAngle": 170,
+      "VisibleDistance": 140
+    },
+    {
+      "BotDifficulty": "normal",
+      "COEF_IF_MOVE": 1,
+      "FIRST_CONTACT_ADD_SEC": 0.13,
+      "HearingSense": 4.8,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.15,
+      "Role": "bossGluhar",
+      "SCATTERING_DIST_MODIF": 0.67,
+      "ScatteringPerMeter": 0.045,
+      "UseThis": true,
+      "VisibleAngle": 170,
+      "VisibleDistance": 140
+    },
+    {
+      "BotDifficulty": "normal",
+      "COEF_IF_MOVE": 1,
+      "FIRST_CONTACT_ADD_SEC": 0.13,
+      "HearingSense": 4.8,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.15,
+      "Role": "bossSanitar",
+      "SCATTERING_DIST_MODIF": 0.6,
+      "ScatteringPerMeter": 0.045,
+      "UseThis": true,
+      "VisibleAngle": 170,
+      "VisibleDistance": 140
+    },
+    {
+      "BotDifficulty": "normal",
+      "COEF_IF_MOVE": 1,
+      "FIRST_CONTACT_ADD_SEC": 0.13,
+      "HearingSense": 4.8,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.15,
+      "Role": "bossKojaniy",
+      "SCATTERING_DIST_MODIF": 0.6,
+      "ScatteringPerMeter": 0.045,
+      "UseThis": true,
+      "VisibleAngle": 170,
+      "VisibleDistance": 165
+    },
+    {
+      "BotDifficulty": "normal",
+      "COEF_IF_MOVE": 1,
+      "FIRST_CONTACT_ADD_SEC": 0.13,
+      "HearingSense": 4.8,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.15,
+      "Role": "bossKnight",
+      "SCATTERING_DIST_MODIF": 0.6,
+      "ScatteringPerMeter": 0.045,
+      "UseThis": true,
+      "VisibleAngle": 170,
+      "VisibleDistance": 140
+    },
+    {
+      "BotDifficulty": "normal",
+      "COEF_IF_MOVE": 1,
+      "FIRST_CONTACT_ADD_SEC": 0.13,
+      "HearingSense": 4.8,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.15,
+      "Role": "followerBigPipe",
+      "SCATTERING_DIST_MODIF": 0.45,
+      "ScatteringPerMeter": 0.09,
+      "UseThis": true,
+      "VisibleAngle": 180,
+      "VisibleDistance": 170
+    },
+    {
+      "BotDifficulty": "normal",
+      "COEF_IF_MOVE": 1,
+      "FIRST_CONTACT_ADD_SEC": 0.13,
+      "HearingSense": 4.8,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.15,
+      "Role": "followerBirdEye",
+      "SCATTERING_DIST_MODIF": 0.55,
+      "ScatteringPerMeter": 0.045,
+      "UseThis": true,
+      "VisibleAngle": 180,
+      "VisibleDistance": 255
+    },
+    {
+      "BotDifficulty": "normal",
+      "COEF_IF_MOVE": 1,
+      "FIRST_CONTACT_ADD_SEC": 0.13,
+      "HearingSense": 4.8,
+      "MAX_AIMING_UPGRADE_BY_TIME": 0.15,
+      "Role": "bossBoar",
+      "SCATTERING_DIST_MODIF": 0.6,
+      "ScatteringPerMeter": 0.045,
+      "UseThis": false,
+      "VisibleAngle": 170,
+      "VisibleDistance": 140
+    }
+  ],
+  "config": {
+    "AimPunchMagnitude": 7,
+    "Aiming": {
+      "AimProceduralIntensity": 0.75,
+      "CameraSnapGlobalMult": 2,
+      "HeavyWeight": 9,
+      "LightWeight": 0.6,
+      "MaxTimeHeavy": 2.4,
+      "MaxTimeLight": 2,
+      "MinTimeHeavy": 0.95,
+      "MinTimeLight": 0.35,
+      "ProceduralIntensityByPose": {
+        "x": 0.33,
+        "y": 0.66,
+        "z": 1
+      },
+      "RecoilBackBonus": 20,
+      "RecoilConvergenceMult": 1,
+      "RecoilCrank": false,
+      "RecoilDamping": 0.7,
+      "RecoilHandDamping": 0.45,
+      "RecoilScaling": 1,
+      "RecoilVertBonus": 20,
+      "RecoilXIntensityByPose": {
+        "x": 0.35,
+        "y": 0.7,
+        "z": 1
+      },
+      "RecoilYIntensityByPose": {
+        "x": 0.7,
+        "y": 0.7,
+        "z": 1
+      },
+      "RecoilZIntensityByPose": {
+        "x": 0.7,
+        "y": 0.7,
+        "z": 1
+      }
+    },
+    "ArmorMaterials": {
+      "Aluminium": {
+        "Destructibility": 0.45,
+        "ExplosionDestructibility": 0.45,
+        "MaxRepairDegradation": 0.1,
+        "MaxRepairKitDegradation": 0.09,
+        "MinRepairDegradation": 0.06,
+        "MinRepairKitDegradation": 0.055
+      },
+      "Aramid": {
+        "Destructibility": 0.1875,
+        "ExplosionDestructibility": 0.15,
+        "MaxRepairDegradation": 0.07,
+        "MaxRepairKitDegradation": 0.065,
+        "MinRepairDegradation": 0.03,
+        "MinRepairKitDegradation": 0.025
+      },
+      "ArmoredSteel": {
+        "Destructibility": 0.525,
+        "ExplosionDestructibility": 0.45,
+        "MaxRepairDegradation": 0.03,
+        "MaxRepairKitDegradation": 0.025,
+        "MinRepairDegradation": 0.01,
+        "MinRepairKitDegradation": 0.005
+      },
+      "Ceramic": {
+        "Destructibility": 0.6,
+        "ExplosionDestructibility": 0.525,
+        "MaxRepairDegradation": 0.22,
+        "MaxRepairKitDegradation": 0.2,
+        "MinRepairDegradation": 0.17,
+        "MinRepairKitDegradation": 0.155
+      },
+      "Combined": {
+        "Destructibility": 0.375,
+        "ExplosionDestructibility": 0.2,
+        "MaxRepairDegradation": 0.15,
+        "MaxRepairKitDegradation": 0.14,
+        "MinRepairDegradation": 0.1,
+        "MinRepairKitDegradation": 0.09
+      },
+      "Glass": {
+        "Destructibility": 0.6,
+        "ExplosionDestructibility": 0.6,
+        "MaxRepairDegradation": 0.42,
+        "MaxRepairKitDegradation": 0.38,
+        "MinRepairDegradation": 0.23,
+        "MinRepairKitDegradation": 0.21
+      },
+      "Titan": {
+        "Destructibility": 0.4125,
+        "ExplosionDestructibility": 0.375,
+        "MaxRepairDegradation": 0.1,
+        "MaxRepairKitDegradation": 0.09,
+        "MinRepairDegradation": 0.06,
+        "MinRepairKitDegradation": 0.055
+      },
+      "UHMWPE": {
+        "Destructibility": 0.3375,
+        "ExplosionDestructibility": 0.3,
+        "MaxRepairDegradation": 0.03,
+        "MaxRepairKitDegradation": 0.025,
+        "MinRepairDegradation": 0.01,
+        "MinRepairKitDegradation": 0.005
+      }
+    },
+    "AudioSettings": {
+      "AudioGroupPresets": [
+        {
+          "AngleToAllowBinaural": 1000,
+          "DisabledBinauralByDistance": false,
+          "DistanceToAllowBinaural": 1000,
+          "GroupType": 0,
+          "HeightToAllowBinaural": 1000,
+          "Name": "Gunshots",
+          "OcclusionEnabled": true,
+          "OcclusionIntensity": 1,
+          "OverallVolume": 1
+        },
+        {
+          "AngleToAllowBinaural": 12,
+          "DisabledBinauralByDistance": true,
+          "DistanceToAllowBinaural": 10,
+          "GroupType": 1,
+          "HeightToAllowBinaural": 2,
+          "Name": "Weaponry",
+          "OcclusionEnabled": true,
+          "OcclusionIntensity": 1,
+          "OverallVolume": 1
+        },
+        {
+          "AngleToAllowBinaural": 30,
+          "DisabledBinauralByDistance": false,
+          "DistanceToAllowBinaural": 60,
+          "GroupType": 2,
+          "HeightToAllowBinaural": 10,
+          "Name": "Impacts",
+          "OcclusionEnabled": true,
+          "OcclusionIntensity": 1,
+          "OverallVolume": 1
+        },
+        {
+          "AngleToAllowBinaural": 30,
+          "DisabledBinauralByDistance": false,
+          "DistanceToAllowBinaural": 60,
+          "GroupType": 3,
+          "HeightToAllowBinaural": 10,
+          "Name": "Character",
+          "OcclusionEnabled": true,
+          "OcclusionIntensity": 1,
+          "OverallVolume": 1
+        },
+        {
+          "AngleToAllowBinaural": 30,
+          "DisabledBinauralByDistance": false,
+          "DistanceToAllowBinaural": 60,
+          "GroupType": 4,
+          "HeightToAllowBinaural": 10,
+          "Name": "Environment",
+          "OcclusionEnabled": true,
+          "OcclusionIntensity": 1,
+          "OverallVolume": 1
+        },
+        {
+          "AngleToAllowBinaural": 12,
+          "DisabledBinauralByDistance": true,
+          "DistanceToAllowBinaural": 10,
+          "GroupType": 5,
+          "HeightToAllowBinaural": 2,
+          "Name": "Collisions",
+          "OcclusionEnabled": true,
+          "OcclusionIntensity": 1,
+          "OverallVolume": 1
+        },
+        {
+          "AngleToAllowBinaural": 30,
+          "DisabledBinauralByDistance": false,
+          "DistanceToAllowBinaural": 60,
+          "GroupType": 6,
+          "HeightToAllowBinaural": 10,
+          "Name": "Speech",
+          "OcclusionEnabled": true,
+          "OcclusionIntensity": 1,
+          "OverallVolume": 0.7
+        },
+        {
+          "AngleToAllowBinaural": 30,
+          "DisabledBinauralByDistance": false,
+          "DistanceToAllowBinaural": 60,
+          "GroupType": 7,
+          "HeightToAllowBinaural": 10,
+          "Name": "Distant",
+          "OcclusionEnabled": true,
+          "OcclusionIntensity": 1,
+          "OverallVolume": 1
+        },
+        {
+          "AngleToAllowBinaural": 30,
+          "DisabledBinauralByDistance": false,
+          "DistanceToAllowBinaural": 60,
+          "GroupType": 8,
+          "HeightToAllowBinaural": 10,
+          "Name": "NonspatialBypass",
+          "OcclusionEnabled": false,
+          "OcclusionIntensity": 1,
+          "OverallVolume": 1
+        },
+        {
+          "AngleToAllowBinaural": 30,
+          "DisabledBinauralByDistance": false,
+          "DistanceToAllowBinaural": 60,
+          "GroupType": 9,
+          "HeightToAllowBinaural": 10,
+          "Name": "Nonspatial",
+          "OcclusionEnabled": false,
+          "OcclusionIntensity": 1,
+          "OverallVolume": 1
+        },
+        {
+          "AngleToAllowBinaural": 30,
+          "DisabledBinauralByDistance": false,
+          "DistanceToAllowBinaural": 60,
+          "GroupType": 10,
+          "HeightToAllowBinaural": 10,
+          "Name": "Voip",
+          "OcclusionEnabled": true,
+          "OcclusionIntensity": 1,
+          "OverallVolume": 1
+        },
+        {
+          "AngleToAllowBinaural": 1000,
+          "DisabledBinauralByDistance": true,
+          "DistanceToAllowBinaural": 1000,
+          "GroupType": 11,
+          "HeightToAllowBinaural": 1000,
+          "Name": "Grenades",
+          "OcclusionEnabled": true,
+          "OcclusionIntensity": 1,
+          "OverallVolume": 1
+        },
+        {
+          "AngleToAllowBinaural": 12,
+          "DisabledBinauralByDistance": true,
+          "DistanceToAllowBinaural": 10,
+          "GroupType": 12,
+          "HeightToAllowBinaural": 2,
+          "Name": "Windows",
+          "OcclusionEnabled": true,
+          "OcclusionIntensity": 1,
+          "OverallVolume": 1
+        }
+      ],
+      "EnvironmentSettings": {
+        "SnowStepsVolumeMultiplier": 0.35,
+        "SurfaceMultipliers": [
+          {
+            "SurfaceType": "Concrete",
+            "VolumeMult": 0
+          },
+          {
+            "SurfaceType": "Metal",
+            "VolumeMult": 0.4
+          },
+          {
+            "SurfaceType": "Wood",
+            "VolumeMult": 0.5
+          },
+          {
+            "SurfaceType": "Soil",
+            "VolumeMult": 1
+          },
+          {
+            "SurfaceType": "Grass",
+            "VolumeMult": 1
+          },
+          {
+            "SurfaceType": "Asphalt",
+            "VolumeMult": 0.8
+          },
+          {
+            "SurfaceType": "Glass",
+            "VolumeMult": 0.1
+          },
+          {
+            "SurfaceType": "Gravel",
+            "VolumeMult": 1
+          },
+          {
+            "SurfaceType": "MetalThin",
+            "VolumeMult": 0.4
+          },
+          {
+            "SurfaceType": "Puddle",
+            "VolumeMult": 0
+          },
+          {
+            "SurfaceType": "Slate",
+            "VolumeMult": 0.3
+          },
+          {
+            "SurfaceType": "Tile",
+            "VolumeMult": 0.1
+          },
+          {
+            "SurfaceType": "WoodThick",
+            "VolumeMult": 0.5
+          },
+          {
+            "SurfaceType": "Swamp",
+            "VolumeMult": 0
+          },
+          {
+            "SurfaceType": "Garbage",
+            "VolumeMult": 0.5
+          },
+          {
+            "SurfaceType": "GarbageMetal",
+            "VolumeMult": 0.4
+          },
+          {
+            "SurfaceType": "Plastic",
+            "VolumeMult": 0.3
+          },
+          {
+            "SurfaceType": "WholeGlass",
+            "VolumeMult": 0.1
+          },
+          {
+            "SurfaceType": "WoodThin",
+            "VolumeMult": 0.5
+          }
+        ]
+      }
+    },
+    "AzimuthPanelShowsPlayerOrientation": false,
+    "BTRSettings": {
+      "AddPriceTaxi": 500,
+      "BasePriceTaxi": 7000,
+      "BearPriceMod": 1,
+      "BotCoverMinPrice": 30000,
+      "CheckSurfaceForWheelsTimer": 0.3,
+      "CleanUpPrice": 50000,
+      "CoefficientDiscountCharisma": 0.002,
+      "DeliveryMinPrice": 1000,
+      "DeliveryPrice": 500,
+      "DiameterWheel": 57.5,
+      "HeightWheel": 0.65,
+      "HeightWheelMaxPosLimit": 0.8,
+      "HeightWheelMinPosLimit": 0.46,
+      "HeightWheelOffset": -0.075,
+      "LocationsWithBTR": ["develop", "TarkovStreets"],
+      "MapsConfigs": {
+        "Develop": {
+          "mapID": "develop",
+          "pathsConfigurations": [
+            {
+              "circle": true,
+              "circleCount": 143,
+              "enterPoint": "p7",
+              "exitPoint": "p7",
+              "id": "circleAll",
+              "once": false,
+              "pathPoints": ["p1", "p2", "p3", "p4", "p5", "p6"]
+            },
+            {
+              "circle": false,
+              "circleCount": 0,
+              "enterPoint": "p7",
+              "exitPoint": "p8",
+              "id": "once1",
+              "once": true,
+              "pathPoints": ["p1", "p2", "p3", "p4", "p5"]
+            }
+          ]
+        },
+        "TarkovStreets": {
+          "mapID": "TarkovStreets",
+          "pathsConfigurations": [
+            {
+              "circle": true,
+              "circleCount": 5,
+              "enterPoint": "p7",
+              "exitPoint": "p7",
+              "id": "RouteOne",
+              "once": false,
+              "pathPoints": ["p1", "p2", "p6", "p5", "p4", "p3"]
+            },
+            {
+              "circle": true,
+              "circleCount": 3,
+              "enterPoint": "p8",
+              "exitPoint": "p8",
+              "id": "RouteTwo",
+              "once": false,
+              "pathPoints": ["p6", "p2", "p1", "p3", "p4", "p5"]
+            },
+            {
+              "circle": true,
+              "circleCount": 4,
+              "enterPoint": "p9",
+              "exitPoint": "p9",
+              "id": "RouteTree",
+              "once": false,
+              "pathPoints": ["p4", "p3", "p1", "p2", "p6", "p5"]
+            },
+            {
+              "circle": true,
+              "circleCount": 2,
+              "enterPoint": "p10",
+              "exitPoint": "p10",
+              "id": "RouteFour",
+              "once": false,
+              "pathPoints": ["p5", "p6", "p2", "p1", "p4"]
+            }
+          ]
+        }
+      },
+      "ModDeliveryCost": 0.05,
+      "ScavPriceMod": 0.8,
+      "SnapToSurfaceWheelsSpeed": 0.2,
+      "TaxiMinPrice": 4000,
+      "UsecPriceMod": 1.5
+    },
+    "Ballistic": {
+      "GlobalDamageDegradationCoefficient": 0.5
+    },
+    "BaseCheckTime": 3,
+    "BaseLoadTime": 0.5,
+    "BaseUnloadTime": 0.3,
+    "BotsEnabled": true,
+    "BufferZone": {
+      "CustomerAccessTime": 600,
+      "CustomerCriticalTimeStart": 10,
+      "CustomerKickNotifTime": 60
+    },
+    "CoopSettings": {
+      "AvailableVersions": [
+        "edge_of_darkness",
+        "press_edition",
+        "tournament_live"
+      ]
+    },
+    "Customization": {
+      "BodyParts": {
+        "Body": "Body",
+        "Feet": "Feet",
+        "Hands": "Hands",
+        "Head": "Head"
+      },
+      "CustomizationVoice": [
+        {
+          "isNotRandom": true,
+          "side": ["Bear", "Savage"],
+          "voice": "Bear_1"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Bear", "Savage"],
+          "voice": "Bear_2"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Usec", "Savage"],
+          "voice": "Usec_1"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Usec", "Savage"],
+          "voice": "Usec_2"
+        },
+        {
+          "isNotRandom": false,
+          "side": ["Savage"],
+          "voice": "Scav_1"
+        },
+        {
+          "isNotRandom": false,
+          "side": ["Savage"],
+          "voice": "Scav_2"
+        },
+        {
+          "isNotRandom": false,
+          "side": ["Savage"],
+          "voice": "Scav_3"
+        },
+        {
+          "isNotRandom": false,
+          "side": ["Savage"],
+          "voice": "Scav_4"
+        },
+        {
+          "isNotRandom": false,
+          "side": ["Savage"],
+          "voice": "Scav_5"
+        },
+        {
+          "isNotRandom": false,
+          "side": ["Savage"],
+          "voice": "Scav_6"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Usec", "Savage"],
+          "voice": "Usec_3"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Bear", "Savage"],
+          "voice": "Bear_3"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "BossBully"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "BossGluhar"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "BossSanitar"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "SectantWarrior"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "SectantPriest"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Bear"],
+          "voice": "Bear_1_Eng"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Bear"],
+          "voice": "Bear_2_Eng"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Usec"],
+          "voice": "Usec_4"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Usec"],
+          "voice": "Usec_5"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "BossTagilla"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "BossKilla"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "BossKnight"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "BossBirdEye"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "BossBigPipe"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "Arena_Guard_1"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "Arena_Guard_2"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "Boss_Kaban"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "Boss_Kollontay"
+        },
+        {
+          "isNotRandom": true,
+          "side": ["Savage"],
+          "voice": "Boss_Sturman"
+        }
+      ],
+      "SavageBody": {
+        "DefaultUsecBody": {
+          "body": "5cde95d97d6c8b647a3769b0",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "Top_BOSS_BigPipe": {
+          "body": "6287b16b05846043f15a790d",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "Top_BOSS_Birdeye": {
+          "body": "628a6801805c5b6c100cc200",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "Top_BOSS_Blackknight": {
+          "body": "628796f2af0a053a6672c29a",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "Top_BOSS_Kaban": {
+          "body": "648067b8aa32c2049f098463",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "Top_BOSS_Kolontai": {
+          "body": "654b5eb7a29f3736215dd030",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "Top_BOSS_Sanitar": {
+          "body": "5e9975c486f774382b6320cb",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "Top_BOSS_Zryachi": {
+          "body": "63628b825c1b30a79d09ccb9",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "Top_security_Gorka4": {
+          "body": "5d5e7e8386f774393602d6fa",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "Top_security_Husky": {
+          "body": "5d5e7e7586f77427997cfb7f",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "Tshirt_security_TshirtTatu_01": {
+          "body": "5d5e7e4a86f774279a21cc0d",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "Tshirt_security_TshirtTatu_02": {
+          "body": "5d5e7e5d86f774279b4f4b01",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "Wild_Dealmaker_body": {
+          "body": "5d28adcb86f77429242fc893",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "scav_kit_upper_meteor": {
+          "body": "5df8a10486f77412672a1e3a",
+          "hands": "5df8eac086f77412640e2ea7",
+          "isNotRandom": false
+        },
+        "top_boss_tagilla": {
+          "body": "609e86926e8078716f600883",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "top_cultist_01": {
+          "body": "5fb53cc97b5d1342ee24bd63",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "top_cultist_02": {
+          "body": "5fb53d0b7b5d1342ee24bd64",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "usec_top_beltstaff": {
+          "body": "6033a35f80ae5e2f970ba6bb",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "usec_upper_acu": {
+          "body": "5fd3e9f71b735718c25cd9f8",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "usec_upper_aggressor": {
+          "body": "5d1f56c686f7744bcd13459c",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "usec_upper_commando": {
+          "body": "5d4da0cb86f77450fe0a6629",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "usec_upper_flexion": {
+          "body": "5d1f56e486f7744bce0ee9ed",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "usec_upper_hoody": {
+          "body": "5e9da17386f774054b6f79a3",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "usec_upper_infiltrator": {
+          "body": "5d1f56f186f7744bcb0acd1a",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "usec_upper_pcsmulticam": {
+          "body": "5d1f56ff86f7743f8362bcd7",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "usec_upper_pcuironsight": {
+          "body": "5d1f56a686f7744bce0ee9eb",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "usec_upper_tier3": {
+          "body": "5fcf63da5c287f01f22bf245",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "usec_upper_tier_2": {
+          "body": "5e4bb35286f77406a511c9bc",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "user_upper_NightPatrol": {
+          "body": "5f5e4075df4f3100376a8138",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "wild_Gluhar_body": {
+          "body": "5d5e7dd786f7744a7a274322",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "wild_Killa_body": {
+          "body": "5cdea33e7d6c8b0474535dac",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "wild_Shturman_body": {
+          "body": "5d5e7c9186f774393602d6f9",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "wild_body": {
+          "body": "5cc2e59214c02e000f16684e",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": false
+        },
+        "wild_body_1": {
+          "body": "5cde9f337d6c8b0474535da8",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": false
+        },
+        "wild_body_2": {
+          "body": "5d28ad6986f77429275dba22",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": false
+        },
+        "wild_body_3": {
+          "body": "5d28ad7286f7742926686182",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": false
+        },
+        "wild_body_bomber": {
+          "body": "619238266c614e6d15792bca",
+          "hands": "618cf9540a5a59657e5f5677",
+          "isNotRandom": false
+        },
+        "wild_body_feldparka": {
+          "body": "64a2edba08d26f8d62049c06",
+          "hands": "64ac23c449d74fd5ec0a124e",
+          "isNotRandom": false
+        },
+        "wild_body_motocross": {
+          "body": "5e9da1d086f774054a667134",
+          "hands": "5e9da2dd86f774054e7d0f63",
+          "isNotRandom": false
+        },
+        "wild_body_rainparka": {
+          "body": "5fd1eb3fbe3b7107d66cb645",
+          "hands": "5fd78fe9e3bfcf6cab4c9f54",
+          "isNotRandom": false
+        },
+        "wild_body_russia1": {
+          "body": "5e4bb3ee86f77406975c934e",
+          "hands": "5e4bb49586f77406a313ec5a",
+          "isNotRandom": false
+        },
+        "wild_body_underarmour": {
+          "body": "5fd22d311add82653b5a704c",
+          "hands": "5fd7901bdd870108a754c0e6",
+          "isNotRandom": false
+        },
+        "wild_body_victory": {
+          "body": "637df28ac22da5bb8d046935",
+          "hands": "6391c6205dbbdb3b1b049840",
+          "isNotRandom": false
+        },
+        "wild_pmcBot_body": {
+          "body": "5d28ae4986f7742926686187",
+          "hands": "5cc0876314c02e000c6bea6b",
+          "isNotRandom": true
+        },
+        "wild_security_body_1": {
+          "body": "5d28adfd86f774292364a6e5",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "wild_security_body_2": {
+          "body": "5d28ae2986f7742926686185",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "wild_security_body_bratva_1": {
+          "body": "65749b8fe32c4e3f7907bf42",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "wild_security_body_bratva_2": {
+          "body": "65749ba32fdb04fb79092d37",
+          "hands": "5cc2e68f14c02e28b47de290",
+          "isNotRandom": true
+        },
+        "wild_top_yellowcoat": {
+          "body": "618d1af10a5a59657e5f56f3",
+          "hands": "6197aca964ae5436d76c1f98",
+          "isNotRandom": false
+        }
+      },
+      "SavageFeet": {
+        "Pants_BOSS_BigPipe": {
+          "NotRandom": false,
+          "feet": "6287b14b66bb7d4a3c32bc94",
+          "isNotRandom": true
+        },
+        "Pants_BOSS_Birdeye": {
+          "NotRandom": false,
+          "feet": "628a4645c9327c7587388849",
+          "isNotRandom": true
+        },
+        "Pants_BOSS_Blackknight": {
+          "NotRandom": false,
+          "feet": "628771f70828252c7a28b961",
+          "isNotRandom": true
+        },
+        "Pants_BOSS_Glukhar": {
+          "NotRandom": false,
+          "feet": "5d5e7f2a86f77427997cfb80",
+          "isNotRandom": true
+        },
+        "Pants_BOSS_Kaban": {
+          "NotRandom": false,
+          "feet": "64806edf77c11aeac5078e33",
+          "isNotRandom": true
+        },
+        "Pants_BOSS_Kolontai": {
+          "NotRandom": false,
+          "feet": "654a2bc5ee6e547e9f6238e7",
+          "isNotRandom": true
+        },
+        "Pants_BOSS_Sanitar": {
+          "NotRandom": false,
+          "feet": "5e99762586f77466320ff9a9",
+          "isNotRandom": true
+        },
+        "Pants_BOSS_Shturman": {
+          "NotRandom": false,
+          "feet": "5d5e7f3c86f7742797262063",
+          "isNotRandom": true
+        },
+        "Pants_BOSS_Zryachi": {
+          "NotRandom": false,
+          "feet": "6361216278f9ab270a0a48d9",
+          "isNotRandom": true
+        },
+        "Pants_security_Flora": {
+          "NotRandom": false,
+          "feet": "5d5e7f8986f7742798716582",
+          "isNotRandom": true
+        },
+        "Pants_security_Gorka4": {
+          "NotRandom": false,
+          "feet": "5d5e7f4986f7746956659f8a",
+          "isNotRandom": true
+        },
+        "Wild_Dealmaker_feet": {
+          "NotRandom": false,
+          "feet": "5d28b3a186f7747f7e69ab8c",
+          "isNotRandom": true
+        },
+        "Wild_Killa_feet": {
+          "NotRandom": false,
+          "feet": "5cdea3c47d6c8b0475341734",
+          "isNotRandom": true
+        },
+        "pants_boss_tagilla": {
+          "NotRandom": false,
+          "feet": "609e86c09776a947754429b2",
+          "isNotRandom": true
+        },
+        "pants_cultist_01": {
+          "NotRandom": false,
+          "feet": "5fb535bd1c69e5198e234125",
+          "isNotRandom": true
+        },
+        "pants_cultist_02": {
+          "NotRandom": false,
+          "feet": "5fb535cf1c69e5198e234126",
+          "isNotRandom": true
+        },
+        "scav_kit_lower_sklon": {
+          "NotRandom": false,
+          "feet": "5df8a15186f77412640e2e6a",
+          "isNotRandom": false
+        },
+        "wild_feet": {
+          "NotRandom": false,
+          "feet": "5cc2e5d014c02e15d53d9c03",
+          "isNotRandom": false
+        },
+        "wild_feet_1": {
+          "NotRandom": false,
+          "feet": "5cde9fb87d6c8b0474535da9",
+          "isNotRandom": false
+        },
+        "wild_feet_2": {
+          "NotRandom": false,
+          "feet": "5d28af3486f774292364a6e7",
+          "isNotRandom": false
+        },
+        "wild_feet_bomber": {
+          "NotRandom": false,
+          "feet": "6193be546e5968395b260157",
+          "isNotRandom": false
+        },
+        "wild_feet_feldparka": {
+          "NotRandom": false,
+          "feet": "64a2e970a74bb33d140e6dc5",
+          "isNotRandom": false
+        },
+        "wild_feet_scavelite_taclite": {
+          "NotRandom": false,
+          "feet": "6033a430ed2e0509b15f9033",
+          "isNotRandom": true
+        },
+        "wild_feet_slimPants": {
+          "NotRandom": false,
+          "feet": "5f5e41576760b4138443b344",
+          "isNotRandom": false
+        },
+        "wild_feet_sweatpants": {
+          "NotRandom": false,
+          "feet": "5f5e410c6bdad616ad46d60b",
+          "isNotRandom": false
+        },
+        "wild_feet_victory": {
+          "NotRandom": false,
+          "feet": "637df25a1e688345e1097bd4",
+          "isNotRandom": false
+        },
+        "wild_feet_wasatch": {
+          "NotRandom": false,
+          "feet": "5f5e41366760b4138443b343",
+          "isNotRandom": false
+        },
+        "wild_pants_yellowcoat": {
+          "NotRandom": false,
+          "feet": "61922589bb2cea6f7a22d964",
+          "isNotRandom": false
+        },
+        "wild_pmcBot_feet": {
+          "NotRandom": false,
+          "feet": "5d28af7886f77429275dba25",
+          "isNotRandom": true
+        },
+        "wild_security_feet_1": {
+          "NotRandom": false,
+          "feet": "5d28af5386f774292364a6e8",
+          "isNotRandom": true
+        },
+        "wild_security_feet_bratva_1": {
+          "NotRandom": false,
+          "feet": "65749c05e0423b9ebe0c79c7",
+          "isNotRandom": true
+        },
+        "wild_security_feet_bratva_2": {
+          "NotRandom": false,
+          "feet": "65749c1fe32c4e3f7907bf47",
+          "isNotRandom": true
+        }
+      },
+      "SavageHead": {
+        "DefaultUsecHead": {
+          "NotRandom": false,
+          "head": "5cde96047d6c8b20b577f016",
+          "isNotRandom": true
+        },
+        "Head_BOSS_BigPIpe": {
+          "NotRandom": false,
+          "head": "6287b0d239d8207cb27d66c7",
+          "isNotRandom": true
+        },
+        "Head_BOSS_Birdeye": {
+          "NotRandom": false,
+          "head": "628b57d800f171376e7b2634",
+          "isNotRandom": true
+        },
+        "Head_BOSS_Blackknight": {
+          "NotRandom": false,
+          "head": "62875ad50828252c7a28b95c",
+          "isNotRandom": true
+        },
+        "Head_BOSS_Glukhar": {
+          "NotRandom": false,
+          "head": "5d5e805d86f77439eb4c2d0e",
+          "isNotRandom": true
+        },
+        "Head_BOSS_Kaban": {
+          "NotRandom": false,
+          "head": "64809e3077c11aeac5078e3c",
+          "isNotRandom": true
+        },
+        "Head_BOSS_Kolontai": {
+          "NotRandom": false,
+          "head": "654b5ed58558fd71f97254f4",
+          "isNotRandom": true
+        },
+        "Head_BOSS_Sanitar": {
+          "NotRandom": false,
+          "head": "5e99767c86f7741ac7399393",
+          "isNotRandom": true
+        },
+        "Head_BOSS_Zryachi": {
+          "NotRandom": false,
+          "head": "636129784aa74b8fe30ab418",
+          "isNotRandom": true
+        },
+        "Wild_Dealmaker_head": {
+          "NotRandom": false,
+          "head": "5d28b01486f77429242fc898",
+          "isNotRandom": true
+        },
+        "Wild_Head_nonMesh": {
+          "NotRandom": false,
+          "head": "5d5f8ba486f77431254e7fd2",
+          "isNotRandom": true
+        },
+        "Wild_Killa_head": {
+          "NotRandom": false,
+          "head": "5d28b03e86f7747f7e69ab8a",
+          "isNotRandom": true
+        },
+        "bear_head": {
+          "NotRandom": false,
+          "head": "5cc084dd14c02e000b0550a3",
+          "isNotRandom": true
+        },
+        "bear_head_1": {
+          "NotRandom": false,
+          "head": "5cc084dd14c02e000b0550a3",
+          "isNotRandom": true
+        },
+        "head_cultist_01": {
+          "NotRandom": false,
+          "head": "5fb5297a0359a84b77066e56",
+          "isNotRandom": true
+        },
+        "head_cultist_02": {
+          "NotRandom": false,
+          "head": "5fb52a3a1c69e5198e234118",
+          "isNotRandom": true
+        },
+        "head_cultist_03": {
+          "NotRandom": false,
+          "head": "5fb52a537b5d1342ee24bd57",
+          "isNotRandom": true
+        },
+        "usec_head_1": {
+          "NotRandom": false,
+          "head": "5cc084dd14c02e000b0550a3",
+          "isNotRandom": true
+        },
+        "usec_head_3": {
+          "NotRandom": false,
+          "head": "5fdb5950f5264a66150d1c6e",
+          "isNotRandom": true
+        },
+        "usec_head_4": {
+          "NotRandom": false,
+          "head": "60a6aaad42fd2735e4589978",
+          "isNotRandom": true
+        },
+        "usec_head_5": {
+          "NotRandom": false,
+          "head": "60a6aa8fd559ae040d0d951f",
+          "isNotRandom": true
+        },
+        "wild_head_1": {
+          "NotRandom": false,
+          "head": "5cc2e4d014c02e000d0115f8",
+          "isNotRandom": false
+        },
+        "wild_head_2": {
+          "NotRandom": false,
+          "head": "5cde9ff17d6c8b0474535daa",
+          "isNotRandom": false
+        },
+        "wild_head_3": {
+          "NotRandom": false,
+          "head": "5d28afe786f774292668618d",
+          "isNotRandom": false
+        },
+        "wild_head_drozd": {
+          "NotRandom": false,
+          "head": "5f68c4a7c174a17c0f4c8945",
+          "isNotRandom": false
+        },
+        "wild_head_misha": {
+          "NotRandom": false,
+          "head": "5f68c4c217d579077152a252",
+          "isNotRandom": false
+        },
+        "wild_security_head_den": {
+          "NotRandom": false,
+          "head": "65749be133fdc9c0cf06d3c8",
+          "isNotRandom": true
+        },
+        "wild_security_head_gus": {
+          "NotRandom": false,
+          "head": "65749bcce32c4e3f7907bf44",
+          "isNotRandom": true
+        }
+      }
+    },
+    "DiscardLimitsEnabled": true,
+    "EventSettings": {
+      "EventActive": false,
+      "EventTime": 390,
+      "EventWeather": {
+        "Cloudness": 1,
+        "Hour": 21,
+        "Minute": 0,
+        "Rain": 0.1,
+        "RainRandomness": 0,
+        "ScaterringFogDensity": 0.02,
+        "TopWindDirection": {
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        "Wind": 4,
+        "WindDirection": 8
+      },
+      "ExitTimeMultiplier": 3,
+      "StaminaMultiplier": 3,
+      "SummonFailedWeather": {
+        "Cloudness": 0,
+        "Rain": 0,
+        "RainRandomness": 0,
+        "ScaterringFogDensity": 0.001,
+        "TopWindDirection": {
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        "Wind": 0,
+        "WindDirection": 8
+      },
+      "SummonSuccessWeather": {
+        "Cloudness": 0,
+        "Hour": 6,
+        "Minute": 10,
+        "Rain": 0.1,
+        "RainRandomness": 0,
+        "ScaterringFogDensity": 0.05,
+        "TopWindDirection": {
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        "Wind": 0.2,
+        "WindDirection": 8
+      },
+      "WeatherChangeTime": 20
+    },
+    "EventType": ["None"],
+    "FavoriteItemsSettings": {
+      "PlaceOfFameMaxItemsCount": 7,
+      "WeaponStandMaxItemsCount": 3
+    },
+    "FenceSettings": {
+      "FenceId": "579dc571d53a0658a154fbec",
+      "Levels": {
+        "-1": {
+          "AvailableExits": 3,
+          "BotApplySilenceChance": 40,
+          "BotFollowChance": 40,
+          "BotGetInCoverChance": 40,
+          "BotHelpChance": 40,
+          "BotSpreadoutChance": 40,
+          "BotStopChance": 40,
+          "CanInteractWithBtr": true,
+          "DeliveryGridSize": {
+            "x": 3,
+            "y": 2,
+            "z": 0
+          },
+          "ExfiltrationPriceModifier": 1.25,
+          "HostileBosses": true,
+          "HostileScavs": false,
+          "PaidExitCostModifier": 1.25,
+          "PriceModCleanUp": -2000,
+          "PriceModDelivery": -500,
+          "PriceModTaxi": -200,
+          "PriceModifier": 1.05,
+          "SavageCooldownModifier": 1.25,
+          "ScavAttackSupport": false,
+          "ScavCaseTimeModifier": 1.25,
+          "ScavEquipmentSpawnChanceModifier": 0
+        },
+        "-2": {
+          "AvailableExits": 2,
+          "BotApplySilenceChance": 30,
+          "BotFollowChance": 30,
+          "BotGetInCoverChance": 30,
+          "BotHelpChance": 30,
+          "BotSpreadoutChance": 30,
+          "BotStopChance": 30,
+          "CanInteractWithBtr": true,
+          "DeliveryGridSize": {
+            "x": 2,
+            "y": 2,
+            "z": 0
+          },
+          "ExfiltrationPriceModifier": 1.5,
+          "HostileBosses": true,
+          "HostileScavs": false,
+          "PaidExitCostModifier": 1.5,
+          "PriceModCleanUp": -4000,
+          "PriceModDelivery": -800,
+          "PriceModTaxi": -400,
+          "PriceModifier": 1.08,
+          "SavageCooldownModifier": 1.5,
+          "ScavAttackSupport": false,
+          "ScavCaseTimeModifier": 1.5,
+          "ScavEquipmentSpawnChanceModifier": -1
+        },
+        "-3": {
+          "AvailableExits": 2,
+          "BotApplySilenceChance": 20,
+          "BotFollowChance": 20,
+          "BotGetInCoverChance": 20,
+          "BotHelpChance": 20,
+          "BotSpreadoutChance": 20,
+          "BotStopChance": 20,
+          "CanInteractWithBtr": true,
+          "DeliveryGridSize": {
+            "x": 3,
+            "y": 1,
+            "z": 0
+          },
+          "ExfiltrationPriceModifier": 2,
+          "HostileBosses": true,
+          "HostileScavs": false,
+          "PaidExitCostModifier": 2,
+          "PriceModCleanUp": -6000,
+          "PriceModDelivery": -1200,
+          "PriceModTaxi": -600,
+          "PriceModifier": 1.1,
+          "SavageCooldownModifier": 2,
+          "ScavAttackSupport": false,
+          "ScavCaseTimeModifier": 2,
+          "ScavEquipmentSpawnChanceModifier": -2
+        },
+        "-4": {
+          "AvailableExits": 2,
+          "BotApplySilenceChance": 15,
+          "BotFollowChance": 15,
+          "BotGetInCoverChance": 15,
+          "BotHelpChance": 15,
+          "BotSpreadoutChance": 15,
+          "BotStopChance": 15,
+          "CanInteractWithBtr": true,
+          "DeliveryGridSize": {
+            "x": 2,
+            "y": 1,
+            "z": 0
+          },
+          "ExfiltrationPriceModifier": 2.5,
+          "HostileBosses": true,
+          "HostileScavs": false,
+          "PaidExitCostModifier": 2.5,
+          "PriceModCleanUp": -8000,
+          "PriceModDelivery": -1600,
+          "PriceModTaxi": -800,
+          "PriceModifier": 1.12,
+          "SavageCooldownModifier": 2.5,
+          "ScavAttackSupport": false,
+          "ScavCaseTimeModifier": 3,
+          "ScavEquipmentSpawnChanceModifier": -2
+        },
+        "-5": {
+          "AvailableExits": 1,
+          "BotApplySilenceChance": 10,
+          "BotFollowChance": 10,
+          "BotGetInCoverChance": 10,
+          "BotHelpChance": 10,
+          "BotSpreadoutChance": 10,
+          "BotStopChance": 10,
+          "CanInteractWithBtr": true,
+          "DeliveryGridSize": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "ExfiltrationPriceModifier": 3,
+          "HostileBosses": true,
+          "HostileScavs": false,
+          "PaidExitCostModifier": 3,
+          "PriceModCleanUp": -10000,
+          "PriceModDelivery": -2000,
+          "PriceModTaxi": -1000,
+          "PriceModifier": 1.15,
+          "SavageCooldownModifier": 3,
+          "ScavAttackSupport": false,
+          "ScavCaseTimeModifier": 3.5,
+          "ScavEquipmentSpawnChanceModifier": -3
+        },
+        "-6": {
+          "AvailableExits": 1,
+          "BotApplySilenceChance": 5,
+          "BotFollowChance": 5,
+          "BotGetInCoverChance": 5,
+          "BotHelpChance": 5,
+          "BotSpreadoutChance": 5,
+          "BotStopChance": 5,
+          "CanInteractWithBtr": false,
+          "DeliveryGridSize": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "ExfiltrationPriceModifier": 3.5,
+          "HostileBosses": true,
+          "HostileScavs": true,
+          "PaidExitCostModifier": 3.5,
+          "PriceModCleanUp": -10000,
+          "PriceModDelivery": -2000,
+          "PriceModTaxi": -1000,
+          "PriceModifier": 1.17,
+          "SavageCooldownModifier": 4,
+          "ScavAttackSupport": false,
+          "ScavCaseTimeModifier": 5.5,
+          "ScavEquipmentSpawnChanceModifier": -4
+        },
+        "-7": {
+          "AvailableExits": 1,
+          "BotApplySilenceChance": 0,
+          "BotFollowChance": 0,
+          "BotGetInCoverChance": 0,
+          "BotHelpChance": 0,
+          "BotSpreadoutChance": 0,
+          "BotStopChance": 0,
+          "CanInteractWithBtr": false,
+          "DeliveryGridSize": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "ExfiltrationPriceModifier": 4,
+          "HostileBosses": true,
+          "HostileScavs": true,
+          "PaidExitCostModifier": 4,
+          "PriceModCleanUp": -10000,
+          "PriceModDelivery": -2000,
+          "PriceModTaxi": -1000,
+          "PriceModifier": 1.2,
+          "SavageCooldownModifier": 6,
+          "ScavAttackSupport": false,
+          "ScavCaseTimeModifier": 9,
+          "ScavEquipmentSpawnChanceModifier": -5
+        },
+        "0": {
+          "AvailableExits": 3,
+          "BotApplySilenceChance": 50,
+          "BotFollowChance": 50,
+          "BotGetInCoverChance": 50,
+          "BotHelpChance": 50,
+          "BotSpreadoutChance": 50,
+          "BotStopChance": 50,
+          "CanInteractWithBtr": true,
+          "DeliveryGridSize": {
+            "x": 5,
+            "y": 2,
+            "z": 0
+          },
+          "ExfiltrationPriceModifier": 1,
+          "HostileBosses": true,
+          "HostileScavs": false,
+          "PaidExitCostModifier": 1,
+          "PriceModCleanUp": 0,
+          "PriceModDelivery": 0,
+          "PriceModTaxi": 0,
+          "PriceModifier": 1,
+          "SavageCooldownModifier": 1,
+          "ScavAttackSupport": false,
+          "ScavCaseTimeModifier": 1,
+          "ScavEquipmentSpawnChanceModifier": 0
+        },
+        "1": {
+          "AvailableExits": 4,
+          "BotApplySilenceChance": 55,
+          "BotFollowChance": 55,
+          "BotGetInCoverChance": 55,
+          "BotHelpChance": 55,
+          "BotSpreadoutChance": 55,
+          "BotStopChance": 55,
+          "CanInteractWithBtr": true,
+          "DeliveryGridSize": {
+            "x": 6,
+            "y": 2,
+            "z": 0
+          },
+          "ExfiltrationPriceModifier": 0.95,
+          "HostileBosses": true,
+          "HostileScavs": false,
+          "PaidExitCostModifier": 0.95,
+          "PriceModCleanUp": 1000,
+          "PriceModDelivery": 200,
+          "PriceModTaxi": 100,
+          "PriceModifier": 0.97,
+          "SavageCooldownModifier": 0.9,
+          "ScavAttackSupport": false,
+          "ScavCaseTimeModifier": 0.95,
+          "ScavEquipmentSpawnChanceModifier": 2
+        },
+        "2": {
+          "AvailableExits": 4,
+          "BotApplySilenceChance": 60,
+          "BotFollowChance": 60,
+          "BotGetInCoverChance": 60,
+          "BotHelpChance": 60,
+          "BotSpreadoutChance": 60,
+          "BotStopChance": 60,
+          "CanInteractWithBtr": true,
+          "DeliveryGridSize": {
+            "x": 5,
+            "y": 3,
+            "z": 0
+          },
+          "ExfiltrationPriceModifier": 0.9,
+          "HostileBosses": true,
+          "HostileScavs": false,
+          "PaidExitCostModifier": 0.9,
+          "PriceModCleanUp": 2000,
+          "PriceModDelivery": 400,
+          "PriceModTaxi": 200,
+          "PriceModifier": 0.95,
+          "SavageCooldownModifier": 0.8,
+          "ScavAttackSupport": false,
+          "ScavCaseTimeModifier": 0.9,
+          "ScavEquipmentSpawnChanceModifier": 6
+        },
+        "3": {
+          "AvailableExits": 4,
+          "BotApplySilenceChance": 70,
+          "BotFollowChance": 70,
+          "BotGetInCoverChance": 70,
+          "BotHelpChance": 70,
+          "BotSpreadoutChance": 70,
+          "BotStopChance": 70,
+          "CanInteractWithBtr": true,
+          "DeliveryGridSize": {
+            "x": 6,
+            "y": 3,
+            "z": 0
+          },
+          "ExfiltrationPriceModifier": 0.7,
+          "HostileBosses": true,
+          "HostileScavs": false,
+          "PaidExitCostModifier": 0.8,
+          "PriceModCleanUp": 4000,
+          "PriceModDelivery": 800,
+          "PriceModTaxi": 400,
+          "PriceModifier": 0.92,
+          "SavageCooldownModifier": 0.7,
+          "ScavAttackSupport": false,
+          "ScavCaseTimeModifier": 0.8,
+          "ScavEquipmentSpawnChanceModifier": 9
+        },
+        "4": {
+          "AvailableExits": 5,
+          "BotApplySilenceChance": 80,
+          "BotFollowChance": 80,
+          "BotGetInCoverChance": 80,
+          "BotHelpChance": 80,
+          "BotSpreadoutChance": 80,
+          "BotStopChance": 80,
+          "CanInteractWithBtr": true,
+          "DeliveryGridSize": {
+            "x": 5,
+            "y": 4,
+            "z": 0
+          },
+          "ExfiltrationPriceModifier": 0.5,
+          "HostileBosses": true,
+          "HostileScavs": false,
+          "PaidExitCostModifier": 0.7,
+          "PriceModCleanUp": 6000,
+          "PriceModDelivery": 1200,
+          "PriceModTaxi": 600,
+          "PriceModifier": 0.9,
+          "SavageCooldownModifier": 0.6,
+          "ScavAttackSupport": false,
+          "ScavCaseTimeModifier": 0.7,
+          "ScavEquipmentSpawnChanceModifier": 12
+        },
+        "5": {
+          "AvailableExits": 5,
+          "BotApplySilenceChance": 90,
+          "BotFollowChance": 90,
+          "BotGetInCoverChance": 90,
+          "BotHelpChance": 90,
+          "BotSpreadoutChance": 90,
+          "BotStopChance": 90,
+          "CanInteractWithBtr": true,
+          "DeliveryGridSize": {
+            "x": 6,
+            "y": 4,
+            "z": 0
+          },
+          "ExfiltrationPriceModifier": 0.4,
+          "HostileBosses": true,
+          "HostileScavs": false,
+          "PaidExitCostModifier": 0.6,
+          "PriceModCleanUp": 8000,
+          "PriceModDelivery": 1600,
+          "PriceModTaxi": 800,
+          "PriceModifier": 0.85,
+          "SavageCooldownModifier": 0.5,
+          "ScavAttackSupport": false,
+          "ScavCaseTimeModifier": 0.6,
+          "ScavEquipmentSpawnChanceModifier": 15
+        },
+        "6": {
+          "AvailableExits": 6,
+          "BotApplySilenceChance": 100,
+          "BotFollowChance": 100,
+          "BotGetInCoverChance": 100,
+          "BotHelpChance": 100,
+          "BotSpreadoutChance": 100,
+          "BotStopChance": 100,
+          "CanInteractWithBtr": true,
+          "DeliveryGridSize": {
+            "x": 7,
+            "y": 4,
+            "z": 0
+          },
+          "ExfiltrationPriceModifier": 0.3,
+          "HostileBosses": false,
+          "HostileScavs": false,
+          "PaidExitCostModifier": 0.5,
+          "PriceModCleanUp": 10000,
+          "PriceModDelivery": 2000,
+          "PriceModTaxi": 1000,
+          "PriceModifier": 0.8,
+          "SavageCooldownModifier": 0.4,
+          "ScavAttackSupport": true,
+          "ScavCaseTimeModifier": 0.5,
+          "ScavEquipmentSpawnChanceModifier": 17
+        }
+      },
+      "paidExitStandingNumerator": 0.4
+    },
+    "FractureCausedByBulletHit": {
+      "B": 0.05,
+      "FunctionType": "SquareRoot",
+      "K": 0.3,
+      "Threshold": 0.3
+    },
+    "FractureCausedByFalling": {
+      "B": 0.38,
+      "FunctionType": "Linear",
+      "K": 1,
+      "Threshold": 0.2
+    },
+    "GameSearchingTimeout": 45,
+    "GlobalItemPriceModifier": 1,
+    "GlobalLootChanceModifier": 0.75,
+    "GraphicSettings": {
+      "ExperimentalFogInCity": true
+    },
+    "HandsOverdamage": 0.7,
+    "Health": {
+      "Effects": {
+        "Berserk": {
+          "DefaultDelay": 5,
+          "DefaultResidueTime": 3,
+          "WorkingTime": 10
+        },
+        "BodyTemperature": {
+          "DefaultBuildUpTime": 15,
+          "DefaultResidueTime": 15,
+          "LoopTime": 1
+        },
+        "BreakPart": {
+          "BulletHitProbability": {
+            "B": 0.05,
+            "FunctionType": "SquareRoot",
+            "K": 0.3,
+            "Threshold": 0.3
+          },
+          "DefaultDelay": 5,
+          "DefaultResidueTime": 5,
+          "FallingProbability": {
+            "B": 0.38,
+            "FunctionType": "Linear",
+            "K": 1,
+            "Threshold": 0.2
+          },
+          "HealExperience": 50,
+          "OfflineDurationMax": -1,
+          "OfflineDurationMin": -1,
+          "RemovePrice": 1000,
+          "RemovedAfterDeath": false
+        },
+        "ChronicStaminaFatigue": {
+          "EnergyRate": 0.0001,
+          "EnergyRatePerStack": 0.0063,
+          "TicksEvery": 10,
+          "WorkingTime": 180
+        },
+        "Contusion": {
+          "Dummy": 0
+        },
+        "Dehydration": {
+          "BleedingHealth": 0.4,
+          "BleedingLifeTime": 30,
+          "BleedingLoopTime": 6,
+          "DamageOnStrongDehydration": 1,
+          "DefaultDelay": 50,
+          "DefaultResidueTime": 5,
+          "StrongDehydrationLoopTime": 15
+        },
+        "Disorientation": {
+          "Dummy": 0
+        },
+        "Exhaustion": {
+          "Damage": 1,
+          "DamageLoopTime": 5,
+          "DefaultDelay": 30,
+          "DefaultResidueTime": 5
+        },
+        "Existence": {
+          "DestroyedStomachEnergyTimeFactor": 5,
+          "DestroyedStomachHydrationTimeFactor": 5,
+          "EnergyDamage": 3.2,
+          "EnergyLoopTime": 60,
+          "HydrationDamage": 2.6,
+          "HydrationLoopTime": 60
+        },
+        "Flash": {
+          "Dummy": 0
+        },
+        "Fracture": {
+          "BulletHitProbability": {
+            "B": 0.05,
+            "FunctionType": "SquareRoot",
+            "K": 0.3,
+            "Threshold": 0.3
+          },
+          "DefaultDelay": 5,
+          "DefaultResidueTime": 5,
+          "FallingProbability": {
+            "B": 0.38,
+            "FunctionType": "Linear",
+            "K": 1,
+            "Threshold": 0.2
+          },
+          "HealExperience": 30,
+          "OfflineDurationMax": -1,
+          "OfflineDurationMin": -1,
+          "RemovePrice": 1000,
+          "RemovedAfterDeath": false
+        },
+        "HeavyBleeding": {
+          "DamageEnergy": 0.5,
+          "DamageHealth": 0.9,
+          "DamageHealthDehydrated": 0.4,
+          "DefaultDelay": 0.4,
+          "DefaultResidueTime": 0.4,
+          "EliteVitalityDuration": 33,
+          "EnergyLoopTime": 5,
+          "HealExperience": 150,
+          "HealthLoopTime": 4,
+          "HealthLoopTimeDehydrated": 6,
+          "LifeTimeDehydrated": 0,
+          "OfflineDurationMax": 900,
+          "OfflineDurationMin": 900,
+          "Probability": {
+            "B": -0.17,
+            "FunctionType": "Linear",
+            "K": 0.45,
+            "Threshold": 0.5
+          },
+          "RemovePrice": 800,
+          "RemovedAfterDeath": false
+        },
+        "Intoxication": {
+          "DamageHealth": 1,
+          "DefaultDelay": 10,
+          "DefaultResidueTime": 15,
+          "HealExperience": 150,
+          "HealthLoopTime": 3,
+          "OfflineDurationMax": -1,
+          "OfflineDurationMin": -1,
+          "RemovePrice": 42700,
+          "RemovedAfterDeath": false
+        },
+        "LightBleeding": {
+          "DamageEnergy": 0.5,
+          "DamageHealth": 0.8,
+          "DamageHealthDehydrated": 0.4,
+          "DefaultDelay": 0.4,
+          "DefaultResidueTime": 0.4,
+          "EliteVitalityDuration": 22,
+          "EnergyLoopTime": 6,
+          "HealExperience": 100,
+          "HealthLoopTime": 6,
+          "HealthLoopTimeDehydrated": 6,
+          "LifeTimeDehydrated": 30,
+          "OfflineDurationMax": 600,
+          "OfflineDurationMin": 600,
+          "Probability": {
+            "B": -0.125,
+            "FunctionType": "Linear",
+            "K": 0.5,
+            "Threshold": 0.35
+          },
+          "RemovePrice": 400,
+          "RemovedAfterDeath": false
+        },
+        "LowEdgeHealth": {
+          "DefaultDelay": 0.4,
+          "DefaultResidueTime": 5,
+          "StartCommonHealth": 130
+        },
+        "MedEffect": {
+          "DrinkStartDelay": 2,
+          "DrugsStartDelay": 0,
+          "FoodStartDelay": 1,
+          "LoopTime": 0.4,
+          "MedKitStartDelay": 2,
+          "MedicalStartDelay": 0,
+          "StartDelay": 0,
+          "StimulatorStartDelay": 0
+        },
+        "MildMusclePain": {
+          "GymEffectivity": 0.5,
+          "OfflineDurationMax": -1,
+          "OfflineDurationMin": -1,
+          "TraumaChance": 0
+        },
+        "Pain": {
+          "HealExperience": 100,
+          "TremorDelay": 30
+        },
+        "PainKiller": {
+          "Dummy": 0
+        },
+        "RadExposure": {
+          "Damage": 1,
+          "DamageLoopTime": 2
+        },
+        "Regeneration": {
+          "BodyHealth": {
+            "Chest": {
+              "Value": 1.4
+            },
+            "Head": {
+              "Value": 0.6125
+            },
+            "LeftArm": {
+              "Value": 1.05
+            },
+            "LeftLeg": {
+              "Value": 1.1375
+            },
+            "RightArm": {
+              "Value": 1.05
+            },
+            "RightLeg": {
+              "Value": 1.1375
+            },
+            "Stomach": {
+              "Value": 1.225
+            }
+          },
+          "Energy": 1,
+          "Hydration": 1,
+          "Influences": {
+            "Fracture": {
+              "EnergySlowDownPercentage": 0,
+              "HealthSlowDownPercentage": 0,
+              "HydrationSlowDownPercentage": 0
+            },
+            "HeavyBleeding": {
+              "EnergySlowDownPercentage": 0,
+              "HealthSlowDownPercentage": 100,
+              "HydrationSlowDownPercentage": 0
+            },
+            "Intoxication": {
+              "EnergySlowDownPercentage": 0,
+              "HealthSlowDownPercentage": 0,
+              "HydrationSlowDownPercentage": 0
+            },
+            "LightBleeding": {
+              "EnergySlowDownPercentage": 0,
+              "HealthSlowDownPercentage": 100,
+              "HydrationSlowDownPercentage": 0
+            },
+            "RadExposure": {
+              "EnergySlowDownPercentage": 0,
+              "HealthSlowDownPercentage": 0,
+              "HydrationSlowDownPercentage": 0
+            }
+          },
+          "LoopTime": 3,
+          "MinimumHealthPercentage": 30
+        },
+        "SandingScreen": {
+          "Dummy": 0
+        },
+        "SevereMusclePain": {
+          "GymEffectivity": 1,
+          "OfflineDurationMax": -1,
+          "OfflineDurationMin": -1,
+          "TraumaChance": 10
+        },
+        "Stimulator": {
+          "BuffLoopTime": 0.2,
+          "Buffs": {
+            "BuffsAdrenaline": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "Endurance",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "Strength",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "RecoilControl",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "StressResistance",
+                "Value": -10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HealthRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 15,
+                "SkillName": "",
+                "Value": 4
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HydrationRate",
+                "Chance": 1,
+                "Delay": 50,
+                "Duration": 30,
+                "SkillName": "",
+                "Value": -1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 1,
+                "Delay": 50,
+                "Duration": 30,
+                "SkillName": "",
+                "Value": -0.8
+              }
+            ],
+            "BuffsGoldenStarBalm": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 5,
+                "SkillName": "",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HydrationRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 5,
+                "SkillName": "",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": false,
+                "BuffType": "Contusion",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 5,
+                "SkillName": "",
+                "Value": 1
+              }
+            ],
+            "BuffsPropital": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HealthRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "Metabolism",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "Health",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "Vitality",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HandsTremor",
+                "Chance": 1,
+                "Delay": 270,
+                "Duration": 30,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "QuantumTunnelling",
+                "Chance": 1,
+                "Delay": 270,
+                "Duration": 30,
+                "SkillName": "",
+                "Value": 0
+              }
+            ],
+            "BuffsSJ1TGLabs": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "Endurance",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "Strength",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "StressResistance",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 1,
+                "Delay": 100,
+                "Duration": 200,
+                "SkillName": "",
+                "Value": -0.25
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HydrationRate",
+                "Chance": 1,
+                "Delay": 100,
+                "Duration": 200,
+                "SkillName": "",
+                "Value": -0.3
+              }
+            ],
+            "BuffsSJ6TGLabs": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "MaxStamina",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 360,
+                "SkillName": "",
+                "Value": 30
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "StaminaRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 360,
+                "SkillName": "",
+                "Value": 2
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HandsTremor",
+                "Chance": 1,
+                "Delay": 200,
+                "Duration": 40,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "QuantumTunnelling",
+                "Chance": 1,
+                "Delay": 200,
+                "Duration": 40,
+                "SkillName": "",
+                "Value": 0
+              }
+            ],
+            "BuffsZagustin": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "Vitality",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "Metabolism",
+                "Value": -5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "RemoveAllBloodLosses",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 180,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HandsTremor",
+                "Chance": 1,
+                "Delay": 170,
+                "Duration": 40,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HydrationRate",
+                "Chance": 1,
+                "Delay": 170,
+                "Duration": 40,
+                "SkillName": "",
+                "Value": -1.4
+              }
+            ],
+            "Buffs_3bTG": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 240,
+                "SkillName": "Attention",
+                "Value": 30
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 240,
+                "SkillName": "Perception",
+                "Value": 30
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 240,
+                "SkillName": "Strength",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "StaminaRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 240,
+                "SkillName": "",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": false,
+                "BuffType": "HandsTremor",
+                "Chance": 1,
+                "Delay": 220,
+                "Duration": 45,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 1,
+                "Delay": 120,
+                "Duration": 120,
+                "SkillName": "",
+                "Value": -0.25
+              }
+            ],
+            "Buffs_AHF1M": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "Health",
+                "Value": 5
+              },
+              {
+                "AbsoluteValue": false,
+                "BuffType": "RemoveAllBloodLosses",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HydrationRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 120,
+                "SkillName": "",
+                "Value": -0.3
+              }
+            ],
+            "Buffs_Antidote": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "Antidote",
+                "Chance": 1,
+                "Delay": 6,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 6,
+                "Duration": 60,
+                "SkillName": "Health",
+                "Value": -5
+              }
+            ],
+            "Buffs_BodyTemperature": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "BodyTemperature",
+                "Chance": 1,
+                "Delay": 6,
+                "Duration": 300,
+                "SkillName": "",
+                "Value": -7
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 6,
+                "Duration": 300,
+                "SkillName": "Metabolism",
+                "Value": -20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HealthRate",
+                "Chance": 1,
+                "Delay": 6,
+                "Duration": 420,
+                "SkillName": "",
+                "Value": -0.1
+              },
+              {
+                "AbsoluteValue": false,
+                "BuffType": "HandsTremor",
+                "Chance": 1,
+                "Delay": 6,
+                "Duration": 420,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": false,
+                "BuffType": "Pain",
+                "Chance": 1,
+                "Delay": 300,
+                "Duration": 120,
+                "SkillName": "",
+                "Value": 0
+              }
+            ],
+            "Buffs_KultistsToxin": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "UnknownToxin",
+                "Chance": 1,
+                "Delay": 6,
+                "Duration": -1,
+                "SkillName": "",
+                "Value": 0
+              }
+            ],
+            "Buffs_L1": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "Endurance",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "Strength",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "MaxStamina",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "",
+                "Value": 30
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HydrationRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": -0.45
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": -0.45
+              }
+            ],
+            "Buffs_MULE": [
+              {
+                "AbsoluteValue": false,
+                "BuffType": "WeightLimit",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 900,
+                "SkillName": "",
+                "Value": 0.5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HealthRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 900,
+                "SkillName": "",
+                "Value": -0.1
+              }
+            ],
+            "Buffs_Meldonin": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 900,
+                "SkillName": "Strength",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 900,
+                "SkillName": "Endurance",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "StaminaRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 900,
+                "SkillName": "",
+                "Value": 0.5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HydrationRate",
+                "Chance": 1,
+                "Delay": 30,
+                "Duration": 900,
+                "SkillName": "",
+                "Value": -0.1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 1,
+                "Delay": 30,
+                "Duration": 900,
+                "SkillName": "",
+                "Value": -0.1
+              }
+            ],
+            "Buffs_Obdolbos": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Endurance",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Strength",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Intellect",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Attention",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "StressResistance",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "Charisma",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "MaxStamina",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HealthRate",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "StaminaRate",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "WeightLimit",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": 0.1
+              },
+              {
+                "AbsoluteValue": false,
+                "BuffType": "DamageModifier",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": 0.2
+              },
+              {
+                "AbsoluteValue": false,
+                "BuffType": "HandsTremor",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HydrationRate",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": -1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": -1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HealthRate",
+                "Chance": 0.25,
+                "Delay": 0,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": -600
+              }
+            ],
+            "Buffs_Obdolbos2": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 1800,
+                "SkillName": "Endurance",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 1800,
+                "SkillName": "Strength",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 1800,
+                "SkillName": "Attention",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 1800,
+                "SkillName": "Perception",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": false,
+                "BuffType": "WeightLimit",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 1800,
+                "SkillName": "",
+                "Value": 0.45
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "MaxStamina",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 1800,
+                "SkillName": "",
+                "Value": -20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "StaminaRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 1800,
+                "SkillName": "",
+                "Value": -1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HealthRate",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 1800,
+                "SkillName": "",
+                "Value": -1
+              }
+            ],
+            "Buffs_P22": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "StressResistance",
+                "Value": 30
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "Health",
+                "Value": 30
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "Vitality",
+                "Value": 30
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 65,
+                "Duration": 60,
+                "SkillName": "Endurance",
+                "Value": -10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "StaminaRate",
+                "Chance": 1,
+                "Delay": 65,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": -0.8
+              }
+            ],
+            "Buffs_PNB": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HealthRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 40,
+                "SkillName": "",
+                "Value": 3
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 40,
+                "SkillName": "Strength",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 41,
+                "Duration": 180,
+                "SkillName": "Health",
+                "Value": -20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 41,
+                "Duration": 180,
+                "SkillName": "Vitality",
+                "Value": -20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HandsTremor",
+                "Chance": 1,
+                "Delay": 41,
+                "Duration": 20,
+                "SkillName": "",
+                "Value": 0
+              }
+            ],
+            "Buffs_Perfotoran": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "Metabolism",
+                "Value": 5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "Antidote",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "RemoveAllBloodLosses",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HealthRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 1.5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 60,
+                "Duration": 60,
+                "SkillName": "Health",
+                "Value": -15
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 1,
+                "Delay": 60,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": -1.1
+              }
+            ],
+            "Buffs_SJ12_TGLabs": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "BodyTemperature",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": -4
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": 0.05
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HydrationRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "",
+                "Value": 0.05
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "Perception",
+                "Value": 30
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "BodyTemperature",
+                "Chance": 1,
+                "Delay": 606,
+                "Duration": 300,
+                "SkillName": "",
+                "Value": 6
+              }
+            ],
+            "Buffs_Trimadol": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "Endurance",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "Strength",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "Attention",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "StressResistance",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "MaxStamina",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "StaminaRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "",
+                "Value": 3
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "",
+                "Value": -0.5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HydrationRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 180,
+                "SkillName": "",
+                "Value": -0.5
+              }
+            ],
+            "Buffs_drink_aquamari": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "MaxStamina",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "StaminaRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "",
+                "Value": 1
+              }
+            ],
+            "Buffs_drink_hotrod": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "Endurance",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "Strength",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "MagDrills",
+                "Value": 1
+              }
+            ],
+            "Buffs_drink_jack": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 210,
+                "SkillName": "StressResistance",
+                "Value": 2
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 210,
+                "SkillName": "Memory",
+                "Value": -3
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 210,
+                "SkillName": "Health",
+                "Value": -2
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HandsTremor",
+                "Chance": 1,
+                "Delay": 220,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 0
+              }
+            ],
+            "Buffs_drink_juice_army": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 0.2
+              }
+            ],
+            "Buffs_drink_maxenergy": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "Endurance",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "StressResistance",
+                "Value": -1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "MagDrills",
+                "Value": 1
+              }
+            ],
+            "Buffs_drink_milk": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "Immunity",
+                "Value": 1
+              }
+            ],
+            "Buffs_drink_moonshine": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 500,
+                "SkillName": "StressResistance",
+                "Value": 3
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 500,
+                "SkillName": "Memory",
+                "Value": -5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 500,
+                "SkillName": "Health",
+                "Value": -1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HandsTremor",
+                "Chance": 1,
+                "Delay": 510,
+                "Duration": 150,
+                "SkillName": "",
+                "Value": 0
+              }
+            ],
+            "Buffs_drink_purewater": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HealthRate",
+                "Chance": 1,
+                "Delay": 3,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "Endurance",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "Strength",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "Vitality",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "Health",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "StressResistance",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "Metabolism",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "Immunity",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "Intellect",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "Memory",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "Perception",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 600,
+                "SkillName": "Attention",
+                "Value": 1
+              }
+            ],
+            "Buffs_drink_tarcola": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 0.1
+              }
+            ],
+            "Buffs_drink_vodka": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 250,
+                "SkillName": "StressResistance",
+                "Value": 5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 250,
+                "SkillName": "Memory",
+                "Value": -10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 250,
+                "SkillName": "Health",
+                "Value": -5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HandsTremor",
+                "Chance": 1,
+                "Delay": 255,
+                "Duration": 120,
+                "SkillName": "",
+                "Value": 0
+              }
+            ],
+            "Buffs_drink_vodka_BAD": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 250,
+                "SkillName": "StressResistance",
+                "Value": 5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 250,
+                "SkillName": "Memory",
+                "Value": -10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 250,
+                "SkillName": "Health",
+                "Value": -5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HandsTremor",
+                "Chance": 1,
+                "Delay": 255,
+                "Duration": 120,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 0.2,
+                "Delay": 5,
+                "Duration": 250,
+                "SkillName": "Endurance",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 0.2,
+                "Delay": 5,
+                "Duration": 250,
+                "SkillName": "Strength",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 0.2,
+                "Delay": 5,
+                "Duration": 250,
+                "SkillName": "Charisma",
+                "Value": 10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 0.2,
+                "Delay": 5,
+                "Duration": 250,
+                "SkillName": "Intellect",
+                "Value": -10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 0.2,
+                "Delay": 5,
+                "Duration": 250,
+                "SkillName": "Attention",
+                "Value": -10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 0.2,
+                "Delay": 5,
+                "Duration": 250,
+                "SkillName": "Metabolism",
+                "Value": -10
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "MaxStamina",
+                "Chance": 0.2,
+                "Delay": 5,
+                "Duration": 250,
+                "SkillName": "",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "StaminaRate",
+                "Chance": 0.2,
+                "Delay": 5,
+                "Duration": 250,
+                "SkillName": "",
+                "Value": -1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HydrationRate",
+                "Chance": 0.2,
+                "Delay": 5,
+                "Duration": 250,
+                "SkillName": "",
+                "Value": -0.3
+              },
+              {
+                "AbsoluteValue": false,
+                "BuffType": "WeightLimit",
+                "Chance": 0.2,
+                "Delay": 5,
+                "Duration": 250,
+                "SkillName": "",
+                "Value": -0.3
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 0.05,
+                "Delay": 5,
+                "Duration": 250,
+                "SkillName": "StressResistance",
+                "Value": 50
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HealthRate",
+                "Chance": 0.05,
+                "Delay": 5,
+                "Duration": 15,
+                "SkillName": "",
+                "Value": -1211
+              }
+            ],
+            "Buffs_drink_water": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "MaxStamina",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "",
+                "Value": 5
+              }
+            ],
+            "Buffs_food_alyonka": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 120,
+                "SkillName": "Attention",
+                "Value": 2
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 120,
+                "SkillName": "StressResistance",
+                "Value": 2
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 120,
+                "SkillName": "Intellect",
+                "Value": 2
+              }
+            ],
+            "Buffs_food_beer": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 5,
+                "Duration": 120,
+                "SkillName": "StressResistance",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 5,
+                "Duration": 120,
+                "SkillName": "Charisma",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 5,
+                "Duration": 120,
+                "SkillName": "Attention",
+                "Value": -3
+              }
+            ],
+            "Buffs_food_borodinskiye": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HydrationRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": -0.2
+              }
+            ],
+            "Buffs_food_condensed_milk": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "Intellect",
+                "Value": 3
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "Attention",
+                "Value": 3
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "StressResistance",
+                "Value": 3
+              }
+            ],
+            "Buffs_food_emelya": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HydrationRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": -0.2
+              }
+            ],
+            "Buffs_food_mayonez": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "Metabolism",
+                "Value": -3
+              }
+            ],
+            "Buffs_food_mre": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "",
+                "Value": 0.1
+              }
+            ],
+            "Buffs_food_slippers": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "Intellect",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "Attention",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "StressResistance",
+                "Value": 1
+              }
+            ],
+            "Buffs_food_sugar": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 300,
+                "SkillName": "Intellect",
+                "Value": 1
+              }
+            ],
+            "Buffs_hultafors": [
+              {
+                "AbsoluteValue": false,
+                "AppliesTo": [],
+                "BuffType": "Contusion",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 20,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": false,
+                "AppliesTo": [],
+                "BuffType": "Fracture",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 0,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": false,
+                "AppliesTo": [],
+                "BuffType": "Pain",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 20,
+                "SkillName": "",
+                "Value": 0
+              }
+            ],
+            "Buffs_knife": [
+              {
+                "AbsoluteValue": false,
+                "BuffType": "DamageModifier",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 0.5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HealthRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": -0.5
+              },
+              {
+                "AbsoluteValue": false,
+                "BuffType": "Pain",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": false,
+                "BuffType": "QuantumTunnelling",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": false,
+                "BuffType": "HandsTremor",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 0
+              }
+            ],
+            "Buffs_melee_bleed": [
+              {
+                "AbsoluteValue": false,
+                "AppliesTo": [],
+                "BuffType": "HeavyBleeding",
+                "Chance": 0.5,
+                "Delay": 1,
+                "Duration": 0,
+                "SkillName": "",
+                "Value": 0
+              },
+              {
+                "AbsoluteValue": false,
+                "AppliesTo": [],
+                "BuffType": "LightBleeding",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 0,
+                "SkillName": "",
+                "Value": 0
+              }
+            ],
+            "Buffs_melee_blunt": [
+              {
+                "AbsoluteValue": false,
+                "AppliesTo": ["Head"],
+                "BuffType": "Contusion",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 100,
+                "SkillName": "",
+                "Value": 1
+              },
+              {
+                "AbsoluteValue": false,
+                "AppliesTo": [],
+                "BuffType": "Fracture",
+                "Chance": 1,
+                "Delay": 0,
+                "Duration": 0,
+                "SkillName": "",
+                "Value": 0
+              }
+            ],
+            "BuffseTGchange": [
+              {
+                "AbsoluteValue": true,
+                "BuffType": "HealthRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 6.5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 60,
+                "SkillName": "",
+                "Value": 0.5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 90,
+                "SkillName": "Metabolism",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 1,
+                "Duration": 90,
+                "SkillName": "Immunity",
+                "Value": 20
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "EnergyRate",
+                "Chance": 1,
+                "Delay": 65,
+                "Duration": 20,
+                "SkillName": "",
+                "Value": -3
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 65,
+                "Duration": 60,
+                "SkillName": "Endurance",
+                "Value": -5
+              },
+              {
+                "AbsoluteValue": true,
+                "BuffType": "SkillRate",
+                "Chance": 1,
+                "Delay": 65,
+                "Duration": 60,
+                "SkillName": "Health",
+                "Value": -5
+              }
+            ]
+          }
+        },
+        "Stun": {
+          "Dummy": 0
+        },
+        "Tremor": {
+          "DefaultDelay": 15,
+          "DefaultResidueTime": 0.2
+        },
+        "Wound": {
+          "ThresholdMax": 60,
+          "ThresholdMin": 25,
+          "WorkingTime": 480
+        }
+      },
+      "Falling": {
+        "DamagePerMeter": 9,
+        "SafeHeight": 3
+      },
+      "HealPrice": {
+        "EnergyPointPrice": 0,
+        "HealthPointPrice": 30,
+        "HydrationPointPrice": 0,
+        "TrialLevels": 5,
+        "TrialRaids": 30
+      },
+      "ProfileHealthSettings": {
+        "BodyPartsSettings": {
+          "Chest": {
+            "Default": 150,
+            "Maximum": 150,
+            "Minimum": 0,
+            "OverDamageReceivedMultiplier": 0.7
+          },
+          "Head": {
+            "Default": 60,
+            "Maximum": 60,
+            "Minimum": 0,
+            "OverDamageReceivedMultiplier": 0.7
+          },
+          "LeftArm": {
+            "Default": 100,
+            "Maximum": 100,
+            "Minimum": 0,
+            "OverDamageReceivedMultiplier": 0.7
+          },
+          "LeftLeg": {
+            "Default": 120,
+            "Maximum": 120,
+            "Minimum": 0,
+            "OverDamageReceivedMultiplier": 0.7
+          },
+          "RightArm": {
+            "Default": 100,
+            "Maximum": 100,
+            "Minimum": 0,
+            "OverDamageReceivedMultiplier": 0.7
+          },
+          "RightLeg": {
+            "Default": 120,
+            "Maximum": 120,
+            "Minimum": 0,
+            "OverDamageReceivedMultiplier": 0.7
+          },
+          "Stomach": {
+            "Default": 130,
+            "Maximum": 130,
+            "Minimum": 0,
+            "OverDamageReceivedMultiplier": 0.7
+          }
+        },
+        "DefaultStimulatorBuff": "",
+        "HealthFactorsSettings": {
+          "Energy": {
+            "Default": 100,
+            "Maximum": 100,
+            "Minimum": 0
+          },
+          "Hydration": {
+            "Default": 100,
+            "Maximum": 100,
+            "Minimum": 0
+          },
+          "Poisoning": {
+            "Default": 0,
+            "Maximum": 100,
+            "Minimum": 0
+          },
+          "Radiation": {
+            "Default": 0,
+            "Maximum": 100,
+            "Minimum": 0
+          },
+          "Temperature": {
+            "Default": 36.6,
+            "Maximum": 40,
+            "Minimum": 28
+          }
+        }
+      }
+    },
+    "Inertia": {
+      "AverageRotationFrameSpan": 60,
+      "BaseJumpPenalty": 0.3,
+      "BaseJumpPenaltyDuration": 0.4,
+      "CrouchSpeedAccelerationRange": {
+        "x": 0.475,
+        "y": 0.75,
+        "z": 0
+      },
+      "DiagonalTime": {
+        "x": 1.4,
+        "y": 1,
+        "z": 0
+      },
+      "DurationPower": 1.07,
+      "ExitMovementStateSpeedThreshold": {
+        "x": 0.01,
+        "y": 0.01,
+        "z": 0
+      },
+      "FallThreshold": 0.15,
+      "InertiaBackwardCoef": {
+        "x": 0.6,
+        "y": 0.4,
+        "z": 0
+      },
+      "InertiaLimits": {
+        "x": 0,
+        "y": 65,
+        "z": 0.5
+      },
+      "InertiaLimitsStep": 0.025,
+      "InertiaTiltCurveMax": {
+        "x": 1,
+        "y": 0.06,
+        "z": 0
+      },
+      "InertiaTiltCurveMin": {
+        "x": 0,
+        "y": 0.22,
+        "z": 0
+      },
+      "MaxMovementAccelerationRangeRight": {
+        "x": 0.3,
+        "y": 1,
+        "z": 0
+      },
+      "MaxTimeWithoutInput": {
+        "x": 0.1,
+        "y": 0.3,
+        "z": 0
+      },
+      "MinDirectionBlendTime": 0.15,
+      "MinMovementAccelerationRangeRight": {
+        "x": 0.8,
+        "y": 1,
+        "z": 0
+      },
+      "MoveTimeRange": {
+        "x": 0.1,
+        "y": 0.45,
+        "z": 0
+      },
+      "PenaltyPower": 1.23,
+      "PreSprintAccelerationLimits": {
+        "x": 3,
+        "y": 1.7,
+        "z": 0
+      },
+      "ProneDirectionAccelerationRange": {
+        "x": 2.5,
+        "y": 2,
+        "z": 0
+      },
+      "ProneSpeedAccelerationRange": {
+        "x": 1,
+        "y": 1.6,
+        "z": 0
+      },
+      "SideTime": {
+        "x": 2,
+        "y": 1,
+        "z": 0
+      },
+      "SpeedInertiaAfterJump": {
+        "x": 1,
+        "y": 1.55,
+        "z": 0
+      },
+      "SpeedLimitAfterFallMax": {
+        "x": 4,
+        "y": 0,
+        "z": 0
+      },
+      "SpeedLimitAfterFallMin": {
+        "x": 0.3,
+        "y": 1,
+        "z": 0
+      },
+      "SpeedLimitDurationMax": {
+        "x": 2,
+        "y": 1.2,
+        "z": 0
+      },
+      "SpeedLimitDurationMin": {
+        "x": 0.3,
+        "y": 0.5,
+        "z": 0
+      },
+      "SprintAccelerationLimits": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "SprintBrakeInertia": {
+        "x": 0,
+        "y": 55,
+        "z": 0
+      },
+      "SprintSpeedInertiaCurveMax": {
+        "x": 1.5,
+        "y": 0.3,
+        "z": 0
+      },
+      "SprintSpeedInertiaCurveMin": {
+        "x": 0.3,
+        "y": 1,
+        "z": 0
+      },
+      "SprintTransitionMotionPreservation": {
+        "x": 0.7,
+        "y": 0.9,
+        "z": 0
+      },
+      "TiltAcceleration": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "TiltInertiaMaxSpeed": {
+        "x": 0.6,
+        "y": 0.5,
+        "z": 0
+      },
+      "TiltMaxSideBackSpeed": {
+        "x": 1.2,
+        "y": 0.8,
+        "z": 0
+      },
+      "TiltStartSideBackSpeed": {
+        "x": 0.8,
+        "y": 0.5,
+        "z": 0
+      },
+      "WalkInertia": {
+        "x": 0.05,
+        "y": 0.4675,
+        "z": 0
+      },
+      "WeaponFlipSpeed": {
+        "x": 1,
+        "y": 0.5,
+        "z": 0
+      }
+    },
+    "Insurance": {
+      "MaxStorageTimeInHour": 72
+    },
+    "ItemsCommonSettings": {
+      "ItemRemoveAfterInterruptionTime": 2
+    },
+    "LegsOverdamage": 1,
+    "LoadTimeSpeedProgress": 1,
+    "Malfunction": {
+      "AllowMalfForBots": false,
+      "AmmoFeedWt": 0.2,
+      "AmmoJamWt": 0.1,
+      "AmmoMalfChanceMult": 1,
+      "AmmoMisfireWt": 0.7,
+      "DurFeedWt": 0.1,
+      "DurHardSlideMaxWt": 0.8,
+      "DurHardSlideMinWt": 0.3,
+      "DurJamWt": 0.6,
+      "DurMisfireWt": 0.1,
+      "DurRangeToIgnoreMalfs": {
+        "x": 93,
+        "y": 100,
+        "z": 0
+      },
+      "DurSoftSlideWt": 0.2,
+      "IdleToOutSpeedMultOnMalf": 3,
+      "MagazineMalfChanceMult": 1,
+      "MalfRepairHardSlideMult": 1,
+      "MalfRepairOneHandBrokenMult": 0.9,
+      "MalfRepairTwoHandsBrokenMult": 0.8,
+      "OutToIdleSpeedMultForPistol": 3,
+      "OverheatFeedWt": 0.35,
+      "OverheatHardSlideMaxWt": 1.2,
+      "OverheatHardSlideMinWt": 0.3,
+      "OverheatJamWt": 0.25,
+      "OverheatSoftSlideWt": 0.7,
+      "ShowGlowAttemptsCount": 3,
+      "TimeToQuickdrawPistol": 5
+    },
+    "MarksmanAccuracy": 1.2,
+    "Mastering": [
+      {
+        "Level2": 1600,
+        "Level3": 2000,
+        "Name": "M4",
+        "Templates": [
+          "5c07c60e0db834002330051f",
+          "5447a9cd4bdc2dbd208b4567",
+          "5bb2475ed4351e00853264e3",
+          "5d43021ca4b9362eab4b5e25"
+        ]
+      },
+      {
+        "Level2": 500,
+        "Level3": 600,
+        "Name": "AKM",
+        "Templates": [
+          "59d6088586f774275f37482f",
+          "5a0ec13bfcdbcb00165aa685",
+          "59ff346386f77477562ff5e2",
+          "5abcbc27d8ce8700182eceeb",
+          "59e6687d86f77411d949b251",
+          "59e6152586f77473dc057aa1"
+        ]
+      },
+      {
+        "Level2": 200,
+        "Level3": 300,
+        "Name": "SKS",
+        "Templates": ["587e02ff24597743df3deaeb", "574d967124597745970e7c94"]
+      },
+      {
+        "Level2": 275,
+        "Level3": 350,
+        "Name": "AKSU",
+        "Templates": [
+          "57dc2fa62459775949412633",
+          "5839a40f24597726f856b511",
+          "583990e32459771419544dd2"
+        ]
+      },
+      {
+        "Level2": 2000,
+        "Level3": 2200,
+        "Name": "AK74",
+        "Templates": [
+          "5ac66cb05acfc40198510a10",
+          "5ac66d015acfc400180ae6e4",
+          "5ac66d2e5acfc43b321d4b53",
+          "5ac66d725acfc43b321d4b60",
+          "5ac66d9b5acfc4001633997a",
+          "6499849fc93611967b034949",
+          "5bf3e03b0db834001d2c4a9c",
+          "5ac4cd105acfc40016339859",
+          "5644bd2b4bdc2d3b4c8b4572",
+          "5bf3e0490db83400196199af",
+          "5ab8e9fcd8ce870019439434",
+          "628a60ae6b1d481ff772e9c8",
+          "628b5638ad252a16da6dd245",
+          "628b9c37a733087d0d7fe84b",
+          "5beed0f50db834001c062b12"
+        ]
+      },
+      {
+        "Level2": 275,
+        "Level3": 500,
+        "Name": "VSS",
+        "Templates": ["57c44b372459772d2b39b8ce", "57838ad32459774a17445cd2"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "MP443",
+        "Templates": ["576a581d2459771e7b1bc4f1"]
+      },
+      {
+        "Level2": 150,
+        "Level3": 200,
+        "Name": "MP133",
+        "Templates": ["54491c4f4bdc2db1078b4568"]
+      },
+      {
+        "Level2": 1500,
+        "Level3": 2200,
+        "Name": "MP153",
+        "Templates": ["56dee2bdd2720bc8328b4567", "606dae0ab0e443224b421bb7"]
+      },
+      {
+        "Level2": 150,
+        "Level3": 250,
+        "Name": "MR43",
+        "Templates": ["64748cb8de82c85eaf0a273a", "5580223e4bdc2d1c128b457f"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "PM",
+        "Templates": ["5448bd6b4bdc2dfc2f8b4569", "579204f224597773d619e051"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "PB",
+        "Templates": ["56e0598dd2720bb5668b45a6"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "P226",
+        "Templates": ["56d59856d2720bd8418b456a"]
+      },
+      {
+        "Level2": 200,
+        "Level3": 250,
+        "Name": "MP5",
+        "Templates": ["5d2f0d8048f0356c925bc3b0", "5926bb2186f7744b1c6c6e60"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "TT",
+        "Templates": ["571a12c42459771f627b58a0", "5b3b713c5acfc4330140bd8d"]
+      },
+      {
+        "Level2": 300,
+        "Level3": 650,
+        "Name": "SAIGA",
+        "Templates": ["576165642459773c7a400233"]
+      },
+      {
+        "Level2": 175,
+        "Level3": 350,
+        "Name": "PP19",
+        "Templates": ["59984ab886f7743e98271174", "59f9cabd86f7743a10721f46"]
+      },
+      {
+        "Level2": 150,
+        "Level3": 200,
+        "Name": "MPX",
+        "Templates": ["58948c8e86f77409493f7266"]
+      },
+      {
+        "Level2": 175,
+        "Level3": 200,
+        "Name": "PP-91",
+        "Templates": [
+          "57f3c6bd24597738e730fa2f",
+          "57d14d2524597714373db789",
+          "57f4c844245977379d5c14d1"
+        ]
+      },
+      {
+        "Level2": 100,
+        "Level3": 175,
+        "Name": "SV98",
+        "Templates": ["55801eed4bdc2d89578b4588"]
+      },
+      {
+        "Level2": 100,
+        "Level3": 175,
+        "Name": "DVL",
+        "Templates": ["588892092459774ac91d4b11"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "TOZ106",
+        "Templates": ["5a38e6bac4a2826c6e06d79b"]
+      },
+      {
+        "Level2": 175,
+        "Level3": 300,
+        "Name": "R11SRASS",
+        "Templates": ["5a367e5dc4a282000e49738f"]
+      },
+      {
+        "Level2": 100,
+        "Level3": 125,
+        "Name": "GLOCK17",
+        "Templates": [
+          "5a7ae0c351dfba0017554310",
+          "5b1fa9b25acfc40018633c01",
+          "63088377b5cd696784087147"
+        ]
+      },
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "APS",
+        "Templates": ["5a17f98cfcdbcb0980087290", "5abccb7dd8ce87001773e277"]
+      },
+      {
+        "Level2": 275,
+        "Level3": 400,
+        "Name": "M1A",
+        "Templates": ["5aafa857e5b5b00018480968"]
+      },
+      {
+        "Level2": 100,
+        "Level3": 200,
+        "Name": "M870",
+        "Templates": ["5a7828548dc32e5a9c28b516"]
+      },
+      {
+        "Level2": 200,
+        "Level3": 250,
+        "Name": "mosin",
+        "Templates": ["5bfd297f0db834001a669119", "5ae08f0a5acfc408fb1398a1"]
+      },
+      {
+        "Level2": 175,
+        "Level3": 300,
+        "Name": "SA-58",
+        "Templates": ["5b0bbe4e5acfc40dc528a72d"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 125,
+        "Name": "sr1mp",
+        "Templates": ["59f98b4986f7746f546d2cef"]
+      },
+      {
+        "Level2": 550,
+        "Level3": 800,
+        "Name": "mp7",
+        "Templates": ["5ba26383d4351e00334c93d9", "5bd70322209c4d00d7167b8f"]
+      },
+      {
+        "Level2": 150,
+        "Level3": 200,
+        "Name": "r700",
+        "Templates": ["5bfea6e90db834001b7347f3"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 150,
+        "Name": "VPO101",
+        "Templates": ["5c501a4d2e221602b412b540"]
+      },
+      {
+        "Level2": 250,
+        "Level3": 300,
+        "Name": "SVD",
+        "Templates": ["5c46fbd72e2216398b5a8c9c"]
+      },
+      {
+        "Level2": 450,
+        "Level3": 600,
+        "Name": "MDR",
+        "Templates": ["5c488a752e221602b412af63", "5dcbd56fdbd3d91b3e5468d5"]
+      },
+      {
+        "Level2": 175,
+        "Level3": 400,
+        "Name": "ASH12",
+        "Templates": ["5cadfbf7ae92152ac412eeef"]
+      },
+      {
+        "Level2": 200,
+        "Level3": 350,
+        "Name": "P90",
+        "Templates": ["5cc82d76e24e8d00134b4b83"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "m9",
+        "Templates": ["5cadc190ae921500103bb3b6"]
+      },
+      {
+        "Level2": 200,
+        "Level3": 350,
+        "Name": "KS23",
+        "Templates": ["5e848cc2988a8701445df1e8"]
+      },
+      {
+        "Level2": 125,
+        "Level3": 225,
+        "Name": "57",
+        "Templates": ["5d3eb3b0a4b93615055e84d2", "5d67abc1a4b93614ec50137f"]
+      },
+      {
+        "Level2": 150,
+        "Level3": 175,
+        "Name": "MP9",
+        "Templates": ["5e00903ae9dc277128008b87", "5de7bd7bfd6b4e6e2276dc25"]
+      },
+      {
+        "Level2": 125,
+        "Level3": 250,
+        "Name": "VPO_215",
+        "Templates": ["5de652c31b7e3716273428be"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 125,
+        "Name": "T5000",
+        "Templates": ["5df24cf80dee1b22f862e9bc"]
+      },
+      {
+        "Level2": 350,
+        "Level3": 500,
+        "Name": "SR25",
+        "Templates": ["5df8ce05b11454561e39243b"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "m1911",
+        "Templates": ["5e81c3cbac2bb513793cdc75", "5f36a0e5fbf956000b716b65"]
+      },
+      {
+        "Level2": 175,
+        "Level3": 200,
+        "Name": "PPSH",
+        "Templates": ["5ea03f7400685063ec28bfa8"]
+      },
+      {
+        "Level2": 250,
+        "Level3": 400,
+        "Name": "RFB",
+        "Templates": ["5f2a9575926fd9352339381f"]
+      },
+      {
+        "Level2": 375,
+        "Level3": 500,
+        "Name": "UMP45",
+        "Templates": ["5fc3e272f8b6a877a729eac5"]
+      },
+      {
+        "Level2": 100,
+        "Level3": 200,
+        "Name": "M590",
+        "Templates": ["5e870397991fd70db46995c8"]
+      },
+      {
+        "Level2": 100,
+        "Level3": 200,
+        "Name": "Mk18",
+        "Templates": ["5fc22d7c187fea44d52eda44"]
+      },
+      {
+        "Level2": 300,
+        "Level3": 450,
+        "Name": "VECTOR",
+        "Templates": ["5fb64bc92b1b027b1f50bcf2", "5fc3f2d5900b1d5091531e57"]
+      },
+      {
+        "Level2": 150,
+        "Level3": 200,
+        "Name": "MCX",
+        "Templates": ["5fbcc1d9016cce60e8341ab3"]
+      },
+      {
+        "Level2": 100,
+        "Level3": 150,
+        "Name": "STM-9",
+        "Templates": ["60339954d62c9b14ed777c06"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "PL15",
+        "Templates": ["602a9740da11d6478d5a06dc"]
+      },
+      {
+        "Level2": 600,
+        "Level3": 1300,
+        "Name": "MK47",
+        "Templates": ["606587252535c57a13424cfd"]
+      },
+      {
+        "Level2": 150,
+        "Level3": 200,
+        "Name": "G28",
+        "Templates": ["6176aca650224f204c1da3fb"]
+      },
+      {
+        "Level2": 350,
+        "Level3": 500,
+        "Name": "Mk17",
+        "Templates": [
+          "6184055050224f204c1da540",
+          "618428466ef05c2ce828f218",
+          "6183afd850224f204c1da514",
+          "6165ac306ef05c2ce828ef74"
+        ]
+      },
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "USP",
+        "Templates": ["6193a720f8ee7e52e42109ed"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 150,
+        "Name": "MTS",
+        "Templates": ["60db29ce99594040e04c4a27"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "RHINO",
+        "Templates": ["624c2e8614da335f1e034d8c", "61a4c8884f95bc3b2c5dc96f"]
+      },
+      {
+        "Level2": 200,
+        "Level3": 250,
+        "Name": "G36",
+        "Templates": ["623063e994fc3f7b302a9696"]
+      },
+      {
+        "Level2": 350,
+        "Level3": 450,
+        "Name": "M3S90",
+        "Templates": ["6259b864ebedf17603599e88"]
+      },
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "MP-18",
+        "Templates": ["61f7c9e189e6fb1a5e3ea78d"]
+      },
+      {
+        "Level2": 150,
+        "Level3": 200,
+        "Name": "AXMC",
+        "Templates": ["627e14b21713922ded6f2c15"]
+      },
+      {
+        "Level2": 200,
+        "Level3": 350,
+        "Name": "SR2",
+        "Templates": ["62e14904c2699c0ec93adc47"]
+      },
+      {
+        "Level2": 350,
+        "Level3": 500,
+        "Name": "AUG",
+        "Templates": ["62e7c4fba689e8c9c50dfc38", "63171672192e68c5460cebc5"]
+      },
+      {
+        "Level2": 100,
+        "Level3": 125,
+        "Name": "RSH12",
+        "Templates": ["633ec7c2a6918cb895019c6c"]
+      },
+      {
+        "Level2": 150,
+        "Level3": 200,
+        "Name": "PKM",
+        "Templates": ["64637076203536ad5600c990", "64ca3d3954fc657e230529cc"]
+      },
+      {
+        "Level2": 200,
+        "Level3": 250,
+        "Name": "SVT-40",
+        "Templates": ["6410733d5dd49d77bd07847e", "643ea5b23db6f9f57107d9fd"]
+      },
+      {
+        "Level2": 150,
+        "Level3": 200,
+        "Name": "RPD",
+        "Templates": ["6513ef33e06849f06c0957ca", "65268d8ecb944ff1e90ea385"]
+      },
+      {
+        "Level2": 350,
+        "Level3": 500,
+        "Name": "SPEAR",
+        "Templates": ["65290f395ae2ae97b80fdf2d"]
+      },
+      {
+        "Level2": 275,
+        "Level3": 500,
+        "Name": "VSK94",
+        "Templates": ["644674a13d52156624001fbc", "645e0c6b3b381ede770e1cc9"]
+      }
+    ],
+    "MaxBotsAliveOnMap": 36,
+    "MaxLoyaltyLevelForAll": false,
+    "Overheat": {
+      "AutoshotChance": 0.2,
+      "AutoshotMinOverheat": 170,
+      "AutoshotPossibilityDuration": 3,
+      "BarrelMoveMaxMult": 0,
+      "BarrelMoveRndDuration": 1,
+      "DurReduceMaxMult": 3,
+      "DurReduceMinMult": 1,
+      "EnableSlideOnMaxOverheat": true,
+      "FirerateOverheatBorder": 140,
+      "FireratePitchMult": 0.5,
+      "FirerateReduceMaxMult": 1.15,
+      "FirerateReduceMinMult": 0.85,
+      "FixSlideOverheat": 170,
+      "MaxCOIIncreaseMult": 1.5,
+      "MaxMalfChance": 9,
+      "MaxOverheat": 200,
+      "MaxOverheatCoolCoef": 6,
+      "MaxWearOnMaxOverheat": 0.7,
+      "MaxWearOnOverheat": 0.2,
+      "MinMalfChance": 0.5,
+      "MinOverheat": 0,
+      "MinWearOnMaxOverheat": 0.2,
+      "MinWearOnOverheat": 0.1,
+      "ModCoolFactor": 1,
+      "ModHeatFactor": 1,
+      "OverheatProblemsStart": 100,
+      "OverheatWearLimit": 0.55,
+      "StartSlideOverheat": 200
+    },
+    "RagFair": {
+      "ChangePriceCoef": 1,
+      "balancerAveragePriceCoefficient": 10,
+      "balancerMinPriceCount": 3,
+      "balancerRemovePriceCoefficient": 5,
+      "balancerUserItemSaleCooldown": 1,
+      "balancerUserItemSaleCooldownEnabled": true,
+      "communityItemTax": 3,
+      "communityRequirementTax": 3,
+      "communityTax": 3,
+      "delaySinceOfferAdd": 0,
+      "enabled": true,
+      "includePveTraderSales": false,
+      "isOnlyFoundInRaidAllowed": true,
+      "maxActiveOfferCount": [
+        {
+          "count": 1,
+          "from": -10000,
+          "to": -2
+        },
+        {
+          "count": 1,
+          "from": -2,
+          "to": 0.2
+        },
+        {
+          "count": 2,
+          "from": 0.2,
+          "to": 7
+        },
+        {
+          "count": 3,
+          "from": 7,
+          "to": 30
+        },
+        {
+          "count": 4,
+          "from": 30,
+          "to": 60
+        },
+        {
+          "count": 5,
+          "from": 60,
+          "to": 100
+        },
+        {
+          "count": 6,
+          "from": 100,
+          "to": 150
+        },
+        {
+          "count": 8,
+          "from": 150,
+          "to": 200
+        },
+        {
+          "count": 8,
+          "from": 200,
+          "to": 250
+        },
+        {
+          "count": 8,
+          "from": 250,
+          "to": 500
+        },
+        {
+          "count": 8,
+          "from": 500,
+          "to": 750
+        },
+        {
+          "count": 8,
+          "from": 750,
+          "to": 1000
+        },
+        {
+          "count": 10,
+          "from": 1000,
+          "to": 10000
+        }
+      ],
+      "maxRenewOfferTimeInHour": 48,
+      "maxSumForDecreaseRatingPerOneSale": 30000000,
+      "maxSumForIncreaseRatingPerOneSale": 50000000,
+      "maxSumForRarity": {
+        "Common": {
+          "value": 999999
+        },
+        "Not_exist": {
+          "value": 999999
+        },
+        "Rare": {
+          "value": 999999
+        },
+        "Superrare": {
+          "value": 999999
+        }
+      },
+      "minUserLevel": 15,
+      "offerDurationTimeInHour": 12,
+      "offerDurationTimeInHourAfterRemove": 0.02,
+      "offerPriorityCost": 6,
+      "priceStabilizerEnabled": false,
+      "priceStabilizerStartIntervalInHours": 1,
+      "priorityTimeModifier": 2,
+      "ratingDecreaseCount": 0.03,
+      "ratingIncreaseCount": 0.02,
+      "ratingSumForDecrease": 100000,
+      "ratingSumForIncrease": 100000,
+      "renewPricePerHour": 0.5,
+      "sellInOnePiece": 300,
+      "uniqueBuyerTimeoutInDays": 14,
+      "youSellOfferMaxStorageTimeInHour": 72,
+      "yourOfferDidNotSellMaxStorageTimeInHour": 72
+    },
+    "RepairSettings": {
+      "ItemEnhancementSettings": {
+        "DamageReduction": {
+          "PriceModifier": 1.2
+        },
+        "MalfunctionProtections": {
+          "PriceModifier": 1.3
+        },
+        "WeaponSpread": {
+          "PriceModifier": 1.1
+        }
+      },
+      "MinimumLevelToApplyBuff": 10,
+      "RepairStrategies": {
+        "Armor": {
+          "BuffTypes": ["DamageReduction"],
+          "Filter": ["57bef4c42459772e8d35a53b", "5448e5284bdc2dcb718b4567"]
+        },
+        "Firearms": {
+          "BuffTypes": ["WeaponSpread", "MalfunctionProtections"],
+          "Filter": ["5422acb9af1c889c16000029"]
+        }
+      },
+      "armorClassDivisor": 6,
+      "durabilityPointCostArmor": 0.335,
+      "durabilityPointCostGuns": 0.5
+    },
+    "RequirementReferences": {
+      "Alpinist": [
+        {
+          "Count": 1,
+          "Id": "5c12688486f77426843c7d32",
+          "RequiredSlot": "FirstPrimaryWeapon",
+          "Requirement": "HasItem",
+          "RequirementTip": "EXFIL_NEED_ITEM {0}"
+        },
+        {
+          "Count": 1,
+          "Id": "5c0126f40db834002a125382",
+          "RequiredSlot": "FirstPrimaryWeapon",
+          "Requirement": "HasItem",
+          "RequirementTip": "EXFIL_NEED_ITEM {0}"
+        },
+        {
+          "Count": 0,
+          "Id": "",
+          "RequiredSlot": "ArmorVest",
+          "Requirement": "Empty",
+          "RequirementTip": "EXFIL_ARMOR_TIP"
+        }
+      ]
+    },
+    "RestrictionsInRaid": [
+      {
+        "MaxInLobby": 400000,
+        "MaxInRaid": 400000,
+        "TemplateId": "5449016a4bdc2d6f028b456f"
+      },
+      {
+        "MaxInLobby": 8000,
+        "MaxInRaid": 8000,
+        "TemplateId": "5696686a4bdc2da3298b456a"
+      },
+      {
+        "MaxInLobby": 8000,
+        "MaxInRaid": 8000,
+        "TemplateId": "569668774bdc2da2298b4568"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "59faff1d86f7746c51718c9c"
+      },
+      {
+        "MaxInLobby": 10,
+        "MaxInRaid": 10,
+        "TemplateId": "5d235b4d86f7742e017bc88a"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "619cbf9e0a7c3a1a2731940a"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5c1d0c5f86f7744bb2683cf0"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5c1d0d6d86f7744bb2683e1f"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5c1e495a86f7743109743dfb"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5ad5d7d286f77450166e0a89"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5ad7247386f7747487619dc3"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5448ba0b4bdc2d02308b456c"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5c1e2a1e86f77431ea0ea84c"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5e42c71586f7747f245e1343"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5a0dc95c86f77452440fc675"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5a0ee4b586f7743698200d22"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5a0ee76686f7743698200d5c"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5a13ef0686f7746e5a411744"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5a13f24186f77410e57c5626"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5a0eecf686f7740350630097"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5a0f08bc86f77478f33b84c2"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5aafbde786f774389d0cbc0f"
+      },
+      {
+        "MaxInLobby": 1,
+        "MaxInRaid": 1,
+        "TemplateId": "5e2af55f86f7746d4159f07c"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5d235bb686f77443f4331278"
+      },
+      {
+        "MaxInLobby": 2,
+        "MaxInRaid": 2,
+        "TemplateId": "5c127c4486f7745625356c13"
+      },
+      {
+        "MaxInLobby": 2,
+        "MaxInRaid": 2,
+        "TemplateId": "59fb023c86f7746d0d4b423c"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "59fafd4b86f7745ca07e1232"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5c1267ee86f77416ec610f72"
+      },
+      {
+        "MaxInLobby": 5,
+        "MaxInRaid": 5,
+        "TemplateId": "59faf7ca86f7740dbe19f6c2"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5c0530ee86f774697952d952"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5c052e6986f7746b207bc3c9"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "590c60fc86f77412b13fddcf"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5bc9bdb8d4351e003562b8a1"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5bc9c377d4351e3bac12251b"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5e54f6af86f7742199090bf3"
+      },
+      {
+        "MaxInLobby": 1,
+        "MaxInRaid": 1,
+        "TemplateId": "5df8a4d786f77412672a1e3b"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5780cf942459777df90dcb72"
+      },
+      {
+        "MaxInLobby": 1,
+        "MaxInRaid": 1,
+        "TemplateId": "5c0e774286f77468413cc5b2"
+      },
+      {
+        "MaxInLobby": 1,
+        "MaxInRaid": 1,
+        "TemplateId": "5c0e805e86f774683f3dd637"
+      },
+      {
+        "MaxInLobby": 1,
+        "MaxInRaid": 1,
+        "TemplateId": "5b44c6ae86f7742d1627baea"
+      },
+      {
+        "MaxInLobby": 1,
+        "MaxInRaid": 1,
+        "TemplateId": "59e763f286f7742ee57895da"
+      },
+      {
+        "MaxInLobby": 1,
+        "MaxInRaid": 1,
+        "TemplateId": "5ab8ebf186f7742d8b372e80"
+      },
+      {
+        "MaxInLobby": 1,
+        "MaxInRaid": 1,
+        "TemplateId": "545cdae64bdc2d39198b4568"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5d80c60f86f77440373c4ece"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5d80c62a86f7744036212b3f"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5913915886f774123603c392"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5d08d21286f774736e7c94c3"
+      },
+      {
+        "MaxInLobby": 6,
+        "MaxInRaid": 6,
+        "TemplateId": "5b43575a86f77424f443fe62"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5bc9b720d4351e450201234b"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5d1b327086f7742525194449"
+      },
+      {
+        "MaxInLobby": 5,
+        "MaxInRaid": 5,
+        "TemplateId": "5e2aee0a86f774755a234b62"
+      },
+      {
+        "MaxInLobby": 6,
+        "MaxInRaid": 6,
+        "TemplateId": "5c12620d86f7743f8b198b72"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5c1f79a086f7746ed066fb8f"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5c1e2d1f86f77431e9280bee"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5d8e0db586f7744450412a42"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5d0377ce86f774186372f689"
+      },
+      {
+        "MaxInLobby": 6,
+        "MaxInRaid": 6,
+        "TemplateId": "590c621186f774138d11ea29"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5c052f6886f7746b1e3db148"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "57347ca924597744596b4e71"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5fca138c2a7b221b2852a5c6"
+      },
+      {
+        "MaxInLobby": 2,
+        "MaxInRaid": 2,
+        "TemplateId": "5c1d0efb86f7744baf2e7b7b"
+      },
+      {
+        "MaxInLobby": 2,
+        "MaxInRaid": 2,
+        "TemplateId": "5e42c81886f7742a01529f57"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "5c94bbff86f7747ee735c08f"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5783c43d2459774bbe137486"
+      },
+      {
+        "MaxInLobby": 2,
+        "MaxInRaid": 2,
+        "TemplateId": "5e42c83786f7742a021fdf3c"
+      },
+      {
+        "MaxInLobby": 2,
+        "MaxInRaid": 2,
+        "TemplateId": "619cbf7d23893217ec30b689"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "619cbfccbedcde2f5b3f7bdd"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "60391afc25aff57af81f7085"
+      },
+      {
+        "MaxInLobby": 4,
+        "MaxInRaid": 4,
+        "TemplateId": "619cbfeb6b8a1b37a54eebfa"
+      },
+      {
+        "MaxInLobby": 3,
+        "MaxInRaid": 3,
+        "TemplateId": "5c05300686f7746dce784e5d"
+      },
+      {
+        "MaxInLobby": 1,
+        "MaxInRaid": 1,
+        "TemplateId": "5bffdd7e0db834001b734a1a"
+      },
+      {
+        "MaxInLobby": 5,
+        "MaxInRaid": 5,
+        "TemplateId": "5c110624d174af029e69734c"
+      },
+      {
+        "MaxInLobby": 5,
+        "MaxInRaid": 5,
+        "TemplateId": "5c0696830db834001d23f5da"
+      },
+      {
+        "MaxInLobby": 5,
+        "MaxInRaid": 5,
+        "TemplateId": "5c066e3a0db834001b7353f0"
+      },
+      {
+        "MaxInLobby": 5,
+        "MaxInRaid": 5,
+        "TemplateId": "5c0558060db834001b735271"
+      },
+      {
+        "MaxInLobby": 5,
+        "MaxInRaid": 5,
+        "TemplateId": "57235b6f24597759bf5a30f1"
+      },
+      {
+        "MaxInLobby": 5,
+        "MaxInRaid": 5,
+        "TemplateId": "5a1eaa87fcdbcb001865f75e"
+      },
+      {
+        "MaxInLobby": 5,
+        "MaxInRaid": 5,
+        "TemplateId": "5d1b5e94d7ad1a2b865a96b0"
+      },
+      {
+        "MaxInLobby": 5,
+        "MaxInRaid": 5,
+        "TemplateId": "609bab8b455afd752b2e6138"
+      },
+      {
+        "MaxInLobby": 5,
+        "MaxInRaid": 5,
+        "TemplateId": "606f2696f2cb2e02a42aceb1"
+      },
+      {
+        "MaxInLobby": 2,
+        "MaxInRaid": 2,
+        "TemplateId": "5df8a42886f77412640e2e75"
+      },
+      {
+        "MaxInLobby": 2,
+        "MaxInRaid": 2,
+        "TemplateId": "5e9db13186f7742f845ee9d3"
+      },
+      {
+        "MaxInLobby": 1,
+        "MaxInRaid": 1,
+        "TemplateId": "628e1ffc83ec92260c0f437f"
+      },
+      {
+        "MaxInLobby": 1,
+        "MaxInRaid": 1,
+        "TemplateId": "62a1b7fbc30cfa1d366af586"
+      },
+      {
+        "MaxInLobby": 1,
+        "MaxInRaid": 1,
+        "TemplateId": "618bb76513f5097c8d5aa2d5"
+      },
+      {
+        "MaxInLobby": 1,
+        "MaxInRaid": 1,
+        "TemplateId": "619cf0335771dd3c390269ae"
+      },
+      {
+        "MaxInLobby": 1,
+        "MaxInRaid": 1,
+        "TemplateId": "639346cc1c8f182ad90c8972"
+      },
+      {
+        "MaxInLobby": 5,
+        "MaxInRaid": 5,
+        "TemplateId": "6478641c19d732620e045e17"
+      },
+      {
+        "MaxInLobby": 5,
+        "MaxInRaid": 5,
+        "TemplateId": "63fc44e2429a8a166c7f61e6"
+      },
+      {
+        "MaxInLobby": 2,
+        "MaxInRaid": 2,
+        "TemplateId": "628baf0b967de16aab5a4f36"
+      }
+    ],
+    "SavagePlayCooldown": 1500,
+    "SavagePlayCooldownDevelop": 0,
+    "SavagePlayCooldownNdaFree": 1500,
+    "SessionsToShowHotKeys": 100,
+    "SkillAtrophy": false,
+    "SkillEnduranceWeightThreshold": 0.55,
+    "SkillExpPerLevel": 100,
+    "SkillFatiguePerPoint": 0.05,
+    "SkillFatigueReset": 200,
+    "SkillFreshEffectiveness": 1.5,
+    "SkillFreshPoints": 15,
+    "SkillMinEffectiveness": 0.01,
+    "SkillPointsBeforeFatigue": 25,
+    "SkillsSettings": {
+      "AdvancedModding": [],
+      "AimDrills": {
+        "WeaponShotAction": 0.5
+      },
+      "Assault": {
+        "WeaponChamberAction": 0.25,
+        "WeaponFixAction": 10,
+        "WeaponReloadAction": 0.25,
+        "WeaponShotAction": 0.2
+      },
+      "AttachedLauncher": [],
+      "Attention": {
+        "DependentSkillRatios": [
+          {
+            "Ratio": 0.2,
+            "SkillId": "Charisma"
+          }
+        ],
+        "ExamineWithInstruction": 10,
+        "FindActionFalse": 1,
+        "FindActionTrue": 0.75
+      },
+      "Auctions": [],
+      "Barter": [],
+      "BearAksystems": [],
+      "BearAssaultoperations": [],
+      "BearAuthority": [],
+      "BearHeavycaliber": [],
+      "BearRawpower": [],
+      "BotReload": [],
+      "BotSound": [],
+      "Charisma": {
+        "BonusSettings": {
+          "EliteBonusSettings": {
+            "FenceStandingLossDiscount": 0.5,
+            "RepeatableQuestExtraCount": 1,
+            "ScavCaseDiscount": 0.2
+          },
+          "LevelBonusSettings": {
+            "HealthRestoreDiscount": 0.01,
+            "HealthRestoreTraderDiscount": 0.01,
+            "InsuranceDiscount": 0.01,
+            "InsuranceTraderDiscount": 0.01,
+            "PaidExitDiscount": 0.01,
+            "RepeatableQuestChangeDiscount": 0.01
+          }
+        },
+        "Counters": {
+          "insuranceCost": {
+            "divisor": 200000,
+            "points": 1
+          },
+          "repairCost": {
+            "divisor": 10000,
+            "points": 1
+          },
+          "repeatableQuestCompleteCount": {
+            "divisor": 1,
+            "points": 1
+          },
+          "restoredHealthCost": {
+            "divisor": 15000,
+            "points": 1
+          },
+          "scavCaseCost": {
+            "divisor": 150000,
+            "points": 1
+          }
+        },
+        "SkillProgressAtn": 1,
+        "SkillProgressInt": 1,
+        "SkillProgressPer": 1
+      },
+      "Cleanoperations": [],
+      "CovertMovement": {
+        "MovementAction": 0.25
+      },
+      "Crafting": {
+        "CraftTimeReductionPerLevel": 0.75,
+        "CraftingCycleHours": 2,
+        "CraftingPointsToInteligence": 15,
+        "EliteExtraProductions": 1,
+        "PointsPerCraftingCycle": 20,
+        "PointsPerUniqueCraftCycle": 2.5,
+        "ProductionTimeReductionPerLevel": 0.75,
+        "UniqueCraftsPerCycle": 1
+      },
+      "DMR": {
+        "WeaponChamberAction": 0.25,
+        "WeaponFixAction": 10,
+        "WeaponReloadAction": 0.2,
+        "WeaponShotAction": 0.25
+      },
+      "Endurance": {
+        "DependentSkillRatios": [
+          {
+            "Ratio": 1,
+            "SkillId": "Health"
+          }
+        ],
+        "GainPerFatigueStack": 0.05,
+        "MovementAction": 0.05,
+        "QTELevelMultipliers": {
+          "10": {
+            "Multiplier": 0.9
+          },
+          "25": {
+            "Multiplier": 0.6
+          },
+          "50": {
+            "Multiplier": 0.3
+          }
+        },
+        "SprintAction": 0.15
+      },
+      "FieldMedicine": [],
+      "FirstAid": [],
+      "Freetrading": [],
+      "HMG": [],
+      "Health": {
+        "SkillProgress": 1
+      },
+      "HeavyVests": {
+        "BluntThroughputDamageHVestsReducePerLevel": 0.01,
+        "BuffMaxCount": 1,
+        "BuffSettings": {
+          "CommonBuffChanceLevelBonus": 0.01,
+          "CommonBuffMinChanceValue": 0.15,
+          "CurrentDurabilityLossToRemoveBuff": 0.4,
+          "MaxDurabilityLossToRemoveBuff": 0.4,
+          "RareBuffChanceCoff": 0.3,
+          "ReceivedDurabilityMaxPercent": 30
+        },
+        "Counters": {
+          "armorDurability": {
+            "divisor": 10.2,
+            "points": 1
+          }
+        },
+        "MoveSpeedPenaltyReductionHVestsReducePerLevel": 0.05,
+        "RicochetChanceHVestsCurrentDurabilityThreshold": 0.8,
+        "RicochetChanceHVestsEliteLevel": 0.35,
+        "RicochetChanceHVestsMaxDurabilityThreshold": 0.5,
+        "WearAmountRepairHVestsReducePerLevel": 0.1,
+        "WearChanceRepairHVestsReduceEliteLevel": 0.8
+      },
+      "HideoutManagement": {
+        "ConsumptionReductionPerLevel": 0.75,
+        "EliteSlots": {
+          "AirFilteringUnit": {
+            "Container": 0,
+            "Slots": 2
+          },
+          "BitcoinFarm": {
+            "Container": 2,
+            "Slots": 0
+          },
+          "Generator": {
+            "Container": 0,
+            "Slots": 2
+          },
+          "WaterCollector": {
+            "Container": 0,
+            "Slots": 2
+          }
+        },
+        "SkillBoostPercent": 1,
+        "SkillPointsPerAreaUpgrade": 20,
+        "SkillPointsPerCraft": 20,
+        "SkillPointsRate": {
+          "AirFilteringUnit": {
+            "PointsGained": 5,
+            "ResourceSpent": 10
+          },
+          "Generator": {
+            "PointsGained": 2,
+            "ResourceSpent": 10
+          },
+          "SolarPower": {
+            "PointsGained": 2,
+            "ResourceSpent": 50
+          },
+          "WaterCollector": {
+            "PointsGained": 2,
+            "ResourceSpent": 10
+          }
+        }
+      },
+      "Immunity": {
+        "HealthNegativeEffect": 5,
+        "ImmunityMiscEffects": 2,
+        "ImmunityPainKiller": 2,
+        "ImmunityPoisonBuff": 10,
+        "StimulatorNegativeBuff": 0.25
+      },
+      "Intellect": {
+        "Counters": {
+          "armorDurability": {
+            "divisor": 30,
+            "points": 1
+          },
+          "firearmsDurability": {
+            "divisor": 13,
+            "points": 1
+          },
+          "meleeWeaponDurability": {
+            "divisor": 18,
+            "points": 1
+          }
+        },
+        "DependentSkillRatios": [
+          {
+            "Ratio": 1,
+            "SkillId": "Charisma"
+          }
+        ],
+        "ExamineAction": 20,
+        "RepairAction": 0.5,
+        "RepairPointsCostReduction": 0.04,
+        "SkillProgress": 1,
+        "WearAmountReducePerLevel": 0.04,
+        "WearChanceReduceEliteLevel": 0.75
+      },
+      "LMG": [],
+      "Launcher": [],
+      "LightVests": {
+        "BuffMaxCount": 1,
+        "BuffSettings": {
+          "CommonBuffChanceLevelBonus": 0.05,
+          "CommonBuffMinChanceValue": 0.35,
+          "CurrentDurabilityLossToRemoveBuff": 0.4,
+          "MaxDurabilityLossToRemoveBuff": 0.4,
+          "RareBuffChanceCoff": 0.25,
+          "ReceivedDurabilityMaxPercent": 40
+        },
+        "Counters": {
+          "armorDurability": {
+            "divisor": 9.2,
+            "points": 1
+          }
+        },
+        "MeleeDamageLVestsReducePerLevel": 0.006,
+        "MoveSpeedPenaltyReductionLVestsReducePerLevel": 0.06,
+        "WearAmountRepairLVestsReducePerLevel": 0.08,
+        "WearChanceRepairLVestsReduceEliteLevel": 0.75
+      },
+      "Lockpicking": [],
+      "MagDrills": {
+        "MagazineCheckAction": 2,
+        "RaidLoadedAmmoAction": 0.5,
+        "RaidUnloadedAmmoAction": 0.15
+      },
+      "Melee": {
+        "BuffSettings": {
+          "CommonBuffChanceLevelBonus": 0.2,
+          "CommonBuffMinChanceValue": 1,
+          "RareBuffChanceCoff": 0.25,
+          "ReceivedDurabilityMaxPercent": 1
+        }
+      },
+      "Memory": {
+        "AnySkillUp": 5,
+        "SkillProgress": 1
+      },
+      "Metabolism": {
+        "DecreaseNegativeEffectDurationRate": 1,
+        "DecreasePoisonDurationRate": 1,
+        "EnergyRecoveryRate": 20,
+        "HydrationRecoveryRate": 20,
+        "IncreasePositiveEffectDurationRate": 1
+      },
+      "NightOps": [],
+      "Perception": {
+        "DependentSkillRatios": [
+          {
+            "Ratio": 1,
+            "SkillId": "Charisma"
+          }
+        ],
+        "OnlineAction": 2.5,
+        "UniqueLoot": 0.85
+      },
+      "Pistol": {
+        "WeaponChamberAction": 0.2,
+        "WeaponFixAction": 10,
+        "WeaponReloadAction": 0.25,
+        "WeaponShotAction": 0.25
+      },
+      "ProneMovement": [],
+      "RecoilControl": {
+        "RecoilAction": 0.0015,
+        "RecoilBonusPerLevel": 0.03
+      },
+      "Revolver": {
+        "WeaponChamberAction": 0.2,
+        "WeaponFixAction": 10,
+        "WeaponReloadAction": 0.25,
+        "WeaponShotAction": 0.25
+      },
+      "SMG": [],
+      "Search": {
+        "FindAction": 1,
+        "SearchAction": 0.85
+      },
+      "Shadowconnections": [],
+      "Shotgun": {
+        "WeaponChamberAction": 0.2,
+        "WeaponFixAction": 10,
+        "WeaponReloadAction": 0.2,
+        "WeaponShotAction": 0.3
+      },
+      "SilentOps": [],
+      "SkillProgressRate": 1,
+      "Sniper": {
+        "WeaponChamberAction": 0.25,
+        "WeaponFixAction": 15,
+        "WeaponReloadAction": 1,
+        "WeaponShotAction": 0.35
+      },
+      "Sniping": [],
+      "Strength": {
+        "DependentSkillRatios": [
+          {
+            "Ratio": 1,
+            "SkillId": "Health"
+          }
+        ],
+        "FistfightAction": 10,
+        "MovementActionMax": 0.15,
+        "MovementActionMin": 0.05,
+        "PushUpMax": 1,
+        "PushUpMin": 0.33,
+        "QTELevelMultipliers": [
+          {
+            "Level": 10,
+            "Multiplier": 0.9
+          },
+          {
+            "Level": 25,
+            "Multiplier": 0.6
+          },
+          {
+            "Level": 50,
+            "Multiplier": 0.3
+          }
+        ],
+        "SprintActionMax": 1.2,
+        "SprintActionMin": 0.6,
+        "ThrowAction": 10
+      },
+      "StressResistance": {
+        "HealthNegativeEffect": 5,
+        "LowHPDuration": 2
+      },
+      "Surgery": {
+        "SkillProgress": 2,
+        "SurgeryAction": 25
+      },
+      "Taskperformance": [],
+      "Throwing": {
+        "ThrowAction": 2.5
+      },
+      "TroubleShooting": {
+        "EliteAmmoChanceReduceMult": 0.5,
+        "EliteDurabilityChanceReduceMult": 0.5,
+        "EliteMagChanceReduceMult": 0.5,
+        "MalfRepairSpeedBonusPerLevel": 0.05,
+        "SkillPointsPerMalfFix": 25
+      },
+      "UsecArsystems": [],
+      "UsecDeepweaponmodding_Settings": [],
+      "UsecLongrangeoptics_Settings": [],
+      "UsecNegotiations": [],
+      "UsecTactics": [],
+      "Vitality": {
+        "DamageTakenAction": 0.05,
+        "HealthNegativeEffect": 5
+      },
+      "WeaponModding": [],
+      "WeaponSkillProgressRate": 1,
+      "WeaponSkillRecoilBonusPerLevel": 0.03,
+      "WeaponTreatment": {
+        "BuffMaxCount": 2,
+        "BuffSettings": {
+          "CommonBuffChanceLevelBonus": 0.003,
+          "CommonBuffMinChanceValue": 0.074,
+          "CurrentDurabilityLossToRemoveBuff": 0.05,
+          "MaxDurabilityLossToRemoveBuff": 0.05,
+          "RareBuffChanceCoff": 0.1,
+          "ReceivedDurabilityMaxPercent": 40
+        },
+        "Counters": {
+          "firearmsDurability": {
+            "divisor": 6,
+            "points": 1
+          }
+        },
+        "DurLossReducePerLevel": 0.05,
+        "Filter": [],
+        "SkillPointsPerRepair": 12,
+        "WearAmountRepairGunsReducePerLevel": 0.1,
+        "WearChanceRepairGunsReduceEliteLevel": 0.75
+      }
+    },
+    "SprintSpeed": {
+      "x": 0.8,
+      "y": 1.2,
+      "z": 0
+    },
+    "SquadSettings": {
+      "CountOfRequestsToOnePlayer": 3,
+      "SecondsForExpiredRequest": 120,
+      "SendRequestDelaySeconds": 60
+    },
+    "Stamina": {
+      "AimConsumptionByPose": {
+        "x": 0.15,
+        "y": 0.75,
+        "z": 1
+      },
+      "AimDrainRate": 1.1,
+      "AimRangeFinderDrainRate": 0.55,
+      "AimingSpeedMultiplier": 0.6,
+      "BaseHoldBreathConsumption": 4,
+      "BaseOverweightLimits": {
+        "x": 26,
+        "y": 67,
+        "z": 0
+      },
+      "BaseRestorationRate": 7.5,
+      "Capacity": 100,
+      "ClimbLegsConsumption": {
+        "x": 0,
+        "y": 20,
+        "z": 0
+      },
+      "ClimbOneHandConsumption": {
+        "x": 8,
+        "y": 20,
+        "z": 0
+      },
+      "ClimbTwoHandsConsumption": {
+        "x": 12,
+        "y": 25,
+        "z": 0
+      },
+      "CrouchConsumption": {
+        "x": 0.17,
+        "y": 0.7,
+        "z": 0
+      },
+      "ExhaustedMeleeDamageMultiplier": 0.33,
+      "ExhaustedMeleeSpeed": 0.65,
+      "FallDamageMultiplier": 1.9,
+      "FatigueAmountToCreateEffect": 15,
+      "FatigueRestorationRate": 0.42,
+      "GrenadeHighThrow": 11,
+      "GrenadeLowThrow": 8,
+      "HandsCapacity": 70,
+      "HandsRestoration": 3.1,
+      "HoldBreathStaminaMultiplier": {
+        "x": 2,
+        "y": 1,
+        "z": 0
+      },
+      "JumpConsumption": 14,
+      "OverweightConsumptionByPose": {
+        "x": -3,
+        "y": -2,
+        "z": 0
+      },
+      "OxygenCapacity": 350,
+      "OxygenRestoration": 5,
+      "PoseLevelConsumptionPerNotch": {
+        "x": 1.1,
+        "y": 3,
+        "z": 0
+      },
+      "PoseLevelDecreaseSpeed": {
+        "x": 0.85,
+        "y": 0.6,
+        "z": 0
+      },
+      "PoseLevelIncreaseSpeed": {
+        "x": 0.65,
+        "y": 0.4,
+        "z": 0
+      },
+      "ProneConsumption": 1,
+      "RestorationMultiplierByPose": {
+        "x": 1.45,
+        "y": 1.25,
+        "z": 1
+      },
+      "SafeHeightOverweight": 1.75,
+      "SitToStandConsumption": 1,
+      "SoundRadius": {
+        "x": 1,
+        "y": 1.3,
+        "z": 0
+      },
+      "SprintAccelerationLowerLimit": 0.95,
+      "SprintDrainRate": 3,
+      "SprintOverweightLimits": {
+        "x": 26,
+        "y": 63,
+        "z": 0
+      },
+      "SprintSensitivityLowerLimit": 0.7,
+      "SprintSpeedLowerLimit": 0.4,
+      "StaminaExhaustionCausesJiggle": true,
+      "StaminaExhaustionRocksCamera": false,
+      "StaminaExhaustionStartsBreathSound": true,
+      "StandupConsumption": {
+        "x": 5,
+        "y": 10,
+        "z": 0
+      },
+      "TransitionSpeed": {
+        "x": 1,
+        "y": 0.66,
+        "z": 0
+      },
+      "VaultLegsConsumption": {
+        "x": 5,
+        "y": 20,
+        "z": 0
+      },
+      "VaultOneHandConsumption": {
+        "x": 5,
+        "y": 16,
+        "z": 0
+      },
+      "WalkConsumption": {
+        "x": 0.2,
+        "y": 0.5,
+        "z": 0
+      },
+      "WalkOverweightLimits": {
+        "x": 50,
+        "y": 85,
+        "z": 0
+      },
+      "WalkSpeedOverweightLimits": {
+        "x": 40,
+        "y": 72,
+        "z": 0
+      },
+      "WalkVisualEffectMultiplier": 0.1,
+      "WeaponFastSwitchConsumption": 15
+    },
+    "StaminaDrain": {
+      "LeftPlatoPoint": 0.9,
+      "LowerLeftPoint": 1.2,
+      "LowerRightPoint": 1.5,
+      "RightLimit": 1.5,
+      "RightPlatoPoint": 1,
+      "ZeroValue": 2
+    },
+    "StaminaRestoration": {
+      "LeftPlatoPoint": 0.1,
+      "LowerLeftPoint": 0.9,
+      "LowerRightPoint": 0.5,
+      "RightLimit": 1.5,
+      "RightPlatoPoint": 0.9,
+      "ZeroValue": 0.07
+    },
+    "StomachOverdamage": 1.5,
+    "TODSkyDate": "08-01-2018",
+    "TeamSearchingTimeout": 10,
+    "TestValue": 3,
+    "TimeBeforeDeploy": 10,
+    "TimeBeforeDeployLocal": 10,
+    "TradingSetting": 0,
+    "TradingSettings": {
+      "BuyoutRestrictions": {
+        "MinDurability": 0.3,
+        "MinFoodDrinkResource": 0.01,
+        "MinMedsResource": 0.01
+      }
+    },
+    "TradingUnlimitedItems": false,
+    "UncheckOnShot": true,
+    "VaultingSettings": {
+      "GridSettings": {
+        "GridOffsetX": 0,
+        "GridOffsetY": 0,
+        "GridOffsetZ": 0,
+        "GridSizeX": 0,
+        "GridSizeY": 1.8,
+        "GridSizeZ": 2,
+        "OffsetFactor": 0.1,
+        "SteppingLengthX": 0.1,
+        "SteppingLengthY": 0.1,
+        "SteppingLengthZ": 0.1
+      },
+      "IsActive": true,
+      "MovesSettings": {
+        "ClimbSettings": {
+          "AutoMoveRestrictions": {
+            "IsActive": true,
+            "MaxHeight": 0.41,
+            "MaxLength": 10,
+            "MinDistantToInteract": 0.41,
+            "MinHeight": 0.25,
+            "MinLength": 0.41
+          },
+          "IsActive": true,
+          "MaxOneHandHeight": 1.2,
+          "MaxWithoutHandHeight": 0.65,
+          "MoveRestrictions": {
+            "IsActive": true,
+            "MaxHeight": 1.31,
+            "MaxLength": 10,
+            "MinDistantToInteract": 0.5,
+            "MinHeight": 0.25,
+            "MinLength": 0
+          },
+          "SpeedRange": {
+            "x": 1.1,
+            "y": 0.8,
+            "z": 0
+          }
+        },
+        "VaultSettings": {
+          "AutoMoveRestrictions": {
+            "IsActive": true,
+            "MaxHeight": 0.41,
+            "MaxLength": 0.41,
+            "MinDistantToInteract": 0.41,
+            "MinHeight": 0.25,
+            "MinLength": 0
+          },
+          "IsActive": true,
+          "MaxWithoutHandHeight": 0.65,
+          "MoveRestrictions": {
+            "IsActive": true,
+            "MaxHeight": 1.1,
+            "MaxLength": 0.41,
+            "MinDistantToInteract": 0.5,
+            "MinHeight": 0.25,
+            "MinLength": 0
+          },
+          "SpeedRange": {
+            "x": 1.25,
+            "y": 0.9,
+            "z": 0
+          }
+        }
+      },
+      "VaultingInputTime": 0.6
+    },
+    "WAVE_COEF_HIGH": 1.8,
+    "WAVE_COEF_HORDE": 10,
+    "WAVE_COEF_LOW": 1,
+    "WAVE_COEF_MID": 1.4,
+    "WalkSpeed": {
+      "x": 0.625,
+      "y": 0.717,
+      "z": 0
+    },
+    "WallContusionAbsorption": {
+      "x": 0.4,
+      "y": 0.01,
+      "z": 0
+    },
+    "WeaponFastDrawSettings": {
+      "HandShakeCurveFrequency": 1,
+      "HandShakeCurveIntensity": 1,
+      "HandShakeMaxDuration": 10,
+      "HandShakeTremorIntensity": 3,
+      "WeaponFastSwitchMaxSpeedMult": 2,
+      "WeaponFastSwitchMinSpeedMult": 1.5,
+      "WeaponPistolFastSwitchMaxSpeedMult": 2,
+      "WeaponPistolFastSwitchMinSpeedMult": 1.5
+    },
+    "WeaponSkillProgressRate": 1,
+    "armor": {
+      "class": [
+        {
+          "resistance": 1
+        },
+        {
+          "resistance": 10
+        },
+        {
+          "resistance": 20
+        },
+        {
+          "resistance": 30
+        },
+        {
+          "resistance": 40
+        },
+        {
+          "resistance": 50
+        },
+        {
+          "resistance": 60
+        },
+        {
+          "resistance": 70
+        },
+        {
+          "resistance": 80
+        },
+        {
+          "resistance": 90
+        },
+        {
+          "resistance": 100
+        }
+      ]
+    },
+    "content": {
+      "ip": "",
+      "port": 666,
+      "root": ""
+    },
+    "exp": {
+      "expForLockedDoorBreach": 200,
+      "expForLockedDoorOpen": 300,
+      "heal": {
+        "expForEnergy": 1,
+        "expForHeal": 3,
+        "expForHydration": 1
+      },
+      "kill": {
+        "bloodLossToLitre": 0.005,
+        "botExpOnDamageAllHealth": 250,
+        "botHeadShotMult": 1.25,
+        "combo": [
+          {
+            "percent": 0
+          },
+          {
+            "percent": 20
+          },
+          {
+            "percent": 30
+          },
+          {
+            "percent": 40
+          },
+          {
+            "percent": 50
+          },
+          {
+            "percent": 60
+          },
+          {
+            "percent": 70
+          },
+          {
+            "percent": 80
+          },
+          {
+            "percent": 90
+          },
+          {
+            "percent": 100
+          }
+        ],
+        "longShotDistance": 100,
+        "pmcExpOnDamageAllHealth": 500,
+        "pmcHeadShotMult": 1.5,
+        "victimBotLevelExp": 300,
+        "victimLevelExp": 300
+      },
+      "level": {
+        "clan_level": 0,
+        "exp_table": [
+          {
+            "exp": 0
+          },
+          {
+            "exp": 1000
+          },
+          {
+            "exp": 3017
+          },
+          {
+            "exp": 4415
+          },
+          {
+            "exp": 5824
+          },
+          {
+            "exp": 7221
+          },
+          {
+            "exp": 8546
+          },
+          {
+            "exp": 9913
+          },
+          {
+            "exp": 11268
+          },
+          {
+            "exp": 12519
+          },
+          {
+            "exp": 13840
+          },
+          {
+            "exp": 15150
+          },
+          {
+            "exp": 19168
+          },
+          {
+            "exp": 22793
+          },
+          {
+            "exp": 26465
+          },
+          {
+            "exp": 30278
+          },
+          {
+            "exp": 33777
+          },
+          {
+            "exp": 37172
+          },
+          {
+            "exp": 40118
+          },
+          {
+            "exp": 43267
+          },
+          {
+            "exp": 45898
+          },
+          {
+            "exp": 48795
+          },
+          {
+            "exp": 51922
+          },
+          {
+            "exp": 55530
+          },
+          {
+            "exp": 61170
+          },
+          {
+            "exp": 70189
+          },
+          {
+            "exp": 76189
+          },
+          {
+            "exp": 82228
+          },
+          {
+            "exp": 88304
+          },
+          {
+            "exp": 94420
+          },
+          {
+            "exp": 100573
+          },
+          {
+            "exp": 106766
+          },
+          {
+            "exp": 116525
+          },
+          {
+            "exp": 126345
+          },
+          {
+            "exp": 136228
+          },
+          {
+            "exp": 153132
+          },
+          {
+            "exp": 163614
+          },
+          {
+            "exp": 174161
+          },
+          {
+            "exp": 184773
+          },
+          {
+            "exp": 195448
+          },
+          {
+            "exp": 206188
+          },
+          {
+            "exp": 216994
+          },
+          {
+            "exp": 231681
+          },
+          {
+            "exp": 246457
+          },
+          {
+            "exp": 261322
+          },
+          {
+            "exp": 288833
+          },
+          {
+            "exp": 304559
+          },
+          {
+            "exp": 320377
+          },
+          {
+            "exp": 336290
+          },
+          {
+            "exp": 352294
+          },
+          {
+            "exp": 368392
+          },
+          {
+            "exp": 384583
+          },
+          {
+            "exp": 406356
+          },
+          {
+            "exp": 428255
+          },
+          {
+            "exp": 450283
+          },
+          {
+            "exp": 472435
+          },
+          {
+            "exp": 494715
+          },
+          {
+            "exp": 517122
+          },
+          {
+            "exp": 539655
+          },
+          {
+            "exp": 572128
+          },
+          {
+            "exp": 635485
+          },
+          {
+            "exp": 681546
+          },
+          {
+            "exp": 735924
+          },
+          {
+            "exp": 797342
+          },
+          {
+            "exp": 888812
+          },
+          {
+            "exp": 1010599
+          },
+          {
+            "exp": 1237655
+          },
+          {
+            "exp": 1690758
+          },
+          {
+            "exp": 2371894
+          },
+          {
+            "exp": 3000000
+          },
+          {
+            "exp": 3600000
+          },
+          {
+            "exp": 4200000
+          },
+          {
+            "exp": 4800000
+          },
+          {
+            "exp": 5400000
+          },
+          {
+            "exp": 6000000
+          },
+          {
+            "exp": 6600000
+          },
+          {
+            "exp": 7200000
+          },
+          {
+            "exp": 8400000
+          },
+          {
+            "exp": 12000000
+          }
+        ],
+        "mastering1": 1500,
+        "mastering2": 5000,
+        "savage_level": 0,
+        "trade_level": 0
+      },
+      "loot_attempts": [
+        {
+          "k_exp": 0.5
+        },
+        {
+          "k_exp": 0.15
+        },
+        {
+          "k_exp": 0.125
+        }
+      ],
+      "match_end": {
+        "README": "Сначала проверяются условия выхода (*_requirement), только потом применяются награды (*_reward). Получившаяся сумма умножается на *Mult",
+        "killedMult": 1,
+        "leftMult": 0,
+        "miaMult": 1,
+        "mia_exp_reward": 200,
+        "runnerMult": 0.5,
+        "runner_exp_reward": 200,
+        "survivedMult": 1.3,
+        "survived_exp_requirement": 200,
+        "survived_exp_reward": 300,
+        "survived_seconds_requirement": 420
+      },
+      "triggerMult": 2
+    },
+    "handbook": {
+      "defaultCategory": "5b5f78dc86f77409407a7f8e"
+    },
+    "rating": {
+      "categories": {
+        "avgEarnings": false,
+        "experience": true,
+        "inventoryFullCost": true,
+        "kd": false,
+        "longestShot": true,
+        "pmcKills": true,
+        "ragFairStanding": true,
+        "raidCount": true,
+        "surviveRatio": false,
+        "timeOnline": true
+      },
+      "levelRequired": 10,
+      "limit": 100
+    },
+    "t_base_lockpicking": 45,
+    "t_base_looting": 4,
+    "tournament": {
+      "categories": {
+        "dogtags": true
+      },
+      "levelRequired": 1,
+      "limit": 20
+    }
+  }
+}

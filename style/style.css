@@ -1,6 +1,6 @@
 :root {
   /* Font settings */
-  /* --ff-sans: 'Poppins', sans-serif; */
+  --ff-sans: 'Georgia', sans-serif;
 
   /* ------------- */
   --fw-light: 200;
@@ -48,7 +48,7 @@
 
 html {
   font-size: var(--fs-500);
-  /* font-family: var(--ff-sans); */
+  font-family: var(--ff-sans);
   /* font-weight: var(--fw-normal); */
 
   line-height: 1.5;
@@ -108,7 +108,7 @@ nav {
 }
 
 nav li {
-  font-family: aktiv-grotesk, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
 }
 /* 
 li .elementor-icon-list-item {

@@ -1,10 +1,16 @@
 //test
-import Server380Repo from "./tests/server380";
+import { Server380Repo } from "../tests/server380.js";
 
 const srvr = Server380Repo.baseURL;
 const branch = Server380Repo.branch;
 const path = Server380Repo.path;
 const source = Server380Repo.source;
+
+const botConfig = "this.configServer.getConfig(ConfigTypes.BOT)";
+const pmcConfig = "this.configServer.getConfig(ConfigTypes.PMC)";
+
+// CLI api example - tarkov.dev/api/
+// curl -X POST -H "Content-Type: application/json" -d '{"query": "{ items(name: \"m855a1\") {id name shortName } }"}' https://api.tarkov.dev/graphql
 
 /* 
 export class DatabaseServer
@@ -82,5 +88,4 @@ export class DatabaseServer
 
 
 */
-const botConfig = "this.configServer.getConfig(ConfigTypes.BOT)";
-const pmcConfig = "this.configServer.getConfig(ConfigTypes.PMC)";
+

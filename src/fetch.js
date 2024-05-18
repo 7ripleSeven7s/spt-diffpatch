@@ -1,6 +1,45 @@
+import { request, gql } from 'graphql-request'
+
 const tarkovChangesAPI = {
   "tarkov-changes.com": "dc9e65e1795616cc6034",
 };
+
+/*  Browser JS Example
+  fetch('https://api.tarkov.dev/graphql', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Accept': 'application/json',
+  },
+  body: JSON.stringify({query: `{
+    items(name: "m855a1") {
+        id
+        name
+        shortName
+    }
+}`})
+})
+  .then(r => r.json())
+  .then(data => console.log('data returned:', data));
+*/
+
+// ------------------------------------------------------
+
+/* Node.js Example
+import { request, gql } from 'graphql-request'
+
+const query = gql`
+{
+    items(name: "m855a1") {
+        id
+        name
+        shortName
+    }
+}
+`
+
+request('https://api.tarkov.dev/graphql', query).then((data) => console.log(data))
+*/
 
 /**
  * @param {string} resource - A string representing a network resource

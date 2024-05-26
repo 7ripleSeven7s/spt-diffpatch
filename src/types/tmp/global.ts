@@ -1,3 +1,0 @@
-type globals = {
-  "BotWeaponScatterings": object;
-}

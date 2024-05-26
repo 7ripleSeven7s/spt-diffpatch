@@ -102,3 +102,23 @@ function fetchJsonArray(resource) {
 }
 
 export default { fetchJson, fetchJsonArray, tarkovChangesAPI };
+
+{
+  "data":{
+    "items":[
+      {
+        "id":"54527ac44bdc2d36668b4567",
+        "name":"5.56x45mm M855A1",
+        "shortName":"M855A1"
+      },{
+        "id":"657024e3c5d7d4cb4d07856a",
+        "name":"5.56x45mm M855A1 ammo pack (50 pcs)",
+        "shortName":"M855A1"
+      },{
+        "id":"65702652cfc010a0f5006a53",
+        "name":"5.56x45mm M855A1 ammo pack (100 pcs)",
+        "shortName":"M855A1"
+      }
+    ]
+  }
+}

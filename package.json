@@ -3,7 +3,6 @@
   "description": "A utility for patching configuration files for SPT-AKI releases >= 3.8.0",
   "version": "0.0.1",
   "main": "index.js",
-  "type": "module",
   "dependencies": {
     "@types/config": "^3.3.4",
     "buffer-crc32": "^1.0.0",

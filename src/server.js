@@ -1,5 +1,5 @@
 //test
-import { Server380Repo } from "../tests/server380.js";
+import * as Server380Repo from "../tests/server380.js";
 
 const srvr = Server380Repo.baseURL;
 const branch = Server380Repo.branch;

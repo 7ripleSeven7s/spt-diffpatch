@@ -1,8 +1,10 @@
 {
   "name": "spt-diffpatch",
-  "description": "A utility for patching configuration files for SPT-AKI releases >= 3.8.0",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "A utility for patching configuration files for SPT-AKI releases after 3.8.0",
+  "private": "true",
   "main": "index.js",
+  "type": "commonjs",
   "dependencies": {
     "@types/config": "^3.3.4",
     "buffer-crc32": "^1.0.0",
@@ -16,19 +18,24 @@
     "nodemon": "^3.1.0",
     "typescript": "^5.4.5"
   },
-  "directories": {
-    "src": "src/",
+/*   "directories": {
+     "@spt-diffpatch": "./src/",
+    "config": "config/",
     "tests": "tests/",
     "data": "data/",
     "dist": "dist/",
-    "images": "images/",
-    "style": "style/"
-  },
+    "models": "@spt-diffpatch/" 
+  }, */
   "scripts": {
-    "start": "nodemon index.js",
-    "clean": "rm -rf dist",
+    "dev": "node src/main.js",
+    "start": "npm run dev",
+    "clean": "rm -rf dist/",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "npx tsc"
+    "tsc": "C:\\Users\\Oliver\\Dev\\src\\web\\spt-diffpatch\\node_modules\\.bin\\tsc -p src/main.ts"
+  },
+  "engines":{
+    "node": "20.11.0",
+    "npm": "10.2.4"
   },
   "repository": {
     "type": "git",

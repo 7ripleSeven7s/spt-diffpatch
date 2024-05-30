@@ -3,20 +3,30 @@
   // Hover to view descriptions of existing attributes.
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
+  //"inputs": [],
   "configurations": [
     {
-      //"env": {},
-      "envFile": "${workspaceFolder}/.env",
+      "envFile": "${workspaceFolder}\\.env",
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}\\src\\main.js"
-      //"outFiles": [
-      //  "${workspaceFolder}/**/*.js"
-      //]
+      "program": "${workspaceFolder}\\src\\main.js",
+      "outFiles": [
+        "${workspaceFolder}/src/main.js"
+      ]
+    },
+    {
+      "name": "Launch node-terminal",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}\\src",
+      "args":[
+        //"${env:USERNAME}"
+        "${env:tsc}"
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import { Item } from "@spt-diffpatch/models/eft/common/tables/IItem";
-import { ITraderServiceModel } from "@spt-diffpatch/models/spt/services/ITraderServiceModel";
+//import { ITraderServiceModel } from "@spt-diffpatch/models/spt/services/ITraderServiceModel";
 
 export interface ITrader
 {
@@ -9,7 +9,8 @@ export interface ITrader
     dialogue?: Record<string, string[]>;
     questassort?: Record<string, Record<string, string>>;
     suits?: ISuit[];
-    services?: ITraderServiceModel[];
+    // modified serv.
+    services?: string[];
 }
 
 export interface ITraderBase

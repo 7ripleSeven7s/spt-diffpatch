@@ -1,6 +1,6 @@
 import { Item, Upd } from "@spt-diffpatch/models/eft/common/tables/IItem";
 import { IPmcDataRepeatableQuest } from "@spt-diffpatch/models/eft/common/tables/IRepeatableQuests";
-import { IRagfairOffer } from "@spt-diffpatch/models/eft/ragfair/IRagfairOffer";
+import { IRagfairOffer } from "@spt-diffpatch/models/eft/IRagfairOffer";
 import { BonusSkillType } from "@spt-diffpatch/models/enums/BonusSkillType";
 import { BonusType } from "@spt-diffpatch/models/enums/BonusType";
 import { HideoutAreas } from "@spt-diffpatch/models/enums/HideoutAreas";

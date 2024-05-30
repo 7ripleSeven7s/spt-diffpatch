@@ -1,4 +1,4 @@
-import { MinMax } from "@spt-diffpatch/models/common/MinMax";
+import { MinMax } from "@spt-diffpatch/models/eft/common/MinMax";
 import { Ixyz } from "@spt-diffpatch/models/eft/common/Ixyz";
 
 /* eslint-disable @typescript-eslint/naming-convention */

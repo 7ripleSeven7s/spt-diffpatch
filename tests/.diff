@@ -1,0 +1,27 @@
+--- tests/diff1.txt	2024-05-29 18:01:05.453431900 -0700
++++ tests/diff2.txt	2024-05-29 18:01:03.970447500 -0700
+@@ -1,12 +1,13 @@
+-# spt-diffpatch
++spt-diffpatch
+ 
+ A customizable diff/patch tool for SPT-AKI releases >= 3.8.0
+ 
+-## Usage
++
++Usage
+ 
+ `$spt-diffpatch [options] patch_file target_file`
+ 
+-### Syntax
++Syntax
+ 
+ ```
+ $spt-diffpatch [options] original newfile
+@@ -56,4 +57,4 @@
+ ```
+ 
+ 
+-Hunk is a term used by `diff` representing the raw bytes changed
+\ No newline at end of file
++Hunk is a term used by `diff` representing the raw bytes changed.
+\ No newline at end of file

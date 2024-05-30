@@ -1,0 +1,12 @@
+--- file2	2024-05-29 18:52:46.560323500 -0700
++++ file1	2024-05-29 18:52:49.761338500 -0700
+@@ -1,4 +1,6 @@
+ cat
+ dog
++monkey
++human
+ tiger
+-elephant
+\ No newline at end of file
++lion
+\ No newline at end of file

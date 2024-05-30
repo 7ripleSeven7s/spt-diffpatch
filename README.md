@@ -1,45 +1,151 @@
-# spt-diffpatch
+**Sections**
+- [`spt-diffpatch`](#spt-diffpatch)
+  - [Usage](#usage)
+    - [Arguments](#arguments)
+- [Linux Commands](#linux-commands)
+  - [`diff` command](#diff-command)
+  - [`patch` command](#patch-command)
+  - [`comm` command](#comm-command)
+    - [Failure Conditions](#failure-conditions)
+- [git diff](#git-diff)
+- [Notes](#notes)
+- [TODO](#todo)
+- [Help pages](#help-pages)
+  - [diff](#diff)
+  - [patch](#patch)
+  - [comm](#comm)
+
+![Coffe-code](d:/neo_archive/Dev/assets/images/Memes/coffee-code.png)
+# `spt-diffpatch`
 
 A customizable compare/diff/patch tool for SPT-AKI releases >= 3.8.0
 
-**Usage**
+## Usage
 
-`$spt-diffpatch [options] patch_file target_file`
+$ **spt-diffpatch** -u *FileA* *FileB*
 
-**Syntax**
+- <p>In update mode (-u), *FileA* will be updated to be identical to *FileB*. It is intended to be used to bring an outdated file
+  up to date with a new file.
 
-```
-$spt-diffpatch [options] original newfile
-```
+*Syntax*
 
-*Paramaters*
+`$spt-diffpatch [options] <oldfile> <newfile>`
 
-`original` - The existing file (potentially outdated).
-`newfile` - An updated version of `original`
+*Paramaters:*
 
-**Arguments**
+- `original` - The existing file (potentially outdated).
+- `newfile` - An updated version of `original`.
 
-Name | Flag | Description
---- | --- | ---
-ignore | -N | Ignores absent files
-verbose | -v | Remove verbose elements
-column-mode | -y | Display output in columns, side-by-side
-recursive | -r `pattern` | Compare all files in the directory matching a regex `pattern`
-. | -u | Displays output in an easier to read format. This may remove some information such as context lines.
+### Arguments
+
+  Name | Flag | Description
+  --- | --- | ---
+  ignore | -N | Ignores absent files
+  verbose | -v | Remove verbose elements
+  column-mode | -y | Display output in columns, side-by-side
+  recursive | -r `pattern` | Compare all files in the directory matching a regex `pattern`
+  update | -u | Update mode.  changes fileA to be the same as fileB
+
+  **Exit status**
+
+  Status = 0 if inputs are the same, 1 if different, 2 if trouble.
+
+**Output**
+
+- Create a 
+  ```bash
+  diff -u file1 file2 > out_file.diff
+  ```
+
+# Linux Commands 
+
+## `diff` command
+
+Using the *-u* flag will signal `diff` to view differences in unified mode, which is similar to context mode but it doesn’t display any redundant information. 
+
+Output:
+
+  file1 is indicated with '---' and a timestamp.
+  file2 is indicated with '+++' and a timestamp.
+  lines marked with '@@ -.., +.. @@' indicate the range of mismatched lines.
+  subsequent lines indicate individual differences between files.
+  - unchanged lines are displayed without any prefix.
+  - Lines in the first file to be deleted are prefixed with '-'.
+  - Lines in the second file to be added are prefixed with '+'.
 
 
-## Output
-
-*To Create a .diff file*
+## `patch` command
+Apply a patch:
 ```bash
-diff -u file1 file2 > out_file.diff
+patch < out_file.diff
 ```
 
-### `diff` command
+Undo a patch:
+```bash
+patch -R < out_file.diff
+```
 
-Using the *-u* flag will signal `diff` to unify the contents, marking file1 '---' and file2 '+++'
+## `comm` command
 
-The diff help page
+
+
+### Failure Conditions
+
+Patch Failure Conditions
+
+Error message resulting from a failed patch attempt:
+```
+patching file thesis.tex
+Hunk #1 FAILED at 105
+Hunk #2 succeeded at 1073 (offset 2 lines).
+1 out of 2 hunks FAILED -- saving rejects to file thesis.tex.reg
+```
+
+
+# git diff
+
+  1. Create new git repository:   
+
+      `$ git init`
+  2. Create a file with some text:  
+
+      `$ echo hello > file.txt`
+
+  3. Add to git repo: 
+
+      `$ git commit .`    
+      *. means add everything in the current directory to staging(next commit)*
+
+  4. Commit changes:  `$ git commit -m "initial"`
+      *Output:*
+      ```
+      [master (root-commit) 7445fda] initial
+      1 file changed, 1 insertion(+)
+      create mode 100644 file.txt
+      ```
+      By default, `git diff` will be in *compare* mode, which checks everything in the working folder (- .gitignore) against the git repository.  Changes which have only been added to *staging* will not be reflected.
+
+
+
+# Notes
+
+How it works:
+- Uses linux `diff` and `patch`.
+- Hunk is a term used by `diff` representing the raw bytes changed
+
+
+# TODO
+
+- **Usage** - create file section `echo > file1.txt` *Creates a new empty file*
+- Linux `diff`, and `patch` section
+- git `diff` section.
+
+- Testing with git section.
+
+
+# Help pages
+
+## diff
 ```
 $ diff --help
 Usage: diff [OPTION]... FILES
@@ -139,36 +245,14 @@ FILES are 'FILE1 FILE2' or 'DIR1 DIR2' or 'DIR FILE' or 'FILE DIR'.
 If --from-file or --to-file is given, there are no restrictions on FILE(s).
 If a FILE is '-', read standard input.
 Exit status is 0 if inputs are the same, 1 if different, 2 if trouble.
-
-Report bugs to: bug-diffutils@gnu.org
-GNU diffutils home page: <https://www.gnu.org/software/diffutils/>
-General help using GNU software: <https://www.gnu.org/gethelp/>
-```
-### `patch` command
-
-*To Apply a patch*
-```bash
-patch < out_file.diff
 ```
 
-*To Undo a patch*
-```bash
-patch -R < out_file.diff
-```
+## patch
 
-**Patch Failure Conditions**
 
-Error message resulting from a failed patch attempt:
-```
-patching file thesis.tex
-Hunk #1 FAILED at 105
-Hunk #2 succeeded at 1073 (offset 2 lines).
-1 out of 2 hunks FAILED -- saving rejects to file thesis.tex.reg
-```
+## comm
 
-### Linux `comm` command
-
-Help manual page:
+`comm` command help page:
 ```
 $ comm --help
 Usage: comm [OPTION]... FILE1 FILE2
@@ -203,37 +287,3 @@ GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
 Full documentation <https://www.gnu.org/software/coreutils/comm>
 or available locally via: info '(coreutils) comm invocation'
 ```
-
-**Notes**
-
-- Uses linux `diff` and `patch`.
-- Hunk is a term used by `diff` representing the raw bytes changed
-
-**TODO**
-
-- create file section `echo > file1.txt` *Creates a new empty file*
-
-- git diff section  `$ git diff`
-
-- Testing with git section.
-
-  1. Create new git repository:   
-
-      `$ git init`
-  2. Create a file with some text:  
-
-      `$ echo hello > file.txt`
-
-  3. Add to git repo: 
-
-      `$ git commit .`    
-      *. means add everything in the current directory to staging(next commit)*
-
-  4. Commit changes:  `$ git commit -m "initial"`
-      *Output:*
-      ```
-      [master (root-commit) 7445fda] initial
-      1 file changed, 1 insertion(+)
-      create mode 100644 file.txt
-      ```
-      By default, `git diff` will be in *compare* mode, which checks everything in the working folder (- .gitignore) against the git repository.  Changes which have only been added to *staging* will not be reflected.

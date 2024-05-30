@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>&DiacriticalGrave;spt-diffpatch&DiacriticalGrave;</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+/* From extension wangweixuan.yithemes */
+.vscode-dark{color:#9da5b4}.vscode-dark.showEditorSelection .code-active-line:before{border-color:#31363f}.vscode-dark.showEditorSelection .code-line:hover:before{border:none}.vscode-dark h1{border:none}.vscode-dark h1,.vscode-dark h2,.vscode-dark h3,.vscode-dark h4,.vscode-dark h5,.vscode-dark h6{color:#d7dae0}.vscode-dark strong{color:#d7dae0}.vscode-dark s{color:rgba(157,165,180,.6)}.vscode-dark a:hover,.vscode-dark a code{color:#528bff}.vscode-dark a:focus,.vscode-dark input:focus,.vscode-dark select:focus,.vscode-dark textarea:focus{outline:none}.vscode-dark blockquote{background:none;color:rgba(157,165,180,.6);border-color:rgba(157,165,180,.6)}.vscode-dark hr{border:dashed rgba(157,165,180,.6)}.vscode-dark th{color:#d7dae0}.vscode-dark th,.vscode-dark td{border-color:rgba(157,165,180,.6)}.vscode-dark code{color:#d7dae0;background-color:#3e4451}.vscode-light{color:#424243}.vscode-light.showEditorSelection .code-active-line:before{border-color:#fff}.vscode-light.showEditorSelection .code-line:hover:before{border:none}.vscode-light h1{border:none}.vscode-light h1,.vscode-light h2,.vscode-light h3,.vscode-light h4,.vscode-light h5,.vscode-light h6{color:#232324}.vscode-light strong{color:#232324}.vscode-light s{color:#8e8e90}.vscode-light a:hover,.vscode-light a code{color:#556de8}.vscode-light a:focus,.vscode-light input:focus,.vscode-light select:focus,.vscode-light textarea:focus{outline:none}.vscode-light blockquote{background:none;color:#8e8e90;border-color:#8e8e90}.vscode-light hr{border:dashed #8e8e90}.vscode-light th{color:#232324}.vscode-light th,.vscode-light td{border-color:#8e8e90}.vscode-light code{color:#232324;background-color:#e5e5e6}
+</style>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: 'Cascadia Mono Light';
+                font-size: 15px;
+                line-height: 1.375;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <p><strong>Sections</strong></p>
+<ul>
+<li><a href="#spt-diffpatch"><code>spt-diffpatch</code></a>
+<ul>
+<li><a href="#usage">Usage</a>
+<ul>
+<li><a href="#arguments">Arguments</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#linux-commands">Linux Commands</a>
+<ul>
+<li><a href="#diff-command"><code>diff</code> command</a></li>
+<li><a href="#patch-command"><code>patch</code> command</a></li>
+<li><a href="#comm-command"><code>comm</code> command</a>
+<ul>
+<li><a href="#failure-conditions">Failure Conditions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#git-diff">git diff</a></li>
+<li><a href="#notes">Notes</a></li>
+<li><a href="#todo">TODO</a></li>
+<li><a href="#help-pages">Help pages</a>
+<ul>
+<li><a href="#diff">diff</a></li>
+<li><a href="#patch">patch</a></li>
+<li><a href="#comm">comm</a></li>
+</ul>
+</li>
+</ul>
+<p><img src="file:///d:/neo_archive/Dev/assets/images/Memes/coffee-code.png" alt="Coffe-code"></p>
+<h1 id="spt-diffpatch"><code>spt-diffpatch</code></h1>
+<p>A customizable compare/diff/patch tool for SPT-AKI releases &gt;= 3.8.0</p>
+<h2 id="usage">Usage</h2>
+<p>$ <strong>spt-diffpatch</strong> -u <em>FileA</em> <em>FileB</em></p>
+<ul>
+<li>
+<p>In update mode (-u), *FileA* will be updated to be identical to *FileB*. It is intended to be used to bring an outdated file
+up to date with a new file.
+</li>
+</ul>
+<p><em>Syntax</em></p>
+<p><code>$spt-diffpatch [options] &lt;oldfile&gt; &lt;newfile&gt;</code></p>
+<p><em>Paramaters:</em></p>
+<ul>
+<li><code>original</code> - The existing file (potentially outdated).</li>
+<li><code>newfile</code> - An updated version of <code>original</code>.</li>
+</ul>
+<h3 id="arguments">Arguments</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ignore</td>
+<td>-N</td>
+<td>Ignores absent files</td>
+</tr>
+<tr>
+<td>verbose</td>
+<td>-v</td>
+<td>Remove verbose elements</td>
+</tr>
+<tr>
+<td>column-mode</td>
+<td>-y</td>
+<td>Display output in columns, side-by-side</td>
+</tr>
+<tr>
+<td>recursive</td>
+<td>-r <code>pattern</code></td>
+<td>Compare all files in the directory matching a regex <code>pattern</code></td>
+</tr>
+<tr>
+<td>update</td>
+<td>-u</td>
+<td>Update mode.  changes fileA to be the same as fileB</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Exit status</strong></p>
+<p>Status = 0 if inputs are the same, 1 if different, 2 if trouble.</p>
+<p><strong>Output</strong></p>
+<ul>
+<li>Create a<pre><code class="language-bash">diff -u file1 file2 &gt; out_file.diff
+</code></pre>
+</li>
+</ul>
+<h1 id="linux-commands">Linux Commands</h1>
+<h2 id="diff-command"><code>diff</code> command</h2>
+<p>Using the <em>-u</em> flag will signal <code>diff</code> to view differences in unified mode, which is similar to context mode but it doesn’t display any redundant information.</p>
+<p>Output:</p>
+<p>file1 is indicated with '---' and a timestamp.<br>
+file2 is indicated with '+++' and a timestamp.<br>
+lines marked with '@@ -.., +.. @@' indicate the range of mismatched lines.<br>
+subsequent lines indicate individual differences between files.</p>
+<ul>
+<li>unchanged lines are displayed without any prefix.</li>
+<li>Lines in the first file to be deleted are prefixed with '-'.</li>
+<li>Lines in the second file to be added are prefixed with '+'.</li>
+</ul>
+<h2 id="patch-command"><code>patch</code> command</h2>
+<p>Apply a patch:</p>
+<pre><code class="language-bash">patch &lt; out_file.diff
+</code></pre>
+<p>Undo a patch:</p>
+<pre><code class="language-bash">patch -R &lt; out_file.diff
+</code></pre>
+<h2 id="comm-command"><code>comm</code> command</h2>
+<h3 id="failure-conditions">Failure Conditions</h3>
+<p>Patch Failure Conditions</p>
+<p>Error message resulting from a failed patch attempt:</p>
+<pre><code>patching file thesis.tex
+Hunk #1 FAILED at 105
+Hunk #2 succeeded at 1073 (offset 2 lines).
+1 out of 2 hunks FAILED -- saving rejects to file thesis.tex.reg
+</code></pre>
+<h1 id="git-diff">git diff</h1>
+<ol>
+<li>
+<p>Create new git repository:</p>
+<p><code>$ git init</code></p>
+</li>
+<li>
+<p>Create a file with some text:</p>
+<p><code>$ echo hello &gt; file.txt</code></p>
+</li>
+<li>
+<p>Add to git repo:</p>
+<p><code>$ git commit .</code><br>
+<em>. means add everything in the current directory to staging(next commit)</em></p>
+</li>
+<li>
+<p>Commit changes:  <code>$ git commit -m &quot;initial&quot;</code><br>
+<em>Output:</em></p>
+<pre><code>[master (root-commit) 7445fda] initial
+1 file changed, 1 insertion(+)
+create mode 100644 file.txt
+</code></pre>
+<p>By default, <code>git diff</code> will be in <em>compare</em> mode, which checks everything in the working folder (- .gitignore) against the git repository.  Changes which have only been added to <em>staging</em> will not be reflected.</p>
+</li>
+</ol>
+<h1 id="notes">Notes</h1>
+<p>How it works:</p>
+<ul>
+<li>Uses linux <code>diff</code> and <code>patch</code>.</li>
+<li>Hunk is a term used by <code>diff</code> representing the raw bytes changed</li>
+</ul>
+<h1 id="todo">TODO</h1>
+<ul>
+<li>
+<p><strong>Usage</strong> - create file section <code>echo &gt; file1.txt</code> <em>Creates a new empty file</em></p>
+</li>
+<li>
+<p>Linux <code>diff</code>, and <code>patch</code> section</p>
+</li>
+<li>
+<p>git <code>diff</code> section.</p>
+</li>
+<li>
+<p>Testing with git section.</p>
+</li>
+</ul>
+<h1 id="help-pages">Help pages</h1>
+<h2 id="diff">diff</h2>
+<pre><code>$ diff --help
+Usage: diff [OPTION]... FILES
+Compare FILES line by line.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --normal                  output a normal diff (the default)      
+  -q, --brief                   report only when files differ
+  -s, --report-identical-files  report when two files are the same
+  -c, -C NUM, --context[=NUM]   output NUM (default 3) lines of copied context
+  -u, -U NUM, --unified[=NUM]   output NUM (default 3) lines of unified context
+  -e, --ed                      output an ed script
+  -n, --rcs                     output an RCS format diff
+  -y, --side-by-side            output in two columns
+  -W, --width=NUM               output at most NUM (default 130) print columns
+      --left-column             output only the left column of common lines
+      --suppress-common-lines   do not output common lines
+
+  -p, --show-c-function         show which C function each change is in
+  -F, --show-function-line=RE   show the most recent line matching RE
+      --label LABEL             use LABEL instead of file name and timestamp
+                                  (can be repeated)
+
+  -t, --expand-tabs             expand tabs to spaces in output
+  -T, --initial-tab             make tabs line up by prepending a tab
+      --tabsize=NUM             tab stops every NUM (default 8) print columns
+      --suppress-blank-empty    suppress space or tab before empty output lines
+  -l, --paginate                pass output through 'pr' to paginate it
+
+  -r, --recursive                 recursively compare any subdirectories found
+      --no-dereference            don't follow symbolic links
+  -N, --new-file                  treat absent files as empty
+      --unidirectional-new-file   treat absent first files as empty
+      --ignore-file-name-case     ignore case when comparing file names
+      --no-ignore-file-name-case  consider case when comparing file names
+  -x, --exclude=PAT               exclude files that match PAT
+  -X, --exclude-from=FILE         exclude files that match any pattern in FILE
+  -S, --starting-file=FILE        start with FILE when comparing directories
+      --from-file=FILE1           compare FILE1 to all operands;
+                                    FILE1 can be a directory
+      --to-file=FILE2             compare all operands to FILE2;
+                                    FILE2 can be a directory
+
+  -i, --ignore-case               ignore case differences in file contents
+  -E, --ignore-tab-expansion      ignore changes due to tab expansion
+  -Z, --ignore-trailing-space     ignore white space at line end
+  -b, --ignore-space-change       ignore changes in the amount of white space
+  -w, --ignore-all-space          ignore all white space
+  -B, --ignore-blank-lines        ignore changes where lines are all blank
+  -I, --ignore-matching-lines=RE  ignore changes where all lines match RE
+
+  -a, --text                      treat all files as text
+      --strip-trailing-cr         strip trailing carriage return on input
+      --binary                    read and write data in binary mode
+
+  -D, --ifdef=NAME                output merged file with '#ifdef NAME' diffs
+      --GTYPE-group-format=GFMT   format GTYPE input groups with GFMT
+      --line-format=LFMT          format all input lines with LFMT
+      --LTYPE-line-format=LFMT    format LTYPE input lines with LFMT
+    These format options provide fine-grained control over the output
+      of diff, generalizing -D/--ifdef.
+    LTYPE is 'old', 'new', or 'unchanged'.  GTYPE is LTYPE or 'changed'.
+    GFMT (only) may contain:
+      %&lt;  lines from FILE1
+      %&gt;  lines from FILE2
+      %=  lines common to FILE1 and FILE2
+      %[-][WIDTH][.[PREC]]{doxX}LETTER  printf-style spec for LETTER
+        LETTERs are as follows for new group, lower case for old group:
+          F  first line number
+          L  last line number
+          N  number of lines = L-F+1
+          E  F-1
+          M  L+1
+      %(A=B?T:E)  if A equals B then T else E
+    LFMT (only) may contain:
+      %L  contents of line
+      %l  contents of line, excluding any trailing newline
+      %[-][WIDTH][.[PREC]]{doxX}n  printf-style spec for input line number
+    Both GFMT and LFMT may contain:
+      %%  %
+      %c'C'  the single character C
+      %c'\OOO'  the character with octal code OOO
+      C    the character C (other characters represent themselves)
+
+  -d, --minimal            try hard to find a smaller set of changes
+      --horizon-lines=NUM  keep NUM lines of the common prefix and suffix
+      --speed-large-files  assume large files and many scattered small changes
+      --color[=WHEN]       color output; WHEN is 'never', 'always', or 'auto';
+                             plain --color means --color='auto'
+      --palette=PALETTE    the colors to use when --color is active; PALETTE is
+                             a colon-separated list of terminfo capabilities
+
+      --help               display this help and exit
+  -v, --version            output version information and exit
+
+FILES are 'FILE1 FILE2' or 'DIR1 DIR2' or 'DIR FILE' or 'FILE DIR'.
+If --from-file or --to-file is given, there are no restrictions on FILE(s).
+If a FILE is '-', read standard input.
+Exit status is 0 if inputs are the same, 1 if different, 2 if trouble.
+</code></pre>
+<h2 id="patch">patch</h2>
+<h2 id="comm">comm</h2>
+<p><code>comm</code> command help page:</p>
+<pre><code>$ comm --help
+Usage: comm [OPTION]... FILE1 FILE2
+Compare sorted files FILE1 and FILE2 line by line.
+
+When FILE1 or FILE2 (not both) is -, read standard input.
+
+With no options, produce three-column output.  Column one contains       
+lines unique to FILE1, column two contains lines unique to FILE2,        
+and column three contains lines common to both files.
+
+  -1              suppress column 1 (lines unique to FILE1)
+  -2              suppress column 2 (lines unique to FILE2)
+  -3              suppress column 3 (lines that appear in both files)    
+
+  --check-order     check that the input is correctly sorted, even       
+                      if all input lines are pairable
+  --nocheck-order   do not check that the input is correctly sorted      
+  --output-delimiter=STR  separate columns with STR
+  --total           output a summary
+  -z, --zero-terminated    line delimiter is NUL, not newline
+      --help     display this help and exit
+      --version  output version information and exit
+
+Note, comparisons honor the rules specified by 'LC_COLLATE'.
+
+Examples:
+  comm -12 file1 file2  Print only lines present in both file1 and file2.
+  comm -3 file1 file2  Print lines in file1 not in file2, and vice versa.
+
+GNU coreutils online help: &lt;https://www.gnu.org/software/coreutils/&gt;
+Full documentation &lt;https://www.gnu.org/software/coreutils/comm&gt;
+or available locally via: info '(coreutils) comm invocation'
+</code></pre>
+
+            <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+            
+        </body>
+        </html>

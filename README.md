@@ -20,6 +20,11 @@
 
 A customizable compare/diff/patch tool for SPT-AKI releases >= 3.8.0
 
+<pre class=idl>interface <dfn>ProcessingInstruction</dfn> : <span>Node</span> {
+  readonly attribute DOMString <span title=dom-ProcessingInstruction-target>target</span>;
+           attribute DOMString <span title=dom-ProcessingInstruction-data>data</span>;
+};</pre>
+
 ## Usage
 
 $ **spt-diffpatch** -u *FileA* *FileB*

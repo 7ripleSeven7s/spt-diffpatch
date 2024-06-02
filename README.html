@@ -177,6 +177,10 @@
 <p><img src="file:///d:/neo_archive/Dev/assets/images/Memes/coffee-code.png" alt="Coffe-code"></p>
 <h1 id="spt-diffpatch"><code>spt-diffpatch</code></h1>
 <p>A customizable compare/diff/patch tool for SPT-AKI releases &gt;= 3.8.0</p>
+<pre class=idl>interface <dfn>ProcessingInstruction</dfn> : <span>Node</span> {
+  readonly attribute DOMString <span title=dom-ProcessingInstruction-target>target</span>;
+           attribute DOMString <span title=dom-ProcessingInstruction-data>data</span>;
+};</pre>
 <h2 id="usage">Usage</h2>
 <p>$ <strong>spt-diffpatch</strong> -u <em>FileA</em> <em>FileB</em></p>
 <ul>

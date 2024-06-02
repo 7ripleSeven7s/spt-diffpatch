@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "drcika.apc-extension",
+    "mgmcdermott.vscode-language-babel",
+    "quicktype.quicktype",
+    "mongodb.mongodb-vscode",
+    "cweijan.vscode-mysql-client2"
+  ]
+}

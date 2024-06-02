@@ -4,5 +4,14 @@
 			"path": ".."
 		}
   ],
-  "settings": {}
+  "settings": {},
+  "extensions": {
+    "recommendations": [
+      "drcika.apc-extension",
+      "mgmcdermott.vscode-language-babel",
+      "quicktype.quicktype",
+      "mongodb.mongodb-vscode",
+      "svelte.svelte-vscode"
+    ]
+  }
 }

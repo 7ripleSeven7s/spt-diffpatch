@@ -4,6 +4,18 @@
     "mgmcdermott.vscode-language-babel",
     "quicktype.quicktype",
     "mongodb.mongodb-vscode",
-    "cweijan.vscode-mysql-client2"
+    "cweijan.vscode-mysql-client2",
+    "wscats.eno",
+    "42crunch.vscode-openapi",
+    "kumar-harsh.graphql-for-vscode",
+    "mariusalchimavicius.json-to-ts",
+    "unifiedjs.vscode-mdx",
+    "mrmlnc.vscode-json5",
+    "edwinkofler.vscode-assorted-languages",
+    "bierner.lit-html",
+    "standard.vscode-standard",
+    "aykutsarac.jsoncrack-vscode",
+    "nickdemayo.vscode-json-editor",
+    "doggy8088.quicktype-refresh"
   ]
 }

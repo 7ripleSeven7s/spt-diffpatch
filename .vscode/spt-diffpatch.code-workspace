@@ -7,11 +7,22 @@
   "settings": {},
   "extensions": {
     "recommendations": [
-      "drcika.apc-extension",
       "mgmcdermott.vscode-language-babel",
       "quicktype.quicktype",
-      "mongodb.mongodb-vscode",
-      "svelte.svelte-vscode"
+      "mariusalchimavicius.json-to-ts",
+      "unifiedjs.vscode-mdx",
+      "mrmlnc.vscode-json5",
+      "edwinkofler.vscode-assorted-languages",
+      "bierner.lit-html",
+      "standard.vscode-standard",
+      "aykutsarac.jsoncrack-vscode",
+      "ms-pyright.pyright",
+      "nickdemayo.vscode-json-editor",
+      "doggy8088.quicktype-refresh",
+      "tecosaur.latex-utilities",
+      //"drcika.apc-extension",
+      //"mongodb.mongodb-vscode",
+      //"svelte.svelte-vscode"
     ]
   }
 }

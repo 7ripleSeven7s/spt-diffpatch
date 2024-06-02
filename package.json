@@ -3,7 +3,7 @@
   "version": "0.0.6",
   "description": "A utility for patching configuration files for SPT-AKI releases after 3.8.0",
   "main": "src/main.js",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "@types/config": "^3.3.4",
     "buffer-crc32": "^1.0.0",
@@ -24,8 +24,8 @@
     "start": "npm run dev",
     "clean": "rm -rf dist/",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "C:\\Users\\Oliver\\Dev\\src\\web\\spt-diffpatch\\node_modules\\.bin\\tsc -p ../../../tsconfig.json --outDir ../../../dist/",
-    "tsc-win": "C:\\Users\\Oliver\\Dev\\src\\web\\spt-diffpatch\\node_modules\\.bin\\tsc.cmd -p ../../../tsconfig.json --outDir ../../../dist/"
+    "tsc": ""
+    //"tsc-win": "C:\\Users\\Oliver\\Dev\\src\\web\\spt-diffpatch\\node_modules\\.bin\\tsc.cmd -p ../../../tsconfig.json --outDir ../../../dist/"
   },
   "files": [
     "./src/*"

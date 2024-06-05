@@ -28,6 +28,10 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 # dotenv.vault
 .env
 
+# Extra stuff
+extras
+extras/*
+
 # Runtime data
 pids
 *.pid

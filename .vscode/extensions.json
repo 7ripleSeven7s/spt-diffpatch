@@ -16,6 +16,20 @@
     "standard.vscode-standard",
     "aykutsarac.jsoncrack-vscode",
     "nickdemayo.vscode-json-editor",
-    "doggy8088.quicktype-refresh"
+    "doggy8088.quicktype-refresh",
+    "cweijan.vscode-postgresql-client2",
+    "continue.continue",
+    "pomdtr.excalidraw-editor",
+    "codespaces-contrib.codeswing",
+    "josee9988.minifyall",
+    "dadroit.dadroit-json-generator",
+    "parthr2031.colorful-comments",
+    "aaron-bond.better-comments",
+    "ing-bank.vscode-psl",
+    "casualjim.gotemplate",
+    "qcz.text-power-tools",
+    "randomfractalsinc.vscode-data-table",
+    "johnpapa.pwa-tools",
+    "bhshawon.node-json-autocomplete"
   ]
 }

@@ -1,23 +1,5 @@
-/* eslint-disable indent */
-/* eslint-disable default-case */
+//@ts-nocheck
 
-/*
-  Copyright 2020-2021 Lowdefy, Inc
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-*/
-
-// Derived from source:
 // because both js typeof and instance of sucks! use this.
 // https://ultimatecourses.com/blog/understanding-javascript-types-and-reliable-type-checking
 
@@ -91,7 +73,6 @@ function isArguments(val) {
 /**
  * If you need to support Safari 5-7 (8-10 yr-old browser),
  * take a look at https://github.com/feross/is-buffer
- */
 
 function isBuffer(val) {
   if (val.constructor && typeof val.constructor.isBuffer === "function") {
@@ -99,6 +80,8 @@ function isBuffer(val) {
   }
   return false;
 }
+
+*/
 
 function kindOf(val) {
   // eslint-disable-next-line no-void

@@ -1,27 +1,29 @@
 {
   "compilerOptions": {
-    "target": "ES2015", 
-    "module": "Preserve", 
+    
+    /* compiler settings */
+    "target": "ES2015",
+    "module": "Preserve",
     "moduleResolution": "Bundler",
+    "noUncheckedIndexedAccess": true,
+    "noImplicitAny": false,
+    "strict": false,
+
+    /* URL */
     "baseUrl": ".",
-    "paths": {          
-      "*": ["node_modules/*"],                       
-      "@spt-diffpatch/*": [
-        "src/main.ts",
-        "src/*"
-      ]
-    }, 
+    "paths": {
+      "*": ["node_modules/*"],
+      "@spt-diffpatch/*": ["src/*"]
+    },
     "outDir": "dist/",
     //"noEmit": true,
-    "noEmitOnError": true,
-    "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
     "checkJs": true,
-    "resolveJsonModule": true,
+    //"resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmitOnError": true,
     "listFiles": true,
-    "listEmittedFiles": true,
-    "noUncheckedIndexedAccess": true,
-    "strict": true,
+    "listEmittedFiles": true
   }
 }
